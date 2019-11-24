@@ -39,7 +39,7 @@
     </item>
     
     <item>
-      <title>Tagovi: article, main, p, aside</title>
+      <title>Tagovi: header, section, nav, ul, li, footer</title>
       <link>https://programiranje.ba/osnove_html_programiranja/chapter4/</link>
       <pubDate>Sun, 12 May 2019 00:00:00 +0000</pubDate>
       
@@ -48,7 +48,7 @@
     </item>
     
     <item>
-      <title>Uvod u CSS, tag link</title>
+      <title>Tagovi: article, main, p, aside</title>
       <link>https://programiranje.ba/osnove_html_programiranja/chapter5/</link>
       <pubDate>Sun, 12 May 2019 00:00:00 +0000</pubDate>
       
@@ -57,7 +57,7 @@
     </item>
     
     <item>
-      <title>Uvod u CSS, header, main, aside, footer</title>
+      <title>Uvod u CSS, tag link</title>
       <link>https://programiranje.ba/osnove_html_programiranja/chapter6/</link>
       <pubDate>Sun, 12 May 2019 00:00:00 +0000</pubDate>
       
@@ -66,7 +66,7 @@
     </item>
     
     <item>
-      <title>Uvod u CSS, article, section, aside, aside div</title>
+      <title>Uvod u CSS, header, main, aside, footer</title>
       <link>https://programiranje.ba/osnove_html_programiranja/chapter7/</link>
       <pubDate>Sun, 12 May 2019 00:00:00 +0000</pubDate>
       
