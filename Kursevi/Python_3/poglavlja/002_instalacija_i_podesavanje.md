@@ -1,3 +1,4 @@
+
 <a name="instalacija_i_podesavanje"/>
 
 ### Instalacija i podesavanje Python-a i PyCharm-a
@@ -114,3 +115,5 @@ Kliknite na Project interpreter i podesite Base interpreter
 
 ##### Korak 12.
 ![PyCharm podesavanje korak 12](slike/pycharm_podesavanje_12.png)
+
+

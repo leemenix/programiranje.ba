@@ -5,7 +5,11 @@
 
 **Autor:** _Milenko Letic_
 
-https://programiranje.ba### Sadrzaj
+https://programiranje.ba
+
+
+
+### Sadrzaj
 =======
 
 
@@ -13,7 +17,10 @@ https://programiranje.ba### Sadrzaj
     * [Python 3 instalacija](#python_instalacija)
     * [PyCharm instalacija](#pycharm_instalacija)
     * [PyCharm podesavanje parametara](#pycharm_podesavanje)
-  * [program-01 - zdravo_svijete.py](#zdravo_svijete.py)<a name="instalacija_i_podesavanje"/>
+  * [program-01 - zdravo_svijete.py](#zdravo_svijete.py)
+
+
+<a name="instalacija_i_podesavanje"/>
 
 ### Instalacija i podesavanje Python-a i PyCharm-a
 
@@ -128,13 +135,21 @@ Kliknite na Project interpreter i podesite Base interpreter
 ![PyCharm podesavanje korak 11](slike/pycharm_podesavanje_11.png)
 
 ##### Korak 12.
-![PyCharm podesavanje korak 12](slike/pycharm_podesavanje_12.png)<a name="zdravo_svijete.py"/>
+![PyCharm podesavanje korak 12](slike/pycharm_podesavanje_12.png)
+
+
+
+<a name="zdravo_svijete.py"/>
 
 ### program-01 - zdravo_svijete.py
 
 ```python
 print("Zdravo Svijete!")
-```Varijable
+```
+
+
+
+Varijable
 Kada radimo sa podacima, potrebno ih je organizovati, kontejneri kutije u koje stavlljamo pohranjujemo nase podatke predstavljaju varijable. Sta predstavljaju , zasto su korisne, koje sve vrste (tipove) podataka mozemo smjestiti u varijable.
 
 

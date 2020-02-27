@@ -1,3 +1,4 @@
+
 ### Sadrzaj
 =======
 
@@ -7,3 +8,4 @@
     * [PyCharm instalacija](#pycharm_instalacija)
     * [PyCharm podesavanje parametara](#pycharm_podesavanje)
   * [program-01 - zdravo_svijete.py](#zdravo_svijete.py)
+
