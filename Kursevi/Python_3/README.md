@@ -33,8 +33,25 @@ Prilikom pokretanja instalacije, na prvom koraku je potrebno cekirati obe opcije
 * Install launcher for all users (recommended)
 * Add Python 3.x to PATH
 
-![Python instalacija korak prvi](slike/python_instalacija_0.png)
+![Python instalacija korak prvi](slike/python_instalacija_1.png)
 
-![Python instalacija korak drugi](slike/python_instalacija_1.png)
+Korak 2. 
 
+Na drugom koraku je potrebno jos jednom cekirati opciju:
+* for all users (requires elevation)
+
+![Python instalacija korak drugi](slike/python_instalacija_2.png)
+
+Korak 3.
+
+![Python instalacija korak treci](slike/python_instalacija_3.png)
+
+Korak 4. 
+![Python instalacija korak cetvrti](slike/python_instalacija_4.png)
+
+Korak 5. 
+![Python instalacija korak cetvrti](slike/python_instalacija_4.png)
+
+Korak 6. 
+![Python instalacija korak cetvrti](slike/python_instalacija_4.png)
 
