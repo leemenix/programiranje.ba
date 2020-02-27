@@ -1,11 +1,17 @@
 
 # Uvod u Python programski jezik
 
-## Python 3
+
 
 **Autor:** _Milenko Letic_
 
 https://programiranje.ba
+
+
+
+
+
+
 
 
 ### Sadrzaj
@@ -13,6 +19,12 @@ https://programiranje.ba
 
   * [Instalacija i podesavanje Python-a i PyCharm-a](#instalacija_i_podesavanje)
   * [Python 3 instalacija](#python_instalacija)
+  * [PyCharm instalacija](#pycharm_instalacija)
+
+
+
+
+
 
 
 <a name="instalacija_i_podesavanje"/>
@@ -54,12 +66,35 @@ Na drugom koraku je potrebno jos jednom cekirati opciju:
 ![Python instalacija korak cetvrti](slike/python_instalacija_4.png)
 
 #### Korak 5. 
-![Python instalacija korak cetvrti](slike/python_instalacija_4.png)
+![Python instalacija korak peti](slike/python_instalacija_5.png)
 
 #### Korak 6. 
-<p align="center">
+![Python instalacija korak sesti](slike/python_instalacija_6.png)
 
-![Python instalacija korak cetvrti](slike/python_instalacija_4.png)
 
-</p>
+<a name="pycharm_instalacija"/>
+
+### PyCharm instalacija
+
+https://jetbrains.com/pycharm/download
+
+#### Korak 1. 
+![PyCharm instalacija korak prvi](slike/pycharm_instalacija_1.png)
+
+#### Korak 2. 
+![PyCharm instalacija korak drugi](slike/pycharm_instalacija_2.png)
+
+
+#### Korak 3. 
+![PyCharm instalacija korak treci](slike/pycharm_instalacija_3.png)
+
+
+#### Korak 4. 
+![PyCharm instalacija korak cetvrti](slike/pycharm_instalacija_4.png)
+
+#### Korak 5. 
+![PyCharm instalacija korak cetvrti](slike/pycharm_instalacija_5.png)
+
+#### Korak 6. 
+![PyCharm instalacija korak cetvrti](slike/pycharm_instalacija_6.png)
 
