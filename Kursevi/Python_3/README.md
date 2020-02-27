@@ -196,9 +196,9 @@ print("gdje je bio velik krokodil")
 
 
 
-Organizacija podataka
+### Organizacija podataka
 
-List
+### List
 
 List funkcije
 
