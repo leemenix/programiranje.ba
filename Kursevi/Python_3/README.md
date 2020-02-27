@@ -15,6 +15,7 @@ https://programiranje.ba
 
 
 <a name="instalacija_i_podesavanje"/>
+
 ### Instalacija i podesavanje Python-a i PyCharm-a
 
 https://python.org/downloads
