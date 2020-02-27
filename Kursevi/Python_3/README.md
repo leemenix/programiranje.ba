@@ -21,6 +21,7 @@ https://programiranje.ba
     * [Python 3 instalacija](#python_instalacija)
     * [PyCharm instalacija](#pycharm_instalacija)
     * [PyCharm podesavanje parametara](#pycharm_podesavanje)
+  * [program-01 - zdravo_svijete.py](#zdravo_svijete.py)
 
 
 
@@ -146,9 +147,13 @@ Kliknite na Project interpreter i podesite Base interpreter
 ![PyCharm podesavanje korak 12](slike/pycharm_podesavanje_12.png)
 
 
+<a name="zdravo_svijete.py"/>
 
-print("Pozdrav svijete!")
+### program-01 - zdravo_svijete.py
 
+```python
+print("Zdravo Svijete!")
+```
 
 
 
