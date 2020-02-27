@@ -148,6 +148,46 @@ print("Zdravo Svijete!")
 ```
 
 
+<a name="varijable"/>
+
+### Varijable
+Kada radimo sa podacima, potrebno ih je organizovati, kontejneri kutije u koje stavlljamo pohranjujemo nase podatke predstavljaju varijable. Sta predstavljaju , zasto su korisne, koje sve vrste (tipove) podataka mozemo smjestiti u varijable.
+
+
+
+<a varijable-01.py/>
+
+# 10_Varijable-01.py
+
+```python
+print(“Bila mama Kukunka, Kukunka”)
+print(“Bio tata Taranta, Taranta”)
+print(“imali su maloga Ju-Ju”)
+
+print(“Jednom su se setali, setali”)
+print(“kraj duboke rijeke Nil, rijeke Nil”)
+print(“gdje je bio velik’ krokodil”)
+
+Output:
+Zdravo Svijete
+```<a varijable-02.py/>
+
+# 10_Varijable-02.py
+
+```python
+mama_ime="Kukunka"
+tata_ime="Taranta"
+beba_ime="Ju-Ju"
+rijeka_naziv="Dunav"
+
+print("Bila mama " + mama_ime + ", " + mama_ime)
+print("Bio tata " + tata_ime + ", " + tata_ime)
+print("imali su maloga " + beba_ime)
+
+print("Jednom su se setali, setali")
+print("kraj duboke rijeke " + rijeka_naziv + ", rijeke " + rijeka_naziv)
+print("gdje je bio velik krokodil")
+```
 
 Varijable
 Kada radimo sa podacima, potrebno ih je organizovati, kontejneri kutije u koje stavlljamo pohranjujemo nase podatke predstavljaju varijable. Sta predstavljaju , zasto su korisne, koje sve vrste (tipove) podataka mozemo smjestiti u varijable.
