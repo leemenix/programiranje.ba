@@ -103,6 +103,7 @@ kao sto je slucaj kod vecine ostalih programskih jezika.
 #### Python 3 vs. Python 2
 
 Portovanje Python 2 koda u Python 3
+
 https://docs.python.org/3/howto/pyporting.html
 
 <a name="instalacija_i_podesavanje"/>
