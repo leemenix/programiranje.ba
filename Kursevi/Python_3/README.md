@@ -157,7 +157,7 @@ Kada radimo sa podacima, potrebno ih je organizovati, kontejneri kutije u koje s
 
 <a varijable-01.py/>
 
-# 10_Varijable-01.py
+### 10_Varijable-01.py
 
 ```python
 print(“Bila mama Kukunka, Kukunka”)
@@ -170,9 +170,10 @@ print(“gdje je bio velik’ krokodil”)
 
 Output:
 Zdravo Svijete
-```<a varijable-02.py/>
+```
+<a varijable-02.py/>
 
-# 10_Varijable-02.py
+### 10_Varijable-02.py
 
 ```python
 mama_ime="Kukunka"
@@ -189,8 +190,7 @@ print("kraj duboke rijeke " + rijeka_naziv + ", rijeke " + rijeka_naziv)
 print("gdje je bio velik krokodil")
 ```
 
-Varijable
-Kada radimo sa podacima, potrebno ih je organizovati, kontejneri kutije u koje stavlljamo pohranjujemo nase podatke predstavljaju varijable. Sta predstavljaju , zasto su korisne, koje sve vrste (tipove) podataka mozemo smjestiti u varijable.
+
 
 
 Organizacija podataka
