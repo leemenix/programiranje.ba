@@ -17,3 +17,8 @@ print("Jednom su se setali, setali")
 print("kraj duboke rijeke " + rijeka_naziv + ", rijeke " + rijeka_naziv)
 print("gdje je bio velik krokodil")
 ```
+
+Output:
+```
+tbd
+```
