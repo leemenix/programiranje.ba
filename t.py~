@@ -1,0 +1,7 @@
+def pozdrav():
+        # ovaj blok pripada funkciji
+            print("Pozdrav")
+            # kraj funkcije
+
+            pozdrav() # pozivamo funkciju pozdrav
+            pozdrav() # pozivamo funkciju pozdrav drugi put

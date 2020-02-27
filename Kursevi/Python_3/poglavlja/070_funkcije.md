@@ -1,1 +1,5 @@
-  * [Funkcije](#funkcije)
+
+<a name="funkcije"/>
+
+### Funkcije
+

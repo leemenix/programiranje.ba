@@ -1,1 +1,4 @@
-  * [Kontrola toka](#kontrola-toka)
+
+<a name="kontrola-toka"/>
+
+### Kontrola toka

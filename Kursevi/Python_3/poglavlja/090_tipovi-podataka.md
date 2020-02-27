@@ -1,1 +1,4 @@
-  * [Tipovi podataka](#tipovi-podataka)
+
+<a name="tipovi-podataka"/>
+
+### Tipovi podataka

@@ -32,25 +32,25 @@
   
   * [Stringovi](#stringovi)
   
-  * [Matematicke operacije](#matematicke_operacije)
+  * [Matematicke operacije](#matematicke-operacije)
 
-  * [Strukture podataka](#strukture_podataka)
+  * [Strukture podataka](#strukture-podataka)
 
-  * [Rjesavanje problema](#rjesavanje_problema)
+  * [Rjesavanje problema](#rjesavanje-problema)
 
-  * [Objektno orijentisano programiranje](#objektno_orjentisano_programiranje)
+  * [Objektno orijentisano programiranje](#objektno-orjentisano-programiranje)
 
-  * [Ulaz/Izlaz](#ulaz_izlaz)
+  * [Ulaz/Izlaz](#ulaz-izlaz)
 
-  * [Exceptions (Izuzeci?)](#exceptions)
+  * [Exceptions (Izuzeci?)](#izuzeci)
 
-  * [Standardne biblioteke](#standardne_bibliotke)
+  * [Standardne biblioteke](#standardne-bibliotke)
 
-  * [Tips and tricks](#tips_tricks)
+  * [Tips and tricks](#tips-tricks)
 
-  * [Daljnji koraci](#daljnji_koraci)
+  * [Daljnji koraci](#daljnji-koraci)
 
-  * [Korisni linkovi](#korisni_linkovi)
+  * [Korisni linkovi](#korisni-linkovi)
 
   * [Feedback](#feedback)
 

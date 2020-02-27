@@ -1,1 +1,4 @@
- * [Operatori i izrazi](#operatori-i-izrazi)
+
+<a name="operatori-i-izrazi"/>
+
+### Operatori i izrazi
