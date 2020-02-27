@@ -109,25 +109,41 @@ Nakon restarta pokrenemo PyCharm i konfigurisemo minimalna podesavanja
 ![PyCharm podesavanje korak 1](slike/pycharm_podesavanje_1.png)
 
 ##### Korak 2.
-![PyCharm podesavanje korak 1](slike/pycharm_podesavanje_2.png)
+![PyCharm podesavanje korak 2](slike/pycharm_podesavanje_2.png)
 
 ##### Korak 3.
-![PyCharm podesavanje korak 1](slike/pycharm_podesavanje_3.png)
+![PyCharm podesavanje korak 3](slike/pycharm_podesavanje_3.png)
 
 ##### Korak 4.
-![PyCharm podesavanje korak 1](slike/pycharm_podesavanje_4.png)
+![PyCharm podesavanje korak 4](slike/pycharm_podesavanje_4.png)
 
 ##### Korak 5.
 
 Kliknite na Project interpreter i podesite Base interpreter 
 [vrijednost moze varirati u zavisnosti od vaseg OS-a]
 
-![PyCharm podesavanje korak 1](slike/pycharm_podesavanje_5.png)
+![PyCharm podesavanje korak 5](slike/pycharm_podesavanje_5.png)
 
 ##### Korak 6.
-![PyCharm podesavanje korak 1](slike/pycharm_podesavanje_6.png)
+![PyCharm podesavanje korak 6](slike/pycharm_podesavanje_6.png)
 
+##### Korak 7.
+![PyCharm podesavanje korak 7](slike/pycharm_podesavanje_7.png)
 
+##### Korak 8.
+![PyCharm podesavanje korak 8](slike/pycharm_podesavanje_8.png)
+
+##### Korak 9.
+![PyCharm podesavanje korak 9](slike/pycharm_podesavanje_9.png)
+
+##### Korak 10.
+![PyCharm podesavanje korak 10](slike/pycharm_podesavanje_10.png)
+
+##### Korak 11.
+![PyCharm podesavanje korak 11](slike/pycharm_podesavanje_11.png)
+
+##### Korak 12.
+![PyCharm podesavanje korak 12](slike/pycharm_podesavanje_12.png)
 
 
 
