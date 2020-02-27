@@ -1,5 +1,5 @@
 
-<a name="instalacija_i_podesavanje"/>
+<a name="instalacija"/>
 
 ### Instalacija i podesavanje Python-a i PyCharm-a
 
@@ -11,7 +11,7 @@ Trenutna verzija Python-a, koju cemo ujedno obraditi prilikom ovog kursa je Pyth
 
 ```TBD: par rijeci o Python 2```
 
-<a name="python_instalacija"/>
+<a name="python-instalacija"/>
 
 #### Python 3 instalacija
 
@@ -44,7 +44,7 @@ Na drugom koraku je potrebno jos jednom cekirati opciju:
 ![Python instalacija korak sesti](slike/python_instalacija_6.png)
 
 
-<a name="pycharm_instalacija"/>
+<a name="pycharm-instalacija"/>
 
 #### PyCharm instalacija
 

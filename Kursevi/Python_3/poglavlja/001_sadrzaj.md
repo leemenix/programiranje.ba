@@ -7,28 +7,28 @@
     * [Python 3 vs. Python 2](#python3-vs-python2)
 
   * [Instalacija](#instalacija)
-    * [Python 3 instalacija](#python_instalacija)
-    * [IDE - PyCharm instalacija](#pycharm_instalacija)
-      * [PyCharm podesavanje parametara](#pycharm_podesavanje)
+    * [Python 3 instalacija](#python-instalacija)
+    * [IDE - PyCharm instalacija](#pycharm-instalacija)
+      * [PyCharm podesavanje parametara](#pycharm-podesavanje)
   
-  * [Prvi koraci - prohodavanje](#prvi_koraci) 
+  * [Prvi koraci - prohodavanje](#prvi-koraci) 
   
   * [Osnove](#osnove)
-    * [program-01 - zdravo_svijete.py](#zdravo_svijete.py)
+    * [program-01 - zdravo_svijete.py](#zdravo-svijete)
   
-  * [Operatori i izrazi](#operatori_i_izrazi)
+  * [Operatori i izrazi](#operatori-i-izrazi)
   
-  * [Kontrola toka](#kontrola_toka)
+  * [Kontrola toka](#kontrola-toka)
   
   * [Funkcije](#funkcije)
   
   * [Moduli](#moduli)
   
-  * [Tipovi podataka](#tipovi_podataka)
+  * [Tipovi podataka](#tipovi-podataka)
   
   * [Varijable](#varijable)
-    * [program-02 - varijable-01.py](#varijable-01.py)
-    * [program-03 - varijable-02.py](#varijable-02.py)
+    * [program-02 - varijable-01.py](#varijable-01)
+    * [program-03 - varijable-02.py](#varijable-02)
   
   * [Stringovi](#stringovi)
   
