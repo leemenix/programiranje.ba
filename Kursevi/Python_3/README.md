@@ -249,6 +249,9 @@ Zdravo Svijete
 
 ### Funkcije
 
+Funkcije predstavljaju dio koda koji moze da se jednom napise a koristi vise puta.
+TBD.
+
 
 <a name="zdravo_svijete.py"/>
 
@@ -256,8 +259,8 @@ Zdravo Svijete
 
 ```python
 def pozdrav():
-	# ovaj blok pripada funkciji
-	print("Pozdrav")
+  # ovaj blok pripada funkciji
+  print("Pozdrav")
 # kraj funkcije
 
 pozdrav() # pozivamo funkciju pozdrav

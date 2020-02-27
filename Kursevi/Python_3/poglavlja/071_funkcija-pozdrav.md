@@ -5,8 +5,8 @@
 
 ```python
 def pozdrav():
-	# ovaj blok pripada funkciji
-	print("Pozdrav")
+  # ovaj blok pripada funkciji
+  print("Pozdrav")
 # kraj funkcije
 
 pozdrav() # pozivamo funkciju pozdrav
