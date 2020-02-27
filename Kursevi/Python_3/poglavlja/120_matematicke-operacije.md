@@ -1,2 +1,5 @@
-  * [Matematicke operacije](#matematicke_operacije)
+
+<a name="matematicke-operacije"/>
+
+### Matematicke operacije
 

@@ -1,3 +1,5 @@
 
-  * [Objektno orijentisano programiranje](#objektno_orjentisano_programiranje)
+<a name="objektno-orjentisano-programiranje"/>
+
+### Objektno orijentisano programiranje
 

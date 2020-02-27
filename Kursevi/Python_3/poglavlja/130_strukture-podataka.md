@@ -1,2 +1,5 @@
-  * [Strukture podataka](#strukture_podataka)
+
+<a name="strukture-podataka"/>
+
+### Strukture podataka
 

@@ -1,1 +1,6 @@
-  * [Standardne biblioteke](#standardne_bibliotke)
+
+<a name="standardne_bibliotke"/>
+
+### Standardne biblioteke
+
+

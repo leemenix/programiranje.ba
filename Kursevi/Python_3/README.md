@@ -301,23 +301,45 @@ Jednom su se setali, setali
 kraj duboke rijeke Dunav, rijeke Dunav
 gdje je bio velik krokodil
 ```
-  * [Stringovi](#stringovi)
+
+<a name="stringovi"/>
+
+### Stringovi
   
-  * [Matematicke operacije](#matematicke_operacije)
 
-  * [Strukture podataka](#strukture_podataka)
+<a name="matematicke-operacije"/>
 
-  * [Rjesavanje problema](#rjesavanje_problema)
+### Matematicke operacije
 
-  * [Objektno orijentisano programiranje](#objektno_orjentisano_programiranje)
+
+<a name="strukture-podataka"/>
+
+### Strukture podataka
+
+
+<a name="rjesavanje-problema"/>
+
+### Rjesavanje problema
+
+
+<a name="objektno-orjentisano-programiranje"/>
+
+### Objektno orijentisano programiranje
 
   * [Ulaz/Izlaz](#ulaz_izlaz)
 
   * [Exceptions (Izuzeci?)](#exceptions)
 
-  * [Standardne biblioteke](#standardne_bibliotke)
 
-  * [Tips and tricks](#tips_tricks)
+<a name="standardne_bibliotke"/>
+
+### Standardne biblioteke
+
+
+
+<a name="standardne_bibliotke"/>
+
+### Tips and tricks](#tips_tricks)
 
   * [Dalji koraci](#daljnji_koraci)
 
