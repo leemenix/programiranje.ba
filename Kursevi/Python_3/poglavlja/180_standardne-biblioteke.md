@@ -1,5 +1,5 @@
 
-<a name="standardne_bibliotke"/>
+<a name="standardne-bibliotke"/>
 
 ### Standardne biblioteke
 

@@ -1,3 +1,6 @@
 
-  * [Dalji koraci](#daljnji_koraci)
+<a name="dalji-koraci"/>
+
+### Dalji koraci
+
 

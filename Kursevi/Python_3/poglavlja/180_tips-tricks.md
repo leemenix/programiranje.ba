@@ -1,4 +1,5 @@
 
-<a name="standardne_bibliotke"/>
+<a name="tips-and-tricks"/>
 
-### Tips and tricks](#tips_tricks)
+### Tips and tricks
+

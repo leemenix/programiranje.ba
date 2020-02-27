@@ -326,26 +326,44 @@ gdje je bio velik krokodil
 
 ### Objektno orijentisano programiranje
 
-  * [Ulaz/Izlaz](#ulaz_izlaz)
 
-  * [Exceptions (Izuzeci?)](#exceptions)
+<a name="ulaz-izlaz"/>
+
+### Ulaz/Izlaz
 
 
-<a name="standardne_bibliotke"/>
+<a name="izuzeci"/>
+
+### Exceptions (Izuzeci?)
+
+
+
+<a name="standardne-bibliotke"/>
 
 ### Standardne biblioteke
 
 
 
-<a name="standardne_bibliotke"/>
+<a name="tips-and-tricks"/>
 
-### Tips and tricks](#tips_tricks)
+### Tips and tricks
 
-  * [Dalji koraci](#daljnji_koraci)
 
-  * [Korisni linkovi](#korisni_linkovi)
+<a name="dalji-koraci"/>
 
-  * [Feedback](#feedback)
+### Dalji koraci
+
+
+
+<a name="korisni-linkovi"/>
+
+### Korisni linkovi
+
+
+<a name="feedback"/>
+
+### Feedback
+
 
 
 
