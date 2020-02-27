@@ -1,0 +1,1 @@
+  * [Tipovi podataka](#tipovi-podataka)

@@ -224,7 +224,8 @@ Kliknite na Project interpreter i podesite Base interpreter
 ![PyCharm podesavanje korak 12](slike/pycharm_podesavanje_12.png)
 
 
-
+* [Prvi koraci - prohodavanje](#prvi-koraci)   * [Osnove](#osnove)
+    * [program-01 - zdravo_svijete.py](#zdravo-svijete)
 <a name="zdravo_svijete.py"/>
 
 ### program-01 - zdravo_svijete.py
@@ -236,7 +237,11 @@ print("Zdravo Svijete")
 Output:
 ```
 Zdravo Svijete
-```
+``` * [Operatori i izrazi](#operatori-i-izrazi)  * [Kontrola toka](#kontrola-toka)  * [Funkcije](#funkcije)
+  
+  * [Moduli](#moduli)
+  
+  * [Tipovi podataka](#tipovi-podataka)
 <a name="varijable"/>
 
 ### Varijable
@@ -296,7 +301,29 @@ Jednom su se setali, setali
 kraj duboke rijeke Dunav, rijeke Dunav
 gdje je bio velik krokodil
 ```
+  * [Stringovi](#stringovi)
+  
+  * [Matematicke operacije](#matematicke_operacije)
 
+  * [Strukture podataka](#strukture_podataka)
+
+  * [Rjesavanje problema](#rjesavanje_problema)
+
+  * [Objektno orijentisano programiranje](#objektno_orjentisano_programiranje)
+
+  * [Ulaz/Izlaz](#ulaz_izlaz)
+
+  * [Exceptions (Izuzeci?)](#exceptions)
+
+  * [Standardne biblioteke](#standardne_bibliotke)
+
+  * [Tips and tricks](#tips_tricks)
+
+  * [Dalji koraci](#daljnji_koraci)
+
+  * [Korisni linkovi](#korisni_linkovi)
+
+  * [Feedback](#feedback)
 
 
 
