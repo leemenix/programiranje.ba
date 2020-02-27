@@ -3,13 +3,14 @@
 
 ## Python 3
 
-**Autor:** )_Milenko Letic_
-_https://programiranje.ba_
+**Autor:** _Milenko Letic_
+https://programiranje.ba
 
 ### Instalacija i podesavanje Python-a i PyCharm-a
 
-_https://python.org/downloads_
+https://python.org/downloads
 
-![GitHub stranica](/slike/github_stranica.png)
-Format: ![Alt Text](url)
+![GitHub stranica](slike/github_stranica.png)
+
+
 
