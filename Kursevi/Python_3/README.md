@@ -159,7 +159,7 @@ Kada radimo sa podacima, potrebno ih je organizovati, kontejneri kutije u koje s
 
 <a varijable-01.py/>
 
-### varijable-01.py
+### program-02 - varijable-01.py
 
 ```python
 print(“Bila mama Kukunka, Kukunka”)
@@ -176,7 +176,7 @@ Zdravo Svijete
 
 <a varijable-02.py/>
 
-### varijable-02.py
+### program-03 - varijable-02.py
 
 ```python
 mama_ime="Kukunka"
