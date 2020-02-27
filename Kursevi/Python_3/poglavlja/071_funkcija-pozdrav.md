@@ -1,5 +1,5 @@
 
-<a name="zdravo_svijete.py"/>
+<a name="funkcija-pozdrav"/>
 
 ### program-xx - funkcija-pozdrav.py
 
