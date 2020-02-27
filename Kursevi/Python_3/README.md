@@ -6,6 +6,14 @@
 **Autor:** _Milenko Letic_
 https://programiranje.ba
 
+
+Sadrzaj
+=======
+
+  * [Instalacija i podesavanje Python-a i PyCharm-a](#instalacija)
+
+
+<a name="instalacija"/>
 ### Instalacija i podesavanje Python-a i PyCharm-a
 
 https://python.org/downloads
