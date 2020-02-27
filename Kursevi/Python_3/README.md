@@ -235,7 +235,7 @@ print("Zdravo Svijete")
 
 Output:
 ```
-tbd
+Zdravo Svijete
 ```
 <a name="varijable"/>
 
@@ -249,18 +249,23 @@ Kada radimo sa podacima, potrebno ih je organizovati, kontejneri kutije u koje s
 ### program-02 - varijable-01.py
 
 ```python
-print(“Bila mama Kukunka, Kukunka”)
-print(“Bio tata Taranta, Taranta”)
-print(“imali su maloga Ju-Ju”)
+print("Bila mama Kukunka, Kukunka")
+print("Bio tata Taranta, Taranta")
+print("imali su maloga Ju-Ju")
 
-print(“Jednom su se setali, setali”)
-print(“kraj duboke rijeke Nil, rijeke Nil”)
-print(“gdje je bio velik’ krokodil”)
+print("Jednom su se setali, setali")
+print("kraj duboke rijeke Nil, rijeke Nil")
+print("gdje je bio velik krokodil")
 ```
 
 Output:
 ```
-tbd
+Bila mama Kukunka, Kukunka
+Bio tata Taranta, Taranta
+imali su maloga Ju-Ju
+Jednom su se setali, setali
+kraj duboke rijeke Nil, rijeke Nil
+gdje je bio velik krokodil
 ```
 
 <a varijable-02.py/>
@@ -284,7 +289,12 @@ print("gdje je bio velik krokodil")
 
 Output:
 ```
-tbd
+Bila mama Kukunka, Kukunka
+Bio tata Taranta, Taranta
+imali su maloga Ju-Ju
+Jednom su se setali, setali
+kraj duboke rijeke Dunav, rijeke Dunav
+gdje je bio velik krokodil
 ```
 
 

@@ -9,5 +9,5 @@ print("Zdravo Svijete")
 
 Output:
 ```
-tbd
+Zdravo Svijete
 ```

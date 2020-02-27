@@ -20,5 +20,10 @@ print("gdje je bio velik krokodil")
 
 Output:
 ```
-tbd
+Bila mama Kukunka, Kukunka
+Bio tata Taranta, Taranta
+imali su maloga Ju-Ju
+Jednom su se setali, setali
+kraj duboke rijeke Dunav, rijeke Dunav
+gdje je bio velik krokodil
 ```
