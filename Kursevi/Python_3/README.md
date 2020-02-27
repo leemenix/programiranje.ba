@@ -57,5 +57,6 @@ Na drugom koraku je potrebno jos jednom cekirati opciju:
 ![Python instalacija korak cetvrti](slike/python_instalacija_4.png)
 
 #### Korak 6. 
+<p align="center">
 ![Python instalacija korak cetvrti](slike/python_instalacija_4.png)
-
+</p>p>
