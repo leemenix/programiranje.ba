@@ -3,6 +3,8 @@
 =======
 
   * [Uvod - par rijeci o programskom jeziku Python](#intro)
+    * [Par cinjenica o Python-u](#python-cinjenice)
+    * [Python 3 vs. Python 2](#python3-vs-python2)
 
   * [Instalacija](#instalacija)
     * [Python 3 instalacija](#python_instalacija)
