@@ -20,6 +20,7 @@ https://programiranje.ba
   * [Instalacija i podesavanje Python-a i PyCharm-a](#instalacija_i_podesavanje)
     * [Python 3 instalacija](#python_instalacija)
     * [PyCharm instalacija](#pycharm_instalacija)
+    * [PyCharm podesavanje parametara](#pycharm_podesavanje)
 
 
 
@@ -78,23 +79,115 @@ Na drugom koraku je potrebno jos jednom cekirati opciju:
 
 https://jetbrains.com/pycharm/download
 
-#### Korak 1. 
+##### Korak 1. 
 ![PyCharm instalacija korak prvi](slike/pycharm_instalacija_1.png)
 
-#### Korak 2. 
+##### Korak 2. 
 ![PyCharm instalacija korak drugi](slike/pycharm_instalacija_2.png)
 
 
-#### Korak 3. 
+##### Korak 3. 
 ![PyCharm instalacija korak treci](slike/pycharm_instalacija_3.png)
 
-
-#### Korak 4. 
+##### Korak 4. 
 ![PyCharm instalacija korak cetvrti](slike/pycharm_instalacija_4.png)
 
-#### Korak 5. 
+##### Korak 5. 
 ![PyCharm instalacija korak cetvrti](slike/pycharm_instalacija_5.png)
 
 ##### Korak 6. 
 ![PyCharm instalacija korak cetvrti](slike/pycharm_instalacija_6.png)
 
+
+<a name="pycharm_podesavanje"/>
+
+#### PyCharm podesavanje parametara
+
+Nakon restarta pokrenemo PyCharm i konfigurisemo minimalna podesavanja
+
+##### Korak 1.
+![PyCharm podesavanje korak 1](slike/pycharm_podesavanje_1.png)
+
+##### Korak 2.
+![PyCharm podesavanje korak 1](slike/pycharm_podesavanje_2.png)
+
+##### Korak 3.
+![PyCharm podesavanje korak 1](slike/pycharm_podesavanje_3.png)
+
+##### Korak 4.
+![PyCharm podesavanje korak 1](slike/pycharm_podesavanje_4.png)
+
+##### Korak 5.
+
+Kliknite na Project interpreter i podesite Base interpreter 
+[vrijednost moze varirati u zavisnosti od vaseg OS-a]
+
+![PyCharm podesavanje korak 1](slike/pycharm_podesavanje_5.png)
+
+##### Korak 6.
+![PyCharm podesavanje korak 1](slike/pycharm_podesavanje_6.png)
+
+
+
+
+
+print("Pozdrav svijete!")
+
+
+
+
+
+
+
+
+
+
+
+
+
+Varijable
+Kada radimo sa podacima, potrebno ih je organizovati, kontejneri kutije u koje stavlljamo pohranjujemo nase podatke predstavljaju varijable. Sta predstavljaju , zasto su korisne, koje sve vrste (tipove) podataka mozemo smjestiti u varijable.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Organizacija podataka
+
+List
+
+List funkcije
+
+Tuples
+
+Dictionaries
+
+
+Funkcije i uslovi
+Return statement
