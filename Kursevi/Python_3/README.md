@@ -18,8 +18,8 @@ https://programiranje.ba
 =======
 
   * [Instalacija i podesavanje Python-a i PyCharm-a](#instalacija_i_podesavanje)
-  * [Python 3 instalacija](#python_instalacija)
-  * [PyCharm instalacija](#pycharm_instalacija)
+    * [Python 3 instalacija](#python_instalacija)
+    * [PyCharm instalacija](#pycharm_instalacija)
 
 
 
@@ -41,9 +41,9 @@ Trenutna verzija Python-a, koju cemo ujedno obraditi prilikom ovog kursa je Pyth
 
 <a name="python_instalacija"/>
 
-### Python 3 instalacija
+#### Python 3 instalacija
 
-#### Korak 1.
+##### Korak 1.
 
 Prilikom pokretanja instalacije, na prvom koraku je potrebno cekirati obe opcije:
 * Install launcher for all users (recommended)
@@ -51,7 +51,7 @@ Prilikom pokretanja instalacije, na prvom koraku je potrebno cekirati obe opcije
 
 ![Python instalacija korak prvi](slike/python_instalacija_1.png)
 
-#### Korak 2. 
+##### Korak 2. 
 
 Na drugom koraku je potrebno jos jednom cekirati opciju:
 * for all users (requires elevation)
@@ -74,7 +74,7 @@ Na drugom koraku je potrebno jos jednom cekirati opciju:
 
 <a name="pycharm_instalacija"/>
 
-### PyCharm instalacija
+#### PyCharm instalacija
 
 https://jetbrains.com/pycharm/download
 
@@ -95,6 +95,6 @@ https://jetbrains.com/pycharm/download
 #### Korak 5. 
 ![PyCharm instalacija korak cetvrti](slike/pycharm_instalacija_5.png)
 
-#### Korak 6. 
+##### Korak 6. 
 ![PyCharm instalacija korak cetvrti](slike/pycharm_instalacija_6.png)
 
