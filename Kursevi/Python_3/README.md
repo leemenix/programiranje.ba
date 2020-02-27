@@ -12,6 +12,7 @@ https://programiranje.ba
 =======
 
   * [Instalacija i podesavanje Python-a i PyCharm-a](#instalacija_i_podesavanje)
+  * [Python 3 instalacija](#python_instalacija)
 
 
 <a name="instalacija_i_podesavanje"/>
@@ -26,9 +27,11 @@ Trenutna verzija Python-a, koju cemo ujedno obraditi prilikom ovog kursa je Pyth
 
 ```TBD: par rijeci o Python 2```
 
+<a name="python_instalacija"/>
+
 ### Python 3 instalacija
 
-Korak 1.
+#### Korak 1.
 
 Prilikom pokretanja instalacije, na prvom koraku je potrebno cekirati obe opcije:
 * Install launcher for all users (recommended)
@@ -36,23 +39,23 @@ Prilikom pokretanja instalacije, na prvom koraku je potrebno cekirati obe opcije
 
 ![Python instalacija korak prvi](slike/python_instalacija_1.png)
 
-Korak 2. 
+#### Korak 2. 
 
 Na drugom koraku je potrebno jos jednom cekirati opciju:
 * for all users (requires elevation)
 
 ![Python instalacija korak drugi](slike/python_instalacija_2.png)
 
-Korak 3.
+#### Korak 3.
 
 ![Python instalacija korak treci](slike/python_instalacija_3.png)
 
-Korak 4. 
+#### Korak 4. 
 ![Python instalacija korak cetvrti](slike/python_instalacija_4.png)
 
-Korak 5. 
+#### Korak 5. 
 ![Python instalacija korak cetvrti](slike/python_instalacija_4.png)
 
-Korak 6. 
+#### Korak 6. 
 ![Python instalacija korak cetvrti](slike/python_instalacija_4.png)
 
