@@ -341,10 +341,31 @@ Kada radimo sa podacima, potrebno ih je organizovati, kontejneri kutije u koje s
 
 #### Cetiri osnovne matematicke operacije
 Cetiri osnovne matematicke operacije predstavljaju
-1. sabiranje  ( + )
-1. oduzimanje ( - )
-1. mnozenje   ( * )
-1. dijeljenje ( / )
+1. ( + ) sabiranje 
+1. ( - ) oduzimanje
+1. ( * ) mnozenje  
+1. ( / ) dijeljenje
+
+
+<a name="osnovne-matematicke-operacije"/>
+
+### program-xx - osnovne-matematicke-operacije.py
+
+```python
+print( 3+2 )
+print( 3-2 )
+print( 3*2 )
+print( 3/2 )
+```
+
+Output:
+```
+5
+1
+6
+1.5
+```
+
 <a name="operatori-i-izrazi"/>
 
 ### Operatori i izrazi
