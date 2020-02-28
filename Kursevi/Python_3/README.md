@@ -255,11 +255,12 @@ print("Zdravo")
 print("Svijete")
 print("!")
 ```
-
+_*
 Output:
 ```
 Zdravo Svijete
 ```
+*_
 <a name="operatori-i-izrazi"/>
 
 ### Operatori i izrazi
