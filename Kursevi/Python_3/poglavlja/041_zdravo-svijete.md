@@ -4,7 +4,7 @@
 ### program-01 - zdravo_svijete.py
 
 ```python
-print("Zdravo Svijete")
+print("Zdravo Svijete!")
 ```
 
 Output:

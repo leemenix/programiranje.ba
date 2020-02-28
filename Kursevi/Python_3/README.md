@@ -224,14 +224,36 @@ Kliknite na Project interpreter i podesite Base interpreter
 ![PyCharm podesavanje korak 12](slike/pycharm_podesavanje_12.png)
 
 
-* [Prvi koraci - prohodavanje](#prvi-koraci)   * [Osnove](#osnove)
-    * [program-01 - zdravo_svijete.py](#zdravo-svijete)
+
+<a name="prvi-koraci"/>
+
+### Prvi koraci - prohodavanje
+
+
+<a name="osnove"/>
+
+### Osnove
+
 <a name="zdravo_svijete.py"/>
 
 ### program-01 - zdravo_svijete.py
 
 ```python
-print("Zdravo Svijete")
+print("Zdravo Svijete!")
+```
+
+Output:
+```
+Zdravo Svijete
+```
+<a name="zdravo-svijete-2.py"/>
+
+### program-02 - zdravo-svijete-2.py
+
+```python
+print("Zdravo")
+print("Svijete")
+print("!")
 ```
 
 Output:
