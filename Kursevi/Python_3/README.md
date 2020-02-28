@@ -223,11 +223,6 @@ Kliknite na Project interpreter i podesite Base interpreter
 
 
 
-<a name="prvi-koraci"/>
-
-### Prvi koraci - prohodavanje
-
-
 <a name="osnove"/>
 
 ### Osnove
