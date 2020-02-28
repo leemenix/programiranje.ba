@@ -238,6 +238,85 @@ print( 3/2 )
 1.5
 ```
 
+<a name="napredne-matematicke-operacije"/>
+
+### Napredne matematicke operacije
+Ako damo sebi za pravo da ostale matematicke operacije, osim osnovnih
+nazovemo napredne matematicke operacije imamo sledece primjere u Python-u.
+
+#### Modulo operator ( % )
+Modulo operator uzima broj koji se nalazi na lijevoj strani i dijeli ga 
+brojem koji se nalazi na desnoj strani, a zatim kao rezultat vraca cjelobrojni
+ostatak prilikom ovog dijeljenja.
+
+
+
+
+<a name="modulo"/>
+
+### program-xx - modulo.py
+
+```python
+print( 10%3 )
+```
+
+**Output:**
+```
+1
+```
+
+<a name="napredne-matematicke-operacije-2"/>
+
+Pored navedenih primjera, potrebno je napomenuti da Python raspolaze
+sa ogromnom bazom naprednih matematickih operacija koje na jednostavan 
+nacin rjesavaju kompleksne probleme.
+
+
+<a name="napredne-matematicke-operacije-primjeri"/>
+
+### program-xx - napredne-matematicke-operacije-primjeri.py
+
+```python
+print( 4 * 3 )
+print( 2 * 4 )
+print( 20 % 3 )
+print( 3 + 3 * 3)
+print( 10 / 5.0 )
+
+broj = 20
+broj += 100
+print( broj )
+```
+
+**Output:**
+```
+12
+8
+2
+12
+2.0
+120
+```
+
+<a name="math-modul"/>
+
+### program-xx - math-modul.py
+
+```python
+import math
+
+print( pow(3,2) )
+print( math.sqrt(9) )
+print( round(4.335) )
+```
+
+**Output:**
+```
+9
+3.0
+4
+```
+
 <a name="operatori-i-izrazi"/>
 
 ### Operatori i izrazi
@@ -304,16 +383,6 @@ Output:
 <a name="tipovi-podataka"/>
 
 ### Tipovi podataka
-<a name="stringovi"/>
-
-### Stringovi
-  
-
-<a name="matematicke-operacije"/>
-
-### Matematicke operacije
-
-
 <a name="strukture-podataka"/>
 
 ### Strukture podataka
