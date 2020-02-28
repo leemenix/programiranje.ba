@@ -10,7 +10,7 @@ print( 3*2 )
 print( 3/2 )
 ```
 
-Output:
+**Output:**
 ```
 5
 1

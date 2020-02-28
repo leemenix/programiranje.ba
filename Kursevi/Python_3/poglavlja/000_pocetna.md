@@ -1,6 +1,4 @@
-
 # Uvod u Python programski jezik
-
 
 
 **Autor:** _Milenko Letic_

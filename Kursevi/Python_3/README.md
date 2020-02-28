@@ -1,6 +1,4 @@
-
 # Uvod u Python programski jezik
-
 
 
 **Autor:** _Milenko Letic_
@@ -292,7 +290,7 @@ kraj duboke rijeke Nil, rijeke Nil
 gdje je bio velik krokodil
 ```
 
-<a varijable-02.py/>
+<a name="varijable-02"/>
 
 ### program-03 - varijable-02.py
 
@@ -358,7 +356,7 @@ print( 3*2 )
 print( 3/2 )
 ```
 
-Output:
+**Output:**
 ```
 5
 1
