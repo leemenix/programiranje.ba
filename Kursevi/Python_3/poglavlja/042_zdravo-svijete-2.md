@@ -8,9 +8,8 @@ print("Zdravo")
 print("Svijete")
 print("!")
 ```
-_*
+
 Output:
 ```
 Zdravo Svijete
 ```
-*_

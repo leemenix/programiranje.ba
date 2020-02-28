@@ -255,12 +255,86 @@ print("Zdravo")
 print("Svijete")
 print("!")
 ```
-_*
+
 Output:
 ```
 Zdravo Svijete
 ```
-*_
+
+<a name="varijable"/>
+
+### Varijable
+Kada radimo sa podacima, potrebno ih je organizovati, kontejneri kutije u koje stavlljamo pohranjujemo nase podatke predstavljaju varijable. Sta predstavljaju , zasto su korisne, koje sve vrste (tipove) podataka mozemo smjestiti u varijable.
+
+
+
+<a name="varijable-01"/>
+
+### program-02 - varijable-01.py
+
+```python
+print("Bila mama Kukunka, Kukunka")
+print("Bio tata Taranta, Taranta")
+print("imali su maloga Ju-Ju")
+
+print("Jednom su se setali, setali")
+print("kraj duboke rijeke Nil, rijeke Nil")
+print("gdje je bio velik krokodil")
+```
+
+Output:
+```
+Bila mama Kukunka, Kukunka
+Bio tata Taranta, Taranta
+imali su maloga Ju-Ju
+Jednom su se setali, setali
+kraj duboke rijeke Nil, rijeke Nil
+gdje je bio velik krokodil
+```
+
+<a varijable-02.py/>
+
+### program-03 - varijable-02.py
+
+```python
+mama_ime="Kukunka"
+tata_ime="Taranta"
+beba_ime="Ju-Ju"
+rijeka_naziv="Dunav"
+
+print("Bila mama " + mama_ime + ", " + mama_ime)
+print("Bio tata " + tata_ime + ", " + tata_ime)
+print("imali su maloga " + beba_ime)
+
+print("Jednom su se setali, setali")
+print("kraj duboke rijeke " + rijeka_naziv + ", rijeke " + rijeka_naziv)
+print("gdje je bio velik krokodil")
+```
+
+Output:
+```
+Bila mama Kukunka, Kukunka
+Bio tata Taranta, Taranta
+imali su maloga Ju-Ju
+Jednom su se setali, setali
+kraj duboke rijeke Dunav, rijeke Dunav
+gdje je bio velik krokodil
+```
+
+<a name="stringovi"/>
+
+### Stringovi
+Kada radimo sa podacima, potrebno ih je organizovati, kontejneri kutije u koje stavlljamo pohranjujemo nase podatke predstavljaju varijable. Sta predstavljaju , zasto su korisne, koje sve vrste (tipove) podataka mozemo smjestiti u varijable.
+
+
+
+<a name="operacije-nad-stringovima"/>
+
+### Operacije nad stringovima
+Kada radimo sa podacima, potrebno ih je organizovati, kontejneri kutije u koje stavlljamo pohranjujemo nase podatke predstavljaju varijable. Sta predstavljaju , zasto su korisne, koje sve vrste (tipove) podataka mozemo smjestiti u varijable.
+
+
+
 <a name="operatori-i-izrazi"/>
 
 ### Operatori i izrazi
@@ -327,66 +401,6 @@ Output:
 <a name="tipovi-podataka"/>
 
 ### Tipovi podataka
-<a name="varijable"/>
-
-### Varijable
-Kada radimo sa podacima, potrebno ih je organizovati, kontejneri kutije u koje stavlljamo pohranjujemo nase podatke predstavljaju varijable. Sta predstavljaju , zasto su korisne, koje sve vrste (tipove) podataka mozemo smjestiti u varijable.
-
-
-
-<a name="varijable-01"/>
-
-### program-02 - varijable-01.py
-
-```python
-print("Bila mama Kukunka, Kukunka")
-print("Bio tata Taranta, Taranta")
-print("imali su maloga Ju-Ju")
-
-print("Jednom su se setali, setali")
-print("kraj duboke rijeke Nil, rijeke Nil")
-print("gdje je bio velik krokodil")
-```
-
-Output:
-```
-Bila mama Kukunka, Kukunka
-Bio tata Taranta, Taranta
-imali su maloga Ju-Ju
-Jednom su se setali, setali
-kraj duboke rijeke Nil, rijeke Nil
-gdje je bio velik krokodil
-```
-
-<a varijable-02.py/>
-
-### program-03 - varijable-02.py
-
-```python
-mama_ime="Kukunka"
-tata_ime="Taranta"
-beba_ime="Ju-Ju"
-rijeka_naziv="Dunav"
-
-print("Bila mama " + mama_ime + ", " + mama_ime)
-print("Bio tata " + tata_ime + ", " + tata_ime)
-print("imali su maloga " + beba_ime)
-
-print("Jednom su se setali, setali")
-print("kraj duboke rijeke " + rijeka_naziv + ", rijeke " + rijeka_naziv)
-print("gdje je bio velik krokodil")
-```
-
-Output:
-```
-Bila mama Kukunka, Kukunka
-Bio tata Taranta, Taranta
-imali su maloga Ju-Ju
-Jednom su se setali, setali
-kraj duboke rijeke Dunav, rijeke Dunav
-gdje je bio velik krokodil
-```
-
 <a name="stringovi"/>
 
 ### Stringovi
