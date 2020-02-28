@@ -10,9 +10,7 @@
     * [Python 3 instalacija](#python-instalacija)
     * [IDE - PyCharm instalacija](#pycharm-instalacija)
       * [PyCharm podesavanje parametara](#pycharm-podesavanje)
-  
-  * [Prvi koraci - prohodavanje](#prvi-koraci) 
-  
+    
   * [Osnove](#osnove)
     * [program-01 - zdravo_svijete.py](#zdravo-svijete)
   

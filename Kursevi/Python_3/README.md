@@ -16,9 +16,7 @@ https://programiranje.ba
     * [Python 3 instalacija](#python-instalacija)
     * [IDE - PyCharm instalacija](#pycharm-instalacija)
       * [PyCharm podesavanje parametara](#pycharm-podesavanje)
-  
-  * [Prvi koraci - prohodavanje](#prvi-koraci) 
-  
+    
   * [Osnove](#osnove)
     * [program-01 - zdravo_svijete.py](#zdravo-svijete)
   
@@ -317,6 +315,38 @@ print( round(4.335) )
 4
 ```
 
+<a name="unos-podataka-od-strane-korisnika"/>
+
+Pored navedenih primjera, potrebno je napomenuti da Python raspolaze
+sa ogromnom bazom naprednih matematickih operacija koje na jednostavan 
+nacin rjesavaju kompleksne probleme.
+
+
+<a name="interakcija-sa-korisnikom"/>
+
+### program-xx - interakcija-sa-korisnikom.py
+
+```python
+trenutna_godina = 2020
+ime = input("Unesite ime: ")
+prezime = input("Unesite prezime: ")
+godina_rodjenja = int(input("Unesite godinu rodjenja: "))
+
+print("Dobrodosli, " + ime + " " + prezime)
+print("Trenutno imate " + str(2020 - godina_rodjenja) + " godina")
+print("Hvala sto ste koristili ovaj program")
+```
+
+**Output:**
+```
+Unesite ime: Miladin
+Unesite prezime: Sobic
+Unesite godinu rodjenja: 1956
+Dobrodosli, Miladin Sobic
+Trenutno imate 64 godina
+Hvala sto ste koristili ovaj program
+```
+
 <a name="operatori-i-izrazi"/>
 
 ### Operatori i izrazi
@@ -398,6 +428,38 @@ Output:
 ### Objektno orijentisano programiranje
 
 
+<a name="izuzeci"/>
+
+### Exceptions (Izuzeci?)
+
+
+
+<a name="standardne-bibliotke"/>
+
+### Standardne biblioteke
+
+
+
+<a name="tips-and-tricks"/>
+
+### Tips and tricks
+
+
+<a name="dalji-koraci"/>
+
+### Dalji koraci
+
+
+
+<a name="korisni-linkovi"/>
+
+### Korisni linkovi
+
+
+<a name="feedback"/>
+
+### Feedback
+
 <a name="ulaz-izlaz"/>
 
 ### Ulaz/Izlaz
@@ -436,38 +498,6 @@ Output 2:
 Unesi tekst: anavolimilovana
 Da, unijeti tekst je palindrom
 ```
-<a name="izuzeci"/>
-
-### Exceptions (Izuzeci?)
-
-
-
-<a name="standardne-bibliotke"/>
-
-### Standardne biblioteke
-
-
-
-<a name="tips-and-tricks"/>
-
-### Tips and tricks
-
-
-<a name="dalji-koraci"/>
-
-### Dalji koraci
-
-
-
-<a name="korisni-linkovi"/>
-
-### Korisni linkovi
-
-
-<a name="feedback"/>
-
-### Feedback
-
 
 
 
