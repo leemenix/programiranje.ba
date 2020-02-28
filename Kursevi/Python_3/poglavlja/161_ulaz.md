@@ -20,7 +20,7 @@ else:
 
 Output 1:
 ```
-Unesi tekst: neki tekst
+Unesi tekst: _*neki tekst_
 Ne, unijeti tekst nije palindrom
 ```
 
