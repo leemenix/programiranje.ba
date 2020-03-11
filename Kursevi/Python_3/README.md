@@ -55,14 +55,14 @@ https://docs.python.org/3/howto/pyporting.html
 print("Zdravo Svijete!")
 ```
 
-**`Rezultat:`**
+**`Rezultat`**
 ```
 Zdravo Svijete!
 ```
 
 <a name="kod-202-zdravo-svijete.py"/>
 
-#### kod-202-zdravo-svijete.py
+**`kod-202-zdravo-svijete.py`**
 
 ```python
 print("Zdravo")
@@ -70,7 +70,7 @@ print("Svijete")
 print("!")
 ```
 
-#### _Output:_
+**`Rezultat`**
 ```
 Zdravo Svijete!
 ```
@@ -82,7 +82,7 @@ Kada radimo sa podacima, potrebno ih je organizovati, kontejneri kutije u koje s
 
 <a name="kod-301-varijable.py"/>
 
-#### kod-301-varijable.py
+**`kod-301-varijable.py`**
 
 ```python
 print("Bila mama Kukunka, Kukunka")
@@ -94,7 +94,7 @@ print("kraj duboke rijeke Nil, rijeke Nil")
 print("gdje je bio velik krokodil")
 ```
 
-#### _Output:_
+**`Rezultat`**
 ```
 Bila mama Kukunka, Kukunka
 Bio tata Taranta, Taranta
@@ -106,7 +106,7 @@ gdje je bio velik krokodil
 
 <a name="kod-302-varijable.py"/>
 
-#### kod-302-varijable.py
+**`kod-302-varijable.py`**
 
 ```python
 mama_ime="Kukunka"
@@ -123,7 +123,7 @@ print("kraj duboke rijeke " + rijeka_naziv + ", rijeke " + rijeka_naziv)
 print("gdje je bio velik krokodil")
 ```
 
-#### _Output:_
+**`Rezultat`**
 ```
 Bila mama Kukunka, Kukunka
 Bio tata Taranta, Taranta

@@ -1,7 +1,7 @@
 
 <a name="kod-301-varijable.py"/>
 
-#### kod-301-varijable.py
+**`kod-301-varijable.py`**
 
 ```python
 print("Bila mama Kukunka, Kukunka")
@@ -13,7 +13,7 @@ print("kraj duboke rijeke Nil, rijeke Nil")
 print("gdje je bio velik krokodil")
 ```
 
-#### _Output:_
+**`Rezultat`**
 ```
 Bila mama Kukunka, Kukunka
 Bio tata Taranta, Taranta

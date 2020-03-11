@@ -7,7 +7,7 @@
 print("Zdravo Svijete!")
 ```
 
-**`Rezultat:`**
+**`Rezultat`**
 ```
 Zdravo Svijete!
 ```
