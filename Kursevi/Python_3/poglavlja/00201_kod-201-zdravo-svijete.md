@@ -7,7 +7,7 @@
 print("Zdravo Svijete!")
 ```
 
-#### _Output:_
+#### _Output:
 ```
-Zdravo Svijete
-```
+Zdravo Svijete!
+```_

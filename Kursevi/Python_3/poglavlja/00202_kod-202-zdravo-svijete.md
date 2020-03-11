@@ -9,7 +9,7 @@ print("Svijete")
 print("!")
 ```
 
-#### _Output:_
+#### _Output:
 ```
-Zdravo Svijete !
-```
+Zdravo Svijete!
+```_

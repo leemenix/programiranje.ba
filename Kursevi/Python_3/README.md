@@ -55,10 +55,10 @@ https://docs.python.org/3/howto/pyporting.html
 print("Zdravo Svijete!")
 ```
 
-#### _Output:_
+#### _Output:
 ```
-Zdravo Svijete
-```
+Zdravo Svijete!
+```_
 <a name="zdravo-svijete-2.py"/>
 
 #### program-02 - zdravo-svijete-2.py
@@ -69,10 +69,10 @@ print("Svijete")
 print("!")
 ```
 
-#### _Output:_
+#### _Output:
 ```
-Zdravo Svijete !
-```
+Zdravo Svijete!
+```_
 
 <a name="varijable"/>
 
