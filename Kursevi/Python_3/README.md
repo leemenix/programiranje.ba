@@ -49,13 +49,13 @@ https://docs.python.org/3/howto/pyporting.html
 
 <a name="kod-201-zdravo-svijete.py"/>
 
-#### kod-201-zdravo-svijete.py
+##### kod-201-zdravo-svijete.py
 
 ```python
 print("Zdravo Svijete!")
 ```
 
-#### _Output:_
+##### _Output:_
 ```
 Zdravo Svijete!
 ```
@@ -77,7 +77,7 @@ Zdravo Svijete!
 
 <a name="varijable"/>
 
-### Varijable
+### Varijable (DRAFT)
 Kada radimo sa podacima, potrebno ih je organizovati, kontejneri kutije u koje stavlljamo pohranjujemo nase podatke predstavljaju varijable. Sta predstavljaju , zasto su korisne, koje sve vrste (tipove) podataka mozemo smjestiti u varijable.
 
 <a name="kod-301-varijable.py"/>
@@ -142,7 +142,7 @@ Kada radimo sa podacima, potrebno ih je organizovati, kontejneri kutije u koje s
 
 <a name="operacije-nad-stringovima"/>
 
-### Operacije nad stringovima
+#### Operacije nad stringovima
 Kada radimo sa podacima, potrebno ih je organizovati, kontejneri kutije u koje stavlljamo pohranjujemo nase podatke predstavljaju varijable. Sta predstavljaju , zasto su korisne, koje sve vrste (tipove) podataka mozemo smjestiti u varijable.
 
 
