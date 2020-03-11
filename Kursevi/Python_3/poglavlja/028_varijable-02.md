@@ -18,7 +18,7 @@ print("kraj duboke rijeke " + rijeka_naziv + ", rijeke " + rijeka_naziv)
 print("gdje je bio velik krokodil")
 ```
 
-Output:
+**Output:**
 ```
 Bila mama Kukunka, Kukunka
 Bio tata Taranta, Taranta

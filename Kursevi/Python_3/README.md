@@ -102,17 +102,17 @@ https://docs.python.org/3/howto/pyporting.html
 
 <a name="osnove"/>
 
-### Osnove
+### Osnove (DRAFT)
 
-<a name="zdravo_svijete.py"/>
+<a name="zdravo-svijete.py"/>
 
-### program-01 - zdravo_svijete.py
+### program-01 - zdravo-svijete.py
 
 ```python
 print("Zdravo Svijete!")
 ```
 
-Output:
+**Output:**
 ```
 Zdravo Svijete
 ```
@@ -126,17 +126,15 @@ print("Svijete")
 print("!")
 ```
 
-Output:
+**Output:**
 ```
-Zdravo Svijete
+Zdravo Svijete !
 ```
 
 <a name="varijable"/>
 
 ### Varijable
 Kada radimo sa podacima, potrebno ih je organizovati, kontejneri kutije u koje stavlljamo pohranjujemo nase podatke predstavljaju varijable. Sta predstavljaju , zasto su korisne, koje sve vrste (tipove) podataka mozemo smjestiti u varijable.
-
-
 
 <a name="varijable-01"/>
 
@@ -152,7 +150,7 @@ print("kraj duboke rijeke Nil, rijeke Nil")
 print("gdje je bio velik krokodil")
 ```
 
-Output:
+**Output:**
 ```
 Bila mama Kukunka, Kukunka
 Bio tata Taranta, Taranta
@@ -181,7 +179,7 @@ print("kraj duboke rijeke " + rijeka_naziv + ", rijeke " + rijeka_naziv)
 print("gdje je bio velik krokodil")
 ```
 
-Output:
+**Output:**
 ```
 Bila mama Kukunka, Kukunka
 Bio tata Taranta, Taranta
@@ -193,7 +191,7 @@ gdje je bio velik krokodil
 
 <a name="stringovi"/>
 
-### Stringovi
+### Stringovi (DRAFT)
 Kada radimo sa podacima, potrebno ih je organizovati, kontejneri kutije u koje stavlljamo pohranjujemo nase podatke predstavljaju varijable. Sta predstavljaju , zasto su korisne, koje sve vrste (tipove) podataka mozemo smjestiti u varijable.
 
 
