@@ -11,5 +11,7 @@ print("!")
 
 **`Rezultat`**
 ```
-Zdravo Svijete!
+Zdravo
+Svijete
+!
 ```
