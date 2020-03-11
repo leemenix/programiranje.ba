@@ -119,34 +119,38 @@ Zdravo Svijete!
 Odlicno, sada kada poznajemo na koje nacine mozemo pokrenuti Python program, vrijeme je da
 prijedjemo na zanimljivije stvari koje mozemo uraditi sa Python-om. Slozicete se da je 
 ispisivanje rijeci "Zdravo Svijete!" malo dosadno.
-<a name="kod-201-zdravo-svijete.py"/>
+<a name="osnove-zadaci-za-vjezbu"/>
 
+### Osnove zadaci za vjezbanje
+
+<a name="kod-201-zdravo-svijete.py"/>
+Napisati program koji nakon izvrsavanja ispisuje
+**`Rezultat`**
+```
+Zdravo Svijete!
+```
+Rjesenje:
 **`kod-201-zdravo-svijete.py`**
 
 ```python
 print("Zdravo Svijete!")
 ```
 
+<a name="kod-202-zdravo-svijete.py"/>
+Napisati program koji nakon izvrsavanja ispisuje
 **`Rezultat`**
 ```
-Zdravo Svijete!
+Zdravo
+Svijete
+!
 ```
-
-<a name="kod-202-zdravo-svijete.py"/>
-
+Rjesenje:
 **`kod-202-zdravo-svijete.py`**
 
 ```python
 print("Zdravo")
 print("Svijete")
 print("!")
-```
-
-**`Rezultat`**
-```
-Zdravo
-Svijete
-!
 ```
 
 <a name="varijable"/>
