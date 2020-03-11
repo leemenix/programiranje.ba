@@ -1,7 +1,7 @@
 
-<a name="varijable-02"/>
+<a name="kod-302-varijable.py"/>
 
-### program-03 - varijable-02.py
+#### kod-302-varijable.py
 
 ```python
 mama_ime="Kukunka"
@@ -18,7 +18,7 @@ print("kraj duboke rijeke " + rijeka_naziv + ", rijeke " + rijeka_naziv)
 print("gdje je bio velik krokodil")
 ```
 
-**Output:**
+#### _Output:_
 ```
 Bila mama Kukunka, Kukunka
 Bio tata Taranta, Taranta

@@ -47,21 +47,22 @@ https://docs.python.org/3/howto/pyporting.html
 
 ### Osnove (DRAFT)
 
-<a name="zdravo-svijete.py"/>
+<a name="kod-201-zdravo-svijete.py"/>
 
-#### program-01 - zdravo-svijete.py
+#### kod-201-zdravo-svijete.py
 
 ```python
 print("Zdravo Svijete!")
 ```
 
-#### _Output:
+#### _Output:_
 ```
 Zdravo Svijete!
-```_
-<a name="zdravo-svijete-2.py"/>
+```
 
-#### program-02 - zdravo-svijete-2.py
+<a name="kod-202-zdravo-svijete.py"/>
+
+#### kod-202-zdravo-svijete.py
 
 ```python
 print("Zdravo")
@@ -69,19 +70,19 @@ print("Svijete")
 print("!")
 ```
 
-#### _Output:
+#### _Output:_
 ```
 Zdravo Svijete!
-```_
+```
 
 <a name="varijable"/>
 
 ### Varijable
 Kada radimo sa podacima, potrebno ih je organizovati, kontejneri kutije u koje stavlljamo pohranjujemo nase podatke predstavljaju varijable. Sta predstavljaju , zasto su korisne, koje sve vrste (tipove) podataka mozemo smjestiti u varijable.
 
-<a name="varijable-01"/>
+<a name="kod-301-varijable.py"/>
 
-### program-02 - varijable-01.py
+#### kod-301-varijable.py
 
 ```python
 print("Bila mama Kukunka, Kukunka")
@@ -93,7 +94,7 @@ print("kraj duboke rijeke Nil, rijeke Nil")
 print("gdje je bio velik krokodil")
 ```
 
-**Output:**
+#### _Output:_
 ```
 Bila mama Kukunka, Kukunka
 Bio tata Taranta, Taranta
@@ -103,9 +104,9 @@ kraj duboke rijeke Nil, rijeke Nil
 gdje je bio velik krokodil
 ```
 
-<a name="varijable-02"/>
+<a name="kod-302-varijable.py"/>
 
-### program-03 - varijable-02.py
+#### kod-302-varijable.py
 
 ```python
 mama_ime="Kukunka"
@@ -122,7 +123,7 @@ print("kraj duboke rijeke " + rijeka_naziv + ", rijeke " + rijeka_naziv)
 print("gdje je bio velik krokodil")
 ```
 
-**Output:**
+#### _Output:_
 ```
 Bila mama Kukunka, Kukunka
 Bio tata Taranta, Taranta

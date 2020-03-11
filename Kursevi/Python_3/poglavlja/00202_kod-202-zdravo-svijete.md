@@ -1,7 +1,7 @@
 
-<a name="zdravo-svijete-2.py"/>
+<a name="kod-202-zdravo-svijete.py"/>
 
-#### program-02 - zdravo-svijete-2.py
+#### kod-202-zdravo-svijete.py
 
 ```python
 print("Zdravo")
@@ -9,7 +9,7 @@ print("Svijete")
 print("!")
 ```
 
-#### _Output:
+#### _Output:_
 ```
 Zdravo Svijete!
-```_
+```
