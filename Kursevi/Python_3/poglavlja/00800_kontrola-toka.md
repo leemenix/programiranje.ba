@@ -13,4 +13,3 @@ za kontrolu toka i to:
 1. if
 1. for
 1. while
-

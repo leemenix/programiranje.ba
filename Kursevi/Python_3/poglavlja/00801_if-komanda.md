@@ -1,5 +1,5 @@
 
-<a name="kontrola-toka-if-komanda"/>
+<a name="if-komanda"/>
 
 ### `if` komanda (DRAFT)
 
