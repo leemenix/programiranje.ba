@@ -393,7 +393,7 @@ blok naredbi (tzv. `if-block`, `else` u suprotnom izvrsi drugi blok naredbi (tzv
 
 <a name="kod-802-if-elif-else-iskaz.py"/>
 
-Primjer **`kod-802-if-elif-else-iskaz.py`**
+**_Primjer_** **`kod-802-if-elif-else-iskaz.py`**
 ```python
 broj = 32
 pokusaj = int(input('Unesite cijeli broj: '))
