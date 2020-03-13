@@ -1,162 +1,4 @@
 
-# Uvod u Python programski jezik
-
-**Autor:** _Milenko Letic_
-
-https://programiranje.ba
-
-<a name="intro"/>
-
-### Uvod - par rijeci o programskom jeziku Python
-
-Ovaj kurs ima za cilj da vas nauci osnove programiranja u programskom jeziku Python 3. 
-Nakon sto prijedjete kompletan kurs, trebali biste biti u mogucnosti da samostalno 
-kreirate programe i lako prijedjete na napredniji nivo programiranja. Takodje, bicete 
-u mogucnosti da prilagodite, prepravite Python kod sa prethodne verzije Python 2 u 
-Python 3 verziju.
-
-Python je jedan od rijetkih programskih jezika, koji je u isto vrijeme jednostavan i 
-mocan. Nemojte se iznenaditi ako vam ucenje Python programskog jezika ide veoma lako
-i brzo savladavate lekcije, jer to i jeste cilj Python-a kao programskog jezika, da 
-vam omoguci usmjeravanje paznje na rjesavanje konkretnog problema i pronalaznje 
-rjesenja, umjesto da morate voditi racuna o sintaksi i strukturi programskog jezika
-kao sto je slucaj kod vecine ostalih programskih jezika.
-
-<a name="python-cinjenice"/>
-
-#### Par cinjenica o Python-u:
-* Jednostavan
-* Lak za ucenje
-* Besplatan i Otvorenog Koda
-* Visi programski jezik
-* Prilagodiv na razlicite platforme
-* Interpretiran
-* Objektno orjentisan
-* Prosiriv
-* TBD ...
-
-<a name="python3-vs-python2"/>
-
-#### Python 3 vs. Python 2
-
-Portovanje Python 2 koda u Python 3
-
-https://docs.python.org/3/howto/pyporting.html
-
-<a name="prvi-koraci"/>
-
-### Prvi koraci (DRAFT)
-
-Postoje dva nacina koristenja Python-a kako biste pokrenuli vas kod (TBD: program ili kod). 
-1. koristenjem interaktivnog interpreter komandnog prompta
-1. koristenjem izvornog koda (source code)
-
-#### Koristenjem interpreter prompt-a
-
-Otvorite terminal na vasem operativnom sistemu (TBD: ovo je vec objasnjeno u sekciji instalacija) 
-i pokrenite Python tako sto cete ukucati komandu **python3** i pritisnuti **[Enter]**. 
-Trebalo bi da dobijete Python interpreter prompt, koji izgleda ovako
-
-```python
-Python 3.7.2 (default, Feb 23 2020, 18:31:07) 
-[GCC 5.5.0] on linux
-Type "help", "copyright", "credits" or "license" for more information.
->>> 
-```
-
-Odlicno, sada vec mozete da napisete vas prvi program u Python-u. 
-Nakon znaka **[>>>]** ukucajte:
-
-```python
-Python 3.7.2 (default, Feb 23 2020, 18:31:07) 
-[GCC 5.5.0] on linux
-Type "help", "copyright", "credits" or "license" for more information.
->>> print("Zdravo Svijete!")
-```
-
-i pritisnite **[Enter]**. Trebalo bi dobijete ispisanu recenicu **_Zdravo Svijete!_** u Python
-interpreter prompt-u, nakon cega mozete nastaviti da koristite Python interpreter prompt. 
-```python
-Python 3.7.2 (default, Feb 23 2020, 18:31:07) 
-[GCC 5.5.0] on linux
-Type "help", "copyright", "credits" or "license" for more information.
->>> print("Zdravo Svijete!")
-Zdravo Svijete!
->>> 
-```
-##### Izlazak, napustanje Python interpreter prompt-a
-
-Nakon sto ste testirali vas prvi Python kod, mozemo napustiti intrepreter sa nekom od sledece tri
-komande:
-
-```python
-exit()
-```
-```python
-quit()
-```
-```python
-Kombinacija tastera [Crtl] i tastera [D]
-```
-#### Koristenjem izvornog koda
-
-Kreiramo novi fajl **kod-201-zdravo-svijete.py** i upisemo sledeci sadrzaj
-```python
-print("Zdravo Svijete!")
-```
-
-Sacuvamo fajl **kod-201-zdravo-svijete.py** na zeljenu lokaciju i isti zatvorimo. Sada je
-potrebno otvoriti terminal na vasem operativnom sistemu, pozicionirati se u direktorij gdje
-ste sacuvali kod i izvrsiti komandu
-```shell script
-python kod-201-zdravo-svijete.py
-```
-Trebalo bi da dobijete povratnu poruku na ekranu
-```shell script
-Zdravo Svijete!
-```
-
-Odlicno, sada kada poznajemo na koje nacine mozemo pokrenuti Python program, vrijeme je da
-prijedjemo na zanimljivije stvari koje mozemo uraditi sa Python-om. Slozicete se da je 
-ispisivanje rijeci "Zdravo Svijete!" malo dosadno.
-<a name="osnove-zadaci-za-vjezbu"/>
-
-### Osnove zadaci za vjezbanje
-
-<a name="kod-201-zdravo-svijete.py"/>
-
-Napisati program koji nakon izvrsavanja ispisuje
-
-```
-Ovo je moj prvi program.
-```
-
-Rjesenje: 
-
-**`kod-201-zdravo-svijete.py`**
-
-```python
-print("Ovo je moj prvi program.") 
-```
-
-<a name="kod-202-zdravo-svijete.py"/>
-Napisati program koji nakon izvrsavanja ispisuje
-
-```
-Zdravo
-Svijete
-!
-```
-Rjesenje:
-
-**`kod-202-zdravo-svijete.py`**
-
-```python
-print("Zdravo")
-print("Svijete")
-print("!")
-```
-
 <a name="osnove"/>
 
 ### Osnove
@@ -306,169 +148,96 @@ print('Da li {0} ide u skolu?'.format(ime))
 Petar ima 30 godina.
 Da li Petar ide u skolu?
 ```
-<a name="varijable"/>
 
-### Varijable (DRAFT)
-Kada radimo sa podacima, potrebno ih je organizovati, kontejneri kutije u koje stavlljamo pohranjujemo nase podatke predstavljaju varijable. Sta predstavljaju , zasto su korisne, koje sve vrste (tipove) podataka mozemo smjestiti u varijable.
+##### Objasnjenje
 
-bitno je napomenuti vaznost uvlacenja linija
-<a name="kod-301-varijable.py"/>
+Ocigledno string moze koristiti odredjene specifikacjije, a metod _format_ moze biti
+pozvan upravo da zamijeni ove specifikacije odredjenim argumentima. 
 
-**`kod-301-varijable.py`**
+Primijetimo da unutar string-a koristimo _{0}_ koji odgovara vrijednosti promjenjive
+_ime_ koja je ujedno prvi argument metode _format_. Slicno _{1}_ odgovara vrijednosti promjernjive _godine_ koja je drugi argument metode _format_.
+
+Bitno je napomenuti da Python pocinje brojati od _0_ (nule) sto znaci da prva pozicija
+predstavlja _indeks 0_, druga pozicija _indeks 1_ itd.
+
+**`Primjer`**
+```python
+Brojevi:  0   1   2   3   4   5   6   7   8   9   10  100  201  300  [n]
+
+Indeks:  [0] [1] [2] [3] [4] [5] [6] [7] [8] [9] [10] [11] [12] [13] [n]
+```
+
+Prethodni string mozemo napisati i kao
 
 ```python
-print("Bila mama Kukunka, Kukunka")
-print("Bio tata Taranta, Taranta")
-print("imali su maloga Ju-Ju")
-
-print("Jednom su se setali, setali")
-print("kraj duboke rijeke Nil, rijeke Nil")
-print("gdje je bio velik krokodil")
+print(ime + ' ima ' + str(godine) + ' godina.')
 ```
 
-**`Rezultat`**
-```
-Bila mama Kukunka, Kukunka
-Bio tata Taranta, Taranta
-imali su maloga Ju-Ju
-Jednom su se setali, setali
-kraj duboke rijeke Nil, rijeke Nil
-gdje je bio velik krokodil
-```
-
-<a name="kod-302-varijable.py"/>
-
-**`kod-302-varijable.py`**
+ciji ce rezultat biti identican
 
 ```python
-mama_ime="Kukunka"
-tata_ime="Taranta"
-beba_ime="Ju-Ju"
-rijeka_naziv="Dunav"
-
-print("Bila mama " + mama_ime + ", " + mama_ime)
-print("Bio tata " + tata_ime + ", " + tata_ime)
-print("imali su maloga " + beba_ime)
-
-print("Jednom su se setali, setali")
-print("kraj duboke rijeke " + rijeka_naziv + ", rijeke " + rijeka_naziv)
-print("gdje je bio velik krokodil")
+Petar ima 30 godina.
 ```
 
-**`Rezultat`**
-```
-Bila mama Kukunka, Kukunka
-Bio tata Taranta, Taranta
-imali su maloga Ju-Ju
-Jednom su se setali, setali
-kraj duboke rijeke Dunav, rijeke Dunav
-gdje je bio velik krokodil
-```
+ali primijticete da ovaj nacin pisanja izgeda dosta ruznije i povecava mogucnost greske. 
+Takodje metod _format_ ce automatski izvrsiti konverziju varijable _godine_ u tip string,
+ali dodatno mozemo izmijeniti poruku bez izmejne vrijednosti varijable. TBD.
 
-<a name="osnovne-matematicke-operacije"/>
+Takodje, koristenjem metode _format_ numerisanje unutar same poruke je opcionalno, tako
+da kod moze biti napisan i kao
 
-### Osnovne matematicke operacije
+<a name="kod-207-metod-format.py"/>
 
-#### Cetiri osnovne matematicke operacije
-Cetiri osnovne matematicke operacije predstavljaju
-1. ( + ) sabiranje 
-1. ( - ) oduzimanje
-1. ( * ) mnozenje  
-1. ( / ) dijeljenje
-
-
-<a name="kod-501-osnovne-matematicke-operacije.py"/>
-
-**`kod-501-osnovne-matematicke-operacije.py`**
+**`Primjer: kod-207-metod-format.py`**
 ```python
-print( 3+2 )
-print( 3-2 )
-print( 3*2 )
-print( 3/2 )
-```
+godine = 30
+ime = 'Petar'
 
+print('{} ima {} godina.'.format(ime, godine))
+print('Da li {} ide u skolu?'.format(ime))
+```
 **`Rezultat`**
 ```
-5
-1
-6
-1.5
+Petar ima 30 godina.
+Da li Petar ide u skolu?
 ```
 
-<a name="napredne-matematicke-operacije"/>
+Isti kod moze biti napisan i na nacin da imenujemo parametre
 
-### Napredne matematicke operacije
-Ako damo sebi za pravo da ostale matematicke operacije, osim osnovnih
-nazovemo napredne matematicke operacije imamo sledece primjere u Python-u.
+<a name="kod-208-metod-format.py"/>
 
-#### Modulo operator ( % )
-Modulo operator uzima broj koji se nalazi na lijevoj strani i dijeli ga 
-brojem koji se nalazi na desnoj strani, a zatim kao rezultat vraca cjelobrojni
-ostatak prilikom ovog dijeljenja.
-
-<a name="kod-503-modulo.py"/>
-
-**`kod-503-modulo.py`**
-
+**`Primjer: kod-208-metod-format.py`**
 ```python
-print( 10%3 )
-```
+godine = 30
+ime = 'Petar'
 
+print('{ime_osobe} ima {godine_osobe} godina.'.format(ime_osobe=ime, godine_osobe=godine))
+print('Da li {ime_osobe} ide u skolu?'.format(ime_osobe=ime))
+```
 **`Rezultat`**
 ```
-1
+Petar ima 30 godina.
+Da li Petar ide u skolu?
 ```
 
-<a name="napredne-matematicke-operacije-2"/>
+Sa verzijom Python 3.6 uvodi novi nacin kako mozemo imenovati parametre, skracenom
+verzijom "f-strings"
 
-Pored navedenih primjera, potrebno je napomenuti da Python raspolaze
-sa ogromnom bazom naprednih matematickih operacija koje na jednostavan 
-nacin rjesavaju kompleksne probleme.
+<a name="kod-209-metod-format.py"/>
 
-<a name="kod-505-napredne-matematicke-operacije-primjeri.py"/>
-
-**`kod-505-napredne-matematicke-operacije-primjeri.py`**
+**`Primjer: kod-209-metod-format.py`**
 ```python
-print( 4 * 3 )
-print( 2 * 4 )
-print( 20 % 3 )
-print( 3 + 3 * 3)
-print( 10 / 5.0 )
+godine = 30
+ime = 'Petar'
 
-broj = 20
-broj += 100
-print( broj )
+print(f'{ime} ima {godine} godina.') # Primijetimo 'f' prije definisanja stringa 
+print(f'Da li {ime} ide u skolu?') # Primijetimo 'f' prije definisanja stringa
 ```
-
 **`Rezultat`**
 ```
-12
-8
-2
-12
-2.0
-120
+Petar ima 30 godina.
+Da li Petar ide u skolu?
 ```
-
-<a name="kod-506-math-modul.py"/>
-
-**`kod-506-math-modul.py`**
-
-```python
-import math
-
-print( pow(3,2) )
-print( math.sqrt(9) )
-print( round(4.335) )
-```
-
-**`Rezultat`**
-```
-9
-3.0
-4
-```
-
 <a name="unos-podataka-od-strane-korisnika"/>
 
 Pored navedenih primjera, potrebno je napomenuti da Python raspolaze
