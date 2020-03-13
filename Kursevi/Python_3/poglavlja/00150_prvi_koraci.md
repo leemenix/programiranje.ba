@@ -1,7 +1,7 @@
 
-<a name="osnove"/>
+<a name="prvi-koraci"/>
 
-### Osnove (DRAFT)
+### Prvi koraci (DRAFT)
 
 Postoje dva nacina koristenja Python-a kako biste pokrenuli vas kod (TBD: program ili kod). 
 1. koristenjem interaktivnog interpreter komandnog prompta

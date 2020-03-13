@@ -43,9 +43,9 @@ Portovanje Python 2 koda u Python 3
 
 https://docs.python.org/3/howto/pyporting.html
 
-<a name="osnove"/>
+<a name="prvi-koraci"/>
 
-### Osnove (DRAFT)
+### Prvi koraci (DRAFT)
 
 Postoje dva nacina koristenja Python-a kako biste pokrenuli vas kod (TBD: program ili kod). 
 1. koristenjem interaktivnog interpreter komandnog prompta
@@ -157,6 +157,132 @@ print("Svijete")
 print("!")
 ```
 
+<a name="osnove"/>
+
+### Osnove
+
+U ovoj sekciji cemo nauciti kako dinamicno unositi, manipulisati i ispisivati sadrzaj u Python-u.
+Ovo cemo postici koristeci konstante i varijable, ali cemo i nauciti osnovne koncepte Python-a.
+
+<a name="komentari"/>
+
+#### Komentari
+
+_Komentari_ predstavljaju bilo koji skup karakter koji se nalaze iza znaka `#` i veoma su korisni
+prilikom pisanje koda. Zamislite da pisete program od 300 linija koda i nakon par godina se vratite 
+da uradite sitne izmjene u programu ili da neko drugi odluci odrzavati vas program. Ako nemate dobru 
+dokumentaciju, moracete sve proci iz pocetka, sto ce vam u najmanju ruku uzeti vrijeme ali cete 
+izgledati ne profesionalno. 
+Zato je zlatno pravilo programiranja, kada god je to potrebno (ovo cete nauciti iskustvom) pisite
+komentare!
+
+**`Primjer`** 
+```python
+print('Zdravo Svijete!') # sve poslije znaka '#' je komentar
+```
+
+ili
+```python
+# sve poslije znaka '#' je komentar
+print('Zdravo Svijete!')
+```
+
+Kada koristimo komentare:
+* objasnjenje predpostavki
+* objasnjenje vaznih odluka unutar programa
+* objasnjenje vaznih detalja
+* objasnjenje problema koji rjesavamo
+* objasnjenje samog programa
+
+Postoji pravilo koje kaze:
+**`Kod vam kaze kako, komentai bi trebali reci zasto.`**
+
+<a name="Konstante"/>
+
+#### Konstante
+
+Primjer _konstanti_ su brojevi kao 1, 10, 23.3, rijeci 'Zdravo svijete' ili kombinacija
+karaktera 'Zdravo svijete!'. 
+Zovemo ih konstante jer koristimo njihovu vrijednost u programu onakvim kakva je zadata.
+Vrijednost broja 2 predstavlja samog sebe i ne moze biti promijenjena. 
+ 
+<a name="brojevi"/>
+
+#### Brojevi
+
+_Brojevi_ su podijeljeni u dva tipa 
+* cjelobrojni (integer)
+* brojevi sa pokretnim zarezom (float)
+
+**`Primjer: cjelobrojni brojevi`**
+```python
+1
+23
+49
+200
+```
+
+**`Primjer: brojevi sa pokretnim zarezom`**
+```python
+3.14
+32.23241
+25.4E-3 (E predstavlja vrijednost na 10-tu) -> 25.4 * 10^-3^
+```
+
+<a name="stringovi"/>
+
+#### Stringovi
+
+_Stringovi_ predstavljaju niz karaktera. Jos jednostavnije vise rijeci predstavlja string.
+Kako su stringovi sveprisutni kroz cijeli kurs Python programiranje, bitno je da dobro 
+razumijete ovo poglavlje.
+
+##### Stringovi izmedju apostrofa
+
+Mozemo koristiti apostrofe _' '_ da bismo formirali string.
+
+**`Primjer`**
+```python
+'Ovo je string.'
+```
+
+##### Stringovi izmedju navodnika 
+
+Isto tako mozemo koristiti navodnike _" "_ da bismo formirali string.
+
+**`Primjer`**
+```python
+"Ovo je string."
+```
+
+Sigurno se pitate, pa u cemu je razlika izmedju apostrofa i navodnika? Hajde da
+jednostavno kazemo da nema razlike, mozete koristiti i jednu i drugu opciju, ali
+prakticna primjena je u slucaju kada trebate ispisati jedan od ova dva znaka 
+unutar stringa. 
+
+**`Primjer`**
+```python
+"Ovo je string. Koji sadrzi rijec 'Nova Godina' unutar apostrofa"
+```
+
+Uvijek morate voditi racuna da imate otvorene i zatvorene znakove apostrofa ili navodnika
+prilikom pisanja koda. 
+
+##### Stringovi izmedju trostrukih apostrofa ili navodnika
+
+U slucaju da zelite viselinijski string tada je potrebno koristiti trostruke apostrofe
+_''' '''_ ili navodnike _""" """_. U ovom slucaju mozete koristiti proizvoljan broj 
+apostrofa ili navodnika unutar stringa.
+
+**`Primjer`**
+```python
+'''
+Ovo je multilinijski string. 
+Koji sadrzi rijec 'Nova Godina' unutar apostrofa
+ali i rijec "Stara Godina" unutar navodnika
+'''
+```
+
 <a name="varijable"/>
 
 ### Varijable (DRAFT)
@@ -215,20 +341,6 @@ Jednom su se setali, setali
 kraj duboke rijeke Dunav, rijeke Dunav
 gdje je bio velik krokodil
 ```
-
-<a name="stringovi"/>
-
-### Stringovi (DRAFT)
-Kada radimo sa podacima, potrebno ih je organizovati, kontejneri kutije u koje stavlljamo pohranjujemo nase podatke predstavljaju varijable. Sta predstavljaju , zasto su korisne, koje sve vrste (tipove) podataka mozemo smjestiti u varijable.
-
-
-
-<a name="operacije-nad-stringovima"/>
-
-#### Operacije nad stringovima
-Kada radimo sa podacima, potrebno ih je organizovati, kontejneri kutije u koje stavlljamo pohranjujemo nase podatke predstavljaju varijable. Sta predstavljaju , zasto su korisne, koje sve vrste (tipove) podataka mozemo smjestiti u varijable.
-
-
 
 <a name="osnovne-matematicke-operacije"/>
 
