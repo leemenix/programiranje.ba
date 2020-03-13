@@ -237,10 +237,9 @@ Cetiri osnovne matematicke operacije predstavljaju
 1. ( / ) dijeljenje
 
 
-<a name="osnovne-matematicke-operacije"/>
+<a name="kod-501-osnovne-matematicke-operacije.py"/>
 
-### program-xx - osnovne-matematicke-operacije.py
-
+**`kod-501-osnovne-matematicke-operacije.py`**
 ```python
 print( 3+2 )
 print( 3-2 )
@@ -248,7 +247,7 @@ print( 3*2 )
 print( 3/2 )
 ```
 
-**Output:**
+**`Rezultat`**
 ```
 5
 1
@@ -266,9 +265,6 @@ nazovemo napredne matematicke operacije imamo sledece primjere u Python-u.
 Modulo operator uzima broj koji se nalazi na lijevoj strani i dijeli ga 
 brojem koji se nalazi na desnoj strani, a zatim kao rezultat vraca cjelobrojni
 ostatak prilikom ovog dijeljenja.
-
-
-
 
 <a name="modulo"/>
 
@@ -289,11 +285,9 @@ Pored navedenih primjera, potrebno je napomenuti da Python raspolaze
 sa ogromnom bazom naprednih matematickih operacija koje na jednostavan 
 nacin rjesavaju kompleksne probleme.
 
+<a name="kod-505-napredne-matematicke-operacije-primjeri.py"/>
 
-<a name="napredne-matematicke-operacije-primjeri"/>
-
-### program-xx - napredne-matematicke-operacije-primjeri.py
-
+**`kod-505-napredne-matematicke-operacije-primjeri.py`**
 ```python
 print( 4 * 3 )
 print( 2 * 4 )
@@ -306,7 +300,7 @@ broj += 100
 print( broj )
 ```
 
-**Output:**
+**`Rezultat`**
 ```
 12
 8

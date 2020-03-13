@@ -9,6 +9,3 @@ nazovemo napredne matematicke operacije imamo sledece primjere u Python-u.
 Modulo operator uzima broj koji se nalazi na lijevoj strani i dijeli ga 
 brojem koji se nalazi na desnoj strani, a zatim kao rezultat vraca cjelobrojni
 ostatak prilikom ovog dijeljenja.
-
-
-

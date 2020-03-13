@@ -1,8 +1,7 @@
 
-<a name="napredne-matematicke-operacije-primjeri"/>
+<a name="kod-505-napredne-matematicke-operacije-primjeri.py"/>
 
-### program-xx - napredne-matematicke-operacije-primjeri.py
-
+**`kod-505-napredne-matematicke-operacije-primjeri.py`**
 ```python
 print( 4 * 3 )
 print( 2 * 4 )
@@ -15,7 +14,7 @@ broj += 100
 print( broj )
 ```
 
-**Output:**
+**`Rezultat`**
 ```
 12
 8
