@@ -130,7 +130,9 @@ Napisati program koji nakon izvrsavanja ispisuje
 ```
 Ovo je moj prvi program.
 ```
-Rjesenje: **`kod-201-zdravo-svijete.py`**
+
+Rjesenje: 
+**`kod-201-zdravo-svijete.py`**
 
 ```python
 print("Ovo je moj prvi program.") 
@@ -138,13 +140,14 @@ print("Ovo je moj prvi program.")
 
 <a name="kod-202-zdravo-svijete.py"/>
 Napisati program koji nakon izvrsavanja ispisuje
-**`Rezultat`**
+
 ```
 Zdravo
 Svijete
 !
 ```
 Rjesenje:
+
 **`kod-202-zdravo-svijete.py`**
 
 ```python
