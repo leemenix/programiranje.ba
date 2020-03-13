@@ -144,6 +144,33 @@ Pocastite se kafom ;)
 Kraj while petlje
 Kraj
 ```
+<a name="for-petlja"/>
+
+### `for` petlja (DRAFT)
+
+_for..in_ je jos jedan primjer petlje koja prolazi kroz prolazi kroz sekvencu (niz) (TBD) 
+objekata. Iako ce kasnije biti rijeci o sekvencama, za sad je bitno da znate da 
+sekvence predstaljaju kolekciju stavki u odredjenom rasporedu.
+
+<a name="kod-806-for-petlja.py"/>
+
+**`Primjer: kod-806-for-petlja.py`**
+```python
+for broj in range(10, 15):
+	print(broj)
+```
+
+**`Rezultat:`**
+```
+$ python kod-806-for-petlja.py
+10
+11
+12
+13
+14
+Kraj for petlje!
+```
+
 <a name="moduli"/>
 
 ### Moduli
