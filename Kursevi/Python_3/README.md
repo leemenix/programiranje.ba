@@ -615,19 +615,4 @@ Dictionaries
 Funkcije i uslovi
 Return statement
 
-Prijedlozi koje tekst editore koristiti (Sublime, MS Code ...)#### Pravila pisanja
-
-* Prva i zadnja linija fajla mora biti prazna
-* Za naslove koristimo tri tarabe "###"
-mama_ime="Kukunka"
-tata_ime="Taranta"
-beba_ime="Ju-Ju"
-rijeka_naziv="Dunav"
-
-print("Bila mama " + mama_ime + ", " + mama_ime)
-print("Bio tata " + tata_ime + ", " + tata_ime)
-print("imali su maloga " + beba_ime)
-
-print("Jednom su se setali, setali")
-print("kraj duboke rijeke " + rijeka_naziv + ", rijeke " + rijeka_naziv)
-print("gdje je bio velik krokodil")
+Prijedlozi koje tekst editore koristiti (Sublime, MS Code ...)
