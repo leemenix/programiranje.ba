@@ -1,8 +1,7 @@
 
-<a name="interakcija-sa-korisnikom"/>
+<a name="kod-601-interakcija-sa-korisnikom.py"/>
 
-### program-xx - interakcija-sa-korisnikom.py
-
+**`kod-601-interakcija-sa-korisnikom.py`**
 ```python
 trenutna_godina = 2020
 ime = input("Unesite ime: ")
@@ -14,7 +13,7 @@ print("Trenutno imate " + str(2020 - godina_rodjenja) + " godina")
 print("Hvala sto ste koristili ovaj program")
 ```
 
-**Output:**
+**`Rezultat`**
 ```
 Unesite ime: Miladin
 Unesite prezime: Sobic

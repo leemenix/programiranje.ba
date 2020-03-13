@@ -1,7 +1,7 @@
 
-<a name="math-modul"/>
+<a name="kod-506-math-modul.py"/>
 
-### program-xx - math-modul.py
+**`kod-506-math-modul.py`**
 
 ```python
 import math
@@ -11,7 +11,7 @@ print( math.sqrt(9) )
 print( round(4.335) )
 ```
 
-**Output:**
+**`Rezultat`**
 ```
 9
 3.0

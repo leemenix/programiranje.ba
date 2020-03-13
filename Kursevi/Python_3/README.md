@@ -266,15 +266,15 @@ Modulo operator uzima broj koji se nalazi na lijevoj strani i dijeli ga
 brojem koji se nalazi na desnoj strani, a zatim kao rezultat vraca cjelobrojni
 ostatak prilikom ovog dijeljenja.
 
-<a name="modulo"/>
+<a name="kod-503-modulo.py"/>
 
-### program-xx - modulo.py
+**`kod-503-modulo.py`**
 
 ```python
 print( 10%3 )
 ```
 
-**Output:**
+**`Rezultat`**
 ```
 1
 ```
@@ -310,9 +310,9 @@ print( broj )
 120
 ```
 
-<a name="math-modul"/>
+<a name="kod-506-math-modul.py"/>
 
-### program-xx - math-modul.py
+**`kod-506-math-modul.py`**
 
 ```python
 import math
@@ -322,7 +322,7 @@ print( math.sqrt(9) )
 print( round(4.335) )
 ```
 
-**Output:**
+**`Rezultat`**
 ```
 9
 3.0
@@ -336,10 +336,9 @@ sa ogromnom bazom naprednih matematickih operacija koje na jednostavan
 nacin rjesavaju kompleksne probleme.
 
 
-<a name="interakcija-sa-korisnikom"/>
+<a name="kod-601-interakcija-sa-korisnikom.py"/>
 
-### program-xx - interakcija-sa-korisnikom.py
-
+**`kod-601-interakcija-sa-korisnikom.py`**
 ```python
 trenutna_godina = 2020
 ime = input("Unesite ime: ")
@@ -351,7 +350,7 @@ print("Trenutno imate " + str(2020 - godina_rodjenja) + " godina")
 print("Hvala sto ste koristili ovaj program")
 ```
 
-**Output:**
+**`Rezultat`**
 ```
 Unesite ime: Miladin
 Unesite prezime: Sobic
