@@ -400,7 +400,7 @@ if pokusaj == broj:
 	# prvi blok izraza pocinje ovde
 	print('Cestitamo, pogodili ste broj.')
 	print('Pocastite se kafom ;)')
-    # prvi blok izraza zavrsava ovde
+	# prvi blok izraza zavrsava ovde
 
 elif pokusaj < broj:
 	# drugi blok izraza pocinje ovde
@@ -525,8 +525,16 @@ uporedi(6,2)
 ### Tipovi podataka
 <a name="strukture-podataka"/>
 
-### Strukture podataka
+### Strukture podataka (DRAFT)
 
+Strukture podataka u Python-u predstavljaju upravo to, strukture kao nosioce podataka
+zajedno. 
+
+Postoje cetiri ugradjene (built-in) strukture u Python-u i to:
+1. List (Liste)
+1. Tuple (Tuple :)
+1. Dictionary (Rijecnici)
+1. Set (Setovi)
 
 <a name="rjesavanje-problema"/>
 
@@ -540,9 +548,42 @@ uporedi(6,2)
 
 <a name="izuzeci"/>
 
-### Exceptions (Izuzeci?)
+### Exceptions (Izuzeci?) (DRAFT)
 
+Exception (Izuzeci) se pojavljuju kada se desi neka posebna situacija prilikom izvrsenja
+programa. Recimo program pokusava da cita fajl na disku, ali fajl ne postoji ili je pod
+drugim imenom? 
+Slicno, sta ako u programu postoji neka sintaksna greska? Python ce nas upozoriti i 
+dobicemo poruku o gresci (error).
 
+### Greske
+
+Uzmimo za primjer funkciju `print`. Sta ce se desiti ako umjesto `print` pozovemo `Print`?
+Primijeticete da smo u ovom slucaju koristili prvo veliko slovo, sto nikako nije ispravno.
+
+<a name="greske"/>
+
+### Greske
+
+Uzmimo za primjer funkciju `print`. Sta ce se desiti ako umjesto `print` pozovemo `Print`?
+Primijeticete da smo u ovom slucaju koristili prvo veliko slovo, sto nikako nije ispravno.
+U ovom slucaju, Python ce nas upozoriti i dobicemo poruku o gresci.
+
+<a name="kod-1502-greska-print.py"/>
+
+**`kod-1502-greska-print.py`**
+```python
+Print("Da li je ovo bilo ispravno?")
+```
+
+**`Rezultat`**
+```
+$ python kod-1502-greska-print.py
+Traceback (most recent call last):
+  File "kod.py", line 1, in <module>
+    Print("Da li je ovo bilo ispravno?")
+NameError: name 'Print' is not defined
+```
 
 <a name="standardne-bibliotke"/>
 
@@ -684,3 +725,18 @@ Return statement
 
 Prijedlozi koje tekst editore koristiti (Sublime, MS Code ...)
 
+Naglasiti vaznost engleskog jezika, kao i to da neki nazivi jednostavno
+ne mogu bit prevedeni
+
+The Software Development Process
+
+We have now gone through the various phases in the process of writing a software. These phases can be summarised as follows:
+
+    What (Analysis)
+    How (Design)
+    Do It (Implementation)
+    Test (Testing and Debugging)
+    Use (Operation or Deployment)
+    Maintain (Refinement)
+
+Show Kanban and Scrum

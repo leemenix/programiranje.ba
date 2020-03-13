@@ -10,7 +10,7 @@ if pokusaj == broj:
 	# prvi blok izraza pocinje ovde
 	print('Cestitamo, pogodili ste broj.')
 	print('Pocastite se kafom ;)')
-    # prvi blok izraza zavrsava ovde
+	# prvi blok izraza zavrsava ovde
 
 elif pokusaj < broj:
 	# drugi blok izraza pocinje ovde
