@@ -11,18 +11,19 @@ _Ver._ **DRAFT**
 
 ### Uvod - par rijeci o programskom jeziku Python
 
-Ovaj kurs ima za cilj da vas nauci osnove programiranja u programskom jeziku Python 3. 
-Nakon sto prijedjete kompletan kurs, trebali biste biti u mogucnosti da samostalno 
-kreirate programe i lako prijedjete na napredniji nivo programiranja. Takodje, bicete 
-u mogucnosti da prilagodite, prepravite Python kod sa prethodne verzije Python 2 u 
-Python 3 verziju.
+Ovaj kurs ima za cilj da vas nauci osnove programiranja u programskom jeziku
+Python 3. Nakon sto prijedjete kompletan kurs, trebali biste biti u mogucnosti
+da samostalno kreirate programe i lako prijedjete na napredniji nivo
+programiranja. Takodje, bicete u mogucnosti da prilagodite, prepravite Python
+kod sa prethodne verzije Python 2 u Python 3 verziju.
 
-Python je jedan od rijetkih programskih jezika, koji je u isto vrijeme jednostavan i 
-mocan. Nemojte se iznenaditi ako vam ucenje Python programskog jezika ide veoma lako
-i brzo savladavate lekcije, jer to i jeste cilj Python-a kao programskog jezika, da 
-vam omoguci usmjeravanje paznje na rjesavanje konkretnog problema i pronalaznje 
-rjesenja, umjesto da morate voditi racuna o sintaksi i strukturi programskog jezika
-kao sto je slucaj kod vecine ostalih programskih jezika.
+Python je jedan od rijetkih programskih jezika, koji je u isto vrijeme
+jednostavan i mocan. Nemojte se iznenaditi ako vam ucenje Python programskog
+jezika ide veoma lako i brzo savladavate lekcije, jer to i jeste cilj Python-a
+kao programskog jezika, da vam omoguci usmjeravanje paznje na rjesavanje
+konkretnog problema i pronalaznje rjesenja, umjesto da morate voditi racuna o
+sintaksi i strukturi programskog jezika kao sto je slucaj kod vecine ostalih
+programskih jezika.
 
 <a name="python-cinjenice"/>
 
@@ -49,42 +50,46 @@ https://docs.python.org/3/howto/pyporting.html
 
 ### Prvi koraci (DRAFT)
 
-Postoje dva nacina koristenja Python-a kako biste pokrenuli vas kod (TBD: program ili kod). 
+Postoje dva nacina koristenja Python-a kako biste pokrenuli vas kod (TBD:
+program ili kod).
 1. koristenjem interaktivnog interpreter komandnog prompta
 1. koristenjem izvornog koda (source code)
 
 #### Koristenjem interpreter prompt-a
 
-Otvorite terminal na vasem operativnom sistemu (TBD: ovo je vec objasnjeno u sekciji instalacija) 
-i pokrenite Python tako sto cete ukucati komandu **python3** i pritisnuti **[Enter]**. 
-Trebalo bi da dobijete Python interpreter prompt, koji izgleda ovako
+Otvorite terminal na vasem operativnom sistemu (TBD: ovo je vec objasnjeno u
+sekciji instalacija)
+i pokrenite Python tako sto cete ukucati komandu **python3** i pritisnuti
+**[Enter]**. Trebalo bi da dobijete Python interpreter prompt, koji izgleda
+ovako
 
 ```python
-Python 3.7.2 (default, Feb 23 2020, 18:31:07) 
+Python 3.7.2 (default, Feb 23 2020, 18:31:07)
 [GCC 5.5.0] on linux
 Type "help", "copyright", "credits" or "license" for more information.
->>> 
+>>>
 ```
 
-Odlicno, sada vec mozete da napisete vas prvi program u Python-u. 
+Odlicno, sada vec mozete da napisete vas prvi program u Python-u.
 Nakon znaka **[>>>]** ukucajte:
 
 ```python
-Python 3.7.2 (default, Feb 23 2020, 18:31:07) 
+Python 3.7.2 (default, Feb 23 2020, 18:31:07)
 [GCC 5.5.0] on linux
 Type "help", "copyright", "credits" or "license" for more information.
 >>> print("Zdravo Svijete!")
 ```
 
-i pritisnite **[Enter]**. Trebalo bi dobijete ispisanu recenicu **_Zdravo Svijete!_** u Python
-interpreter prompt-u, nakon cega mozete nastaviti da koristite Python interpreter prompt. 
+i pritisnite **[Enter]**. Trebalo bi dobijete ispisanu recenicu
+**_Zdravo Svijete!_** u Python-u
+interpreter prompt-u, nakon cega mozete nastaviti da koristite Python interpreter prompt.
 ```python
-Python 3.7.2 (default, Feb 23 2020, 18:31:07) 
+Python 3.7.2 (default, Feb 23 2020, 18:31:07)
 [GCC 5.5.0] on linux
 Type "help", "copyright", "credits" or "license" for more information.
 >>> print("Zdravo Svijete!")
 Zdravo Svijete!
->>> 
+>>>
 ```
 ##### Izlazak, napustanje Python interpreter prompt-a
 
@@ -119,8 +124,9 @@ Zdravo Svijete!
 ```
 
 Odlicno, sada kada poznajemo na koje nacine mozemo pokrenuti Python program, vrijeme je da
-prijedjemo na zanimljivije stvari koje mozemo uraditi sa Python-om. Slozicete se da je 
+prijedjemo na zanimljivije stvari koje mozemo uraditi sa Python-om. Slozicete se da je
 ispisivanje rijeci "Zdravo Svijete!" malo dosadno.
+
 <a name="osnove-zadaci-za-vjezbu"/>
 
 ### Osnove zadaci za vjezbanje
@@ -163,22 +169,24 @@ print("!")
 
 ### Osnove
 
-U ovoj sekciji cemo nauciti kako dinamicno unositi, manipulisati i ispisivati sadrzaj u Python-u.
-Ovo cemo postici koristeci konstante i varijable, ali cemo i nauciti osnovne koncepte Python-a.
+U ovoj sekciji cemo nauciti kako dinamicno unositi, manipulisati i ispisivati
+sadrzaj u Python-u.
+Ovo cemo postici koristeci konstante i varijable, ali cemo i nauciti osnovne
+koncepte Python-a.
 
 <a name="komentari"/>
 
 #### Komentari
 
-_Komentari_ predstavljaju bilo koji skup karakter koji se nalaze iza znaka `#` i veoma su korisni
-prilikom pisanje koda. Zamislite da pisete program od 300 linija koda i nakon par godina se vratite 
-da uradite sitne izmjene u programu ili da neko drugi odluci odrzavati vas program. Ako nemate dobru 
-dokumentaciju, moracete sve proci iz pocetka, sto ce vam u najmanju ruku uzeti vrijeme ali cete 
-izgledati ne profesionalno. 
-Zato je zlatno pravilo programiranja, kada god je to potrebno (ovo cete nauciti iskustvom) pisite
-komentare!
+_Komentari_ predstavljaju bilo koji skup karakter koji se nalaze iza znaka `#`
+i veoma su korisni prilikom pisanje koda. Zamislite da pisete program od 300
+linija koda i nakon par godina se vratite  da uradite sitne izmjene u programu
+ili da neko drugi odluci odrzavati vas program. Ako nemate dobru dokumentaciju,
+moracete sve proci iz pocetka, sto ce vam u najmanju ruku uzeti vrijeme ali
+cete izgledati ne profesionalno.
+Zato je zlatno pravilo programiranja, kada god je to potrebno (ovo cete nauciti iskustvom) pisite komentare!
 
-**`Primjer`** 
+**`Primjer`**
 ```python
 print('Zdravo Svijete!') # sve poslije znaka '#' je komentar
 ```
@@ -197,17 +205,19 @@ Kada koristimo komentare:
 * objasnjenje samog programa
 
 Postoji pravilo koje kaze:
+
 **`Kod vam kaze kako, komentai bi trebali reci zasto.`**
 
 <a name="Konstante"/>
 
 #### Konstante
 
-Primjer _konstanti_ su brojevi kao 1, 10, 23.3, rijeci 'Zdravo svijete' ili kombinacija
-karaktera 'Zdravo svijete!'. 
-Zovemo ih konstante jer koristimo njihovu vrijednost u programu onakvim kakva je zadata.
-Vrijednost broja 2 predstavlja samog sebe i ne moze biti promijenjena. 
- 
+Primjer _konstanti_ su brojevi kao 1, 10, 23.3, rijeci 'Zdravo svijete' ili
+kombinacija karaktera 'Zdravo svijete!'.
+Zovemo ih konstante jer koristimo njihovu vrijednost u programu onakvim kakva
+je zadata. Vrijednost broja 2 predstavlja samog sebe i ne moze biti
+promijenjena.
+
 <a name="brojevi"/>
 
 #### Brojevi
@@ -235,9 +245,9 @@ _Brojevi_ su podijeljeni u dva tipa
 
 #### Stringovi
 
-_Stringovi_ predstavljaju niz karaktera. Jos jednostavnije vise rijeci predstavlja string.
-Kako su stringovi sveprisutni kroz cijeli kurs Python programiranje, bitno je da dobro 
-razumijete ovo poglavlje.
+_Stringovi_ predstavljaju niz karaktera. Jos jednostavnije vise rijeci
+predstavlja string. Kako su stringovi sveprisutni kroz cijeli kurs Python
+programiranje, bitno je da dobro razumijete ovo poglavlje.
 
 ##### Stringovi izmedju apostrofa
 
@@ -248,7 +258,7 @@ Mozemo koristiti apostrofe _' '_ da bismo formirali string.
 'Ovo je string.'
 ```
 
-##### Stringovi izmedju navodnika 
+##### Stringovi izmedju navodnika
 
 Isto tako mozemo koristiti navodnike _" "_ da bismo formirali string.
 
@@ -258,9 +268,9 @@ Isto tako mozemo koristiti navodnike _" "_ da bismo formirali string.
 ```
 
 Sigurno se pitate, pa u cemu je razlika izmedju apostrofa i navodnika? Hajde da
-jednostavno kazemo da nema razlike, mozete koristiti i jednu i drugu opciju, ali
-prakticna primjena je u slucaju kada trebate ispisati jedan od ova dva znaka 
-unutar stringa. 
+jednostavno kazemo da nema razlike, mozete koristiti i jednu i drugu opciju,
+ali prakticna primjena je u slucaju kada trebate ispisati jedan od ova dva
+znaka unutar stringa.
 
 **`Primjer`**
 ```python
@@ -268,30 +278,30 @@ unutar stringa.
 ```
 
 Uvijek morate voditi racuna da imate otvorene i zatvorene znakove apostrofa ili navodnika
-prilikom pisanja koda. 
+prilikom pisanja koda.
 
 ##### Stringovi izmedju trostrukih apostrofa ili navodnika
 
 U slucaju da zelite viselinijski string tada je potrebno koristiti trostruke apostrofe
-_''' '''_ ili navodnike _""" """_. U ovom slucaju mozete koristiti proizvoljan broj 
+_''' '''_ ili navodnike _""" """_. U ovom slucaju mozete koristiti proizvoljan broj
 apostrofa ili navodnika unutar stringa.
 
 **`Primjer`**
 ```python
 '''
-Ovo je multilinijski string. 
+Ovo je multilinijski string.
 Koji sadrzi rijec 'Nova Godina' unutar apostrofa
 ali i rijec "Stara Godina" unutar navodnika
 '''
 ```
 
-_Stringovi_ su nepromjenjivi, sto znaci jednom kad ih kreirate, vise ih ne mozete promijeniti. Iako ovo zvuci kao losa ideja, zaista nije. Kasnije cemo vidjeti kako 
-ovo ne predstavlja nikakvo ogranicenje prilikom programiranja. 
+_Stringovi_ su nepromjenjivi, sto znaci jednom kad ih kreirate, vise ih ne mozete promijeniti. Iako ovo zvuci kao losa ideja, zaista nije. Kasnije cemo vidjeti kako
+ovo ne predstavlja nikakvo ogranicenje prilikom programiranja.
 
 ##### Metod 'format'
 
-Ponekad zelimo kreirati string iz razlicitih izvora. Ovde nam u pomoc uskace metod 
-_format_. 
+Ponekad zelimo kreirati string iz razlicitih izvora. Ovde nam u pomoc uskace metod
+_format_.
 
 <a name="kod-205-metod-format.py"/>
 
@@ -311,14 +321,16 @@ Da li Petar ide u skolu?
 
 ##### Objasnjenje
 
-Ocigledno string moze koristiti odredjene specifikacjije, a metod _format_ moze biti
-pozvan upravo da zamijeni ove specifikacije odredjenim argumentima. 
+Ocigledno string moze koristiti odredjene specifikacjije, a metod _format_ moze
+biti pozvan upravo da zamijeni ove specifikacije odredjenim argumentima.
 
-Primijetimo da unutar string-a koristimo _{0}_ koji odgovara vrijednosti promjenjive
-_ime_ koja je ujedno prvi argument metode _format_. Slicno _{1}_ odgovara vrijednosti promjernjive _godine_ koja je drugi argument metode _format_.
+Primijetimo da unutar string-a koristimo _{0}_ koji odgovara vrijednosti
+promjenjive _ime_ koja je ujedno prvi argument metode _format_. Slicno _{1}_
+odgovara vrijednosti promjernjive _godine_ koja je drugi argument metode
+_format_.
 
-Bitno je napomenuti da Python pocinje brojati od _0_ (nule) sto znaci da prva pozicija
-predstavlja _indeks 0_, druga pozicija _indeks 1_ itd.
+Bitno je napomenuti da Python pocinje brojati od _0_ (nule) sto znaci da prva
+pozicija predstavlja _indeks 0_, druga pozicija _indeks 1_ itd.
 
 **`Primjer`**
 ```python
@@ -339,9 +351,10 @@ ciji ce rezultat biti identican
 Petar ima 30 godina.
 ```
 
-ali primijticete da ovaj nacin pisanja izgeda dosta ruznije i povecava mogucnost greske. 
-Takodje metod _format_ ce automatski izvrsiti konverziju varijable _godine_ u tip string,
-ali dodatno mozemo izmijeniti poruku bez izmejne vrijednosti varijable. TBD.
+ali primijticete da ovaj nacin pisanja izgeda dosta ruznije i povecava
+mogucnost greske. Takodje metod _format_ ce automatski izvrsiti konverziju
+varijable _godine_ u tip string, ali dodatno mozemo izmijeniti poruku bez
+izmejne vrijednosti varijable. TBD.
 
 Takodje, koristenjem metode _format_ numerisanje unutar same poruke je opcionalno, tako
 da kod moze biti napisan i kao
@@ -390,7 +403,7 @@ verzijom "f-strings"
 godine = 30
 ime = 'Petar'
 
-print(f'{ime} ima {godine} godina.') # Primijetimo 'f' prije definisanja stringa 
+print(f'{ime} ima {godine} godina.') # Primijetimo 'f' prije definisanja stringa
 print(f'Da li {ime} ide u skolu?') # Primijetimo 'f' prije definisanja stringa
 ```
 **`Rezultat`**
@@ -398,6 +411,7 @@ print(f'Da li {ime} ide u skolu?') # Primijetimo 'f' prije definisanja stringa
 Petar ima 30 godina.
 Da li Petar ide u skolu?
 ```
+
 <a name="varijable"/>
 
 ### Varijable (DRAFT)
@@ -612,7 +626,7 @@ za kontrolu toka i to:
 
 <a name="if-komanda"/>
 
-### `if` komanda (DRAFT)
+#### `if` komanda (DRAFT)
 
 Izraz `if` se koristi za provjeru uslova: `if` ako je izraz tacan `true`, onda izvrsi
 blok naredbi (tzv. `if-block`, `else` u suprotnom izvrsi drugi blok naredbi (tzv. `else-block`). Bitno je napomenuti da je `else-block` opcionalan. 
@@ -674,11 +688,11 @@ Kraj!
 
 <a name="while-naredba"/>
 
-### `while` naredba (DRAFT)
+#### `while` naredba (DRAFT)
 
 Naredba `while` nam sluzi kada zelimo da izvrsavamo blok koda sve dok je uslov ispunjen, odnosno tacan. Naredba `while` je primjer onoga sto nazivamo `petlja` u programiranju.
 Naredba `while` moze imati opcionu `else` klauzulu.
- 
+
 <a name="kod-804-while-naredba.py"/>
 
 **`Primjer: kod-804-while-naredba.py`**
@@ -739,7 +753,7 @@ Kraj
 ```
 <a name="for-petlja"/>
 
-### `for` petlja (DRAFT)
+#### `for` petlja (DRAFT)
 
 _for..in_ je jos jedan primjer petlje koja prolazi kroz prolazi kroz sekvencu (niz) (TBD) 
 objekata. Iako ce kasnije biti rijeci o sekvencama, za sad je bitno da znate da 
@@ -846,8 +860,8 @@ uporedi(6,2)
 
 ### Strukture podataka (DRAFT)
 
-Strukture podataka u Python-u predstavljaju upravo to, strukture kao nosioce podataka
-zajedno. 
+Strukture podataka u Python-u predstavljaju upravo to, strukture kao nosioce
+podataka zajedno.
 
 Postoje cetiri ugradjene (built-in) strukture u Python-u i to:
 1. List (Liste)
@@ -882,9 +896,9 @@ Primijeticete da smo u ovom slucaju koristili prvo veliko slovo, sto nikako nije
 U ovom slucaju, Python ce nas upozoriti i dobicemo poruku o gresci.
 
 
-<a name="greske"/>
+<a name="hvatanje-greske"/>
 
-### Greske
+### Hvatanje greske (exception)
 
 Uzmimo za primjer funkciju `print`. Sta ce se desiti ako umjesto `print` pozovemo `Print`?
 Primijeticete da smo u ovom slucaju koristili prvo veliko slovo, sto nikako nije ispravno.
@@ -1112,8 +1126,8 @@ Kliknite na Project interpreter i podesite Base interpreter
 
 ### Ulaz/Izlaz
 
-U situaciji kada je potrebno vrsiti interakciju sa korisnikom, ali i
-u situaciji kada je potrebno vrsiti upis i ispis u i iz fajlova.
+U situaciji kada je potrebno vrsiti interakciju sa korisnikom, ali i u
+situaciji kada je potrebno vrsiti upis i ispis u i iz fajlova.
 
 
 <a name="ulaz"/>

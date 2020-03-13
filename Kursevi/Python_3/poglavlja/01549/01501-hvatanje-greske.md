@@ -1,7 +1,7 @@
 
-<a name="greske"/>
+<a name="hvatanje-greske"/>
 
-### Greske
+### Hvatanje greske (exception)
 
 Uzmimo za primjer funkciju `print`. Sta ce se desiti ako umjesto `print` pozovemo `Print`?
 Primijeticete da smo u ovom slucaju koristili prvo veliko slovo, sto nikako nije ispravno.

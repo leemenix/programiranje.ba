@@ -1,14 +1,16 @@
 
 ##### Objasnjenje
 
-Ocigledno string moze koristiti odredjene specifikacjije, a metod _format_ moze biti
-pozvan upravo da zamijeni ove specifikacije odredjenim argumentima. 
+Ocigledno string moze koristiti odredjene specifikacjije, a metod _format_ moze
+biti pozvan upravo da zamijeni ove specifikacije odredjenim argumentima.
 
-Primijetimo da unutar string-a koristimo _{0}_ koji odgovara vrijednosti promjenjive
-_ime_ koja je ujedno prvi argument metode _format_. Slicno _{1}_ odgovara vrijednosti promjernjive _godine_ koja je drugi argument metode _format_.
+Primijetimo da unutar string-a koristimo _{0}_ koji odgovara vrijednosti
+promjenjive _ime_ koja je ujedno prvi argument metode _format_. Slicno _{1}_
+odgovara vrijednosti promjernjive _godine_ koja je drugi argument metode
+_format_.
 
-Bitno je napomenuti da Python pocinje brojati od _0_ (nule) sto znaci da prva pozicija
-predstavlja _indeks 0_, druga pozicija _indeks 1_ itd.
+Bitno je napomenuti da Python pocinje brojati od _0_ (nule) sto znaci da prva
+pozicija predstavlja _indeks 0_, druga pozicija _indeks 1_ itd.
 
 **`Primjer`**
 ```python
@@ -29,9 +31,10 @@ ciji ce rezultat biti identican
 Petar ima 30 godina.
 ```
 
-ali primijticete da ovaj nacin pisanja izgeda dosta ruznije i povecava mogucnost greske. 
-Takodje metod _format_ ce automatski izvrsiti konverziju varijable _godine_ u tip string,
-ali dodatno mozemo izmijeniti poruku bez izmejne vrijednosti varijable. TBD.
+ali primijticete da ovaj nacin pisanja izgeda dosta ruznije i povecava
+mogucnost greske. Takodje metod _format_ ce automatski izvrsiti konverziju
+varijable _godine_ u tip string, ali dodatno mozemo izmijeniti poruku bez
+izmejne vrijednosti varijable. TBD.
 
 Takodje, koristenjem metode _format_ numerisanje unutar same poruke je opcionalno, tako
 da kod moze biti napisan i kao
@@ -80,7 +83,7 @@ verzijom "f-strings"
 godine = 30
 ime = 'Petar'
 
-print(f'{ime} ima {godine} godina.') # Primijetimo 'f' prije definisanja stringa 
+print(f'{ime} ima {godine} godina.') # Primijetimo 'f' prije definisanja stringa
 print(f'Da li {ime} ide u skolu?') # Primijetimo 'f' prije definisanja stringa
 ```
 **`Rezultat`**

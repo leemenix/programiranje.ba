@@ -3,42 +3,46 @@
 
 ### Prvi koraci (DRAFT)
 
-Postoje dva nacina koristenja Python-a kako biste pokrenuli vas kod (TBD: program ili kod). 
+Postoje dva nacina koristenja Python-a kako biste pokrenuli vas kod (TBD:
+program ili kod).
 1. koristenjem interaktivnog interpreter komandnog prompta
 1. koristenjem izvornog koda (source code)
 
 #### Koristenjem interpreter prompt-a
 
-Otvorite terminal na vasem operativnom sistemu (TBD: ovo je vec objasnjeno u sekciji instalacija) 
-i pokrenite Python tako sto cete ukucati komandu **python3** i pritisnuti **[Enter]**. 
-Trebalo bi da dobijete Python interpreter prompt, koji izgleda ovako
+Otvorite terminal na vasem operativnom sistemu (TBD: ovo je vec objasnjeno u
+sekciji instalacija)
+i pokrenite Python tako sto cete ukucati komandu **python3** i pritisnuti
+**[Enter]**. Trebalo bi da dobijete Python interpreter prompt, koji izgleda
+ovako
 
 ```python
-Python 3.7.2 (default, Feb 23 2020, 18:31:07) 
+Python 3.7.2 (default, Feb 23 2020, 18:31:07)
 [GCC 5.5.0] on linux
 Type "help", "copyright", "credits" or "license" for more information.
->>> 
+>>>
 ```
 
-Odlicno, sada vec mozete da napisete vas prvi program u Python-u. 
+Odlicno, sada vec mozete da napisete vas prvi program u Python-u.
 Nakon znaka **[>>>]** ukucajte:
 
 ```python
-Python 3.7.2 (default, Feb 23 2020, 18:31:07) 
+Python 3.7.2 (default, Feb 23 2020, 18:31:07)
 [GCC 5.5.0] on linux
 Type "help", "copyright", "credits" or "license" for more information.
 >>> print("Zdravo Svijete!")
 ```
 
-i pritisnite **[Enter]**. Trebalo bi dobijete ispisanu recenicu **_Zdravo Svijete!_** u Python
-interpreter prompt-u, nakon cega mozete nastaviti da koristite Python interpreter prompt. 
+i pritisnite **[Enter]**. Trebalo bi dobijete ispisanu recenicu
+**_Zdravo Svijete!_** u Python-u
+interpreter prompt-u, nakon cega mozete nastaviti da koristite Python interpreter prompt.
 ```python
-Python 3.7.2 (default, Feb 23 2020, 18:31:07) 
+Python 3.7.2 (default, Feb 23 2020, 18:31:07)
 [GCC 5.5.0] on linux
 Type "help", "copyright", "credits" or "license" for more information.
 >>> print("Zdravo Svijete!")
 Zdravo Svijete!
->>> 
+>>>
 ```
 ##### Izlazak, napustanje Python interpreter prompt-a
 
@@ -73,5 +77,5 @@ Zdravo Svijete!
 ```
 
 Odlicno, sada kada poznajemo na koje nacine mozemo pokrenuti Python program, vrijeme je da
-prijedjemo na zanimljivije stvari koje mozemo uraditi sa Python-om. Slozicete se da je 
+prijedjemo na zanimljivije stvari koje mozemo uraditi sa Python-om. Slozicete se da je
 ispisivanje rijeci "Zdravo Svijete!" malo dosadno.

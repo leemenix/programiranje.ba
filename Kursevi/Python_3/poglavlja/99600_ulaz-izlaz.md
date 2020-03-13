@@ -3,6 +3,6 @@
 
 ### Ulaz/Izlaz
 
-U situaciji kada je potrebno vrsiti interakciju sa korisnikom, ali i
-u situaciji kada je potrebno vrsiti upis i ispis u i iz fajlova.
+U situaciji kada je potrebno vrsiti interakciju sa korisnikom, ali i u
+situaciji kada je potrebno vrsiti upis i ispis u i iz fajlova.
 

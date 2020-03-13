@@ -1,4 +1,0 @@
-for broj in range(20, 40):
-    print(broj)
-else:
-    print("Kraj for petlje!")
