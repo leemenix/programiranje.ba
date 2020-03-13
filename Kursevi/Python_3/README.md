@@ -393,8 +393,7 @@ blok naredbi (tzv. `if-block`, `else` u suprotnom izvrsi drugi blok naredbi (tzv
 
 <a name="kod-802-if-elif-else-iskaz.py"/>
 
-**_Primjer_** 
-**`kod-802-if-elif-else-iskaz.py`**
+**`Primjer: kod-802-if-elif-else-iskaz.py`**
 ```python
 broj = 32
 pokusaj = int(input('Unesite cijeli broj: '))
@@ -424,7 +423,7 @@ print('Kraj!')
 # naravno nakon sto je ispunjen jedan od gore navedenih uslova
 ```
 
-**`Rezultat`**
+**`Rezultat:`**
 ```
 $ python kod-802-if-elif-else-iskaz.py
 Unesite cijeli broj: 3
@@ -467,7 +466,7 @@ Primjer funkcije `Zdravo Svijete!`
 
 <a name="kod-901-funkcija-zdravo-svijete.py"/>
 
-**`kod-901-funkcija-zdravo-svijete.py`**
+**`Primjer: kod-901-funkcija-zdravo-svijete.py`**
 ```python
 def zdravo_svijete():
   # ovaj blok pripada funkciji

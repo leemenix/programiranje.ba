@@ -1,7 +1,7 @@
 
 <a name="kod-901-funkcija-zdravo-svijete.py"/>
 
-**`kod-901-funkcija-zdravo-svijete.py`**
+**`Primjer: kod-901-funkcija-zdravo-svijete.py`**
 ```python
 def zdravo_svijete():
   # ovaj blok pripada funkciji
