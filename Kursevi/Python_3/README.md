@@ -410,6 +410,7 @@ zdravo_svijete() # pozivamo funkciju zdravo_svijete drugi put
 Zdravo Svijete!
 Zdravo Svijete!
 ```
+
 #### Komentar na prethodnu funkciju
 Definisali smo funkciju `zdravo_svijete` prema prethodno objasnjenoj sintaksi. Ovo je 
 jednostavna funkcija, bez parametara, sto mozemo vidjeti prema praznim zagradama 
@@ -421,6 +422,7 @@ biti proslijedjeni u razlicitim vrijednostima i tipovima cime dobijamo odredjen 
 rezultat koji nam daje funkcija.
 
 Bitno je primjetiti da pozivajuci funkciju `zdravo_svijete` dobijamo ispis teksta `Zdravo Svijete!` bez da moramo citav kod pisati ponovo.
+
 <a name="funkcija-sa-parametrima"/>
 
 ### program-xx - funkcija-sa-parametrima
@@ -611,7 +613,13 @@ Dictionaries
 
 
 Funkcije i uslovi
-Return statementmama_ime="Kukunka"
+Return statement
+
+Prijedlozi koje tekst editore koristiti (Sublime, MS Code ...)#### Pravila pisanja
+
+* Prva i zadnja linija fajla mora biti prazna
+* Za naslove koristimo tri tarabe "###"
+mama_ime="Kukunka"
 tata_ime="Taranta"
 beba_ime="Ju-Ju"
 rijeka_naziv="Dunav"
