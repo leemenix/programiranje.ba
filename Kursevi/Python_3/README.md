@@ -124,16 +124,16 @@ ispisivanje rijeci "Zdravo Svijete!" malo dosadno.
 ### Osnove zadaci za vjezbanje
 
 <a name="kod-201-zdravo-svijete.py"/>
+
 Napisati program koji nakon izvrsavanja ispisuje
-**`Rezultat`**
+
 ```
-Zdravo Svijete!
+Ovo je moj prvi program.
 ```
-Rjesenje:
-**`kod-201-zdravo-svijete.py`**
+Rjesenje: **`kod-201-zdravo-svijete.py`**
 
 ```python
-print("Zdravo Svijete!")
+print("Ovo je moj prvi program.") 
 ```
 
 <a name="kod-202-zdravo-svijete.py"/>
@@ -376,30 +376,51 @@ Hvala sto ste koristili ovaj program
 
 <a name="funkcije"/>
 
-### Funkcije
+### Funkcije (DRAFT)
 
-Funkcije predstavljaju dio koda koji moze da se jednom napise a koristi vise puta.
-TBD.
+Funkcije predstavljaju dio koda koji moze da se jednom napise a koristi vise puta. 
+Nakon sto damo ime funkciji, ono ustvari predstavlja skup izjava, koje kasnije pozivamo
+bilo gdje u kodu, sto je i poznato kao pozivanje funkcije (calling the function).
 
+Bitno je napomenuti da je koncept funkcija veoma vazan kada se radi o iole kompleksnom
+programu, sto vazi za bilo koji programski jezik, tako da je veoma bitno da ovo poglavlje
+shvatite ozbiljno i ako je potrebno prodjete vise puta.
 
-<a name="funkcija-pozdrav"/>
+Funkcije u Python-u su definisane kljucnom rijeci `def`, nakon koje slijedi identifikator
+ili ime funkcije `def ime_funkcije`, pracen otvorenom i zatvorenom zagradom `def ime_funkcije()` unutar kojih se opcionalno mogu naci parameteri/varijable i konacno se prva linija funkcije zavrsava dvotackom 'def ime_funkcije():'. Nakon ovoga slijedi
+blok izraza koji pripadaju ovoj funkciji. 
 
-### program-xx - funkcija-pozdrav.py
+Primjer funkcije `Zdravo Svijete!`
+
+<a name="kod-901-funkcija-zdravo-svijete.py"/>
+
+### kod-901-funkcija-zdravo-svijete.py
 
 ```python
-def pozdrav():
+def zdravo_svijete():
   # ovaj blok pripada funkciji
-  print("Pozdrav")
+  print("Zdravo Svijete!")
 # kraj funkcije
 
-pozdrav() # pozivamo funkciju pozdrav
-pozdrav() # pozivamo funkciju pozdrav drugi put
+zdravo_svijete() # pozivamo funkciju zdravo_sviete
+zdravo_svijete() # pozivamo funkciju zdravo_svijete drugi put
 ```
-Output:
+**`Rezultat`**
 ```
-Pozdrav
-Pozdrav
+Zdravo Svijete!
+Zdravo Svijete!
 ```
+#### Komentar na prethodnu funkciju
+Definisali smo funkciju `zdravo_svijete` prema prethodno objasnjenoj sintaksi. Ovo je 
+jednostavna funkcija, bez parametara, sto mozemo vidjeti prema praznim zagradama 
+funkcije, ali je dovoljna da prikaze nacin kreiranja i upotrebe funkcija u Python-u.
+
+Parametri funkcije ce biti objasnjeni i prakticno pokazani u sledecoj sekciji. Trenutno 
+je vazno zapamtiti da parametri funkcije predstavljaju ulaz podataka za funkciju i mogu
+biti proslijedjeni u razlicitim vrijednostima i tipovima cime dobijamo odredjen izlaz ili
+rezultat koji nam daje funkcija.
+
+Bitno je primjetiti da pozivajuci funkciju `zdravo_svijete` dobijamo ispis teksta `Zdravo Svijete!` bez da moramo citav kod pisati ponovo.
 <a name="funkcija-sa-parametrima"/>
 
 ### program-xx - funkcija-sa-parametrima

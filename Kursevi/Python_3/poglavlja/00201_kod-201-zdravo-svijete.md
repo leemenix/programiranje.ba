@@ -1,13 +1,13 @@
 
 <a name="kod-201-zdravo-svijete.py"/>
+
 Napisati program koji nakon izvrsavanja ispisuje
-**`Rezultat`**
+
 ```
-Zdravo Svijete!
+Ovo je moj prvi program.
 ```
-Rjesenje:
-**`kod-201-zdravo-svijete.py`**
+Rjesenje: **`kod-201-zdravo-svijete.py`**
 
 ```python
-print("Zdravo Svijete!")
+print("Ovo je moj prvi program.") 
 ```
