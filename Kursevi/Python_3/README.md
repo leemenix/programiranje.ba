@@ -382,16 +382,18 @@ za kontrolu toka i to:
 1. if
 1. for
 1. while
-<a name="kontrola-toka"/>
 
-### `if` izraz (DRAFT)
 
-Izraz `if` se koristi za provjeru stanja: `if` ako je izraz tacan `true`, onda izvrsi
-blok izraza (tzv. if-block), `else` u suprotnom izvrsi drugi blok izraza (tzv. else-block). `else` je opcionalan
+<a name="kontrola-toka-if-komanda"/>
+
+### `if` komanda (DRAFT)
+
+Izraz `if` se koristi za provjeru uslova: `if` ako je izraz tacan `true`, onda izvrsi
+blok naredbi (tzv. `if-block`, `else` u suprotnom izvrsi drugi blok naredbi (tzv. `else-block`). Bitno je napomenuti da je `else-block` opcionalan. 
 
 <a name="kod-802-if-elif-else-iskaz.py"/>
 
-**`kod-802-if-elif-else-iskaz.py`**
+Primjer **`kod-802-if-elif-else-iskaz.py`**
 ```python
 broj = 32
 pokusaj = int(input('Unesite cijeli broj: '))
@@ -560,6 +562,8 @@ dobicemo poruku o gresci (error).
 
 Uzmimo za primjer funkciju `print`. Sta ce se desiti ako umjesto `print` pozovemo `Print`?
 Primijeticete da smo u ovom slucaju koristili prvo veliko slovo, sto nikako nije ispravno.
+U ovom slucaju, Python ce nas upozoriti i dobicemo poruku o gresci.
+
 
 <a name="greske"/>
 
@@ -739,4 +743,7 @@ We have now gone through the various phases in the process of writing a software
     Use (Operation or Deployment)
     Maintain (Refinement)
 
-Show Kanban and Scrum
+Show Kanban and Scrum#### Pravila pisanja
+
+* Prva i zadnja linija fajla mora biti prazna
+* Za naslove koristimo tri tarabe "###"
