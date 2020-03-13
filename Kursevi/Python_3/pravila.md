@@ -9,16 +9,14 @@
 * Svaki kod mora biti napisan u sledecem formatu
 
   ```
-    <a name="{num-id}_kod-{num-id}-naziv-fajla.py"/>
+    <a name="kod-205-metod-format.py"/>
 
-	**`kod-{num-id}-naziv-fajla.py`**
-	```python
-	$ python kod-{num-id}-naziv-fajla.py
-	<kod>
-	```
+    **`Primjer: kod-205-metod-format.py`**
+    ```python
 
-	**`Rezultat`**
-	```
-    <rezultat>
-	```
+    ```
+    **`Rezultat`**
+    ```
+
+    ```
   ```

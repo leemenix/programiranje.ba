@@ -283,6 +283,29 @@ ali i rijec "Stara Godina" unutar navodnika
 '''
 ```
 
+_Stringovi_ su nepromjenjivi, sto znaci jednom kad ih kreirate, vise ih ne mozete promijeniti. Iako ovo zvuci kao losa ideja, zaista nije. Kasnije cemo vidjeti kako 
+ovo ne predstavlja nikakvo ogranicenje prilikom programiranja. 
+
+##### Metod 'format'
+
+Ponekad zelimo kreirati string iz razlicitih izvora. Ovde nam u pomoc uskace metod 
+_format_. 
+
+<a name="kod-205-metod-format.py"/>
+
+**`Primjer: kod-205-metod-format.py`**
+```python
+godine = 30
+ime = 'Petar'
+
+print('{0} ima {1} godina.'.format(ime, godine))
+print('Da li {0} ide u skolu?'.format(ime))
+```
+**`Rezultat`**
+```
+Petar ima 30 godina.
+Da li Petar ide u skolu?
+```
 <a name="varijable"/>
 
 ### Varijable (DRAFT)

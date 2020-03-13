@@ -52,3 +52,11 @@ Koji sadrzi rijec 'Nova Godina' unutar apostrofa
 ali i rijec "Stara Godina" unutar navodnika
 '''
 ```
+
+_Stringovi_ su nepromjenjivi, sto znaci jednom kad ih kreirate, vise ih ne mozete promijeniti. Iako ovo zvuci kao losa ideja, zaista nije. Kasnije cemo vidjeti kako 
+ovo ne predstavlja nikakvo ogranicenje prilikom programiranja. 
+
+##### Metod 'format'
+
+Ponekad zelimo kreirati string iz razlicitih izvora. Ovde nam u pomoc uskace metod 
+_format_. 
