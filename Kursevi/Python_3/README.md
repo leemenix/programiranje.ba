@@ -162,6 +162,7 @@ print("!")
 ### Varijable (DRAFT)
 Kada radimo sa podacima, potrebno ih je organizovati, kontejneri kutije u koje stavlljamo pohranjujemo nase podatke predstavljaju varijable. Sta predstavljaju , zasto su korisne, koje sve vrste (tipove) podataka mozemo smjestiti u varijable.
 
+bitno je napomenuti vaznost uvlacenja linija
 <a name="kod-301-varijable.py"/>
 
 **`kod-301-varijable.py`**
@@ -369,7 +370,79 @@ Hvala sto ste koristili ovaj program
 ### Operatori i izrazi
 <a name="kontrola-toka"/>
 
-### Kontrola toka
+### Kontrola toka (DRAFT)
+
+Do sad smo nase programe izvrsavali kao niz komandi od vrha ka dnu, uvijek tim redoslijedom. Sta u slucaju da zelimo promijeniti tok izvrsavanja programa? Sta
+ako zelimo da se nas program ponasa drugacije u zavisnosti od situacije u kojoj
+se nalazi? Recimo da ispise `Dobro jutro` ili `Dobro vece` u zavisnosti od doba 
+dana? 
+
+Ovo mozemo postici koristenjem izraza za kontrolu toka. U Python-u imamo tri izraza
+za kontrolu toka i to:
+1. if
+1. for
+1. while
+<a name="kontrola-toka"/>
+
+### `if` izraz (DRAFT)
+
+Izraz `if` se koristi za provjeru stanja: `if` ako je izraz tacan `true`, onda izvrsi
+blok izraza (tzv. if-block), `else` u suprotnom izvrsi drugi blok izraza (tzv. else-block). `else` je opcionalan
+
+<a name="kod-802-if-elif-else-iskaz.py"/>
+
+**`kod-802-if-elif-else-iskaz.py`**
+```python
+broj = 32
+pokusaj = int(input('Unesite cijeli broj: '))
+
+if pokusaj == broj:
+	# prvi blok izraza pocinje ovde
+	print('Cestitamo, pogodili ste broj.')
+	print('Pocastite se kafom ;)')
+    # prvi blok izraza zavrsava ovde
+
+elif pokusaj < broj:
+	# drugi blok izraza pocinje ovde
+	print('Nazalost niste pogodili.')
+	print('Hint: Trazeni broj je veci od unesenog ;)')
+	print('Pokusajte ponovo.')
+	# drugi blok izraza zavrsava ovde
+
+else:
+	# treci i finalni blok izraza pocinje ovde
+	print('Nazalost niste pogodili.')
+	print('Hint: Trazeni broj je manji od unesenog ;)')
+	print('Pokusajte ponovo.')
+	# treci i finalni blok izraza zavrsava ovde
+
+print('Kraj!')
+# Zadnji izraz ce uvijek biti izvrsen
+# naravno nakon sto je ispunjen jedan od gore navedenih uslova
+```
+
+**`Rezultat`**
+```
+$ python kod-802-if-elif-else-iskaz.py
+Unesite cijeli broj: 3
+Nazalost niste pogodili.
+Hint: Trazeni broj je veci od unesenog ;)
+Pokusajte ponovo.
+Kraj!
+
+$ python kod-802-if-elif-else-iskaz.py 
+Unesite cijeli broj: 44
+Nazalost niste pogodili.
+Hint: Trazeni broj je manji od unesenog ;)
+Pokusajte ponovo.
+Kraj!
+
+$ python kod-802-if-elif-else-iskaz.py
+Unesite cijeli broj: 32
+Cestitamo, pogodili ste broj.
+Pocastite se kafom ;)
+Kraj!
+```
 
 <a name="funkcije"/>
 
@@ -610,3 +683,4 @@ Funkcije i uslovi
 Return statement
 
 Prijedlozi koje tekst editore koristiti (Sublime, MS Code ...)
+
