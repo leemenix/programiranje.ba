@@ -16,7 +16,7 @@ while petlja:
 		print('Pocastite se kafom ;)')
 		# u slucaju da je broj pogodjen postavi vrijednost
  		# varijable petlja na False  
-	    petlja = False 
+		petlja = False 
 		# prvi blok izraza zavrsava ovde
 	elif pokusaj < broj:
 		# drugi blok izraza pocinje ovde
@@ -39,7 +39,7 @@ print('Kraj!')
 
 **`Rezultat:`**
 ```
-$ python kod.py 
+$ python kod-804-while-naredba.py 
 Unesite cijeli broj: 43
 Nazalost niste pogodili.
 Hint: Trazeni broj je manji od unesenog ;)
