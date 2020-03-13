@@ -1,8 +1,7 @@
 
-<a name="funkcija-sa-parametrima"/>
+<a name="kod-906-funkcija-sa-parametrima.py"/>
 
-### program-xx - funkcija-sa-parametrima
-
+**`kod-906-funkcija-sa-parametrima.py`**
 ```python
 def uporedi(a,b):
   if a > b:
@@ -17,8 +16,7 @@ uporedi(3,5)
 uporedi(5,5)
 uporedi(6,2)
 ```
-
-Output:
+**`Rezultat`**
 ```
 (3, 'je manje od', 5)
 (5, 'je jednako', 5)
