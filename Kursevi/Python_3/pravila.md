@@ -3,8 +3,9 @@
 * Prva i zadnja linija fajla mora biti prazna
 * Za naslove koristimo tri tarabe "###"
 * Svaki naslov mora imati back link za potrebe kreiranja sadrzaja
-  <a name="naslov"/>
-
+  ```
+    <a name="naslov"/>
+  ```
 * Svaki kod mora biti napisan u sledecem formatu
 
   ```
