@@ -99,12 +99,12 @@ while petlja:
 
 	if pokusaj == broj:
 		# prvi blok izraza pocinje ovde
-	    print('Cestitamo, pogodili ste broj.')
-	    print('Pocastite se kafom ;)')
-        # u slucaju da je broj pogodjen postavi vrijednost
-        # varijable petlja na False  
+		print('Cestitamo, pogodili ste broj.')
+		print('Pocastite se kafom ;)')
+		# u slucaju da je broj pogodjen postavi vrijednost
+ 		# varijable petlja na False  
 	    petlja = False 
-	    # prvi blok izraza zavrsava ovde
+		# prvi blok izraza zavrsava ovde
 	elif pokusaj < broj:
 		# drugi blok izraza pocinje ovde
 		print('Nazalost niste pogodili.')
