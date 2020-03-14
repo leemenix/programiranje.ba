@@ -864,10 +864,55 @@ Strukture podataka u Python-u predstavljaju upravo to, strukture kao nosioce
 podataka zajedno.
 
 Postoje cetiri ugradjene (built-in) strukture u Python-u i to:
-1. List (Liste)
-1. Tuple (Tuple :)
-1. Dictionary (Rijecnici)
-1. Set (Setovi)
+1. Liste (List)
+1. Tuple
+1. Rijecnik (Dictionary)
+1. Skup (Set)
+<a name="liste"/>
+
+#### Liste (DRAFT)
+
+
+<a name="kod-1202-lista.py"/>
+
+**`kod-1202-lista.py`**
+```python
+# primjer liste za nabavku kucnih potrepstina
+lista_proizvoda = ['so', 'ulje', 'secer', 'kafa', 'mlijeko']
+
+print('Potrebno je kupiti ukupno', len(lista_proizvoda), 'proizvoda.')
+
+print('Lista proizvoda:', end=' ')
+for proizvod in lista_proizvoda:
+    print(proizvod, end=' ')
+
+print('\nTakodje moram kupiti pivo.')
+lista_proizvoda.append('pivo')
+print('Moja lista proizvoda sada izgleda ovako', lista_proizvoda)
+
+print('Ako sortiramo listu proizvoda')
+lista_proizvoda.sort()
+print('Sortirana lista proizvoda izgleda ovako.', lista_proizvoda)
+
+print('Prvi proizvod koji cu kupiti je', lista_proizvoda[0])
+kupljen_proizvod = lista_proizvoda[0]
+print('Nakon sto sam kupio proizvod', kupljen_proizvod, 'obrisacu ga iz liste.')
+del lista_proizvoda[0]
+print('Moja lista proizvoda sada izgleda ovako', lista_proizvoda)
+```
+**`Rezultat`**
+```
+$ python kod-1202-lista.py
+Potrebno je kupiti ukupno 5 proizvoda.
+Lista proizvoda: so ulje secer kafa mlijeko
+Takodje moram kupiti pivo.
+Moja lista proizvoda sada izgleda ovako ['so', 'ulje', 'secer', 'kafa', 'mlijeko', 'pivo']
+Ako sortiramo listu proizvoda
+Sortirana lista proizvoda izgleda ovako. ['kafa', 'mlijeko', 'pivo', 'secer', 'so', 'ulje']
+Prvi proizvod koji cu kupiti je kafa
+Nakon sto sam kupio proizvod  kafa obrisacu ga iz liste.
+Moja lista proizvoda sada izgleda ovako ['mlijeko', 'pivo', 'secer', 'so', 'ulje']
+```
 
 <a name="rjesavanje-problema"/>
 
