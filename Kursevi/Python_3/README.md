@@ -849,6 +849,38 @@ uporedi(6,2)
 (5, 'je jednako', 5)
 (6, 'je vece od', 2)
 ```
+<a name="lokalne-promjenjive"/>
+
+### Lokalne promjenjive
+
+Kada definisemo promjenjive unutar funkcije, tada one nisu relativne sa bilo
+kojom promjenjivom koja se nalazi izvan funkcije, cak mozemo koristiti isti
+naziv za promjenjivu, jer se ona ponasa kao jedinstvena (TBD). Nazivi
+promjenjivih su za funkciju lokalnog tipa, funkcija ih vidi kao lokalne
+promjenjive. Ovo se jos naziva _scope_ promjenjive.
+
+<a name="kod-908-lokalne-varijable.py"/>
+
+**`kod-908-lokalne-varijable.py`**
+```python
+promjenjiva = 32
+
+
+def funkcija(promjenjiva):
+  print('promjenjiva ima vrijednost', promjenjiva)
+  promjenjiva = 23
+  print('promjenjiva ima novu vrijednost', promjenjiva)
+
+funkcija(promjenjiva)
+print('vrijednost promjenjive na kraju programa je', promjenjiva)
+```
+**`Rezultat`**
+```
+promjenjiva ima vrijednost 32
+promjenjiva ima novu vrijednost 23
+vrijednost promjenjive na kraju programa je 32
+```
+
 <a name="moduli"/>
 
 ### Moduli
