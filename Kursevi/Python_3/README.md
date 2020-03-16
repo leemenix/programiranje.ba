@@ -881,6 +881,43 @@ promjenjiva ima novu vrijednost 23
 vrijednost promjenjive na kraju programa je 32
 ```
 
+<a name="lokalne-promjenjive"/>
+
+### Lokalne promjenjive
+
+Ako zelimo definisati promjenjive unutar funkcije, ali da i dalje budu globalno
+dostupne, potrebno je da kazemo Python-u da promjenjiva nije lokalnog tipa vec
+globalna.
+
+Ovo se postize koristenjem _global_ statementa (TBD), ispred promjenjive ...
+Iako je ovo moguce, generalno se ne preporucuje definisanje globalnih
+promjenjivih unutar funkcije jer dovodi do zbunjivanja i tezeg citanja i
+razumijevanja koda.
+
+<a name="kod-911-globalne-promjenjive.py"/>
+
+**`kod-911-globalne-promjenjive.py`**
+```python
+promjenjiva = 32
+
+
+def funkcija():
+  global promjenjiva
+  print('promjenjiva ima vrijednost', promjenjiva)
+
+  promjenjiva = 23
+  print('promjenjiva ima novu vrijednost', promjenjiva)
+
+funkcija()
+print('vrijednost promjenjive na kraju programa je', promjenjiva)
+```
+**`Rezultat`**
+```
+promjenjiva ima vrijednost 32
+promjenjiva ima novu vrijednost 23
+vrijednost promjenjive na kraju programa je 23
+```
+
 <a name="moduli"/>
 
 ### Moduli
