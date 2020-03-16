@@ -979,6 +979,70 @@ a ima vrijednost 34 b ima vrijednost 7 c ima vrijednost 19
 a ima vrijednost 10 b ima vrijednost 33 c ima vrijednost 13
 ```
 
+<a name="varargs-parametri"/>
+
+### VarArgs parametri
+
+Veoma je cesto da zelimo definisati funkciju koja moze primiti bilo koji broj
+parametara. Ovo se postize koristenjem zvjezdica, a naziv VarArgs dolazi kao
+kombinovana skracenica od engleskog jezika (promjernjiva = **Var**iable i
+argument = **Arg**ument).
+
+<a name="kod-917-varargs-parametri.py"/>
+
+**`kod-917-varargs-parametri.py`**
+```python
+def ispis(a=4, *broj, **imenik):
+    print('a', a)
+
+    # prodji kroz sve elemente tuple-a
+    for element in broj:
+        print('element', element)
+
+    # prodji kroz sve elemente rijecnika
+    for prvi_element, drugi_element in imenik.items():
+        print(prvi_element, drugi_element)
+
+ispis(10,13,32,15,Petar=166,Marko=165,Ogi=164)
+```
+**`Rezultat`**
+```
+a 10
+element 13
+element 32
+element 15
+Petar 166
+Marko 165
+Ogi 164
+```
+
+<a name="return-direktiva"/>
+
+### return direktiva
+
+_return_ direktiva se koristi za povratak iz funkcije, prekid funkdije drugim
+rijecima. Opciono se moze korititi za povratak vrijednosti neke promjenjive
+iz funkcije.
+
+<a name="kod-920-return-direktiva.py"/>
+
+**`kod-920-return-direktiva.py`**
+```python
+def maksimum(x, y):
+    if x > y:
+        return x
+    elif x == y:
+        return "Brojevi su isti."
+    else:
+        return y
+
+print(maksimum(23,33))
+```
+**`Rezultat`**
+```
+33
+```
+
 <a name="moduli"/>
 
 ### Moduli
