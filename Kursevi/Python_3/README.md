@@ -918,6 +918,67 @@ promjenjiva ima novu vrijednost 23
 vrijednost promjenjive na kraju programa je 23
 ```
 
+<a name="standardne-vrijednosti-argumenata"/>
+
+### Standardne vrijednosti argumenata
+
+Prilikom formiranja funkcije ponekad imamo potrebu da ostavimo opciju za
+promjenu odredjenih parametara, odnosno argumenata koje proslijedjujemo
+funkciji.
+
+Ovo se moze izvesti pomocu standardne vrijednosti argumenta, na nacin da
+mozemo definisati vrijednost argumenta dodavajuci naziv parametra prilikom
+definisanja funkcije, zatim operatorom jednakosti (=) i konacno vrijednosti
+parametra.
+
+<a name="kod-913-standardne-vrijednosti-argumenata.py"/>
+
+**`kod-913-standardne-vrijednosti-argumenata.py`**
+```python
+def tekst(unos, mnozioc=1):
+    print(unos * mnozioc)
+
+tekst('Pozdrav')
+tekst('Pozdrav', 5)
+```
+**`Rezultat`**
+```
+Pozdrav
+PozdravPozdravPozdravPozdravPozdrav
+```
+
+<a name="kljucne-rijeci-argumenti"/>
+
+### Kljucne rijeci argumenati
+
+Ako zelimo nekoj funkciji dodijeliti vise paramatera, ali zelimo definisati
+samo neke od njih, tada mozemo dati nazive tim parametrima, sto se zove kljucne
+rijeci argumenti.
+
+Postoje dvije prednosti ovog pristupa:
+* manipulacija funkcijama je jednostavnije jer nemamo potrebu voditi racuna o
+poziciji i rasporedu elemenata
+* mozemo definisati vrijednosti samo onih parametara za koje to zelimo, dok
+ostale mozemo ostaviti sa vec predefinisanim vrijdnostima
+
+<a name="kod-915-kljucne-rijeci-argumenti.py"/>
+
+**`kod-915-kljucne-rijeci-argumenti.py`**
+```python
+def brojevi(a, b=7, c=13):
+    print('a ima vrijednost', a, 'b ima vrijednost', b, 'c ima vrijednost', c)
+
+brojevi(4, 5)
+brojevi(34, c=19)
+brojevi(b=33, a=10)
+```
+**`Rezultat`**
+```
+a ima vrijednost 4 b ima vrijednost 5 c ima vrijednost 13
+a ima vrijednost 34 b ima vrijednost 7 c ima vrijednost 19
+a ima vrijednost 10 b ima vrijednost 33 c ima vrijednost 13
+```
+
 <a name="moduli"/>
 
 ### Moduli
