@@ -881,9 +881,9 @@ promjenjiva ima novu vrijednost 23
 vrijednost promjenjive na kraju programa je 32
 ```
 
-<a name="lokalne-promjenjive"/>
+<a name="globalne-promjenjive"/>
 
-### Lokalne promjenjive
+### Globalne promjenjive
 
 Ako zelimo definisati promjenjive unutar funkcije, ali da i dalje budu globalno
 dostupne, potrebno je da kazemo Python-u da promjenjiva nije lokalnog tipa vec

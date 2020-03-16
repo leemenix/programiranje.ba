@@ -1,7 +1,7 @@
 
-<a name="lokalne-promjenjive"/>
+<a name="globalne-promjenjive"/>
 
-### Lokalne promjenjive
+### Globalne promjenjive
 
 Ako zelimo definisati promjenjive unutar funkcije, ali da i dalje budu globalno
 dostupne, potrebno je da kazemo Python-u da promjenjiva nije lokalnog tipa vec
