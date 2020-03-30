@@ -1045,3 +1045,264 @@ print("Dvojici crko facebook, ostao je 1")
 print("1 depresivac, oprezan je bio")
 print("Onda se ozenio")
 ```
+# import turtle
+# # from turtle import Tkinter
+# import tk as Tkinter
+
+
+# fred = turtle.Pen()
+# fred.shape("turtle")
+# fred.forward(100)
+# fred.circle(100)
+# fred.color("blue")
+# fred.circle(-100)
+# fred.forward(100)
+# Tkinter.mainloop()
+
+
+import time
+import turtle
+import tk as Tkinter
+from turtle import Turtle # specijalna funkcija Turtle (Kornjaca)
+from random import randint # random integer (slucajni cijeli broj)
+
+# kreiranje prozora
+window = turtle.Screen()
+window.title=("Trke Kornjaca")
+
+
+turtle.bgcolor("forestgreen")
+turtle.color("white")
+turtle.speed(0) # prikazi odmah
+turtle.penup() # kretanje kornjace u drugim pozicijama, trenutno je kornjaca na poziciji x,y = [0,0]
+turtle.setpos(-140, 200) # x lijevo, y gore
+turtle.write("Trke Kornjaca", font=("Arial", 30, "bold"))
+turtle.penup()
+
+# zemlja oko staze, dekoracija
+turtle.setpos(-400, -180)
+turtle.color("chocolate")
+turtle.begin_fill() # popuni oblik bojom
+turtle.pendown()
+turtle.forward(800)
+turtle.right(90)
+turtle.forward(300)
+turtle.right(90)
+turtle.forward(800)
+turtle.right(90)
+turtle.forward(300)
+turtle.end_fill()
+
+# finish linija
+stamp_size = 20
+square_size = 15
+finish_line = 200
+
+turtle.color("black")
+turtle.shape("square")
+turtle.shapesize(square_size / stamp_size)
+turtle.penup()
+
+for i in range (10):
+    turtle.setpos(finish_line, (150 - (i * square_size * 2)))
+    turtle.stamp()
+
+for j in range (10):
+    turtle.setpos(finish_line + square_size, ((150 - square_size) - (j * square_size * 2)))
+    turtle.stamp()
+
+turtle.hideturtle()
+
+# class nova_kornjaca:
+# 	def __init__(self,speed,color,shape,penup,goto):
+# 		self.speed = speed
+# 		self.color = color
+# 		self.shape = shape
+# 		self.penup = penup
+# 		self.goto = goto
+		
+
+kornjaca1 = Turtle()
+kornjaca1.speed(0)
+kornjaca1.color("black")
+kornjaca1.shape("circle")
+kornjaca1.penup()
+kornjaca1.goto(-250, 100)
+kornjaca1.penup()
+# kornjaca1 = nova_kornjaca(0,"black","turtle","","-250, 100")
+
+
+# kornjaca 2
+kornjaca2 = Turtle()
+kornjaca2.speed(0)
+kornjaca2.color("cyan")
+kornjaca2.shape("turtle")
+kornjaca2.penup()
+kornjaca2.goto(-250, 50)
+kornjaca2.penup()
+
+
+# kornjaca 3
+kornjaca3 = Turtle()
+kornjaca3.speed(0)
+kornjaca3.color("yellow")
+kornjaca3.shape("turtle")
+kornjaca3.penup()
+kornjaca3.goto(-250, 0)
+kornjaca3.penup()
+
+
+# kornjaca 4
+kornjaca4 = Turtle()
+kornjaca4.speed(0)
+kornjaca4.color("magenta")
+kornjaca4.shape("turtle")
+kornjaca4.penup()
+kornjaca4.goto(-250, -50)
+kornjaca4.penup()
+
+# kornjaca 5
+kornjaca5 = Turtle()
+kornjaca5.speed(0)
+kornjaca5.color("blue")
+kornjaca5.shape("turtle")
+kornjaca5.penup()
+kornjaca5.goto(-250, -100)
+kornjaca5.penup()
+
+time.sleep(1)
+
+# pokreni kornjace
+for i in range(145):
+    kornjaca1.forward(randint(1,5))
+    kornjaca2.forward(randint(1,5))
+    kornjaca3.forward(randint(1,5))
+    kornjaca4.forward(randint(1,5))
+    kornjaca5.forward(randint(1,5))
+
+turtle.exitonclick()
+
+Tkinter.mainloop()from random import *
+import time
+import sys
+ 
+reel_1 = ''
+reel_2 = ''
+reel_3 = ''
+bank = 0
+current_bet = 0
+spin_count = 0 # For Testing Purposes
+total_won = 0
+total_lost = 0
+def slow_reel(reel1, reel2, reel3):
+    for symbol in (reel_1,reel_2,reel_3):
+        sys.stdout.write(symbol)
+        sys.stdout.flush()
+        time.sleep(0.1)
+slow_reel(reel_1, reel_2, reel_3)
+def game_loop():
+    global reel_1, reel_2, reel_3, bank, current_bet, spin_count, total_lost, total_won
+    if bank <= 0:
+        print("GAME OVER LOSER!")
+    while bank > 0:
+        if current_bet > 0 and bank >= current_bet:
+            bet_r = input("\n[ENTER] TO REPEAT BET, 'NO' TO PLACE NEW ONE: ")
+            if bet_r == "" or bet_r == "Y":
+                bet = current_bet
+            else:
+                current_bet = 0
+                bet = 0
+                game_loop()
+        else:
+            try:
+                bet = int(input("PLACE YOUR BET!: "))
+            except ValueError:
+                return game_loop()
+ 
+        if bet >= 0 and bank >= bet:
+            bank -= bet
+            total_lost += bet
+            current_bet = bet
+            try:
+                reel1 = ['!', '@', '@', '#', '#', '#', '&', '&', '&', '&', '%', '%', '%',
+                '%', '%']
+                reel2 = ['!', '@', '@', '#', '#', '#', '&', '&', '&', '&', '%', '%', '%',
+                '%', '%']
+                reel3 = ['!', '@', '@', '#', '#', '#', '&', '&', '&', '&', '%', '%', '%',
+                '%', '%']
+                reel_1 = choice(reel1)
+                reel_2 = choice(reel2)
+                reel_3 = choice(reel3)
+                print("\n-----SPINNING FOR: ${}-----\n".format(current_bet))
+                for c in reel_1:
+                    time.sleep(0.4)
+                    print(" (","<",c,">", end=" | ", flush=True)
+                for c in reel_2:
+                    time.sleep(0.8)
+                    print("<",c,">", end=' | ', flush=True)
+                for c in reel_3:
+                    time.sleep(1.0)
+                    print("<",c,">", end=' )', flush=True)
+                    time.sleep(1.5)
+                print("\n")
+                print("----------------------------")
+                spin_count += 1
+ 
+                if reel_1 == '!' and reel_2 == '!' and reel_3 == '!':
+                    bank += 100 * current_bet
+                    total_won += 100 * current_bet
+                    print("YOU WON THE JACKPOT!!!: $",100 * current_bet)
+                    print(spin_count) # Testing Odds
+                    exit(0) # So I Can Easily Tell When JACKPOT Is Won
+                elif reel_1 == '@' and reel_2 == '@' and reel_3 == '@':
+                    bank += 50 * current_bet
+                    total_won += 50 * current_bet
+                    print("YOU WON!!: $",50 * current_bet)
+                elif reel_1 == '#' and reel_2 == '#' and reel_3 == '#':
+                    bank += 20 * current_bet
+                    total_won += 20 * current_bet
+                    print("YOU WON!!: $",20 * current_bet)
+                elif reel_1 == '&' and reel_2 == '&' and reel_3 == '&':
+                    bank += 10 * current_bet
+                    total_won += 10 * current_bet
+                    print("YOU WON!!: $",10 * current_bet)
+                elif reel_1 == '%' and reel_2 == '%' and reel_3 == '%':
+                    bank += 5 * current_bet
+                    total_won += 5 * current_bet
+                    print("YOU WON!!: $",5 * current_bet)
+                elif reel_1 == '%' and reel_2 == '%':
+                    bank += current_bet
+                    total_won += current_bet
+                    print("YOU WON!!: $",current_bet)
+                elif reel_1 == '%' and reel_3 == "%":
+                    bank += current_bet
+                    total_won += current_bet
+                    print("YOU WON!!: $", current_bet)
+                else:
+                    pass
+                print("\nYour Statistics")
+                print("Won: $", total_won, "Spent: $", total_lost, "\nCurrent Balance: $", bank)
+            except (Exception):
+                pass
+def start():
+    global bank
+    print("\nWelcome to Python Slots")
+    command = input("YOU START WITH $10,000! \n\nPRESS [ENTER] TO BEGIN ")
+    if command == "":
+        bank = 10000
+        game_loop()
+    else:
+        print("ALL YOU HAD TO DO WAS PRESS ENTER")
+        start()
+ 
+start()RIFF¦  WAVEfmt      D¬  ˆX     fact       data0  
+ öÿíÿrÿ°ÿÜÿŸÿÒÿ±ÿÆÿšÿ’ÿ«ÿœÿÂÿÒÿáÿ¦ÿ£ÿÒÿµÿÏÿ¼ÿ¹ÿèÿšÿíÿåÿÁÿÊÿ¹ÿúÿ×ÿØÿ×ÿåÿËÿ¾ÿÜÿİÿ ´ÿÏÿ 
+ 3 wé ¹üdşw:1`:h†DrsÊ‡¨ÆŸì£s¬1´ø·«´\¬Ò¦±©s±|µ±±S«ì©È®õ³u³·®k«V­²N´Q±g­7­¹°¡³á²»¯®á¯ä²å³Ê±¯ú¯²Õ³ş²K±^° ±é³´~²O±ä±j³?´Ñ³‘²h²”³©´½´­³ø²Œ³Ò´mµ¹´û³Ô³ö´µMµÑ´²´<µàµ-¶êµwµ[µ!¶±¶¶úµ
+¶e¶ ·^·Ğ¶£¶Û¶9·˜·ƒ·¦·…·ã·'¸¸¸¸G¸‡¸Ô¸¸¸¥¸ì¸0¹!¹9¹J¹D¹l¹«¹Ş¹Ç¹Ï¹Ì¹ºHº7ºoº»¼6½á½¡½R¾ÈæEşUÛ}è~#b`FFñ\Xp¶lY1MyUOfNk_èQ÷Q_>hdcõV—QY˜c·dÓ[·SMU^Èb{^_V&T»Yú_’_YYUÓV\_A["VIULYô\ß[»W;U6W²Z[ªX‘UÂU‹XtZXYV'UºV­XÑX¼VİT`UXW8X!WSUÃT÷U WÄVhUqTÀT÷U>VzU*TæSúT‹UûT4TuS¸SUT‚T²SîRêRYSÆS}S±R,R‰RSïRƒRëQìQR[RRvQ.QlQ¯Q€Q:QÔPûPCQ&QGP6OçM1MLM M[Fñ.z YÄâ“ş†¥°¾VÈ]µŸ?šÕ«©¼¨¹±¨¬º¦-¶Çºç¯Á£¤y°'¹µò©*¥¬·µõ¶ê®ó§÷©ÿ±Ä¶Ñ²Š«Ö©C¯(µÒ´4¯a«»­0³µZ²û­°­©±µ4´š°•®¶°"´µµ²ç¯A°4³,µo´²±“²½´µP³²±{²¤´Ÿµ´:³³V´±µ…µb´»³l´ÖµI¶„µÆ´Ö´¼µ½¶h¶¡µVµúµ·(·¶¶7¶è¶§·Œ·Ú¶­¶@·¸,¸Î·q·“·Z¸•¸y¸,¸_¸Ê¸C¹¹´¸¹}¹’ºU»)¼u¼Ÿ¼¨ÀÒåøP1ÅfÿtZUCC¹L!d’oªdKRœMBZßg¹fôXÍOUafÇ]gSmRb[ôbL`WgRWé^m`8ZTßTíZ_,\üUÁS¢WX\`\ÛW-T‡U²Y›[éX!UbT7WêY@Y.V0TdUXÒX¿VƒT]TkVÃWüVãTÑSËT©VáV!U¦SáS6UÜU&UÛS>STõTÇT”SÙRSÛSDTtSŸR^RÇRYSS1RšQµQrR›RàQgQZQôQRÃQ"Q²PÕP"QQ®P1PPmP‹PeP¹OºOóOÖOwOÅNÁM§LãK/LKi@¯ îé­ÿˆÔŒp¬¿ÅâÁ©š—É†³½Ö±2¡æi¬¹v¶¬¨7¡È§´°·×®&¥Í¥a¯‚¶	³ ªU¦ÿ«õ³Å´M®‘¨ª±µÙ±ó«ÊªÙ®®³™³1¯*¬ı­x²E´‰±®Ï­è°Ş³³P°§®U°-³ì³Ö±ì¯m°³ µ?´©²W²ù³êµ7¶@µ[´ÿ´¸¶Ö·p·p¶’¶ã·%¹m¹Ø¸‹¸l¹[ºşº»º‘º¥º»›¼¼¼x¼~¼&½¾•¾w¾¾¾„¿á¿À8ÀHÀÌÀÆÁÕÁ·ÁÿÁiÂÃdÃÃÖÃoÄ?Å Æ3Ç6È@ÈIÈeÎÚãÌ©>âbh7R:}6&GõWWÙG¼<`AnN½SuK'@»>¡G.O¤L'Cİ=IBJK?Ej>Î>ÜDşHF@—=Ô@BE4Eï@?=Ô=ÖA’CŞ@à<¶;>W@Ö?Ÿ<b:~;š=1>O<É9h9Ş:$<_;d98•8Ç9²9:8Î6Â6Ÿ7&8O7Ë55§5666Û4Ö3ù3>4i4g3¢2822¡2q2±1À0Ö01Û0/0t////é.-.ã--m-r-¿,*,,ü+Í++Ø*˜*^*@*å)z)7)â(—(u((‹'Ï&Ê%—%%X#¤·éZÒ€Ê¡Óúáè–áã×ÕoÛ2ãWãGİ”ØÛ\áòãúàWÜÜ=à6äÓãàëİCàöã+åìâlàáüãæfå7ãtâWäˆæüæ‡å:äåç0è·ç`æXæ‘çÖè8éJè¯ç„è¼é/êıéLéŒé”êVëeëíêësëìí´ììÚìíîîîNî¬îïxï[ïaïĞï,ğ’ğ¦ğ–ğêğñüñ)òIòXòÆò#ófó˜ó®óôqôÅôõ=õPõ±õğõ5ötö¥öÖöäöW÷÷£÷øWøwøÊøÿøzù¬ùÿùEú€úÏúàú~û;ıi9…Sx
+“ö©
+d-
+áCû	]	AsˆÙÈgÆ‘‡AÂ„00¤?ãpA‹—’¥Ï¬x—«ÁiKv¼˜‹yd³ŠİY^{Q|{]‰WpidpZMZ+Hk¨’^’°šn`‰,simp_3M/V6j–FBCL3WSFdZ<HkCèZ’H6 $'155\&!D8HHc$)O\nTBKIKI/î%VşGkC!	5ıêB078*h@Y->e--5XX='/!úèòõô 2C2	ü"ÿø"0ú!õMşñ$+$âóáÛàññáñşíôîï	+şàÇÆÛÅõŞÒÑ	ïïËÌêîäÇäêÂæÆÜ¼¼éÀ¦¯ìô»ÄÙİ¶˜Õê“—µ±¼›½Ğ«¼¼™ƒ¡ ¶h »©ÎÑ¬¨á½‰©š•¨{š«ÖÍŒlvŸyl}xtnx›•Î„ˆ{¡™ÊÄ·®º˜Š¶ººpµt_¨—™¬º\emš¡Œ{‡~¡·gZ›—¨šÂ’X:…j>5K=A4@Rtyc¥pNlbULbnPZ]TLb•AaXFhe{W`Še`LNx“lks±——\PjwU9qeZ[cEcZZ_[lQIDe(]2G`„ŒqN`NNNNR"Lx38NU62U!K?$-ûü#==JIc*"/@!Qg!X-ëô¿9=4N;/'õøıäõúD>65:ı>Kæ 	"'k@şşı	#>A (òá4íñ%éíñ	ÓğÖçëŞâ>ôÑâËáÂºòÏñêÜÂÃúÆ¯ííààßõ¿ß³¯É¸¡·º˜µ³Í¤Ù¤ÔŞå÷ïÊ¾ËÔ¾ÊåŒØéàÊ½¼¸ÛäÓÊ³¿·ºÕ¸Ğâ¾á	ÈåáÊ¬¹¹Ï¹½ûÏÀ¸ÅñÉ³ÎÍÀÖ¼Í¼Ñ¿¡³ÃÕÃ©z¡²áËÔÜàØÆ¾±öåÂ´Î¬£™•õ¦Ñı³¿³¸º·ÈÑÕÑ®º©º±¨¾¨“·’¨ÂÂ ½éÀÅÉØÎÎÀ¼ÄÄ¤ÀÈ¤È—¿¡~Ê¿†²º±­w±…œ´¬éˆŒ´’Œ`«Œn¦‡‹v¦ÚºÄ—©œ¤­˜µ’¨µÂµ||€¨§¸‘¬¢¢à¢¢™¦¿‡­“††qkth¤’†’b~]Y£yoopvTcbfw]€–‘ev‡¬qd`~Gv•²Äip_k†©MMy~›Â¯wYHTf€eGj>L[e„j˜‘q¢`lv²©•[qpzœ‹uk‹©kYY…79oXT]0B29T€dvd„d[•dWhh‹zkB~~©t®­¤¨…¹Š›¸kCYj{w]B1j9FbeJ=‚„JXN0_AWn=".f.RIU%clukoU6Cò ò GbT7]#(>#GO8"G['0IB5.IR0107*d[<%<M^36cY?I**- +1;CTù 2'Lo9(5,,;5qe[A'8B8_JA_AW?&.AY&.WHN;k222L- 67YC(ş ç è ô ó è ı 09=5=9û 	+ö 6ø ö î î 	û ="õ &ğ 8D2*.2;%->%OC>X(	 S1ı 6ï â ê 9S+58A+3&"Ó D2&H.?U<1. -1LGf6ı ê ô #ô #ô 156"ó 9"ö ÿ í î ú û ä å ö é ì %.!&ã × ä õ  
+Ö Ş  2ı  	Ù Ñ Ì ï ì Ö â Ş  ï ö =6ø å 	é ö ö ö &ú û ÿ á ÿ +2.ä !ß Á ş É è ú É Ş ã ğ ê ô È ì  · Ö Ğ 	õ 
+ı Ö - ø ÿ î ı Ó ö ï û &&N+í ö å Æ é é ş ş É ÿ <MÒ ô !?ı ù Ò À (ù ø ,,	ó +â ö İ î î ò ò ä ä Ö Æ ä í Å í ö õ !-Lô ı ù 
+#ş ï Ù ± Ş Ù Ğ ¿ â Ì ¶ Ç â ¿ £ ê Ø å é Ø º İ Ù µ é Ø Â ÿ î é á è Æ Ø É Æ ä î ì Ü ş Ú ğ ù è Ò ø Ô ã 
+ô ı ı ó ¿ ² ¶ Ş Ù ¶ Ã Ã ² Ñ   Ğ § x ¿ Ğ ò ± ú Ü Ø å Ğ ÿ ä î Ø Ü Ü Æ ¼ é Î ´ µ À ¼  ‘ ¦ œ Ú Å ‹ Ü Ò Í ğ ç Ñ Ş Ú ª ø Å ê ï  â ı ê ï ± “ ç ­ Ì Ù ± Ô Ù Ø ± Ã ¿ Ğ … Ÿ Î µ Î Ÿ Ğ Ë ˆ ¤ Ç § ¸ § ‰ • i £ a Ÿ Î Æ ¸ Ÿ É ½ ¸ Á ¸ Ö ·  ƒ ƒ ƒ ¯ ´ œ ¯ ˆ ~ ­ Ñ È … ” Í ² Â ­ Ã   ¥ Æ Š q Ç º Ş  ‘ Ğ Ó ê º ¤ § l b ˆ ¸ µ ä í ° Î ò é ğ × è Ò Å Å ­ ‹ ‹ £ Ã ” ”  ƒ ‹ › » ¡ » Ç ­ “ x ¿ ¯  » á å º Ø Ô µ Ğ Ó › € Ë Ü Ø ò é Ë š Ü Ğ Ò  ˆ ‰ • À ¸ ¦ À ¯ ” Ò ¸ · À Ã ¥ ¯ ™ ˆ À « ¿ ç Ì À ± ª ©   Ç Ù ‡ ~  Ç İ   } ¶ Š œ ² « ¯ « Ë ª ª ¶ ¯  ¯ r g ƒ › ^ Z ‚ \ @ R  a L  : 6 òÿ ñÿ  üÿîÿsmpl<           “X  <                                            
