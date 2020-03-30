@@ -55,29 +55,33 @@ python 3 - uvod u python programski jezik
 - drugi program
   - programiranje je davanje instrukcija kompjuteru (kroz programski jezik) 
   - crtanje_oblika.py (priprema za igricu vjesala)
-
+```python
     print("_______")
     print("|     ?")
     print("|      ")
     print("|      ")
     print("|      ")
+```
   - u ovom slucaju python ide liniju po liniju i izvrsava kod
   - sta se desava u slucaju da zamijenimo prvu i zadnju liniju?
 
 Zadaci za samostalni rad!
   - napisati program koji ispicuje vase Ime i prezime
   - napisati program koji crta pravougaonik oblika
+```python
     __________
     |         |
     |         |
     |_________|
-
+```
   - napisati program koji crta trougao oblika
+```python
         /\
        /  \
       /    \
      /      \
     /________\
+```
 
 # komentarisanje koda
   - upisavanje podsjetnika
