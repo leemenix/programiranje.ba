@@ -1,4 +1,5 @@
 
+### O kursu
 - jednostavan za ucenje
 
 - kurs je dizajniran za sto jednostavnije ucenje
