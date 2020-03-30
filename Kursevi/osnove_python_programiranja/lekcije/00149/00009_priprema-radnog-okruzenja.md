@@ -1,12 +1,12 @@
 
-#### Priprema radnog okruzenja
+## Priprema radnog okruzenja
 
-##### Izbor editora teksta i **Integrisanog razvojnog okruzenja** IDE (Integrated Development Environment)
+### Izbor editora teksta i **Integrisanog razvojnog okruzenja** IDE (Integrated Development Environment)
 
-###### Izbor tekst editora
+#### Izbor tekst editora
 Za pocetnike, se preporucuje koristenje nekog jednostavnog tekst editora kao Notpad++, Sublime, VisualStudio Code ...
 
-###### Izbor Interisanog razvojnog okruzenja
+#### Izbor Interisanog razvojnog okruzenja
 Vecina programera odabere pisanje Python koda, koristenjem specijalnog integrisanog razvojnog okruzenja. Trenutno tri najistaknutija za Python su 
  Eclipse, PyCharm i Netbeans.
 

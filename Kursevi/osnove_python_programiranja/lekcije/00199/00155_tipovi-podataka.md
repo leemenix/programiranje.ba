@@ -1,21 +1,22 @@
 
-#### Promjenjive i tipovi podataka
+## Promjenjive i tipovi podataka
 
-##### Promjenjive, varijable (variables) 
+### Promjenjive, varijable (variables) 
 
 - programiranje se uglavnom svodi na obradu podataka, stim u vezi je potrebno pohraniti podatke 
 i organizovati ih na najbolji moguci nacin. postoji nesto sto se zove CRUD (Create,Read, Update, Delete)
 
 - tri glavna faktora koji cine promjenjivu/varijablu jesu
 naziv, operator i vrijednost varijable
-
+```python
 naziv | operator | vrijednost
 
-ime        =        "Darko"
+ime        =        "Goku"
 
 godine     =           23
+```
 
-- gradjenje varijable
+#### Gradjenje varijable
 - naziv varijable ne smije poceti sa brojem
 - naziv varijable moze poceti, malim, velikim slovima ili donjom crticom (_)
 nakon cega moze ici broj
@@ -55,7 +56,7 @@ print("Volio je upoznavati nove karaktere ")
 print("i imao je najboljeg druga po imenu " + karakter_2)
 ```
 
-##### Tipovi podataka
+### Tipovi podataka
 
 - Znakovni (string)
 - string()

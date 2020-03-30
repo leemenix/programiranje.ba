@@ -1,5 +1,5 @@
 
-##### Ulaz/upis podataka, prihvacanje podataka od korisnika
+## Ulaz/upis podataka, prihvatanje podataka od korisnika
 
 ```python
 input() # hej ti, cekam da uneses neku informaciju podatak

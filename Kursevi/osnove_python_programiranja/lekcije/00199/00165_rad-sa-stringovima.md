@@ -1,5 +1,5 @@
 
-##### Rad sa stringovima
+## Rad sa stringovima
 - tekst, rad sa tekstom, funkcije nad stringovima
 
 rad_sa_stringovima.py

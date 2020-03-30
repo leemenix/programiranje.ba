@@ -36,14 +36,14 @@ postojao ogroman eko-sistem biblioteka napisanih za Python 2 koje nece raditi sa
 Ovih dana Python 3 eco-sistem je uveliko pohvatao i izjednacio se sa prethodnom verzijom, sto nas dovodi do zakljucka da je Python 3 logicni izbor za sve 
 nove developere koji planiraju uciti ovaj programski jezik. Python 3 je verzija koju cemo ujedno obraditi u ovom kursu.
 
-#### Priprema radnog okruzenja
+## Priprema radnog okruzenja
 
-##### Izbor editora teksta i **Integrisanog razvojnog okruzenja** IDE (Integrated Development Environment)
+### Izbor editora teksta i **Integrisanog razvojnog okruzenja** IDE (Integrated Development Environment)
 
-###### Izbor tekst editora
+#### Izbor tekst editora
 Za pocetnike, se preporucuje koristenje nekog jednostavnog tekst editora kao Notpad++, Sublime, VisualStudio Code ...
 
-###### Izbor Interisanog razvojnog okruzenja
+#### Izbor Interisanog razvojnog okruzenja
 Vecina programera odabere pisanje Python koda, koristenjem specijalnog integrisanog razvojnog okruzenja. Trenutno tri najistaknutija za Python su 
  Eclipse, PyCharm i Netbeans.
 
@@ -61,7 +61,7 @@ Vecina programera odabere pisanje Python koda, koristenjem specijalnog integrisa
 - podesavanje PyCharm-a i nas prvi program
   - promjena teme, odredisnog direktorija, velicine fonta i sl.
   - New -> Python File ...
-#### Zdravo Svijete
+## Zdravo Svijete
 
 - pozdrav_svijete.py
 
@@ -106,7 +106,7 @@ __________
 /________\
 ```
 
-#### komentarisanje koda
+## Komentarisanje koda
 - upisavanje podsjetnika
 - komentarisanje koda
 - preporuka da se koristi taraba
@@ -123,23 +123,24 @@ print("Komentari su korisni")
 # print("Ova linija koda nece biti ispisana")
 ```
 
-#### Promjenjive i tipovi podataka
+## Promjenjive i tipovi podataka
 
-##### Promjenjive, varijable (variables) 
+### Promjenjive, varijable (variables) 
 
 - programiranje se uglavnom svodi na obradu podataka, stim u vezi je potrebno pohraniti podatke 
 i organizovati ih na najbolji moguci nacin. postoji nesto sto se zove CRUD (Create,Read, Update, Delete)
 
 - tri glavna faktora koji cine promjenjivu/varijablu jesu
 naziv, operator i vrijednost varijable
-
+```python
 naziv | operator | vrijednost
 
-ime        =        "Darko"
+ime        =        "Goku"
 
 godine     =           23
+```
 
-- gradjenje varijable
+#### Gradjenje varijable
 - naziv varijable ne smije poceti sa brojem
 - naziv varijable moze poceti, malim, velikim slovima ili donjom crticom (_)
 nakon cega moze ici broj
@@ -179,7 +180,7 @@ print("Volio je upoznavati nove karaktere ")
 print("i imao je najboljeg druga po imenu " + karakter_2)
 ```
 
-##### Tipovi podataka
+### Tipovi podataka
 
 - Znakovni (string)
 - string()
@@ -221,7 +222,7 @@ print(karakter_ime + " je dobar karakter " + str(karakter_osobina_dobar))
 print(karakter_ime + " je los karakter " + str(karakter_osobina_los))
 ```
 
-##### Rad sa stringovima
+## Rad sa stringovima
 - tekst, rad sa tekstom, funkcije nad stringovima
 
 rad_sa_stringovima.py
@@ -255,7 +256,7 @@ print(f"{sajt_naziv} {sajt_naziv}")
 ### char i ord kasnije potrebni za cezarovu sifru 
 ```
 
-##### Rad sa brojevima
+## Rad sa brojevima
 - brojevi, rad sa brojevima, funkcije nad brojevima
 
 ```python
@@ -291,7 +292,7 @@ print(ceil(3.6))
 print(sqrt(9))
 ```
 
-##### Ulaz/upis podataka, prihvacanje podataka od korisnika
+## Ulaz/upis podataka, prihvatanje podataka od korisnika
 
 ```python
 input() # hej ti, cekam da uneses neku informaciju podatak

@@ -1,5 +1,5 @@
 
-##### Rad sa brojevima
+## Rad sa brojevima
 - brojevi, rad sa brojevima, funkcije nad brojevima
 
 ```python

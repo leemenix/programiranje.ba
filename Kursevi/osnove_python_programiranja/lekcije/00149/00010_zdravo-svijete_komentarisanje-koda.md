@@ -1,5 +1,5 @@
 
-#### Zdravo Svijete
+## Zdravo Svijete
 
 - pozdrav_svijete.py
 
@@ -44,7 +44,7 @@ __________
 /________\
 ```
 
-#### komentarisanje koda
+## Komentarisanje koda
 - upisavanje podsjetnika
 - komentarisanje koda
 - preporuka da se koristi taraba
