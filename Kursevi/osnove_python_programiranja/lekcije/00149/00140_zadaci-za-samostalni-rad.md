@@ -1,7 +1,8 @@
 
-Zadaci za samostalni rad!
+## Zadaci za samostalni rad!
 
-1. Napisati program koji ispicuje vase ime i prezime
+1. Napisati program koji ispisuje vase ime i prezime
+
 2. Napisati program koji crta pravougaonik oblika
 ```python
 __________
@@ -9,6 +10,7 @@ __________
 |         |
 |_________|
 ```
+
 3. Napisati program koji crta trougao oblika
 ```python
     /\

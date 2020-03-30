@@ -3,11 +3,16 @@
 
 ### Promjenjive, varijable (variables) 
 
-- programiranje se uglavnom svodi na obradu podataka, stim u vezi je potrebno pohraniti podatke 
-i organizovati ih na najbolji moguci nacin. postoji nesto sto se zove CRUD (Create,Read, Update, Delete)
+Programiranje se uglavnom svodi na obradu podataka, stim u vezi je potrebno pohraniti podatke 
+i organizovati ih na najbolji moguci nacin. Varijable ili promjenjiva predstavlja lokaciju u memoriji
+vaseg kompjutera i sluzi da pokaze na odredjenu vrijednost koju ta memorijska lokacija predstavlja.
 
-- tri glavna faktora koji cine promjenjivu/varijablu jesu
-naziv, operator i vrijednost varijable
+Tri glavna faktora koji cine promjenjivu/varijablu jesu: 
+
+- naziv, 
+- operator i 
+- vrijednost varijable
+
 ```python
 naziv | operator | vrijednost
 

@@ -113,9 +113,10 @@ print("Komentari su korisni")
 # print("Ova linija koda nece biti ispisana")
 ```
 
-Zadaci za samostalni rad!
+## Zadaci za samostalni rad!
 
-1. Napisati program koji ispicuje vase ime i prezime
+1. Napisati program koji ispisuje vase ime i prezime
+
 2. Napisati program koji crta pravougaonik oblika
 ```python
 __________
@@ -123,6 +124,7 @@ __________
 |         |
 |_________|
 ```
+
 3. Napisati program koji crta trougao oblika
 ```python
     /\
@@ -135,11 +137,16 @@ __________
 
 ### Promjenjive, varijable (variables) 
 
-- programiranje se uglavnom svodi na obradu podataka, stim u vezi je potrebno pohraniti podatke 
-i organizovati ih na najbolji moguci nacin. postoji nesto sto se zove CRUD (Create,Read, Update, Delete)
+Programiranje se uglavnom svodi na obradu podataka, stim u vezi je potrebno pohraniti podatke 
+i organizovati ih na najbolji moguci nacin. Varijable ili promjenjiva predstavlja lokaciju u memoriji
+vaseg kompjutera i sluzi da pokaze na odredjenu vrijednost koju ta memorijska lokacija predstavlja.
 
-- tri glavna faktora koji cine promjenjivu/varijablu jesu
-naziv, operator i vrijednost varijable
+Tri glavna faktora koji cine promjenjivu/varijablu jesu: 
+
+- naziv, 
+- operator i 
+- vrijednost varijable
+
 ```python
 naziv | operator | vrijednost
 
