@@ -199,15 +199,15 @@ print("i imao je najboljeg druga po imenu " + karakter_2)
 ### Tipovi podataka
 
 ```yaml
-- Znakovni (string - predstavlja niz znakova)
-  string()
-
-- Brojevi cijeli, realni (integer, float)
-  int()
-  float()
-
-- Logicki tacno, netacno (boolean True/False)
-  bool()
+            Tipovi podataka                  |    python sintksa
+_____________________________________________|______________________
+Znakovni (string - predstavlja niz znakova)  |       string()
+_____________________________________________|______________________
+Brojevi cijeli, realni (integer, float)      |         int()
+                                             |        float()
+_____________________________________________|______________________
+Logicki tacno, netacno (boolean True/False)  |         bool()
+_____________________________________________|______________________
 ```
 
 korisna funkcija type
