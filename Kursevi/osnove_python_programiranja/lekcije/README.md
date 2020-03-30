@@ -615,6 +615,56 @@ u suprotnom
   narucicu salatu
 ```
 
+### Relacijski operatori, operatori poredjenja (>,<, >=, <=, ==, !=)
+
+```yaml
+ Operacija |    Naziv operacije   |     Primjer      |   Rezultat  
+           |                      |     ako su :     |
+           |                      |  a=3 b=2 i c=3   |
+___________|______________________|__________________|____________________
+     >     |         Vece         |    print(a > b)  |    Tacno (True)
+___________|______________________|__________________|____________________
+     <     |         Manje        |    print(a < b)  | Nije Tacno (False)
+___________|______________________|__________________|____________________
+     >=    |    Vece ili jednako  |   print(a >= b)  |    Tacno (True)
+           |                      |   print(a >= c)  |    Tacno (True) 
+___________|______________________|__________________|____________________
+     <=    |   Manje ili jednako  |   print(a <= b)  | Nije Tacno (False)
+           |                      |   print(a <= c)  |    Tacno (True)             
+___________|______________________|__________________|____________________
+     ==    |      Jednako         |   print(a == b)  | Nije Tacno (False)
+           |                      |   print(a == c)  |    Tacno (True)
+___________|______________________|__________________|____________________
+     !=    |     Nije jednako     |   print(a != b)  |    Tacno (True)
+           |      Razlicito       |   print(a != c)  | Nije Tacno (False)    
+___________|______________________|__________________|____________________
+```
+
+### Logicki operatori (and, or i not)
+
+```yaml
+ Operacija |    Naziv operacije   |       Primjer        |   Rezultat  
+           |                      |       ako su :       |
+           |                      |a=3 b=2 i dobar=True  |
+___________|______________________|______________________|______________
+     and   |         i            |if(a > 4 and b < 3):  | 
+           |                      |  print("Zdravo")     |
+           |                      |else:                 | Dovidjenja
+           |                      |  print("Dovidjenja") |   
+___________|______________________|______________________|______________
+     or    |        ili           |if(a > 4 or b < 3):   | 
+           |                      |  print("Zdravo")     |
+           |                      |else:                 |   Zdravo
+           |                      |  print("Dovidjenja") |   
+___________|______________________|______________________|______________
+     not   |      ne, nije        |if(not(dobar)):       | 
+           |                      |  print("Nije Dobro") |
+           |                      |else:                 |  Dobro je
+           |                      |  print("Dobro je")   |   
+___________|______________________|______________________|______________
+```
+
+
 ```python
 dobar = True
 
@@ -653,31 +703,6 @@ else:
   print("Freza je los karakter")
 ```
 
-### Relacijski operatori, operatori poredjenja (>,<, >=, <=, ==, !=)
-
-```yaml
- Operacija |    Naziv operacije   |     Primjer      |   Rezultat  
-           |                      |      a=3         | 
-           |                      |      b=2         |
-           |                      |      c=3         |              
-___________|______________________|__________________|____________________
-     >     |         Vece         |    print(a > b)  |    Tacno (True)
-___________|______________________|__________________|____________________
-     <     |         Manje        |    print(a < b)  | Nije Tacno (False)
-___________|______________________|__________________|____________________
-     >=    |    Vece ili jednako  |   print(a >= b)  |    Tacno (True)
-           |                      |   print(a >= c)  |    Tacno (True) 
-___________|______________________|__________________|____________________
-     <=    |   Manje ili jednako  |   print(a <= b)  | Nije Tacno (False)
-           |                      |   print(a <= c)  |    Tacno (True)             
-___________|______________________|__________________|____________________
-     ==    |      Jednako         |   print(a == b)  | Nije Tacno (False)
-           |                      |   print(a == c)  |    Tacno (True)
-___________|______________________|__________________|____________________
-     !=    |     Nije jednako     |   print(a != b)  |    Tacno (True)
-           |      Razlicito       |   print(a != c)  | Nije Tacno (False)    
-___________|______________________|__________________|____________________
-```
 
 maksimalan_broj.py
 ```python
