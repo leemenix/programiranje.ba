@@ -1,5 +1,6 @@
 
-- devet_depresivaca.py - (Rambo Amadeus - Devet depresivaca)
+devet_depresivaca.py - (Rambo Amadeus - Devet depresivaca)
+
 ```python
 print("9 depresivaca gajili su bostan")
 print("Puko lastik od bandzija, ostalo ih 8")
