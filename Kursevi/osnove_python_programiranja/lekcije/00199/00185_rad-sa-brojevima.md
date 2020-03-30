@@ -3,7 +3,7 @@
 brojevi, rad sa brojevima, funkcije nad brojevima. 
 Osnovne aritmeticke operacije koje mozemo vrsiti u Python-u su
 
-``yaml
+```yaml
  Operacija |    Naziv operacije   |     Primjer      |   Rezultat   
 ___________|______________________|__________________|____________
      +     |      Sabiranje       |  print(1 + 1)    |    2
