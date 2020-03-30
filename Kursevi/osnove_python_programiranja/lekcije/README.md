@@ -1,4 +1,4 @@
-### Python 3 - Uvod u programski jezik Python
+---### Python 3 - Uvod u programski jezik Python
 - jednostavan za ucenje
 
 - kurs je dizajniran za sto jednostavnije ucenje
@@ -121,4 +121,221 @@ Zadaci za samostalni rad!
   """
   print("Komentari su korisni")
   # print("Ova linija koda nece biti ispisana")
+```
+---
+#### Promjenjive i tipovi podataka
+
+##### Promjenjive, varijable (variables) 
+
+  - programiranje se uglavnom svodi na obradu podataka, stim u vezi je potrebno pohraniti podatke 
+    i organizovati ih na najbolji moguci nacin. postoji nesto sto se zove CRUD (Create,Read, Update, Delete)
+
+  - tri glavna faktora koji cine promjenjivu/varijablu jesu
+    naziv, operator i vrijednost varijable
+    
+    naziv | operator | vrijednost
+    
+    ime        =        "Darko"
+
+    godine     =           23
+
+  - gradjenje varijable
+    - naziv varijable ne smije poceti sa brojem
+    - naziv varijable moze poceti, malim, velikim slovima ili donjom crticom (_)
+      nakon cega moze ici broj
+    - malo a i veliko A se razlikuju (a != A)
+
+
+naziv_varijabli.py
+```python
+        ime = "Goku"
+        godine = 16
+        _nove_godine = 18
+        25_godine = 25 # ovde cemo dobiti gresku
+        a = 3
+        A = 4
+        print (ime)
+        print (godine)
+        print (_nove_godine)
+        print (25_godine) # ovde cemo dobiti gresku
+        print (a)
+        print (A) 
+```
+
+    - prakticna_primjena_varijabli.py - (Dragon Ball - Zmajeva Kugla)
+```python
+        karakter_1 = "Son Goku"
+        karakter_2 = "Krilin"
+        godine = "17"
+
+        print("U dalekoj proslosti zivio je djecak po imenu Goku.")
+        print("Goku je imao 15 godina.")
+        print("Volio je upoznavati nove karaktere ")
+        print("i imao je najboljeg druga po imenu Krilin!")
+        print (" ")
+        print("U dalekoj proslosti zivio je djecak po imenu " + karakter_1)
+        print(karakter_1 + " je imao " + godine + " godina.")
+        print("Volio je upoznavati nove karaktere ")
+        print("i imao je najboljeg druga po imenu " + karakter_2)
+```
+
+##### Tipovi podataka
+
+    - Znakovni (string)
+      - string()
+    - Brojevi cijeli, realni (integer, float)
+      - int()
+      - float()
+    - Logicki tacno, netacno (boolean True/False)
+      - bool()
+
+    - korisna funkcija type
+      print(type(karakter_ime))
+
+      tipovi_podataka.py
+```python
+        karakter_ime = "Goku"
+        karakter_godine = 15
+        karakter_visina = 168.5
+        karakter_osobina_dobar = True
+        karakter_osobina_los = False
+
+        print(karakter_ime + " ima " + karakter_godine)
+        print(karakter_ime + " ce za godinu dana imati " + karakter_godine + 1)
+        print(karakter_ime + " je visok " + karakter_visina + "cm.")
+        print(karakter_ime + " ce za godinu dana biti visok " + (karakter_visina + 5) + " cm.")
+        print(karakter_ime + " je dobar karakter" + karakter_osobina_dobar)
+        print(karakter_ime + " je los karakter" + karakter_osobina_los)
+
+        karakter_ime = "Goku"
+        karakter_godine = 15
+        karakter_visina = 164.5
+        karakter_osobina_dobar = True
+        karakter_osobina_los = False
+
+        print(karakter_ime + " ima " + str(karakter_godine))
+        print(karakter_ime + " ce za godinu dana imati " + str(karakter_godine + 1))
+        print(karakter_ime + " je visok " + str(karakter_visina) + " cm.")
+        print(karakter_ime + " ce za godinu dana biti visok " + str(karakter_visina + 5) + " cm.")
+        print(karakter_ime + " je dobar karakter " + str(karakter_osobina_dobar))
+        print(karakter_ime + " je los karakter " + str(karakter_osobina_los))
+```
+
+##### Rad sa stringovima
+      - tekst, rad sa tekstom, funkcije nad stringovima
+
+      rad_sa_stringovima.py
+      
+```python
+        print("programiranje.ba besplatni online kursevi")
+
+        # escape karakter \
+        print("programiranje.ba \n besplatni online kursevi")
+
+        sajt_naziv = "programiranje.ba"
+        sajt_slogan = " besplatni online kursevi"
+        print(sajt_naziv)
+        print(sajt_slogan)
+        print(sajt_naziv + sajt_slogan)
+        print(sajt_naziv.upper() + sajt_slogan.upper())
+        print(sajt_naziv.isupper())
+        print(len(sajt_naziv))
+        # index stringa pocinje na poziciji 0
+        print(sajt_naziv[4])
+        # index funkcija i proslijedjivanje parametara
+        print(sajt_naziv.index('g'))
+        print(sajt_naziv.index('mira'))
+        #print(sajt_naziv.index('h'))
+
+        print(sajt_slogan.replace("kursevi","tutoriali").upper())
+
+        print("{1}, {0}".format(sajt_naziv, sajt_slogan))
+        print(f"{sajt_naziv} {sajt_naziv}")
+
+        ### char i ord kasnije potrebni za cezarovu sifru 
+```
+
+##### Rad sa brojevima
+    - brojevi, rad sa brojevima, funkcije nad brojevima
+
+```python
+    print(3)
+    print(-4)
+    print(3.333)
+    print(7+3)
+    print(7+3.333)
+    print(8/4)
+    print(2*4)
+    print (2*(4+5))
+    # modulo , ostatak 9 mod 4
+    print(9%4)
+
+    moj_broj = 13
+    print(moj_broj)
+    print("Moj omiljeni broj" + str(moj_broj))
+    
+    # math funkcije, funkcije su vec pripremljen kod koji odradjuje posao za nas
+    broj = -2
+    print(abs(broj))
+    print(pow(4,2))
+    print(max(5,10))
+    print(min(3,6))
+    print(round(3.3333))
+    print(round(3.6))
+    print(round(3.5))
+
+    # import math modul (import math funkcije vise kada budemo pricali o modulima)
+    from math import *
+    print(floor (3.6))
+    print(ceil(3.6))
+    print(sqrt(9))
+```
+
+##### Ulaz/upis podataka, prihvacanje podataka od korisnika
+
+```python
+    input() # hej ti, cekam da uneses neku informaciju podatak
+    input("Unesite vase ime: ")
+    korisnik_ime = input("Unesite vase ime: ")
+    print("Zdravo, " + korisnik_ime + " dobrodosli.")
+
+    korisnik_ime = input("Unesite vase ime: ")
+    korisnik_godine = input("Unesite vase godine: ")
+    print("Zdravo, " + korisnik_ime + ". Vi imate " + korisnik_godine + " godina.")
+
+    # vjezba ispisati preghodni program koristeci funkciju format
+```
+
+    osnovni_kalkulator.py
+
+```python
+    broj_1 = input("Unesite prvi broj: ")
+    broj_2 = input("Unesite drugi broj: ")
+    rezultat = broj1 + broj2
+
+    print(rezultat)
+
+    broj_1 = input("Unesite prvi broj: ")
+    broj_2 = input("Unesite drugi broj: ")
+    rezultat = float(broj_1) + float(broj_2)
+
+    print(rezultat)
+```
+
+
+    interaktivni_karakter_program.py
+```python
+        print("U dalekoj proslosti zivio je djecak po imenu Goku.")
+        print("Goku je imao 15 godina.")
+        print("Volio je upoznavati nove karaktere ")
+        print("i imao je najboljeg druga po imenu Krilin!")
+
+        karakter_ime = input("Unesite ime karaktera: ")
+        karakter_godine = input("Unesite godine karaktera: ")
+        karakter_prijatelj = input("Unesite ime najboljeg prijatelja: ")
+
+        print(f"U dalekoj proslosti zivio je djecak po imenu {karakter_ime}.")
+        print(f"{karakter_ime} je imao {karakter_godine} godina.")
+        print(f"Volio je upoznavati nove karaktere ")
+        print(f"i imao je najboljeg druga po imenu {karakter_prijatelj}!")
 ```
