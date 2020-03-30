@@ -1,5 +1,5 @@
 
-#### citanje iz eksternog fajla
+## citanje iz eksternog fajla
 - dosta puta imamo potrebu za citanjem sadrzaja iz drugih fajlova
 - parsiranje teksta ...
 - apsolutni, relativna lokacija

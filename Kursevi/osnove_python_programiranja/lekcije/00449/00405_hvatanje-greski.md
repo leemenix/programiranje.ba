@@ -1,5 +1,5 @@
 
-#### try / except (catch) - hvatanje greski
+## try / except (catch) - hvatanje greski
   - kada ne zelimo da nas program puca
   - ipak zelimo da nastavimo i da damo informaciju korisniku
   

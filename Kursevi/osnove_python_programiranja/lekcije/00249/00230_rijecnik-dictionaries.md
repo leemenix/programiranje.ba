@@ -3,7 +3,7 @@
 - standardni rijecnik koji imamo ima strukturu rijec i detaljno objasnjenje rijece
   gdje rijec predstavlja kljuc (key), vrijednost (value) predstavlja definiciju
   key mora biti jedinstven
-
+```python
 Jan -> Januar
 Mar -> Mart
 
@@ -20,3 +20,4 @@ print(konverzijaMjeseci["Mar"])
 print(konverzijaMjeseci.get("Jan"))
 print(konverzijaMjeseci.get("Dec"))
 print(konverzijaMjeseci.get("Dec","Nije validan kljuc"))
+```

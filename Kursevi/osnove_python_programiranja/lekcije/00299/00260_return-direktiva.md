@@ -1,9 +1,9 @@
 
-#### - Return izraz/direktiva statement  
+## return izraz/direktiva statement  
 - kada zelimo dobiti povratnu informaciju iz funkcije koristimo return direktivu
 - kada zelimo da funkcije mogu medjusobno komunicirati
 
-2 na trecu
+2 na n-tu
 ```python
 def kub(broj):
   broj * broj * broj

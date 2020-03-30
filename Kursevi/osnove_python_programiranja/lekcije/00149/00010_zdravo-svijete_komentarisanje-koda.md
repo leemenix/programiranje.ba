@@ -48,8 +48,8 @@ __________
 - upisavanje podsjetnika
 - komentarisanje koda
 - preporuka da se koristi taraba
-# ovo je taraba (hash tag) simbol
-# komentari su po default-u ignorisani u python-u
+ ovo je taraba (hash tag) simbol
+ komentari su po default-u ignorisani u python-u
 ```python
 '''
 Viselinijski komentar

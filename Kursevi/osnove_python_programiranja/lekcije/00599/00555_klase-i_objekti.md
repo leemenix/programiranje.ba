@@ -1,5 +1,5 @@
 
-#### klase i objekti
+## klase i objekti
 - ekstremno korisni , organizovan i mocniji
 - kada radimo sa programiranjem susrecemo se sa razlicitim tipovima podataka
 - takodje susrecemo se sa razlicitim strukturama podataka
@@ -9,8 +9,8 @@
   kako nesto treba da izgleda)
 - objekat je podatak u memoriji, pravi podatak kreiran iz klase
 
-student.py
-# posto ne postoji student tip podaka, kreiracemo klasu student
+posto ne postoji student tip podaka, kreiracemo klasu Student
+
 Student.py
 ```python
 class Student:
@@ -36,7 +36,7 @@ student_drugi = Student("Dragan", "Ekonomija", 8.3, True)
 print(student_drugi.brucos) 
 ```
 
-##### funkcije unutar klase (funkcije objekta)
+### funkcije unutar klase (funkcije objekta)
 ```python
 class Student:
   def __init__(self, ime, smjer, ocjena, brucos):

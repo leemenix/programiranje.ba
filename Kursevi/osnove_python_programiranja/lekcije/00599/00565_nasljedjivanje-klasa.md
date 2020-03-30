@@ -1,4 +1,4 @@
-#### naslijedjivanje
+## naslijedjivanje
 - u slucaju da imamo klasu, kada kreiramo novu klasu mozemo naslijediti staru klasu
 - nova klasa ce imati sve osobine stare klase sa novim opcijama
 

@@ -1,5 +1,5 @@
 
-### for petlja
+## for petlja
 - specijalni tip petlje u python-u
 ```python
 for slovo in "programiranje.ba":

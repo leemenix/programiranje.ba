@@ -60,7 +60,7 @@ else:
   print("Freza je los karakter")
 ```
 
-##### - operatori poredjenja i uslov if (>,<, >=, <=, ==, !=)
+### Operatori poredjenja i uslov if (>,<, >=, <=, ==, !=)
 
 maksimalan_broj.py
 ```python
@@ -75,8 +75,10 @@ def maksimalan_broj(broj_1, broj_2, broj_3):
 print(maksimalan_broj(7, 8, 9))
 ```
 
-##### kalkulator_nadogradjena_verzija.py
-osnovni_kalkulator.py
+kalkulator_nadogradjena_verzija.py
+
+Ovo je bio osnovni_kalkulator.py
+
 ```python
 broj_1 = input("Unesite prvi broj: ")
 broj_2 = input("Unesite drugi broj: ")

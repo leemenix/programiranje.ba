@@ -66,8 +66,10 @@ print("i imao je najboljeg druga po imenu " + karakter_2)
 - Logicki tacno, netacno (boolean True/False)
 - bool()
 
-- korisna funkcija type
+korisna funkcija type
+```pyrhon
 print(type(karakter_ime))
+```
 
 tipovi_podataka.py
 ```python

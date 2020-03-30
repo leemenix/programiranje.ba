@@ -1,4 +1,11 @@
 # Python 3 - Uvod u programski jezik Python
+
+autor: Milenko Letic - https://programiranje.ba
+
+e-mail: milenko.letic@programiranje.ba
+
+verzija: 0.4
+
 ## O kursu
 - jednostavan za ucenje
 
@@ -110,8 +117,8 @@ __________
 - upisavanje podsjetnika
 - komentarisanje koda
 - preporuka da se koristi taraba
-# ovo je taraba (hash tag) simbol
-# komentari su po default-u ignorisani u python-u
+ ovo je taraba (hash tag) simbol
+ komentari su po default-u ignorisani u python-u
 ```python
 '''
 Viselinijski komentar
@@ -190,8 +197,10 @@ print("i imao je najboljeg druga po imenu " + karakter_2)
 - Logicki tacno, netacno (boolean True/False)
 - bool()
 
-- korisna funkcija type
+korisna funkcija type
+```pyrhon
 print(type(karakter_ime))
+```
 
 tipovi_podataka.py
 ```python
@@ -416,12 +425,12 @@ karakteri_novi.sort()
 print(karakteri_novi)
 ```
 
-#### - Tuples (tip podaktovne strukture, veoma slican listama) - ()
+## Tuples (tip podaktovne strukture, veoma slican listama) - ()
 - razlike od liste
 - immutable (ne mogu se mijenjati) za razliku od listi
 
 koorinate.py
-
+```python
 koordinate = (4, 5)
 print(type(koordinate))
 print (len(koordinate))
@@ -430,18 +439,20 @@ print(koordinate[0])
 print(koordinate[1])
 
 koordinate[1] = 10 # dobicemo gresku
-
-##### list of tuples
+```
+### list of tuples
+```python
 koordinate = [(4,5), (6,3), (7.4)]
 print(type(koordinate))
 
 print(len(koordinate))
+```
 
 #### Rijecnik - Dictionaries - {}
 - standardni rijecnik koji imamo ima strukturu rijec i detaljno objasnjenje rijece
   gdje rijec predstavlja kljuc (key), vrijednost (value) predstavlja definiciju
   key mora biti jedinstven
-
+```python
 Jan -> Januar
 Mar -> Mart
 
@@ -458,15 +469,18 @@ print(konverzijaMjeseci["Mar"])
 print(konverzijaMjeseci.get("Jan"))
 print(konverzijaMjeseci.get("Dec"))
 print(konverzijaMjeseci.get("Dec","Nije validan kljuc"))
-Funkcije
+```
+## Funkcije
 skup kodova koje odradjuju odredjene zadatke
 dobri su za organizaciju koda
 
 kako kreirati funkcije
 
+kad god se pojavi def na pocetku, python zna da korisnik zeli kreirati funkciju
+
 zdravo_svijete_funkcija.py
 
-# kad god se pojavi def na pocetku, python zna da korisnik zeli kreirati funkciju
+
 ```python
 def zdravo_svijete():
   print("Zdravo Svijete.")
@@ -505,11 +519,11 @@ def pozdrav(ime):
 pozdrav(korisnik_ime)
 ```
 
-#### - Return izraz/direktiva statement  
+## return izraz/direktiva statement  
 - kada zelimo dobiti povratnu informaciju iz funkcije koristimo return direktivu
 - kada zelimo da funkcije mogu medjusobno komunicirati
 
-2 na trecu
+2 na n-tu
 ```python
 def kub(broj):
   broj * broj * broj
@@ -601,7 +615,7 @@ else:
   print("Freza je los karakter")
 ```
 
-##### - operatori poredjenja i uslov if (>,<, >=, <=, ==, !=)
+### Operatori poredjenja i uslov if (>,<, >=, <=, ==, !=)
 
 maksimalan_broj.py
 ```python
@@ -616,8 +630,10 @@ def maksimalan_broj(broj_1, broj_2, broj_3):
 print(maksimalan_broj(7, 8, 9))
 ```
 
-##### kalkulator_nadogradjena_verzija.py
-osnovni_kalkulator.py
+kalkulator_nadogradjena_verzija.py
+
+Ovo je bio osnovni_kalkulator.py
+
 ```python
 broj_1 = input("Unesite prvi broj: ")
 broj_2 = input("Unesite drugi broj: ")
@@ -651,7 +667,7 @@ else:
   print("unijeli ste pogresan operator")
 ```
 
-#### while petlja 
+## while petlja 
 - struktura u python koja nam omogucava da prolazimo kroz isti kod vise puta, onoliko puta
 koliko smo to zadali inicijalnim uslovom
 - kroz svaku od iteracija kroz kod while ce da izvrsi sve sto je unutar while petlje
@@ -698,7 +714,7 @@ else:
     print("Cestitamo, pogodili ste")
 ```
 
-### for petlja
+## for petlja
 - specijalni tip petlje u python-u
 ```python
 for slovo in "programiranje.ba":
@@ -741,7 +757,8 @@ def eksponent_broja(baza, eksponent):
 
 print(exponent_broja(2,4))
 ```
-#### dvodimenzionalne liste i ugnijezdene petlje (nested)
+## dvodimenzionalne liste i ugnijezdene petlje (nested)
+
 ```python
 resetka = [
     [1, 2, 3],
@@ -792,7 +809,7 @@ print("Pomak: " + str(pomak))
 print("Sifrovan tekst: " + enkripcija(tekst, pomak))
 ```
 
-#### try / except (catch) - hvatanje greski
+## try / except (catch) - hvatanje greski
   - kada ne zelimo da nas program puca
   - ipak zelimo da nastavimo i da damo informaciju korisniku
   
@@ -828,7 +845,7 @@ except ValueError:
   print("Pogresan unos")
 ```
 
-#### citanje iz eksternog fajla
+## citanje iz eksternog fajla
 - dosta puta imamo potrebu za citanjem sadrzaja iz drugih fajlova
 - parsiranje teksta ...
 - apsolutni, relativna lokacija
@@ -866,7 +883,7 @@ for karakter in karakteri_fajl.readlines():
 karakteri_fajl.close()
 ```
 
-### upisivanje u eksterni fajl
+## upisivanje u eksterni fajl
 ```python
 karakteri_fajl = open("karakteri_porijeklo.txt", "a")
 
@@ -885,7 +902,7 @@ karakteri_fajl.write("\n Chi-Chi - Zemlja")
 karakteri_fajl.close()
 ```
 
-#### modules and pip 
+## moduli i pip alat
 - python fajl koji mozete importovati unutar vaseg python koda
 - kako kreirati svoj modul
 - kako instalirati module (list of python modules on google) pip paket manager
@@ -924,7 +941,7 @@ print(ka.pozdrav("Goku"))
 ## how to import and use modules
 ```
 
-#### klase i objekti
+## klase i objekti
 - ekstremno korisni , organizovan i mocniji
 - kada radimo sa programiranjem susrecemo se sa razlicitim tipovima podataka
 - takodje susrecemo se sa razlicitim strukturama podataka
@@ -934,8 +951,8 @@ print(ka.pozdrav("Goku"))
   kako nesto treba da izgleda)
 - objekat je podatak u memoriji, pravi podatak kreiran iz klase
 
-student.py
-# posto ne postoji student tip podaka, kreiracemo klasu student
+posto ne postoji student tip podaka, kreiracemo klasu Student
+
 Student.py
 ```python
 class Student:
@@ -961,7 +978,7 @@ student_drugi = Student("Dragan", "Ekonomija", 8.3, True)
 print(student_drugi.brucos) 
 ```
 
-##### funkcije unutar klase (funkcije objekta)
+### funkcije unutar klase (funkcije objekta)
 ```python
 class Student:
   def __init__(self, ime, smjer, ocjena, brucos):
@@ -976,7 +993,7 @@ class Student:
     else:
       return False
 ```
-#### naslijedjivanje
+## naslijedjivanje
 - u slucaju da imamo klasu, kada kreiramo novu klasu mozemo naslijediti staru klasu
 - nova klasa ce imati sve osobine stare klase sa novim opcijama
 
@@ -1047,254 +1064,3 @@ print("Dvojici crko facebook, ostao je 1")
 print("1 depresivac, oprezan je bio")
 print("Onda se ozenio")
 ```
-# import turtle
-# # from turtle import Tkinter
-# import tk as Tkinter
-
-
-# fred = turtle.Pen()
-# fred.shape("turtle")
-# fred.forward(100)
-# fred.circle(100)
-# fred.color("blue")
-# fred.circle(-100)
-# fred.forward(100)
-# Tkinter.mainloop()
-
-
-import time
-import turtle
-import tk as Tkinter
-from turtle import Turtle # specijalna funkcija Turtle (Kornjaca)
-from random import randint # random integer (slucajni cijeli broj)
-
-# kreiranje prozora
-window = turtle.Screen()
-window.title=("Trke Kornjaca")
-
-
-turtle.bgcolor("forestgreen")
-turtle.color("white")
-turtle.speed(0) # prikazi odmah
-turtle.penup() # kretanje kornjace u drugim pozicijama, trenutno je kornjaca na poziciji x,y = [0,0]
-turtle.setpos(-140, 200) # x lijevo, y gore
-turtle.write("Trke Kornjaca", font=("Arial", 30, "bold"))
-turtle.penup()
-
-# zemlja oko staze, dekoracija
-turtle.setpos(-400, -180)
-turtle.color("chocolate")
-turtle.begin_fill() # popuni oblik bojom
-turtle.pendown()
-turtle.forward(800)
-turtle.right(90)
-turtle.forward(300)
-turtle.right(90)
-turtle.forward(800)
-turtle.right(90)
-turtle.forward(300)
-turtle.end_fill()
-
-# finish linija
-stamp_size = 20
-square_size = 15
-finish_line = 200
-
-turtle.color("black")
-turtle.shape("square")
-turtle.shapesize(square_size / stamp_size)
-turtle.penup()
-
-for i in range (10):
-    turtle.setpos(finish_line, (150 - (i * square_size * 2)))
-    turtle.stamp()
-
-for j in range (10):
-    turtle.setpos(finish_line + square_size, ((150 - square_size) - (j * square_size * 2)))
-    turtle.stamp()
-
-turtle.hideturtle()
-
-# class nova_kornjaca:
-# 	def __init__(self,speed,color,shape,penup,goto):
-# 		self.speed = speed
-# 		self.color = color
-# 		self.shape = shape
-# 		self.penup = penup
-# 		self.goto = goto
-		
-
-kornjaca1 = Turtle()
-kornjaca1.speed(0)
-kornjaca1.color("black")
-kornjaca1.shape("circle")
-kornjaca1.penup()
-kornjaca1.goto(-250, 100)
-kornjaca1.penup()
-# kornjaca1 = nova_kornjaca(0,"black","turtle","","-250, 100")
-
-
-# kornjaca 2
-kornjaca2 = Turtle()
-kornjaca2.speed(0)
-kornjaca2.color("cyan")
-kornjaca2.shape("turtle")
-kornjaca2.penup()
-kornjaca2.goto(-250, 50)
-kornjaca2.penup()
-
-
-# kornjaca 3
-kornjaca3 = Turtle()
-kornjaca3.speed(0)
-kornjaca3.color("yellow")
-kornjaca3.shape("turtle")
-kornjaca3.penup()
-kornjaca3.goto(-250, 0)
-kornjaca3.penup()
-
-
-# kornjaca 4
-kornjaca4 = Turtle()
-kornjaca4.speed(0)
-kornjaca4.color("magenta")
-kornjaca4.shape("turtle")
-kornjaca4.penup()
-kornjaca4.goto(-250, -50)
-kornjaca4.penup()
-
-# kornjaca 5
-kornjaca5 = Turtle()
-kornjaca5.speed(0)
-kornjaca5.color("blue")
-kornjaca5.shape("turtle")
-kornjaca5.penup()
-kornjaca5.goto(-250, -100)
-kornjaca5.penup()
-
-time.sleep(1)
-
-# pokreni kornjace
-for i in range(145):
-    kornjaca1.forward(randint(1,5))
-    kornjaca2.forward(randint(1,5))
-    kornjaca3.forward(randint(1,5))
-    kornjaca4.forward(randint(1,5))
-    kornjaca5.forward(randint(1,5))
-
-turtle.exitonclick()
-
-Tkinter.mainloop()from random import *
-import time
-import sys
- 
-reel_1 = ''
-reel_2 = ''
-reel_3 = ''
-bank = 0
-current_bet = 0
-spin_count = 0 # For Testing Purposes
-total_won = 0
-total_lost = 0
-def slow_reel(reel1, reel2, reel3):
-    for symbol in (reel_1,reel_2,reel_3):
-        sys.stdout.write(symbol)
-        sys.stdout.flush()
-        time.sleep(0.1)
-slow_reel(reel_1, reel_2, reel_3)
-def game_loop():
-    global reel_1, reel_2, reel_3, bank, current_bet, spin_count, total_lost, total_won
-    if bank <= 0:
-        print("GAME OVER LOSER!")
-    while bank > 0:
-        if current_bet > 0 and bank >= current_bet:
-            bet_r = input("\n[ENTER] TO REPEAT BET, 'NO' TO PLACE NEW ONE: ")
-            if bet_r == "" or bet_r == "Y":
-                bet = current_bet
-            else:
-                current_bet = 0
-                bet = 0
-                game_loop()
-        else:
-            try:
-                bet = int(input("PLACE YOUR BET!: "))
-            except ValueError:
-                return game_loop()
- 
-        if bet >= 0 and bank >= bet:
-            bank -= bet
-            total_lost += bet
-            current_bet = bet
-            try:
-                reel1 = ['!', '@', '@', '#', '#', '#', '&', '&', '&', '&', '%', '%', '%',
-                '%', '%']
-                reel2 = ['!', '@', '@', '#', '#', '#', '&', '&', '&', '&', '%', '%', '%',
-                '%', '%']
-                reel3 = ['!', '@', '@', '#', '#', '#', '&', '&', '&', '&', '%', '%', '%',
-                '%', '%']
-                reel_1 = choice(reel1)
-                reel_2 = choice(reel2)
-                reel_3 = choice(reel3)
-                print("\n-----SPINNING FOR: ${}-----\n".format(current_bet))
-                for c in reel_1:
-                    time.sleep(0.4)
-                    print(" (","<",c,">", end=" | ", flush=True)
-                for c in reel_2:
-                    time.sleep(0.8)
-                    print("<",c,">", end=' | ', flush=True)
-                for c in reel_3:
-                    time.sleep(1.0)
-                    print("<",c,">", end=' )', flush=True)
-                    time.sleep(1.5)
-                print("\n")
-                print("----------------------------")
-                spin_count += 1
- 
-                if reel_1 == '!' and reel_2 == '!' and reel_3 == '!':
-                    bank += 100 * current_bet
-                    total_won += 100 * current_bet
-                    print("YOU WON THE JACKPOT!!!: $",100 * current_bet)
-                    print(spin_count) # Testing Odds
-                    exit(0) # So I Can Easily Tell When JACKPOT Is Won
-                elif reel_1 == '@' and reel_2 == '@' and reel_3 == '@':
-                    bank += 50 * current_bet
-                    total_won += 50 * current_bet
-                    print("YOU WON!!: $",50 * current_bet)
-                elif reel_1 == '#' and reel_2 == '#' and reel_3 == '#':
-                    bank += 20 * current_bet
-                    total_won += 20 * current_bet
-                    print("YOU WON!!: $",20 * current_bet)
-                elif reel_1 == '&' and reel_2 == '&' and reel_3 == '&':
-                    bank += 10 * current_bet
-                    total_won += 10 * current_bet
-                    print("YOU WON!!: $",10 * current_bet)
-                elif reel_1 == '%' and reel_2 == '%' and reel_3 == '%':
-                    bank += 5 * current_bet
-                    total_won += 5 * current_bet
-                    print("YOU WON!!: $",5 * current_bet)
-                elif reel_1 == '%' and reel_2 == '%':
-                    bank += current_bet
-                    total_won += current_bet
-                    print("YOU WON!!: $",current_bet)
-                elif reel_1 == '%' and reel_3 == "%":
-                    bank += current_bet
-                    total_won += current_bet
-                    print("YOU WON!!: $", current_bet)
-                else:
-                    pass
-                print("\nYour Statistics")
-                print("Won: $", total_won, "Spent: $", total_lost, "\nCurrent Balance: $", bank)
-            except (Exception):
-                pass
-def start():
-    global bank
-    print("\nWelcome to Python Slots")
-    command = input("YOU START WITH $10,000! \n\nPRESS [ENTER] TO BEGIN ")
-    if command == "":
-        bank = 10000
-        game_loop()
-    else:
-        print("ALL YOU HAD TO DO WAS PRESS ENTER")
-        start()
- 
-start()

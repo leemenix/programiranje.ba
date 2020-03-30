@@ -1,5 +1,5 @@
 
-#### while petlja 
+## while petlja 
 - struktura u python koja nam omogucava da prolazimo kroz isti kod vise puta, onoliko puta
 koliko smo to zadali inicijalnim uslovom
 - kroz svaku od iteracija kroz kod while ce da izvrsi sve sto je unutar while petlje

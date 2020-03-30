@@ -1,12 +1,14 @@
-Funkcije
+## Funkcije
 skup kodova koje odradjuju odredjene zadatke
 dobri su za organizaciju koda
 
 kako kreirati funkcije
 
+kad god se pojavi def na pocetku, python zna da korisnik zeli kreirati funkciju
+
 zdravo_svijete_funkcija.py
 
-# kad god se pojavi def na pocetku, python zna da korisnik zeli kreirati funkciju
+
 ```python
 def zdravo_svijete():
   print("Zdravo Svijete.")

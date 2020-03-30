@@ -1,5 +1,5 @@
 
-### upisivanje u eksterni fajl
+## upisivanje u eksterni fajl
 ```python
 karakteri_fajl = open("karakteri_porijeklo.txt", "a")
 
