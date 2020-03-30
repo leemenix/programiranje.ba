@@ -1273,6 +1273,12 @@ print("Onda se ozenio")
 ```
 
 ```python
+#potapanje brodova
+```
+```python
+# vjesalo
+```
+```python
 ime = input("Unesite vase ime: ")
 pet_puta=(ime+" ")*5
 print(pet_puta)
