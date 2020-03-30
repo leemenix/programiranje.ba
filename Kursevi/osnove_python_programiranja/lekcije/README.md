@@ -6,6 +6,7 @@ e-mail: milenko.letic@programiranje.ba
 
 verzija: 0.4
 
+
 ## O kursu
 - jednostavan za ucenje
 
@@ -95,24 +96,6 @@ print("|      ")
 - u ovom slucaju python ide liniju po liniju i izvrsava kod
 - sta se desava u slucaju da zamijenimo prvu i zadnju liniju?
 
-Zadaci za samostalni rad!
-- napisati program koji ispicuje vase Ime i prezime
-- napisati program koji crta pravougaonik oblika
-```python
-__________
-|         |
-|         |
-|_________|
-```
-- napisati program koji crta trougao oblika
-```python
-    /\
-   /  \
-  /    \
- /      \
-/________\
-```
-
 ## Komentarisanje koda
 - upisavanje podsjetnika
 - komentarisanje koda
@@ -130,6 +113,26 @@ print("Komentari su korisni")
 # print("Ova linija koda nece biti ispisana")
 ```
 
+Zadaci za samostalni rad!
+
+1 Napisati program koji ispicuje vase ime i prezime
+
+1 Napisati program koji crta pravougaonik oblika
+```python
+__________
+|         |
+|         |
+|_________|
+```
+
+1 Napisati program koji crta trougao oblika
+```python
+    /\
+   /  \
+  /    \
+ /      \
+/________\
+```
 ## Promjenjive i tipovi podataka
 
 ### Promjenjive, varijable (variables) 

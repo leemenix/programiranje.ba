@@ -26,24 +26,6 @@ print("|      ")
 - u ovom slucaju python ide liniju po liniju i izvrsava kod
 - sta se desava u slucaju da zamijenimo prvu i zadnju liniju?
 
-Zadaci za samostalni rad!
-- napisati program koji ispicuje vase Ime i prezime
-- napisati program koji crta pravougaonik oblika
-```python
-__________
-|         |
-|         |
-|_________|
-```
-- napisati program koji crta trougao oblika
-```python
-    /\
-   /  \
-  /    \
- /      \
-/________\
-```
-
 ## Komentarisanje koda
 - upisavanje podsjetnika
 - komentarisanje koda
