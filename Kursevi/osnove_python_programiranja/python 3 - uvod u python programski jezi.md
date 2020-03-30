@@ -40,13 +40,15 @@ python 3 - uvod u python programski jezik
 - python 2 (legacy), python 3 (future)
   - razlika u sintaksi
 
-### Zdravo Svijete
+#### Zdravo Svijete
 - podesavanje PyCharm-a i nas prvi program
   - promjena teme, odredisnog direktorija, velicine fonta i sl.
   - New -> Python File ...
      - pozdrav_svijete.py
-      
+
+```python      
        print("Zdravo Svijete!")
+```
 
   - dva nacina za pokretanje Python programa i kada koji koristiti
     - cmd, terminal - (ako nesto zelimo da provjerimo brzo i trenutno)
@@ -83,12 +85,13 @@ Zadaci za samostalni rad!
     /________\
 ```
 
-# komentarisanje koda
+#### komentarisanje koda
   - upisavanje podsjetnika
   - komentarisanje koda
   - preporuka da se koristi taraba
   # ovo je taraba (hash tag) simbol
   # komentari su po default-u ignorisani u python-u
+```python
   '''
   Viselinijski komentar
   '''
@@ -97,8 +100,9 @@ Zadaci za samostalni rad!
   """
   print("Komentari su korisni")
   # print("Ova linija koda nece biti ispisana")
+```
 
-### promjenjive i tipovi podataka
+#### promjenjive i tipovi podataka
 
 - promjenjive, varijable (variables) 
   - programiranje se uglavnom svodi na obradu podataka, stim u vezi je potrebno pohraniti podatke 
