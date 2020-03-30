@@ -199,15 +199,20 @@ print("i imao je najboljeg druga po imenu " + karakter_2)
 ### Tipovi podataka
 
 ```yaml
-            Tipovi podataka                  |    python sintksa
-_____________________________________________|______________________
-Znakovni (string - predstavlja niz znakova)  |       string()
-_____________________________________________|______________________
-Brojevi cijeli, realni (integer, float)      |         int()
-                                             |        float()
-_____________________________________________|______________________
-Logicki tacno, netacno (boolean True/False)  |         bool()
-_____________________________________________|______________________
+            Tipovi podataka                  |    python sintksa    |             objasnjenje
+_____________________________________________|______________________|__________________________________
+Znakovni (string - predstavlja niz znakova)  |       string()       | operacije nad znakovnim tipovima
+                                             |                      |             podataka
+_____________________________________________|______________________|__________________________________
+Brojevi cijeli, realni (integer, float)      |         int()        |int()   - pretvara u cijeli broj 
+                                             |                      |            (npr. 1,10,33)
+                                             |        float()       |float() - pretvara u realni broj
+                                             |                      |        (npr. 1.0, 3.14, 33.3333)
+_____________________________________________|______________________|__________________________________
+Logicki tacno, netacno (boolean True/False)  |         bool()       |bool()  - operacije nad logickim 
+                                             |                      |          tipovima podataka 
+                                             |                      |            (True i False)
+_____________________________________________|______________________|__________________________________
 ```
 
 korisna funkcija type
