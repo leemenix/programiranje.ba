@@ -148,18 +148,19 @@ Tri glavna faktora koji cine promjenjivu/varijablu jesu:
 - vrijednost varijable
 
 ```python
-naziv | operator | vrijednost
+naziv   |    operator     | vrijednost
+           pridruzivanja
 
-ime        =        "Goku"
+ime             =            "Goku"
 
-godine     =           23
+godine          =              23
 ```
 
 #### Gradjenje varijable
 - naziv varijable ne smije poceti sa brojem
 - naziv varijable moze poceti, malim, velikim slovima ili donjom crticom (_)
 nakon cega moze ici broj
-- malo a i veliko A se razlikuju (a != A)
+- mala i velika slova se razlikuju (a != A)
 
 
 naziv_varijabli.py
@@ -197,13 +198,15 @@ print("i imao je najboljeg druga po imenu " + karakter_2)
 
 ### Tipovi podataka
 
-- Znakovni (string)
-- string()
+- Znakovni (string - predstavlja niz znakova)
+  string()
+
 - Brojevi cijeli, realni (integer, float)
-- int()
-- float()
+  int()
+  float()
+
 - Logicki tacno, netacno (boolean True/False)
-- bool()
+  bool()
 
 korisna funkcija type
 ```pyrhon
