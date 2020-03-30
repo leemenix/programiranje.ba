@@ -653,7 +653,31 @@ else:
   print("Freza je los karakter")
 ```
 
-### Operatori poredjenja i uslov if (>,<, >=, <=, ==, !=)
+### Relacijski operatori, operatori poredjenja (>,<, >=, <=, ==, !=)
+
+```yaml
+ Operacija |    Naziv operacije   |     Primjer      |   Rezultat  
+           |                      |      a=3         | 
+           |                      |      b=2         |
+           |                      |      c=3         |              
+___________|______________________|__________________|____________________
+     >     |         Vece         |    print(a > b)  |    Tacno (True)
+___________|______________________|__________________|____________________
+     <     |         Manje        |    print(a < b)  | Nije Tacno (False)
+___________|______________________|__________________|____________________
+     >=    |    Vece ili jednako  |   print(a >= b)  |    Tacno (True)
+           |                      |   print(a >= c)  |    Tacno (True) 
+___________|______________________|__________________|____________________
+     <=    |   Manje ili jednako  |   print(a <= b)  | Nije Tacno (False)
+           |                      |   print(a <= c)  |    Tacno (True)             
+___________|______________________|__________________|____________________
+     ==    |      Jednako         |   print(a == b)  | Nije Tacno (False)
+           |                      |   print(a == c)  |    Tacno (True)
+___________|______________________|__________________|____________________
+     !=    |     Nije jednako     |   print(a != b)  |    Tacno (True)
+           |      Razlicito       |   print(a != c)  | Nije Tacno (False)    
+___________|______________________|__________________|____________________
+```
 
 maksimalan_broj.py
 ```python
