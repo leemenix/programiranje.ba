@@ -116,14 +116,14 @@ print("Komentari su korisni")
 Zadaci za samostalni rad!
 
 1. Napisati program koji ispicuje vase ime i prezime
-1. Napisati program koji crta pravougaonik oblika
+2. Napisati program koji crta pravougaonik oblika
 ```python
 __________
 |         |
 |         |
 |_________|
 ```
-1. Napisati program koji crta trougao oblika
+3. Napisati program koji crta trougao oblika
 ```python
     /\
    /  \
