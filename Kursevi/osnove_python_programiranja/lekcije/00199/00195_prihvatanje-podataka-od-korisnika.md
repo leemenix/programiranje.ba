@@ -1,5 +1,9 @@
 
-## Ulaz/upis podataka, prihvatanje podataka od korisnika
+## Ulaz/upis podataka, prihvatanje podataka od korisnika ili interakcija sa programom
+
+Slozicete se da je programiranje dosadno, ako nemamo interakciju, nekakav vid komunikacije
+sa nasim programom. Kako bi omogucili interakciju sa programom, Python nam na raspolaganje nudi
+funkciju input(). 
 
 ```python
 input() # hej ti, cekam da uneses neku informaciju podatak
