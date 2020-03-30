@@ -64,6 +64,7 @@ print("i imao je najboljeg druga po imenu " + karakter_2)
 
 ### Tipovi podataka
 
+```yaml
 - Znakovni (string - predstavlja niz znakova)
   string()
 
@@ -73,6 +74,7 @@ print("i imao je najboljeg druga po imenu " + karakter_2)
 
 - Logicki tacno, netacno (boolean True/False)
   bool()
+```
 
 korisna funkcija type
 ```pyrhon
