@@ -1235,20 +1235,31 @@ print("Dvojici crko facebook, ostao je 1")
 print("1 depresivac, oprezan je bio")
 print("Onda se ozenio")
 ```
+
+```python
 ime = input("Unesite vase ime: ")
 pet_puta=(ime+" ")*5
 print(pet_puta)
+```
+
+```python
 a=input("Unesite znak sa tastature: ")
 b=ord(a)
 
 print("Vrijednost znaka '" + a + "' u ASCII tabeli je " + str(b))
- 
+```
+
+```python
 a=input("Unesite prvi broj: ")
 b=input("Unesite drugi broj: ")
 c=input("Unesite treci broj: ")
 asredina=(int(a)+int(b)+int(c))/3
 print("Aritmeticka sredina je: " + str(asredina))
+```
+
+```python
 prva_rijec  = input("Unesite prvu rijec: ")
 druga_rijec = input("Unesite drugu rijec: ")
 
 print(prva_rijec + '   ' + druga_rijec)
+```
