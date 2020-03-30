@@ -1,12 +1,12 @@
-## Python 3 - Uvod u programski jezik Python
-### O kursu
+# Python 3 - Uvod u programski jezik Python
+## O kursu
 - jednostavan za ucenje
 
 - kurs je dizajniran za sto jednostavnije ucenje
 
 - citavo vrijeme cete biti vodjenji
 
-### Par rijeci o Python programskom jeziku
+## Par rijeci o Python programskom jeziku
 
 Python je programski jezik opste namjeni, dinamicki typed i interpretiran, objektno orjentisan programski jezik kreiran u kasnim 80-tim od strane
  Guido van Rossum.
