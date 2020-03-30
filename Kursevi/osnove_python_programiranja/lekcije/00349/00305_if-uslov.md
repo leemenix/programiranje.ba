@@ -1,7 +1,12 @@
 
-#### uslov if
-- donosenje odluke, na osnovu uslova koji se moraju ispuniti
-- krairamo program pametnijim, omogucujemo donosenje odluke
+#### Naredbe za kontrolu toka (if, elif, else)
+
+Ako zelimo da donosenje odluke prepustimo nasem programu, na osnovu uslova koji se moraju ispuniti, a
+samim tim krairamo nas program pametnijim, uvescemo novi uslov if (naredbu if), koja se jos zove
+i naredba kontrole toka. Ukoliko je uslov ispunjen (Tacan - True), izvrsava se naredba ili blok naredbi
+pod tim uslovom, u suprotnom izvrsava se drugi blok naredbi ili se nastavlja ispitivanje.
+
+Primjer iz realnog zivota
 ```yaml
 Probudio sam se i oprao zube
 ako sam gladan
@@ -47,7 +52,7 @@ ___________|______________________|__________________|____________________
 ___________|______________________|__________________|____________________
 ```
 
-### Logicki operatori (and, or i not)
+### Logicki operatori (and, or i not) ili bitski operatori
 
 ```yaml
  Operacija |    Naziv operacije   |       Primjer        |   Rezultat  

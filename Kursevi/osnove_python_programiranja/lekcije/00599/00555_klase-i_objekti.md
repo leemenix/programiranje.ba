@@ -1,15 +1,12 @@
 
-## klase i objekti
-- ekstremno korisni , organizovan i mocniji
-- kada radimo sa programiranjem susrecemo se sa razlicitim tipovima podataka
-- takodje susrecemo se sa razlicitim strukturama podataka
-- sta u slucaju kad ne mozemo predstaviti neku pojavu iz prirode sa vec postojecim tipovima 
-  ili strukturama podataka
-- u python-u mozemo krairati klase (definise vas licni tip podatka, ponasa se kao template, patern
-  kako nesto treba da izgleda)
-- objekat je podatak u memoriji, pravi podatak kreiran iz klase
+## Klase i objekti
+Znamo od pocetka da je Python objektno orijentisani programski jezik, sto znaci da su svi podaci
+predstavljeni kao objekti. Prihvatanjem objektno orijentisanog nacina programiranja, nasi programi,
+ali sam kod, postaju ekstremno korisni, organizovaniji i mocniji.
+Kada programiramo susrecemo se sa razlicitim tipovima podataka, takodje susrecemo se sa razlicitim strukturama podataka, ali sta u slucaju kad ne mozemo predstaviti neku pojavu iz prirode sa vec postojecim tipovima ili strukturama podataka?
+Upravo su nam za to korisne klase. U Python-u mozemo krairati klase (definise vas licni tip podatka, ponasa se kao template, patern kako nesto treba da izgleda). Objekat je podatak u memoriji, pravi podatak kreiran iz klase. 
 
-posto ne postoji student tip podaka, kreiracemo klasu Student
+Posto ne postoji student tip podaka, kreiracemo klasu Student
 
 Student.py
 ```python
@@ -26,13 +23,13 @@ main.py
 ```python
 from Student import Student
 
-# kreiranje student_prvi objetka
-student_prvi = Student("Darko", "Programiranje", 8, False)
+# kreiranje instance Student student_prvi objetka
+student_prvi = Student("Goku", "Programiranje", 8, False)
 print(student_prvi)
 print(student_prvi.ime)
 print(student_prvi.ocjena)
 
-student_drugi = Student("Dragan", "Ekonomija", 8.3, True) 
+student_drugi = Student("Krilin", "Ekonomija", 8.3, True) 
 print(student_drugi.brucos) 
 ```
 

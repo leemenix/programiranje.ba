@@ -1,14 +1,17 @@
 ## Funkcije
-skup kodova koje odradjuju odredjene zadatke
-dobri su za organizaciju koda
 
-kako kreirati funkcije
+Skup kodova koje odradjuju odredjene zadatke, dobri su za organizaciju koda. 
 
-kad god se pojavi def na pocetku, python zna da korisnik zeli kreirati funkciju
+Funkcije se definisu pomocu kljucne rijeci def, kad god se pojavi def na pocetku linije, python zna da korisnik zeli kreirati funkciju i stim u vezi se i ponasa.
+
+```yaml
+def naziv_funkcije(parametri): # parametri su opcioni, ali ako postoje moraju biti definisani/proslijedjeni
+  blok naredbi # argumenti
+
+naziv_funkcije(argumenti) # poziv funkcije
+```
 
 zdravo_svijete_funkcija.py
-
-
 ```python
 def zdravo_svijete():
   print("Zdravo Svijete.")

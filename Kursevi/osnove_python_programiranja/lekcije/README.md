@@ -610,16 +610,19 @@ print(konverzijaMjeseci.get("Dec"))
 print(konverzijaMjeseci.get("Dec","Nije validan kljuc"))
 ```
 ## Funkcije
-skup kodova koje odradjuju odredjene zadatke
-dobri su za organizaciju koda
 
-kako kreirati funkcije
+Skup kodova koje odradjuju odredjene zadatke, dobri su za organizaciju koda. 
 
-kad god se pojavi def na pocetku, python zna da korisnik zeli kreirati funkciju
+Funkcije se definisu pomocu kljucne rijeci def, kad god se pojavi def na pocetku linije, python zna da korisnik zeli kreirati funkciju i stim u vezi se i ponasa.
+
+```yaml
+def naziv_funkcije(parametri): # parametri su opcioni, ali ako postoje moraju biti definisani/proslijedjeni
+  blok naredbi # argumenti
+
+naziv_funkcije(argumenti) # poziv funkcije
+```
 
 zdravo_svijete_funkcija.py
-
-
 ```python
 def zdravo_svijete():
   print("Zdravo Svijete.")
@@ -658,9 +661,11 @@ def pozdrav(ime):
 pozdrav(korisnik_ime)
 ```
 
-## return izraz/direktiva statement  
-- kada zelimo dobiti povratnu informaciju iz funkcije koristimo return direktivu
-- kada zelimo da funkcije mogu medjusobno komunicirati
+## Naredba return (return direktiva)
+
+Kada zelimo dobiti povratnu informaciju iz funkcije koristimo naredbu return. Sa ovom informacijom
+mozemo nastaviti manipulaciju kroz dajlni dio koda. Naredba return se moze pojaviti samo unutar tijela
+funkcije. Takodje kada zelimo da funkcije mogu medjusobno komunicirati. 
 
 2 na n-tu
 ```python
@@ -693,9 +698,26 @@ def kub(broj):
 print(cub(3))
 ```
 
-#### uslov if
-- donosenje odluke, na osnovu uslova koji se moraju ispuniti
-- krairamo program pametnijim, omogucujemo donosenje odluke
+### Funkcija ne mijenja sadrzaj promjenjive
+```python
+def brojac(x)
+  x = x + 1
+  return x
+
+broj=3
+brojac(broj) # vrijednost koju promjenjiva pokazuje, ali ne i samu promjenjivu, sto obezbjedjje da funkcija ne moze mijenjati promjenjivu, samo kopiju vrijednosti koja je proslijedjena
+print(broj) # 
+
+```
+
+#### Naredbe za kontrolu toka (if, elif, else)
+
+Ako zelimo da donosenje odluke prepustimo nasem programu, na osnovu uslova koji se moraju ispuniti, a
+samim tim krairamo nas program pametnijim, uvescemo novi uslov if (naredbu if), koja se jos zove
+i naredba kontrole toka. Ukoliko je uslov ispunjen (Tacan - True), izvrsava se naredba ili blok naredbi
+pod tim uslovom, u suprotnom izvrsava se drugi blok naredbi ili se nastavlja ispitivanje.
+
+Primjer iz realnog zivota
 ```yaml
 Probudio sam se i oprao zube
 ako sam gladan
@@ -741,7 +763,7 @@ ___________|______________________|__________________|____________________
 ___________|______________________|__________________|____________________
 ```
 
-### Logicki operatori (and, or i not)
+### Logicki operatori (and, or i not) ili bitski operatori
 
 ```yaml
  Operacija |    Naziv operacije   |       Primjer        |   Rezultat  
@@ -1129,17 +1151,14 @@ print(ka.pozdrav("Goku"))
 ## how to import and use modules
 ```
 
-## klase i objekti
-- ekstremno korisni , organizovan i mocniji
-- kada radimo sa programiranjem susrecemo se sa razlicitim tipovima podataka
-- takodje susrecemo se sa razlicitim strukturama podataka
-- sta u slucaju kad ne mozemo predstaviti neku pojavu iz prirode sa vec postojecim tipovima 
-  ili strukturama podataka
-- u python-u mozemo krairati klase (definise vas licni tip podatka, ponasa se kao template, patern
-  kako nesto treba da izgleda)
-- objekat je podatak u memoriji, pravi podatak kreiran iz klase
+## Klase i objekti
+Znamo od pocetka da je Python objektno orijentisani programski jezik, sto znaci da su svi podaci
+predstavljeni kao objekti. Prihvatanjem objektno orijentisanog nacina programiranja, nasi programi,
+ali sam kod, postaju ekstremno korisni, organizovaniji i mocniji.
+Kada programiramo susrecemo se sa razlicitim tipovima podataka, takodje susrecemo se sa razlicitim strukturama podataka, ali sta u slucaju kad ne mozemo predstaviti neku pojavu iz prirode sa vec postojecim tipovima ili strukturama podataka?
+Upravo su nam za to korisne klase. U Python-u mozemo krairati klase (definise vas licni tip podatka, ponasa se kao template, patern kako nesto treba da izgleda). Objekat je podatak u memoriji, pravi podatak kreiran iz klase. 
 
-posto ne postoji student tip podaka, kreiracemo klasu Student
+Posto ne postoji student tip podaka, kreiracemo klasu Student
 
 Student.py
 ```python
@@ -1156,13 +1175,13 @@ main.py
 ```python
 from Student import Student
 
-# kreiranje student_prvi objetka
-student_prvi = Student("Darko", "Programiranje", 8, False)
+# kreiranje instance Student student_prvi objetka
+student_prvi = Student("Goku", "Programiranje", 8, False)
 print(student_prvi)
 print(student_prvi.ime)
 print(student_prvi.ocjena)
 
-student_drugi = Student("Dragan", "Ekonomija", 8.3, True) 
+student_drugi = Student("Krilin", "Ekonomija", 8.3, True) 
 print(student_drugi.brucos) 
 ```
 
