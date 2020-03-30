@@ -284,7 +284,27 @@ print(f"{sajt_naziv} {sajt_naziv}")
 ```
 
 ## Rad sa brojevima
-- brojevi, rad sa brojevima, funkcije nad brojevima
+brojevi, rad sa brojevima, funkcije nad brojevima. 
+Osnovne aritmeticke operacije koje mozemo vrsiti u Python-u su
+
+``yaml
+ Operacija |    Naziv operacije   |     Primjer      |   Rezultat   
+___________|______________________|__________________|____________
+     +     |      Sabiranje       |  print(1 + 1)    |    2
+___________|______________________|__________________|____________
+     -     |      Oduzimanje      |  print(6 - 5)    |    1
+___________|______________________|__________________|____________
+     *     |       Mnozenje       |  print(4 * 3)    |    12
+___________|______________________|__________________|____________
+     /     |      Dijeljenje      |  print(4 / 2)    |    2
+___________|______________________|__________________|____________
+     %     |      Ostatak pri     |  print(5 % 2)    |    1
+           |   dijeljenju (moduo) |                  |  
+___________|______________________|__________________|____________
+     **    |      Potenciranje    |  print(2 ** 3)   |    8
+___________|______________________|__________________|____________
+```
+
 
 ```python
 print(3)
