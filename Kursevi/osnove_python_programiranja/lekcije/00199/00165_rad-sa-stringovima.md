@@ -27,6 +27,9 @@ print("programiranje.ba besplatni online kursevi")
 
 # escape karakter \
 print("programiranje.ba \n besplatni online kursevi")
+# takodje se koristi kada trebamo ispisati specijalne karaktere
+#print("\")
+print("\\")
 
 sajt_naziv = "programiranje.ba"
 sajt_slogan = " besplatni online kursevi"
@@ -36,6 +39,7 @@ print(sajt_naziv + sajt_slogan)
 print(sajt_naziv.upper() + sajt_slogan.upper())
 print(sajt_naziv.isupper())
 print(len(sajt_naziv))
+print(sajt_naziv * 3)
 
 # index stringa pocinje na poziciji 0
 print(sajt_naziv[4])
@@ -58,5 +62,23 @@ print("{1}, {0}".format(sajt_naziv, sajt_slogan))
 print(f"{sajt_naziv} {sajt_naziv}")
 
 # jos neki primjeri funkcija nad stringovima
-### char i ord kasnije potrebni za cezarovu sifru 
+sajt_naziv = "programiranje.ba"
+sajt_godina = "2020"
+sajt_kratki_slogan = "kursevi"
+
+print(sajt_naziv.isalpha())
+print(sajt_godina.isdigit())
+print(sajt_kratki_slogan.isalpha())
+### funkcije chr() i ord() kasnije potrebni za cezarovu sifru 
+# funkcija ord() daje cjelobrojnu vrijednost karaktera prema ASCII tabli
+print(ord'A')
+print(ord'a')
+print(ord'b')
+print(ord'z')
+
+# funkcija chr() konvertuje cjelobrojnu vrijednost u odgovarajuci karakter 
+print(chr(64))
+print(chr(33))
+print(chr(97))
+print(chr(100))
 ```

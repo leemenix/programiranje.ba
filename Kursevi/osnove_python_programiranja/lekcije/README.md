@@ -277,6 +277,9 @@ print("programiranje.ba besplatni online kursevi")
 
 # escape karakter \
 print("programiranje.ba \n besplatni online kursevi")
+# takodje se koristi kada trebamo ispisati specijalne karaktere
+#print("\")
+print("\\")
 
 sajt_naziv = "programiranje.ba"
 sajt_slogan = " besplatni online kursevi"
@@ -286,6 +289,7 @@ print(sajt_naziv + sajt_slogan)
 print(sajt_naziv.upper() + sajt_slogan.upper())
 print(sajt_naziv.isupper())
 print(len(sajt_naziv))
+print(sajt_naziv * 3)
 
 # index stringa pocinje na poziciji 0
 print(sajt_naziv[4])
@@ -308,7 +312,25 @@ print("{1}, {0}".format(sajt_naziv, sajt_slogan))
 print(f"{sajt_naziv} {sajt_naziv}")
 
 # jos neki primjeri funkcija nad stringovima
-### char i ord kasnije potrebni za cezarovu sifru 
+sajt_naziv = "programiranje.ba"
+sajt_godina = "2020"
+sajt_kratki_slogan = "kursevi"
+
+print(sajt_naziv.isalpha())
+print(sajt_godina.isdigit())
+print(sajt_kratki_slogan.isalpha())
+### funkcije chr() i ord() kasnije potrebni za cezarovu sifru 
+# funkcija ord() daje cjelobrojnu vrijednost karaktera prema ASCII tabli
+print(ord'A')
+print(ord'a')
+print(ord'b')
+print(ord'z')
+
+# funkcija chr() konvertuje cjelobrojnu vrijednost u odgovarajuci karakter 
+print(chr(64))
+print(chr(33))
+print(chr(97))
+print(chr(100))
 ```
 
 ## Rad sa brojevima
@@ -418,6 +440,36 @@ print(f"U dalekoj proslosti zivio je djecak po imenu {karakter_ime}.")
 print(f"{karakter_ime} je imao {karakter_godine} godina.")
 print(f"Volio je upoznavati nove karaktere ")
 print(f"i imao je najboljeg druga po imenu {karakter_prijatelj}!")
+```
+
+## Zadaci za samostalni rad!
+
+1. Napisati program koji trazi da upisete vase ime, a on automatski ispisuje vase ime pet puta, sa
+razmakom izmedju imena.
+```yaml
+Unesite vase ime: Goku
+Goku Goku Goku Goku Goku 
+```
+
+2. Napisati program koji trazi da unesete dvije rijeci, a zatim ih ispise u istom redu sa razmakom od 
+tri space karaktera izmedju izmedju.
+```yaml
+Unesite prvu rijec: Dobar
+Unesite drugu rijec: Dan
+Dobar   Dan
+```
+
+3. Napisati program koji racuna aritmeticku sredinu za tri unesena broja. Pomoc: Aritmeticka sredina za a,b,c se izracunava po formuli (a + b + c)/3 
+```yaml
+Unesite prvi broj: 1
+Unesite drugi broj: 2
+Unesite treci broj: 3
+Aritmeticka sredina je: 2.0
+```
+4. Napisati program koji za uneseni karakter sa tastaure ispisuje vrijednost iz ASCII tabele
+```yaml
+Unesite znak sa tastature: }
+Vrijednost znaka '}' u ASCII tabeli je 125
 ```
 
 ##### Liste - []
@@ -1183,3 +1235,20 @@ print("Dvojici crko facebook, ostao je 1")
 print("1 depresivac, oprezan je bio")
 print("Onda se ozenio")
 ```
+ime = input("Unesite vase ime: ")
+pet_puta=(ime+" ")*5
+print(pet_puta)
+a=input("Unesite znak sa tastature: ")
+b=ord(a)
+
+print("Vrijednost znaka '" + a + "' u ASCII tabeli je " + str(b))
+ 
+a=input("Unesite prvi broj: ")
+b=input("Unesite drugi broj: ")
+c=input("Unesite treci broj: ")
+asredina=(int(a)+int(b)+int(c))/3
+print("Aritmeticka sredina je: " + str(asredina))
+prva_rijec  = input("Unesite prvu rijec: ")
+druga_rijec = input("Unesite drugu rijec: ")
+
+print(prva_rijec + '   ' + druga_rijec)
