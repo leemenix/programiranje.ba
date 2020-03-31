@@ -115,7 +115,7 @@ Imamo dva nacina za pokretanje Python programa, ovo je preporuka kada koji koris
 Programiranje predstavlja davanje instrukcija kompjuteru (kroz programski jezik) i na osnovu ovih instrukcija
 kompjuter donosi odluke. 
 
-Izvorni kod: kod-11_crtanje-oblika.py
+**`Izvorni kod: kod-11_crtanje-oblika.py`**
 
 ```python
 print("*")
