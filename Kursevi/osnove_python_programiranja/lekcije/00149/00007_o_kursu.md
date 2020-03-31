@@ -25,8 +25,14 @@ lekcije ili na kraju knjige koja dolazi sa kursom, takodje besplatno).
 Primijeticete da nazivi Python fajlova imaju malo cudnu konvenciju, ali na nacin kako su fajlovi nazvani
 autor je olaksao organizaciju izvornog koda kao i referisanje studenata na odredjeni kod.
 
-Sva pitanja vezana za kurs mozete postaviti preko e-mail adrese _pitanja-python@programiranje.ba_ ili na
-YouTube kanalu https://www.youtube.com/channel/UCSYrkPyht9PAXMhAbkGTbsQ (https://youtube.com/c/channel_name when it's ready).
+Prilikom kreiranja kursa i primjera mahom su koristeni karakteri iz poznate anime serije Zmajeva Kugla
+(Dragon Ball). Ponekad su dijelovi teksta uzeti iz pjesama Miladina Sobica, Tome Zdravkovica, Dubioze Kolektiv i Ramba Amadeusa. Takodje, postoje dijelovi teksta iz pjesmica za djecu, sve u cilju da se programiranje usvoji
+sto je lakse i prirodnije moguce ali i da bude zanimljivo tokom cijelog kursa. 
+
+Sva pitanja vezana za kurs mozete postaviti preko e-mail adrese 
+_pitanja-python@programiranje.ba_ 
+ili na YouTube kanalu 
+https://www.youtube.com/channel/UCSYrkPyht9PAXMhAbkGTbsQ (https://youtube.com/c/channel_name kada bude spreman tbd.)
 
 
 

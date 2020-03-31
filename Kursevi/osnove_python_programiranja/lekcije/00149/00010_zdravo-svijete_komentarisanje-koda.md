@@ -22,6 +22,7 @@ print("**")
 print("***")
 print("****")
 print("*****")
+print("******")
 ```
 
 - u ovom slucaju python ide liniju po liniju i izvrsava kod
@@ -33,7 +34,7 @@ Komentare koristimo kada zelimo da zapisemo neki podsjetinik unutar koda, koment
 i sebi sta odredjena linija koda radi. Praksa i preporuka je da se koristi simbol taraba (hash tag) _#_. 
 Komentari su po default-u ignorisani u Python-u, preciznije ignorisani od strane Python interpretera.  
 
-Izvorni kod: kod-12_demonstracija-komentara.py
+**`Izvorni kod: kod-12_demonstracija-komentara.py`**
 ```python
 '''
 Viselinijski komentar

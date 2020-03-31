@@ -37,8 +37,14 @@ lekcije ili na kraju knjige koja dolazi sa kursom, takodje besplatno).
 Primijeticete da nazivi Python fajlova imaju malo cudnu konvenciju, ali na nacin kako su fajlovi nazvani
 autor je olaksao organizaciju izvornog koda kao i referisanje studenata na odredjeni kod.
 
-Sva pitanja vezana za kurs mozete postaviti preko e-mail adrese _pitanja-python@programiranje.ba_ ili na
-YouTube kanalu https://www.youtube.com/channel/UCSYrkPyht9PAXMhAbkGTbsQ (https://youtube.com/c/channel_name when it's ready).
+Prilikom kreiranja kursa i primjera mahom su koristeni karakteri iz poznate anime serije Zmajeva Kugla
+(Dragon Ball). Ponekad su dijelovi teksta uzeti iz pjesama Miladina Sobica, Tome Zdravkovica, Dubioze Kolektiv i Ramba Amadeusa. Takodje, postoje dijelovi teksta iz pjesmica za djecu, sve u cilju da se programiranje usvoji
+sto je lakse i prirodnije moguce ali i da bude zanimljivo tokom cijelog kursa. 
+
+Sva pitanja vezana za kurs mozete postaviti preko e-mail adrese 
+_pitanja-python@programiranje.ba_ 
+ili na YouTube kanalu 
+https://www.youtube.com/channel/UCSYrkPyht9PAXMhAbkGTbsQ (https://youtube.com/c/channel_name kada bude spreman tbd.)
 
 
 
@@ -123,6 +129,7 @@ print("**")
 print("***")
 print("****")
 print("*****")
+print("******")
 ```
 
 - u ovom slucaju python ide liniju po liniju i izvrsava kod
@@ -134,7 +141,7 @@ Komentare koristimo kada zelimo da zapisemo neki podsjetinik unutar koda, koment
 i sebi sta odredjena linija koda radi. Praksa i preporuka je da se koristi simbol taraba (hash tag) _#_. 
 Komentari su po default-u ignorisani u Python-u, preciznije ignorisani od strane Python interpretera.  
 
-Izvorni kod: kod-12_demonstracija-komentara.py
+**`Izvorni kod: kod-12_demonstracija-komentara.py`**
 ```python
 '''
 Viselinijski komentar
@@ -171,10 +178,24 @@ __________
 ```
 ## Promjenjive i tipovi podataka
 
+Promjenjive ili varijable su osnovni objekti podataka kojima se manipulise u programu. Recimo da zelimo 
+imati promjenjivu **ime_korisnika** koju mozemo koristiti kroz citav program i koja sadrzi vrijednost **Goku**.
+To bi smo mogli napisati kao:
+
+```python
+ime_karaktera = "Goku"
+```
+Ovo citamo kao: 
+Deklarisana je promjenjiva, ciji je naziv (identifikator) **ime_karaktera** a cija je inicijalna (pocetna)
+vrijednost **Goku**. 
+
+Takodje iz navedenog primjera mozemo zakljuciti da je promjenjiva, ciji je naziv **ime_karaktera**, tekstualnog
+tipa, niz karaktera ["G","o","k","u"] ili na engleskom tipa **string**. 
+
 ### Promjenjive, varijable (variables) 
 
 Programiranje se uglavnom svodi na obradu podataka, stim u vezi je potrebno pohraniti podatke 
-i organizovati ih na najbolji moguci nacin. Varijable ili promjenjiva predstavlja lokaciju u memoriji
+i organizovati ih na najbolji moguci nacin. Varijabla ili promjenjiva predstavlja lokaciju u memoriji
 vaseg kompjutera i sluzi da pokaze na odredjenu vrijednost koju ta memorijska lokacija predstavlja.
 
 Tri glavna faktora koji cine promjenjivu/varijablu jesu: 
@@ -183,7 +204,7 @@ Tri glavna faktora koji cine promjenjivu/varijablu jesu:
 - operator i 
 - vrijednost varijable
 
-```python
+```text
 naziv   |    operator     | vrijednost
            pridruzivanja
 
@@ -199,7 +220,7 @@ nakon cega moze ici broj
 - mala i velika slova se razlikuju (a != A)
 
 
-naziv_varijabli.py
+**`Izvorni kod: kod-155_naziv-varijabli.py`**
 ```python
 ime = "Goku"
 godine = 16
@@ -215,7 +236,7 @@ print (a)
 print (A) 
 ```
 
-- prakticna_primjena_varijabli.py - (Dragon Ball - Zmajeva Kugla)
+**`Izvorni kod: kod-156_prakticna-primjena-varijabli.py`**
 ```python
 karakter_1 = "Son Goku"
 karakter_2 = "Krilin"
@@ -230,14 +251,18 @@ print("U dalekoj proslosti zivio je djecak po imenu " + karakter_1)
 print(karakter_1 + " je imao " + godine + " godina.")
 print("Volio je upoznavati nove karaktere ")
 print("i imao je najboljeg druga po imenu " + karakter_2)
+# Veoma korisna funkcija type() sluzi nam da odredimo kog tipa je neka promjenjiva tokom razvoja programa. 
+print(type(karakter_ime))
+#godine = 17
+print(type(godine))
 ```
 
 ### Tipovi podataka
 
-```yaml
+```text
             Tipovi podataka                  |    python sintksa    |             objasnjenje
 _____________________________________________|______________________|__________________________________
-Znakovni (string - predstavlja niz znakova)  |       string()       | operacije nad znakovnim tipovima
+Tekstualni (string - predstavlja niz znakova)|       string()       | operacije nad znakovnim tipovima
                                              |                      |             podataka
 _____________________________________________|______________________|__________________________________
 Brojevi cijeli, realni (integer, float)      |         int()        |int()   - pretvara u cijeli broj 
@@ -251,13 +276,11 @@ Logicki tacno, netacno (boolean True/False)  |         bool()       |bool()  - o
 _____________________________________________|______________________|__________________________________
 ```
 
-korisna funkcija type
-```python
-print(type(karakter_ime))
-```
-### Mijenjanje tipova promjenjive (kastovanje)
+#### Mijenjanje tipova promjenjive (kastovanje)
+
 Primjenjiva moze mijenjati tip kroz izvrsavanje programa, sto se jos naziva i kastovanje (casting). 
-tipovi_podataka.py
+
+**`Izvorni kod: kod-157_tipovi-podataka.py`**
 ```python
 karakter_ime = "Goku"
 karakter_godine = 15
