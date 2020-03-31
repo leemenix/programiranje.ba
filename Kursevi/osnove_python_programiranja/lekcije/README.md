@@ -11,9 +11,8 @@ verzija: 0.4
 - dodani primjeri za vjezbe (lecije 1 i 2)
 
 
-```
 <a name="o-kursu"/>
-```
+
 ## O kursu
 
 Kurs **Python 3 - Uvod u programski jezik Python** je dizajniran za sto jednostavnije ucenje. Namijenjen
@@ -44,9 +43,8 @@ YouTube kanalu https://www.youtube.com/channel/UCSYrkPyht9PAXMhAbkGTbsQ (https:/
 
 
 
-```
 <a name="istorija-pythona"/>
-```
+
 ## Par rijeci o Python programskom jeziku
 
 Python je programski jezik opste namjeni, dinamicki typed i interpretiran, objektno orjentisan programski jezik kreiran u kasnim 80-tim od strane

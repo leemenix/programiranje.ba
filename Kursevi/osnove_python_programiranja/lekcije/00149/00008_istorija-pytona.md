@@ -1,7 +1,6 @@
 
-```
 <a name="istorija-pythona"/>
-```
+
 ## Par rijeci o Python programskom jeziku
 
 Python je programski jezik opste namjeni, dinamicki typed i interpretiran, objektno orjentisan programski jezik kreiran u kasnim 80-tim od strane
