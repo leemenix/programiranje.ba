@@ -41,6 +41,9 @@ Prilikom kreiranja kursa i primjera mahom su koristeni karakteri iz poznate anim
 (Dragon Ball). Ponekad su dijelovi teksta uzeti iz pjesama Miladina Sobica, Tome Zdravkovica, Dubioze Kolektiv i Ramba Amadeusa. Takodje, postoje dijelovi teksta iz pjesmica za djecu, sve u cilju da se programiranje usvoji
 sto je lakse i prirodnije moguce ali i da bude zanimljivo tokom cijelog kursa. 
 
+tbd. Igrice vjesala i potapanje brodova.
+tbd. python mozete koristiti na svim poljima, automatizaciju, obradu ogromne kolicine podataka, web, igrice ...
+
 Sva pitanja vezana za kurs mozete postaviti preko e-mail adrese 
 _pitanja-python@programiranje.ba_ 
 ili na YouTube kanalu 
@@ -311,10 +314,11 @@ print(karakter_ime + " je los karakter " + str(karakter_osobina_los))
 
 ## Rad sa stringovima
 Stringovi predstavljaju niz karaktera (velika/mala slova, brojevi, znakovi interpunkcije, specijalni 
-znakovi, ...), koji sluzi za skladistenje i rad sa tekstualni podacima. 
+znakovi, ...), koji sluzi za skladistenje i rad sa tekstualni podacima. Mozemo reci da su stringovi 
+uredjeni i smisleni niz karaktera. 
 
 ### Jednostavan primjer kreiranja stringa
-rad_sa_stringovima.py
+**`Izvorni kod: kod-165_rad_sa_stringovima.py`**
 ```python
 print("programiranje.ba besplatni online kursevi")
 
@@ -331,7 +335,8 @@ sajt_slogan = """besplatni online kursevi
 ```
 
 ### Funkcije nad stringovima
-rad_sa_stringovima.py
+
+**`Izvorni kod: kod-166_rad_sa_stringovima.py`**
 ```python
 print("programiranje.ba besplatni online kursevi")
 
@@ -419,7 +424,7 @@ ___________|______________________|__________________|____________
 ___________|______________________|__________________|____________
 ```
 
-
+**`Izvorni kod: kod-185_rad-sa-brojevima.py`**
 ```python
 print(3)
 print(-4)
@@ -459,6 +464,7 @@ Slozicete se da je programiranje dosadno, ako nemamo interakciju, nekakav vid ko
 sa nasim programom. Kako bi omogucili interakciju sa programom, Python nam na raspolaganje nudi
 funkciju input(). 
 
+**`Izvorni kod: kod-190_interakcija-sa-korisnikom.py`**
 ```python
 
 input() 
@@ -480,24 +486,7 @@ print("Zdravo, " + korisnik_ime + ". Vi imate " + korisnik_godine + " godina.")
 # vjezba ispisati preghodni program koristeci funkciju format
 ```
 
-osnovni_kalkulator.py
-
-```python
-broj_1 = input("Unesite prvi broj: ")
-broj_2 = input("Unesite drugi broj: ")
-rezultat = broj1 + broj2
-
-print(rezultat)
-
-broj_1 = input("Unesite prvi broj: ")
-broj_2 = input("Unesite drugi broj: ")
-rezultat = float(broj_1) + float(broj_2)
-
-print(rezultat)
-```
-
-
-interaktivni_karakter_program.py
+**`Izvorni kod: kod-191_interaktivni_karakter_program.py`**
 ```python
 print("U dalekoj proslosti zivio je djecak po imenu Goku.")
 print("Goku je imao 15 godina.")
@@ -514,6 +503,21 @@ print(f"Volio je upoznavati nove karaktere ")
 print(f"i imao je najboljeg druga po imenu {karakter_prijatelj}!")
 ```
 
+**`Izvorni kod: kod-192_osnovni_kalkulator.py`**
+
+```python
+broj_1 = input("Unesite prvi broj: ")
+broj_2 = input("Unesite drugi broj: ")
+rezultat = broj1 + broj2
+
+print(rezultat)
+
+broj_1 = input("Unesite prvi broj: ")
+broj_2 = input("Unesite drugi broj: ")
+rezultat = float(broj_1) + float(broj_2)
+
+print(rezultat)
+```
 
 ## Zadaci za samostalni rad!
 
@@ -546,8 +550,24 @@ Vrijednost znaka '}' u ASCII tabeli je 125
 ```
 
 ##### Liste - []
-- rad sa listama, velik broj podataka (organizacija i pracenje podataka)
+
+Liste predstavljaju niz objekata, gdje svaki clan liste ima svoj indeks. Ovi clanovi se nazivaju elementima
+lista. Slicne su stringovima, s tim da svaki elemnent liste moze biti razlicitog tipa. Elementi liste su
+smjesteni u uglaste zagrade _[]_ i razdvojeni zarezom _,_. 
+
+```text
+lista   |  [ 1, 4, 6.33, 10, "Goku" ]
+indeks  |    0  1     2   3    4  
+```
+
+Rad sa listama, nam pomaze pri organizaciji i boljem pracenju toka podataka.
+
+**`Izvorni kod: kod-210_rad-sa-listama.py`**
 ```python
+prazna_lista = []
+print(prazna_lista)
+pritn(type(prazna_lista))
+
 karakteri = ["Goku", "Krilin", "Bulma", "Chi-Chi", "Yamcha", "Picolo"]
 print(karakteri)
 
@@ -570,6 +590,7 @@ print(karakteri)
 ```
 
 ##### funkcije nad listama
+**`Izvorni kod: kod-211_rad-sa_listama.py`**
 ```python
 karakteri = ["Goku", "Krilin", "Bulma", "Chi-Chi", "Yamcha", "Picolo"]
 print(karakteri)
@@ -589,8 +610,12 @@ print(karakteri)
 karakteri.remove("Majin Buu")
 print(karakteri)
 
-karakteri.pop()
+del(karakteri[3]) # funkcija del
 print(karakteri)
+
+izbrisan_karakter = karakteri.pop(4) # metoda pop, u slucaju da hocemo da sacuvamo izbrisani element
+print(karakteri)
+
 
 karakteri.clear("")
 print(karakteri)
@@ -600,33 +625,52 @@ print(karakteri)
 karakteri = ["Goku", "Krilin", "Bulma", "Chi-Chi", "Yamcha", "Picolo", "Bulma"]
 print(karakteri)
 
-print(len(karakteri))
+print(len(karakteri)) # funkcija len
 
-print(karakteri.index("Bulma"))
+print(karakteri.index("Bulma")) # metoda index
 
-print(karakteri.count("Bulma"))
+print(karakteri.count("Bulma")) # metoda count, prebrojavanje koliko se trazeni element pojavljuje u listi
 
-karakteri.sort()
+karakteri.sort() # metoda sort
 print(karakteri)
 
-karakteri.reverse()
+karakteri.reverse() # metoda reverse
 print(karakteri)
 
-karakteri_novi = karakteri.copy()
+karakteri_novi = karakteri.copy() # metoda copy
 
 print(karakteri_novi)
 
 karakteri_novi.sort()
 print(karakteri_novi)
+
+print list(string_karakter)
+# funkcije min i max, vracaju najmanji ili najveci element liste respektivno
+karakteri = ["Goku", "Krilin", "Bulma", "Chi-Chi", "Yamcha", "Picolo", "Bulma"]
+print(karakteri)
+print min(karakteri) # funkcija min
+print max(karakteri) # funkcija max
+
+# konverzija stringa u listu
+string_karakter = "Goku"
+type(string_karakter)
+print(string_karakter)
 ```
 
-## Tuples - torka (tip podaktovne strukture, veoma slican listama) - ()
-Tuples predstavlja niz nepromjenjivih clanova. Clanovi unutar Tuple-a mogu biti istih ili razlicitih
+## Tuples - torke (tip podaktovne strukture, veoma slican listama) - ()
+Tuples predstavlja niz nepromjenjivih clanova. Clanovi unutar tuple-a mogu biti istih ili razlicitih
 tipova. Tuple definisemo nabrajanjem objekata odvojenih zarezom, cak i ako je u pitanju jedan jedini
-clan moramo imati zaraz, u suprotnom se gubi osobina Tuple-a.
+clan moramo imati zaraz, u suprotnom se gubi osobina tuple-a.
 
-Razlikuju se od liste po tome sto su nepromjenjive (immutable -ne mogu se mijenjati).
+Razlikuju se od liste po tome sto su **nepromjenjive (immutable -ne mogu se mijenjati).**
 
+Tuple mozemo prevosti kao torke, a izraz dolazi iz matematike od pojma _n-torka_ (eng.tuple) koji predstavlja
+konacni niz (poznat kao uredjena lista) od n objekata, od kojih je svaki specifincnog tipa.
+
+Clanovi torke su smjesteni u obicne zagrade _()_ i razdvojeni zarezom _,_. Clanovi torke mogu biti same 
+torke.
+
+**`Izvorni kod: kod-220_rad-sa-torkama.py`**
 ```python
 karakteri = (1,2,3,4,"a","d","-")
 print(karakteri)
@@ -639,48 +683,120 @@ type(karakteri)
 karakteri = (1)
 print(karakteri)
 type(karakteri)
-```
 
-koorinate.py
-```python
-koordinate = (4, 5)
+### list of tuples
+koordinate = [(4,5), (6,3), (7.4)]
 print(type(koordinate))
-print (len(koordinate))
-print(koordinate.index(5))
-print(koordinate[0])
+print(len(koordinate))
+
+## tuple su nepromjenjive strukture
+koordinate = (4, 5)
+print(type(koordinate)) # funkijca type()
+print (len(koordinate)) # funkcija len()
+print(koordinate.index(5)) # metod index
+print(koordinate[0]) 
 print(koordinate[1])
 
 koordinate[1] = 10 # dobicemo gresku
-```
-### list of tuples
-```python
-koordinate = [(4,5), (6,3), (7.4)]
-print(type(koordinate))
 
-print(len(koordinate))
+### pristupanje elementima torki slicno je kao i kad pristupamo listama
+karakteri = (1,2,3,4,"a","d","-") # pristupanje elementima tuple-a 
+print(karakteri[1])
+print(karakteri[2:4])
+print(karakteri[-2:]
+print(karakteri[::2]) # pristupanje svakom drugom elementu
+
+# konverzija drugih tipova u tuple
+karakter_ime = "Goku"
+type(karakter_ime)
+karakter_godine = 15
+type(karakter_godine)
+
+karakter_ime = tuple(karakter_ime)
+type(karakter_ime)
+print(karakter_ime)
+karakter_godine = tuple(karakter_godine) 
+karakter_godine = tuple(str(karakter_godine))
+type(karakter_godine)
+print(karakter_godine)
+
+karakter = karakter_ime + karakter_godine
+type(karakter)
+print(karakter)
+
+# brisanje tuple-a
+del(karakter[3]) # brisanje elemenata tuple-a nije moguce
+del(karakter)
 ```
 
-#### Rijecnik - Dictionaries - {}
-- standardni rijecnik koji imamo ima strukturu rijec i detaljno objasnjenje rijece
-  gdje rijec predstavlja kljuc (key), vrijednost (value) predstavlja definiciju
-  key mora biti jedinstven
+#### Rijecnici - Dictionaries - {}
+
+Rijecnici su tipovi podataka, opet slicni listama, ali za razliku od listi indeksiranje se obavlja kljucevima.
+
+Za lakse razumijevanje ih mozemo uporediti sa klasicnim rijecnikom za prevodjenje rijeci sa jednog jezika na 
+drugi, gdje imamo strukturu strana rijec na lijevoj strani i detaljno objasnjenje rijeci na desnoj strani.
+Ako navedenu analogiju primijenimo rijecnicima, kao tipovima podataka u Python-u, onda rijec predstavlja kljuc
+(key), dok detaljno objasnjenj predstavlja vrijednost (value). 
+
+Elementi rijecnika su smjesteni u viticaste zagrade _{}_ a parovi elemenata su razdvojeni zarezom _,_. 
+```text{kljuc:vrijednost} ({key:value})```
+
+Bitno je napomenti da kljuc (key), mora biti jedinstven, ne mozemo imati dva ista kljuca. 
+```text
+{"kljuc_1:vrijednost_1", "kljuc_2:vrijednost_2", "kljuc_3:vrijednost_1"} - ispravno
+{"kljuc_1:vrijednost_1", "kljuc_1:vrijednost_2", "kljuc_3:vrijednost_1"} - nije ispravno 
+```
+
+**`Izvorni kod: kod-230_rad-sa-rijecnicima`**
 ```python
-Jan -> Januar
-Mar -> Mart
+karakteri={} # prazan rijecnik
+print(karakteri)
+
+karakteri_osobine={"Goku":"Sayan", "Picolo":"Namek", "Krilin":"Zemlja"}
+print(karakteri_planete)
+print(type(karakteri_planete))
+
+karakteri_planete["Bulma"]="Zemlja"
+print(karakteri_planete)
+karakteri_planete["Goku"]="Namek" # prepisace trenutnu vrijednost ako postoji
+
+del(karakteri_planete["Goku"]) # brisanje elementa
+
+print(len(karakteri_planete)) # primijetimo da se broje parovi
+
+print(karakteri_planete.keys()) # metoda keys() nad rijecnicima, ispisuje sve kljuceve (keys), nema argumente
+print(karakteri_planete.values()) # metoda values() ispisuje vrijdnosti elementa, nema argumente
+print(karakteri_planete.items()) # metoda items() ispisuje kljuc: vrijdnost elementa, nema argumente
+```
+
+**`Izvorni kod: kod-231_konverzija_mjeseci.py`**
+```python
+# recimo da zelimo konvertovati kratke nazive mjeseca u standardne
+# Jan -> Januar
+# Mar -> Mart
 
 konverzijaMjeseci = {
     "Jan": "Januar",
     "Feb": "Februar",
-    "Mar": "Mart"
+    "Mar": "Mart",
+    "Apr": "April",
+    "Maj": "Maj",
+    "Jun": "Juni",
+    "Jul": "Juli",
+    "Avg": "Avgust",
+    "Sep": "Septermbar",
+    "Okt": "Oktobar",
+    "Nov": "Novembar",
+    "Dec": "Decembar"
 }
 
 print(konverzijaMjeseci["Jan"])
 print(konverzijaMjeseci["Feb"])
 print(konverzijaMjeseci["Mar"])
 
-print(konverzijaMjeseci.get("Jan"))
+print(konverzijaMjeseci.get("Jan")) 
 print(konverzijaMjeseci.get("Dec"))
-print(konverzijaMjeseci.get("Dec","Nije validan kljuc"))
+print(konverzijaMjeseci.get("Dese","Nije validan kljuc")) # ako koristimo get necemo dobit gresku vec empty
 ```
 ## Funkcije
 

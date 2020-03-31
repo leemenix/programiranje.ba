@@ -1,10 +1,11 @@
 
 ## Rad sa stringovima
 Stringovi predstavljaju niz karaktera (velika/mala slova, brojevi, znakovi interpunkcije, specijalni 
-znakovi, ...), koji sluzi za skladistenje i rad sa tekstualni podacima. 
+znakovi, ...), koji sluzi za skladistenje i rad sa tekstualni podacima. Mozemo reci da su stringovi 
+uredjeni i smisleni niz karaktera. 
 
 ### Jednostavan primjer kreiranja stringa
-rad_sa_stringovima.py
+**`Izvorni kod: kod-165_rad_sa_stringovima.py`**
 ```python
 print("programiranje.ba besplatni online kursevi")
 
@@ -21,7 +22,8 @@ sajt_slogan = """besplatni online kursevi
 ```
 
 ### Funkcije nad stringovima
-rad_sa_stringovima.py
+
+**`Izvorni kod: kod-166_rad_sa_stringovima.py`**
 ```python
 print("programiranje.ba besplatni online kursevi")
 

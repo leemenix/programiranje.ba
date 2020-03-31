@@ -29,6 +29,9 @@ Prilikom kreiranja kursa i primjera mahom su koristeni karakteri iz poznate anim
 (Dragon Ball). Ponekad su dijelovi teksta uzeti iz pjesama Miladina Sobica, Tome Zdravkovica, Dubioze Kolektiv i Ramba Amadeusa. Takodje, postoje dijelovi teksta iz pjesmica za djecu, sve u cilju da se programiranje usvoji
 sto je lakse i prirodnije moguce ali i da bude zanimljivo tokom cijelog kursa. 
 
+tbd. Igrice vjesala i potapanje brodova.
+tbd. python mozete koristiti na svim poljima, automatizaciju, obradu ogromne kolicine podataka, web, igrice ...
+
 Sva pitanja vezana za kurs mozete postaviti preko e-mail adrese 
 _pitanja-python@programiranje.ba_ 
 ili na YouTube kanalu 

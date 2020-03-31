@@ -5,6 +5,7 @@ Slozicete se da je programiranje dosadno, ako nemamo interakciju, nekakav vid ko
 sa nasim programom. Kako bi omogucili interakciju sa programom, Python nam na raspolaganje nudi
 funkciju input(). 
 
+**`Izvorni kod: kod-190_interakcija-sa-korisnikom.py`**
 ```python
 
 input() 
@@ -26,24 +27,7 @@ print("Zdravo, " + korisnik_ime + ". Vi imate " + korisnik_godine + " godina.")
 # vjezba ispisati preghodni program koristeci funkciju format
 ```
 
-osnovni_kalkulator.py
-
-```python
-broj_1 = input("Unesite prvi broj: ")
-broj_2 = input("Unesite drugi broj: ")
-rezultat = broj1 + broj2
-
-print(rezultat)
-
-broj_1 = input("Unesite prvi broj: ")
-broj_2 = input("Unesite drugi broj: ")
-rezultat = float(broj_1) + float(broj_2)
-
-print(rezultat)
-```
-
-
-interaktivni_karakter_program.py
+**`Izvorni kod: kod-191_interaktivni_karakter_program.py`**
 ```python
 print("U dalekoj proslosti zivio je djecak po imenu Goku.")
 print("Goku je imao 15 godina.")
@@ -60,3 +44,18 @@ print(f"Volio je upoznavati nove karaktere ")
 print(f"i imao je najboljeg druga po imenu {karakter_prijatelj}!")
 ```
 
+**`Izvorni kod: kod-192_osnovni_kalkulator.py`**
+
+```python
+broj_1 = input("Unesite prvi broj: ")
+broj_2 = input("Unesite drugi broj: ")
+rezultat = broj1 + broj2
+
+print(rezultat)
+
+broj_1 = input("Unesite prvi broj: ")
+broj_2 = input("Unesite drugi broj: ")
+rezultat = float(broj_1) + float(broj_2)
+
+print(rezultat)
+```
