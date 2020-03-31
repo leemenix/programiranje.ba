@@ -1,7 +1,7 @@
 
 ## Zdravo Svijete
 
-Program: 10_zdravo-svijete.py
+Izvorni kod: kod-10_zdravo-svijete.py
 
 ```python      
 print("Zdravo Svijete!")
@@ -14,7 +14,7 @@ Imamo dva nacina za pokretanje Python programa, ovo je preporuka kada koji koris
 Programiranje predstavlja davanje instrukcija kompjuteru (kroz programski jezik) i na osnovu ovih instrukcija
 kompjuter donosi odluke. 
 
-Program: 11_crtanje-oblika.py
+Izvorni kod: kod-11_crtanje-oblika.py
 
 ```python
 print("*")
@@ -33,7 +33,7 @@ Komentare koristimo kada zelimo da zapisemo neki podsjetinik unutar koda, koment
 i sebi sta odredjena linija koda radi. Praksa i preporuka je da se koristi simbol taraba (hash tag) _#_. 
 Komentari su po default-u ignorisani u Python-u, preciznije ignorisani od strane Python interpretera.  
 
-Program: 12_demonstracija-komentara.py
+Izvorni kod: kod-12_demonstracija-komentara.py
 ```python
 '''
 Viselinijski komentar
