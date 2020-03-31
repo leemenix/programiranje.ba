@@ -32,6 +32,9 @@ Citavo vrijeme cete biti vodjeni kroz kurs na vama je samo, da u par sati koliko
 sto instruktor radi, odradjujete vjezbe nakon svake lekcije (rjesenja su uvijek data na pocetku sledece 
 lekcije ili na kraju knjige koja dolazi sa kursom, takodje besplatno). 
 
+Primijeticete da nazivi Python fajlova imaju malo cudnu konvenciju, ali na nacin kako su fajlovi nazvani
+autor je olaksao organizaciju izvornog koda kao i referisanje studenata na odredjeni kod.
+
 Sva pitanja vezana za kurs mozete postaviti preko e-mail adrese _pitanja-python@programiranje.ba_ ili na
 YouTube kanalu https://www.youtube.com/channel/UCSYrkPyht9PAXMhAbkGTbsQ (https://youtube.com/c/channel_name when it's ready).
 
@@ -95,37 +98,39 @@ Vecina programera odabere pisanje Python koda, koristenjem specijalnog integrisa
   - New -> Python File ...
 ## Zdravo Svijete
 
-- pozdrav_svijete.py
+Program: 10_zdravo-svijete.py
 
 ```python      
 print("Zdravo Svijete!")
 ```
 
-- dva nacina za pokretanje Python programa i kada koji koristiti
+Imamo dva nacina za pokretanje Python programa, ovo je preporuka kada koji koristiti:
 - cmd, terminal - (ako nesto zelimo da provjerimo brzo i trenutno)
 - direktno iz IDE-a (precice) - (kada pisemo vise linija koda)
 
-- drugi program
-- programiranje je davanje instrukcija kompjuteru (kroz programski jezik) 
-- crtanje_oblika.py (priprema za igricu vjesala)
+Programiranje predstavlja davanje instrukcija kompjuteru (kroz programski jezik) i na osnovu ovih instrukcija
+kompjuter donosi odluke. 
+
+Program: 11_crtanje-oblika.py
 
 ```python
-print("_______")
-print("|     ?")
-print("|      ")
-print("|      ")
-print("|      ")
+print("*")
+print("**")
+print("***")
+print("****")
+print("*****")
 ```
 
 - u ovom slucaju python ide liniju po liniju i izvrsava kod
 - sta se desava u slucaju da zamijenimo prvu i zadnju liniju?
 
 ## Komentarisanje koda
-- upisavanje podsjetnika
-- komentarisanje koda
-- preporuka da se koristi taraba
- ovo je taraba (hash tag) simbol
- komentari su po default-u ignorisani u python-u
+
+Komentare koristimo kada zelimo da zapisemo neki podsjetinik unutar koda, komentarisemo kod, objasnimo drugima
+i sebi sta odredjena linija koda radi. Praksa i preporuka je da se koristi simbol taraba (hash tag) _#_. 
+Komentari su po default-u ignorisani u Python-u, preciznije ignorisani od strane Python interpretera.  
+
+Program: 12_demonstracija-komentara.py
 ```python
 '''
 Viselinijski komentar
@@ -140,9 +145,12 @@ print("Komentari su korisni")
 ## Zadaci za samostalni rad!
 
 1. Napisati program koji ispisuje vase ime i prezime
+```text
+Ime i Prezime
+```
 
 2. Napisati program koji crta pravougaonik oblika
-```python
+```text
 __________
 |         |
 |         |
@@ -150,7 +158,7 @@ __________
 ```
 
 3. Napisati program koji crta trougao oblika
-```python
+```text
     /\
    /  \
   /    \

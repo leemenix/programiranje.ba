@@ -20,6 +20,9 @@ Citavo vrijeme cete biti vodjeni kroz kurs na vama je samo, da u par sati koliko
 sto instruktor radi, odradjujete vjezbe nakon svake lekcije (rjesenja su uvijek data na pocetku sledece 
 lekcije ili na kraju knjige koja dolazi sa kursom, takodje besplatno). 
 
+Primijeticete da nazivi Python fajlova imaju malo cudnu konvenciju, ali na nacin kako su fajlovi nazvani
+autor je olaksao organizaciju izvornog koda kao i referisanje studenata na odredjeni kod.
+
 Sva pitanja vezana za kurs mozete postaviti preko e-mail adrese _pitanja-python@programiranje.ba_ ili na
 YouTube kanalu https://www.youtube.com/channel/UCSYrkPyht9PAXMhAbkGTbsQ (https://youtube.com/c/channel_name when it's ready).
 

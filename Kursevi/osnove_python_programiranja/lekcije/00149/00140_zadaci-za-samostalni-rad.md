@@ -2,9 +2,12 @@
 ## Zadaci za samostalni rad!
 
 1. Napisati program koji ispisuje vase ime i prezime
+```text
+Ime i Prezime
+```
 
 2. Napisati program koji crta pravougaonik oblika
-```python
+```text
 __________
 |         |
 |         |
@@ -12,7 +15,7 @@ __________
 ```
 
 3. Napisati program koji crta trougao oblika
-```python
+```text
     /\
    /  \
   /    \
