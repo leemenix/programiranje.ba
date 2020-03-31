@@ -4,15 +4,39 @@ autor: Milenko Letic - https://programiranje.ba
 
 e-mail: milenko.letic@programiranje.ba
 
+verzija: 0.5
+- dodane igre vjesala i potapanje brojeva
+
 verzija: 0.4
+- dodani primjeri za vjezbe (lecije 1 i 2)
 
 
 ## O kursu
-- jednostavan za ucenje
 
-- kurs je dizajniran za sto jednostavnije ucenje
+Kurs **Python 3 - Uvod u programski jezik Python** je dizajniran za sto jednostavnije ucenje. Namijenjen
+je pocetnicima i kao takav pokusava da zadrzi vasu paznju, postepenim dodavanjem manjih detalja kako
+bi se kreirala jasna slika sta je to Python programski jezik, gdje ga sve mozemo koristiti, kako nam moze
+biti od pomoci na dnevnoj bazi ali ono sto je najvaznije kako vam moze obezbijediti buducnost u polju
+informatike.
 
-- citavo vrijeme cete biti vodjenji
+Nije tajna da je programer danas, kao i u proslosti, veoma cijenjeno zanimanje a da je potraznja na trzistu
+rada veoma velika za ovim kadrovima sto ce i ostati u buducem periodu.
+
+Ono sto cete postici na kraju ovog kursa, i sto bi trebala biti mjera da li ste uspjesno usvojili znanje,
+jeste da cete biti u mogucnosti samostalno da kreirate osnovne programe, koji vam mogu biti od velike 
+koristi prilikom automatizacije, ali ono najvaznije razumjecete principe programiranja i moci cete 
+u potpunosti da se oslonite na svoje steceno znanje. Takodje, lakse cete moci da naucite druge programske 
+jezike i da se upustite u ozbiljnije programarinje. 
+
+Citavo vrijeme cete biti vodjeni kroz kurs na vama je samo, da u par sati koliko kurs traje, pomno pratitie sve
+sto instruktor radi, odradjujete vjezbe nakon svake lekcije (rjesenja su uvijek data na pocetku sledece 
+lekcije ili na kraju knjige koja dolazi sa kursom, takodje besplatno). 
+
+Sva pitanja vezana za kurs mozete postaviti preko e-mail adrese _pitanja-python@programiranje.ba_ ili na
+YouTube kanalu https://www.youtube.com/channel/UCSYrkPyht9PAXMhAbkGTbsQ (https://youtube.com/c/channel_name when it's ready).
+
+
+
 
 ## Par rijeci o Python programskom jeziku
 
@@ -216,10 +240,11 @@ _____________________________________________|______________________|___________
 ```
 
 korisna funkcija type
-```pyrhon
+```python
 print(type(karakter_ime))
 ```
-
+### Mijenjanje tipova promjenjive (kastovanje)
+Primjenjiva moze mijenjati tip kroz izvrsavanje programa, sto se jos naziva i kastovanje (casting). 
 tipovi_podataka.py
 ```python
 karakter_ime = "Goku"
@@ -321,16 +346,20 @@ print(sajt_godina.isdigit())
 print(sajt_kratki_slogan.isalpha())
 ### funkcije chr() i ord() kasnije potrebni za cezarovu sifru 
 # funkcija ord() daje cjelobrojnu vrijednost karaktera prema ASCII tabli
-print(ord'A')
-print(ord'a')
-print(ord'b')
-print(ord'z')
+print(ord('A'))
+print(ord('a'))
+print(ord('b'))
+print(ord('z'))
 
 # funkcija chr() konvertuje cjelobrojnu vrijednost u odgovarajuci karakter 
 print(chr(64))
 print(chr(33))
 print(chr(97))
 print(chr(100))
+
+# kombinacija chr() i ord()
+print(ord('b') + 3)
+print(chr(ord('b') + 3))
 ```
 
 ## Rad sa brojevima
@@ -396,9 +425,17 @@ sa nasim programom. Kako bi omogucili interakciju sa programom, Python nam na ra
 funkciju input(). 
 
 ```python
-input() # hej ti, cekam da uneses neku informaciju podatak
+
+input() 
+# hej ti, cekam da uneses neku informaciju podatak, naravno korisnik nije siguran sta se desava
+
 input("Unesite vase ime: ")
+# aha ovo sad vec ima smisla
+
+# <naziv varijable> <tip podatka>
 korisnik_ime = input("Unesite vase ime: ")
+# naravno, posto nam je korisnicki unos vazan mi zelimo sacuvati isti taj unos u neku varijablu
+# kako bi smo kasnije mogli koristiti
 print("Zdravo, " + korisnik_ime + " dobrodosli.")
 
 korisnik_ime = input("Unesite vase ime: ")
@@ -441,6 +478,7 @@ print(f"{karakter_ime} je imao {karakter_godine} godina.")
 print(f"Volio je upoznavati nove karaktere ")
 print(f"i imao je najboljeg druga po imenu {karakter_prijatelj}!")
 ```
+
 
 ## Zadaci za samostalni rad!
 
@@ -700,15 +738,36 @@ print(cub(3))
 
 ### Funkcija ne mijenja sadrzaj promjenjive
 ```python
-def brojac(x)
-  x = x + 1
-  return x
+def brojac(broj):
+  broj = broj + 1
+  return broj
 
 broj=3
 brojac(broj) # vrijednost koju promjenjiva pokazuje, ali ne i samu promjenjivu, sto obezbjedjje da funkcija ne moze mijenjati promjenjivu, samo kopiju vrijednosti koja je proslijedjena
 print(broj) # 
 
+# funkcije unutar sebe mogu imati lokalne (local) i globalne (global) promjenjive
+# ako lokalna i globalna promjenjiva unutar funkcije nose isti naziv, Pyhon ce koristiti lokalnu
+# lokalne promjenjive su definisane po default-u ako se ne navede drugacije
+def brojac():
+	global broj
+	broj = broj + 1
+	return broj
+
+broj = 3
+brojac()
+print(broj)
+
+# nepoznati broj argumenta
+# u slucaju da nismo sigurni koji je tacno broj argumenate koje zelimo proslijediti funkciji
+# parametru funkcije dodamo * i time postizemo n broj elemenata koji mozemo proslijediti funkciji
+
+def srecni_brojevi(*brojevi):
+	print("Loto brojevi za ovu sedmicu: " + str(brojevi))
+
+srecni_brojevi(8,13,22,12,54)
 ```
+
 
 #### Naredbe za kontrolu toka (if, elif, else)
 
@@ -1276,7 +1335,397 @@ print("Onda se ozenio")
 #potapanje brodova
 ```
 ```python
-# vjesalo
+# Vjesala
+
+import random
+
+fajl = "rijecnik.txt"
+
+def ucitaj_rijeci():
+    """
+    Vraca listu validnih rijeci. Rijeci su tipa string, napisane malim slovima
+
+    U zavisnosti od duzine liste rijeci, ova funkcija moze potrajati.
+    """
+    print("Ucitavanje rijeci iz fajla 'rijecnik.txt'...")
+    # otvori_fajl: fajl
+    otvori_fajl = open(fajl, 'r')
+    # linija: string (procitaj liniju u fajlu - citav fajl je napisan kao jedna linija)
+    linija = otvori_fajl.readline()
+    # lista_rijeci: lista rijeci (rijec po rijec)
+    lista_rijeci = linija.split()
+    print("  ", len(lista_rijeci), "rijeci ucitano.")
+    return lista_rijeci
+
+# listarijeci_pomoc = ucitaj_rijeci.__doc__
+# print(listarijeci_pomoc)
+# print(listarijeci)
+# lista_rijeci = ucitaj_rijeci()
+# print(lista_rijeci)
+
+def izbor_rijeci(lista_rijeci):
+    """
+    fajl (lista): lista rijeci (string)
+
+    Funkcija vraca slucajnu rijec iz liste lista_rijeci
+    """
+    return random.choice(lista_rijeci)
+
+# izabrana_rijec = izbor_rijeci(lista_rijeci)
+# print(izabrana_rijec)
+
+# kraj pomocnog koda
+# -----------------------------------
+
+# Ucitaj listu rijeci u varijablu lista_rijeci
+# kako bi smo mogli pristupiti listi bilo gdje iz programa
+lista_rijeci = ucitaj_rijeci()
+
+def da_li_je_rijec_pogodjena(tajna_rijec, pogodjena_slova):
+    '''
+    tajna_rijec: string, rijec koju igrac pogadja
+    pogodjena_slova: lista, koja slova su pogodjena
+    Funkcija vraca: boolean, Tacno (True) ako su sva koja se nalaze u tajna_rijec rijeci takodje 
+    u pogodjena_slova, u suprotnom Netacno (False)
+    '''
+    brojac=0
+    for slovo in tajna_rijec:
+        if slovo in pogodjena_slova:
+            brojac+=1
+    if brojac==len(tajna_rijec):
+        return True
+    else:
+        return False
+
+def dohvati_pogodjenu_rijec(tajna_rijec, pogodjena_slova):
+    '''
+    tajna_rijec: string, rijec koju igrac pogadja
+    pogodjena_slova: lista, koja slova su pogodjena
+    Funkcija vraca: string, kombinaciju slova i donjih crtica koji predstavljaju pogodjena slova i
+      slova koja jos nisu pogodjena, respektivno.
+    '''
+    lista=[]
+    rijec=""
+    for key in tajna_rijec:
+        if key in pogodjena_slova:
+            rijec+=key
+        else:
+            rijec+="_ "
+    return rijec
+
+# tajna_rijec="asa"
+# pogodjena_slova=["a"]
+# rijecica=dohvati_pogodjenu_rijec(tajna_rijec,pogodjena_slova)
+# print(rijecica)
+
+def dohvati_raspoloziva_slova(pogodjena_slova):
+    '''
+    pogodjena_slova: lista, koja slova su pogodjena
+    Funkcija vraca: string, listu slova koji sacinjavaju slova koja jos trebaju biti pogodjena.
+    '''
+    rijec=""
+    brojac=0
+    slova='abcdefghijklmnopqrstuvwxyz'
+    for slovo in slova:
+        if slovo in pogodjena_slova:
+            brojac+=1
+        else:
+            rijec+=slovo
+    return rijec
+
+# pogodjena_slova=["a"]
+# rijecica=dohvati_raspoloziva_slova(pogodjena_slova)
+# print(rijecica)
+    
+
+def vjesala(tajna_rijec):
+    '''
+    tajna_rijec: string, rijec koju igrac pogadja
+    pogodjena_slova: lista, koja slova su pogodjena
+    Funkcija vraca: string, kombinaciju slova i donjih crtica koji predstavljaju pogodjena slova i
+      slova koja jos nisu pogodjena, respektivno.
+    
+    Startuje interaktivnu igricu vjesala.
+
+    * Na pocetku igre, daje informaciju igracu koliko 
+      slova ima tajnoj rijeci.
+
+    * Pitaj igraca da proslijedi jedno slovo po pokusaju.
+
+    * Igrac bi trebao dobiti informaciju odmah nakon pokusaja
+      gdje se u rijeci nalazi slovo u slucaju da je pogodio.
+
+    * Nakon svakog pokusaja, igrac bi trebao vidjeti djelimicno
+      pogodjenu rijec, ali i slova koja nedostaju u rijeci.
+
+    '''
+    # main funkcija
+    duzina_tajne_rijeci=len(tajna_rijec)
+    print("Dobrodosli u igricu, Vjesala!")
+    print("Razmisljam o rijeci duzine " + str(duzina_tajne_rijeci) + " karaktera.")
+    dozvoljen_broj_pokusaja=2*len(tajna_rijec)
+    i=0
+    pogodjena_slova=[]
+    while (dozvoljen_broj_pokusaja != 0):
+        print("------------")
+        if tajna_rijec != dohvati_pogodjenu_rijec(tajna_rijec, pogodjena_slova):
+            print("Imate jos " + str(dozvoljen_broj_pokusaja) + " pokusaja.")
+            print("Raspoloziva slova: ",dohvati_raspoloziva_slova(pogodjena_slova))
+            pokusaj=input("Molimo pokusajte slovo: ")
+            pokusaj_mala_slova = pokusaj.lower()
+            
+            if pokusaj_mala_slova  in pogodjena_slova:
+                print("Ups! Vec ste pokusali to slovo: ",dohvati_pogodjenu_rijec(tajna_rijec, pogodjena_slova))
+            
+            elif pokusaj_mala_slova not in tajna_rijec: 
+                print("Ups! Slovo se ne nalazi u rijeci koju sam zamislio:",dohvati_pogodjenu_rijec(tajna_rijec, pogodjena_slova))
+                dozvoljen_broj_pokusaja-=1
+            else:
+                pogodjena_slova.append(pokusaj_mala_slova)
+                print("Pogodili ste: ",dohvati_pogodjenu_rijec(tajna_rijec, pogodjena_slova))
+                #chances+=1
+            pogodjena_slova.append(pokusaj_mala_slova)
+        elif tajna_rijec==dohvati_pogodjenu_rijec(tajna_rijec, pogodjena_slova):
+            print("Cestitamo!")
+            break
+    else:
+        print("----------")
+        print("Nazalost, nemate vise pokusaja. Tajna rijec je bila "+ tajna_rijec +".")
+
+
+
+
+# Kada zavrsite funkciju vjesala, mozete testirati vas kod definisanjem
+# tajne rijeci tajna_rijec="tajna"
+
+#tajna_rijec= izbor_rijeci(lista_rijeci).lower()
+#tajna_rijec="tajna"
+tajna_rijec=izbor_rijeci(lista_rijeci)
+
+vjesala(tajna_rijec)
+``````python
+from random import randint
+mreza=[]
+
+for i in range(0,7):
+    mreza.append(["#"] * 7)
+def stampaj_mrezu (board):
+    for red in mreza:
+        print (" ".join(red))
+
+print ('Igra Potapanje brodova moze da pocne!')
+stampaj_mrezu(mreza)
+
+#Slučajnim odabirom u mrežu ubacujemo oba broda
+def nasumicni_red(mreza):
+    return randint(0, len(mreza)-1)
+
+def nasumicna_kolona(mreza):
+    return randint(0, len(mreza[0])-1)
+
+#brod 1
+red_1 = nasumicni_red(mreza)
+kol_1 = nasumicna_kolona(mreza)
+#brod 2
+red_2 = nasumicni_red(mreza)
+kol_2 = nasumicna_kolona(mreza)
+#Da se brodovi ne bi preklapali, potrebno je da nemaju zajednička polja
+#To se obezbeđuje funkcijom razliciti()
+def razliciti(r,c):
+    while r == red_1 and c == kol_1:
+        r = nasumicni_red(mreza)
+        c = nasumicna_kolona(mreza)
+        red_2 = r
+        kol_2 = c
+razliciti(red_2,kol_2)
+#Kada izaberete jedno polje, preostala dva mogu biti horizontalno(levo ili desno) ili vertikalno(gore ili dole)
+#Zato se definišu sledeći pravci
+def nasumicni_pravac():
+    n = randint(1,4)
+    if n == 1:
+        return "gore"
+    elif n == 2:
+        return "desno"
+    elif n == 3:
+        return "dole"
+    elif n == 4:
+        return "levo"
+#Nasumično se odredi pravac, i na osnovu njega sledeća dva polja
+while True:
+    d = nasumicni_pravac() 
+    if d == "gore":
+        if red_1 >= 2:
+            
+            red_1_2 = red_1 - 1
+            kol_1_2 = kol_1
+            red_1_3 = red_1 - 2
+            kol_1_3 = kol_1
+            break
+    if d == "desno":
+        if kol_1 <= len(mreza[0])-3:
+            
+            red_1_2 = red_1
+            kol_1_2 = kol_1 + 1
+            red_1_3 = red_1
+            kol_1_3 = kol_1 + 2
+            break
+    if d == "dole":
+        if red_1 <= len(mreza)-3:
+            
+            red_1_2 = red_1 + 1
+            kol_1_2 = kol_1
+            red_1_3 = red_1 + 2
+            kol_1_3 = kol_1
+            break
+    if d == "levo":
+        if kol_1 >= 2:
+            
+            red_1_2 = red_1
+            kol_1_2 = kol_1 - 1
+            red_1_3 = red_1
+            kol_1_3 = kol_1 - 2
+            break
+brod_1 = [(red_1 ,kol_1 ),(red_1_2 ,kol_1_2 ),(red_1_3 ,kol_1_3 )]
+
+
+
+#drugi brod:
+while True:
+#Nasumično se odredi pravac, i na osnovu njega sledeća dva polja
+#Uslov je da se ne preklapaju sa poljima prvog broda
+    d = nasumicni_pravac() 
+    if d == "gore":
+        if red_2 >= 2:
+            if (red_2 - 1,kol_2) not in brod_1 and (red_2 - 2,kol_2) not in brod_1:
+                
+                red_2_2 = red_2 - 1
+                kol_2_2 = kol_2
+                red_2_3 = red_2 - 2
+                kol_2_3 = kol_2
+                break
+    if d == "desno":
+        if kol_2 <= len(mreza[0])-3:
+             if (red_2 ,kol_2 + 1) not in brod_1 and (red_2,kol_2 + 2) not in brod_1:
+                
+                red_2_2 = red_2
+                kol_2_2 = kol_2 + 1
+                red_2_3 = red_2
+                kol_2_3 = kol_2 + 2
+                break
+    if d == "dole":
+        if red_2 <= len(mreza)-3:
+            if (red_2 + 1 ,kol_2) not in brod_1 and (red_2 + 2,kol_2) not in brod_1:
+                
+                red_2_2 = red_2 + 1
+                kol_2_2 = kol_2
+                red_2_3 = red_2 + 2
+                kol_2_3 = kol_2
+                break
+    if d == "levo":
+        if kol_2 >= 2:
+            if (red_2 ,kol_2 - 1) not in brod_1 and (red_2,kol_2 - 2) not in brod_1:
+                
+                red_2_2 = red_2
+                kol_2_2 = kol_2 - 1
+                red_2_3 = red_2
+                kol_2_3 = kol_2 - 2
+                break
+
+
+
+tacan = 0 #U ovoj promenljivoj smešta se ukupan broj pogođenih polja oba broda
+prvi_brod = 0 #U ovoj promenljivoj smešta se broj pogođenih polja prvog broda
+drugi_brod = 0 #U ovoj promenljivoj smešta se broj pogođenih polja drugog broda
+#Na početku nemamo nijedno pogođeno polje, pa sve promenljive postavljamo na 0
+#U ovoj promenljivoj smešta se ukupan broj pogođenih polja oba broda
+tacan = 0 
+#U ovoj promenljivoj smešta se broj pogođenih polja prvog broda
+prvi_brod = 0 
+#U ovoj promenljivoj smešta se broj pogođenih polja drugog broda
+drugi_brod = 0 
+
+#Dozvoljeno je 15 pokušaja da se potope oba broda
+for pokusaj in range(1,16):
+    print (str(pokusaj ) + '. pokusaj:')
+
+    nagadjanje_reda  = int(input('Pogodite red:'))
+    nagadjanje_kolone  = int(input('Pogodite kolonu:'))
+#Ispituje se da li je korisnik pogodio neko polje prvog broda
+#Ako jeste, broj pogođenih polja se povećava za jedan
+    if ((nagadjanje_reda -1  == red_1 ) and (nagadjanje_kolone -1  == kol_1)) or ((nagadjanje_reda -1 == red_1_2 ) and (nagadjanje_kolone -1 == kol_1_2)) or((nagadjanje_reda -1 == red_1_3 ) and (nagadjanje_kolone -1 == kol_1_3)) and mreza[nagadjanje_reda -1 ][nagadjanje_kolone -1] != 'X' :
+   
+
+        tacan = tacan+1
+        prvi_brod = prvi_brod + 1
+
+        if (tacan != 6) and (prvi_brod != 3) :
+            
+           
+            print ('Bravo, pogodak!')
+            mreza[nagadjanje_reda -1 ][nagadjanje_kolone -1] = 'X'
+#Ako je pogođeno polje treće polje prvog broda, korisnik se obaveštava da je potopio ceo brod
+        elif (tacan != 6) and (prvi_brod == 3):
+            
+            mreza[nagadjanje_reda -1 ][nagadjanje_kolone -1] = 'X'
+
+            print ('Bravo, potopili ste ceo brod! Ostao vam je jos jedan!')
+#Ako je reč o šestom pogođenom polju, korisnik se obaveštava da je potopio oba broda
+        if (tacan == 6):
+            mreza[nagadjanje_reda -1][nagadjanje_kolone -1] = 'X'
+            print ('Svaka cast, potopili ste oba broda!')
+           
+            break
+#Ispituje se da li je korisnik pogodio neko polje drugog broda 
+#Ako jeste, broj pogođenih polja se povećava za jedan
+
+    elif   ((nagadjanje_reda -1  == red_2 ) and (nagadjanje_kolone -1  == kol_2)) or ((nagadjanje_reda -1  == red_2_2 ) and (nagadjanje_kolone -1  == kol_2_2)) or ((nagadjanje_reda -1  == red_2_3 ) and (nagadjanje_kolone -1  == kol_2_3)) 	 and mreza[nagadjanje_reda -1 ][nagadjanje_kolone -1] != 'Y'  :
+        tacan = tacan+1
+        drugi_brod = drugi_brod + 1
+        if (tacan != 6) and (drugi_brod != 3):
+            
+            print ('Bravo, pogodak!')
+            mreza[nagadjanje_reda -1 ][nagadjanje_kolone -1] = 'Y'
+        elif (tacan != 6) and (drugi_brod ==3):
+           
+            mreza[nagadjanje_reda -1 ][nagadjanje_kolone -1] = 'Y'
+#Ako je pogođeno polje, treće polje prvog broda, korisnik se obaveštava da je potopio ceo brod
+
+            print ('Bravo, potopili ste ceo brod! Ostao vam je jos jedan!')
+#Ako je reč o šestom pogođenom polju, korisnik se obaveštava da je potopio oba broda
+
+        if (tacan == 6):
+            mreza[nagadjanje_reda -1][nagadjanje_kolone -1] = 'Y'
+            print ('Svaka cast, potopili ste oba broda!')
+            break
+    else:
+        if (nagadjanje_reda < 1 or nagadjanje_reda > 7) or (nagadjanje_kolone < 1 or nagadjanje_kolone > 7):
+            print ('Ups, izvan opsega ste!')
+        elif (mreza[nagadjanje_reda -1 ][nagadjanje_kolone -1]=='X'):
+            print ('Vec ste pronasli ovaj deo broda!')
+        elif (mreza[nagadjanje_reda -1 ][nagadjanje_kolone -1]=='O'):
+            print ('Vec ste pogadjali isto polje!')
+        else:
+            print ('Promasili ste!')
+            mreza[nagadjanje_reda -1 ][nagadjanje_kolone -1] = 'O'
+
+
+    stampaj_mrezu(mreza)
+    if (pokusaj == 15):
+            print ('Igra je zavrsena!')
+
+if (mreza[red_1 ][kol_1 ] != "X" or mreza[red_1_2 ][kol_1_2 ] != "X" or
+mreza[red_1_3 ][kol_1_3 ] != "X") or (mreza[red_2 ][kol_2 ] != "Y" or mreza[red_2_2 ][kol_2_2 ] != "Y" or
+mreza[red_2_3 ][kol_2_3 ] != "Y"):
+    print ('Brodovi su se nalazili na ovim pozicijama! Vise srece drugi put!')
+    mreza[red_1 ][kol_1 ] = "X"
+    mreza[red_1_2 ][kol_1_2 ] = "X"
+    mreza[red_1_3][kol_1_3] = "X"
+    mreza[red_2][kol_2 ] = "Y"
+    mreza[red_2_2 ][kol_2_2] = "Y"
+    mreza[red_2_3][kol_2_3 ] = "Y"
+
+
+stampaj_mrezu(mreza)
 ```
 ```python
 ime = input("Unesite vase ime: ")
@@ -1298,7 +1747,6 @@ c=input("Unesite treci broj: ")
 asredina=(int(a)+int(b)+int(c))/3
 print("Aritmeticka sredina je: " + str(asredina))
 ```
-
 ```python
 prva_rijec  = input("Unesite prvu rijec: ")
 druga_rijec = input("Unesite drugu rijec: ")

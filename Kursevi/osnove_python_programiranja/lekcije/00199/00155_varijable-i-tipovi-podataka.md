@@ -82,10 +82,11 @@ _____________________________________________|______________________|___________
 ```
 
 korisna funkcija type
-```pyrhon
+```python
 print(type(karakter_ime))
 ```
-
+### Mijenjanje tipova promjenjive (kastovanje)
+Primjenjiva moze mijenjati tip kroz izvrsavanje programa, sto se jos naziva i kastovanje (casting). 
 tipovi_podataka.py
 ```python
 karakter_ime = "Goku"

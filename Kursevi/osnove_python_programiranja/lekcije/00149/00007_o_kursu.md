@@ -1,7 +1,27 @@
 
 ## O kursu
-- jednostavan za ucenje
 
-- kurs je dizajniran za sto jednostavnije ucenje
+Kurs **Python 3 - Uvod u programski jezik Python** je dizajniran za sto jednostavnije ucenje. Namijenjen
+je pocetnicima i kao takav pokusava da zadrzi vasu paznju, postepenim dodavanjem manjih detalja kako
+bi se kreirala jasna slika sta je to Python programski jezik, gdje ga sve mozemo koristiti, kako nam moze
+biti od pomoci na dnevnoj bazi ali ono sto je najvaznije kako vam moze obezbijediti buducnost u polju
+informatike.
 
-- citavo vrijeme cete biti vodjenji
+Nije tajna da je programer danas, kao i u proslosti, veoma cijenjeno zanimanje a da je potraznja na trzistu
+rada veoma velika za ovim kadrovima sto ce i ostati u buducem periodu.
+
+Ono sto cete postici na kraju ovog kursa, i sto bi trebala biti mjera da li ste uspjesno usvojili znanje,
+jeste da cete biti u mogucnosti samostalno da kreirate osnovne programe, koji vam mogu biti od velike 
+koristi prilikom automatizacije, ali ono najvaznije razumjecete principe programiranja i moci cete 
+u potpunosti da se oslonite na svoje steceno znanje. Takodje, lakse cete moci da naucite druge programske 
+jezike i da se upustite u ozbiljnije programarinje. 
+
+Citavo vrijeme cete biti vodjeni kroz kurs na vama je samo, da u par sati koliko kurs traje, pomno pratitie sve
+sto instruktor radi, odradjujete vjezbe nakon svake lekcije (rjesenja su uvijek data na pocetku sledece 
+lekcije ili na kraju knjige koja dolazi sa kursom, takodje besplatno). 
+
+Sva pitanja vezana za kurs mozete postaviti preko e-mail adrese _pitanja-python@programiranje.ba_ ili na
+YouTube kanalu https://www.youtube.com/channel/UCSYrkPyht9PAXMhAbkGTbsQ (https://youtube.com/c/channel_name when it's ready).
+
+
+

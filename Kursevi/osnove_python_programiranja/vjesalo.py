@@ -1,5 +1,3 @@
-
-```python
 # Vjesala
 
 import random
@@ -168,4 +166,3 @@ def vjesala(tajna_rijec):
 tajna_rijec=izbor_rijeci(lista_rijeci)
 
 vjesala(tajna_rijec)
-```

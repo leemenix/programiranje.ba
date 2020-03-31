@@ -38,12 +38,33 @@ print(cub(3))
 
 ### Funkcija ne mijenja sadrzaj promjenjive
 ```python
-def brojac(x)
-  x = x + 1
-  return x
+def brojac(broj):
+  broj = broj + 1
+  return broj
 
 broj=3
 brojac(broj) # vrijednost koju promjenjiva pokazuje, ali ne i samu promjenjivu, sto obezbjedjje da funkcija ne moze mijenjati promjenjivu, samo kopiju vrijednosti koja je proslijedjena
 print(broj) # 
 
+# funkcije unutar sebe mogu imati lokalne (local) i globalne (global) promjenjive
+# ako lokalna i globalna promjenjiva unutar funkcije nose isti naziv, Pyhon ce koristiti lokalnu
+# lokalne promjenjive su definisane po default-u ako se ne navede drugacije
+def brojac():
+	global broj
+	broj = broj + 1
+	return broj
+
+broj = 3
+brojac()
+print(broj)
+
+# nepoznati broj argumenta
+# u slucaju da nismo sigurni koji je tacno broj argumenate koje zelimo proslijediti funkciji
+# parametru funkcije dodamo * i time postizemo n broj elemenata koji mozemo proslijediti funkciji
+
+def srecni_brojevi(*brojevi):
+	print("Loto brojevi za ovu sedmicu: " + str(brojevi))
+
+srecni_brojevi(8,13,22,12,54)
 ```
+

@@ -6,9 +6,17 @@ sa nasim programom. Kako bi omogucili interakciju sa programom, Python nam na ra
 funkciju input(). 
 
 ```python
-input() # hej ti, cekam da uneses neku informaciju podatak
+
+input() 
+# hej ti, cekam da uneses neku informaciju podatak, naravno korisnik nije siguran sta se desava
+
 input("Unesite vase ime: ")
+# aha ovo sad vec ima smisla
+
+# <naziv varijable> <tip podatka>
 korisnik_ime = input("Unesite vase ime: ")
+# naravno, posto nam je korisnicki unos vazan mi zelimo sacuvati isti taj unos u neku varijablu
+# kako bi smo kasnije mogli koristiti
 print("Zdravo, " + korisnik_ime + " dobrodosli.")
 
 korisnik_ime = input("Unesite vase ime: ")
@@ -51,3 +59,4 @@ print(f"{karakter_ime} je imao {karakter_godine} godina.")
 print(f"Volio je upoznavati nove karaktere ")
 print(f"i imao je najboljeg druga po imenu {karakter_prijatelj}!")
 ```
+

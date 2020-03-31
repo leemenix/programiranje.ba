@@ -71,14 +71,18 @@ print(sajt_godina.isdigit())
 print(sajt_kratki_slogan.isalpha())
 ### funkcije chr() i ord() kasnije potrebni za cezarovu sifru 
 # funkcija ord() daje cjelobrojnu vrijednost karaktera prema ASCII tabli
-print(ord'A')
-print(ord'a')
-print(ord'b')
-print(ord'z')
+print(ord('A'))
+print(ord('a'))
+print(ord('b'))
+print(ord('z'))
 
 # funkcija chr() konvertuje cjelobrojnu vrijednost u odgovarajuci karakter 
 print(chr(64))
 print(chr(33))
 print(chr(97))
 print(chr(100))
+
+# kombinacija chr() i ord()
+print(ord('b') + 3)
+print(chr(ord('b') + 3))
 ```
