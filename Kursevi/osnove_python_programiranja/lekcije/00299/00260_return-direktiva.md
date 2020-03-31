@@ -1,11 +1,13 @@
 
 ## Naredba return (return direktiva)
 
-Kada zelimo dobiti povratnu informaciju iz funkcije koristimo naredbu return. Sa ovom informacijom
-mozemo nastaviti manipulaciju kroz dajlni dio koda. Naredba return se moze pojaviti samo unutar tijela
-funkcije. Takodje kada zelimo da funkcije mogu medjusobno komunicirati. 
+Kada zelimo dobiti povratnu informaciju iz funkcije koristimo naredbu **return**. Sa ovom informacijom
+mozemo nastaviti manipulaciju kroz daljni dio koda. Naredba return se moze pojaviti samo unutar tijela
+funkcije. Takodje kada zelimo da funkcije mogu medjusobno komunicirati, razmjenjivati informacije koristimo
+return naredbu. 
 
-2 na n-tu
+**`Izvorni kod: kod-260_kub-broja.py`**
+
 ```python
 def kub(broj):
   broj * broj * broj
@@ -24,7 +26,7 @@ print(kub(3))
 def kub(broj):
   return broj * broj * broj 
 
-rezultat - kub(3) # sacuvaj vrijednost koju si dobio od funkcije, ne i samu funkciju
+rezultat = kub(3) # sacuvaj vrijednost koju si dobio od funkcije, ne i samu funkciju
 print(rezultat)
 
 #### 
@@ -37,6 +39,7 @@ print(cub(3))
 ```
 
 ### Funkcija ne mijenja sadrzaj promjenjive
+**`Izvorni kod: kod-261_rad-sa-funkcijama.py`**
 ```python
 def brojac(broj):
   broj = broj + 1
@@ -66,5 +69,37 @@ def srecni_brojevi(*brojevi):
 	print("Loto brojevi za ovu sedmicu: " + str(brojevi))
 
 srecni_brojevi(8,13,22,12,54)
+
+# poziv funkcije iz druge funkcije
+def kub(broj):
+  return broj * broj * broj
+
+def ispis_kubnog_broja(broj):
+  kubni_broj = kub(broj)
+  print("Kub broja " + str(broj) + " je " + str(kubni_broj))
+
+ispis_kubnog_broja(2)
+
+# docstring - dokumentacijski string,  predstavlja dokumentaciju same funkcije koja moze da se pozove funkcijom
+# help()
+def kub(broj):
+  '''Funkcije izracunava kub unesenog broja, po formuli broj * broj * broj.
+              Primjer koristenja funkcije: print(kub(2))
+                                           daje vrijednost 8
+  '''
+  return broj * broj * broj
+
+print(kub(2))
+help(kub)
+
+# neke od standardnih, ugradjenih, funkcija koje dolaze sa Python-om
+print(abs(-1))
+print(len("Goku"))
+print(max(2,3))
+print(min(2,3))
+print(str(2))
+print(type(kub))
+print(type(print))
+print(type(type))
 ```
 

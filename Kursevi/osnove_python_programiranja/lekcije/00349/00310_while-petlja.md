@@ -1,10 +1,15 @@
 
-## while petlja 
-- struktura u python koja nam omogucava da prolazimo kroz isti kod vise puta, onoliko puta
-koliko smo to zadali inicijalnim uslovom
-- kroz svaku od iteracija kroz kod while ce da izvrsi sve sto je unutar while petlje
+## While petlja - (Izvrsavaj blok koda sve dok je ispunjen uslov ...)
 
-while_brojac.py
+While petlja predstavlja strukturu u Python-u koja nam omogucava da prolazimo kroz isti blok koda vise puta, onoliko puta koliko smo to zadali inicijalnim uslovom, odnosno sve dok uslov ima vrijednost Tacno (True) ili dok nasilno ne prekinemo uslov naredbom prekida (**break**).
+
+Dakle svakom iteracijom kroz blok koda, while petlja ce da izvrsi sve sto se nalazi u tijelu petlje. Naravno, uz
+while petlju mozemo kombinovati i uslove cime dobijamo na brzini koda i vecoj efikasnosti.
+
+Ono sto je bitno napomenti kod while petlje, ona se koristi uglavnom kada unaprijed nemamo definisan broj 
+iteracija. 
+
+**``Izvorni kod: kod-310_while_brojac.py``**
 ```python
 i = 1
 while i <= 10:
@@ -15,8 +20,10 @@ while i <= 10:
 print("Kraj brojaca")
 ```
 
-igra_pogadjanja.py - primjenimo sve do sad nauceno
+**`Izvorni kod: kod-311_igra_pogadjanja.py`** 
+
 ```python
+# primjenimo do sad nauceno
 tajna_rijec = "python"
 
 pokusaj = ""
@@ -45,3 +52,60 @@ if kraj_igre:
 else:
     print("Cestitamo, pogodili ste")
 ```
+
+### Naredba prekida (**break**)
+
+**`Izvorni kod: kod-312_demonstracija-naredbe-break.py`**
+
+```python
+karakter_opis = {}
+
+brojac=0
+limit=10
+
+while brojac <= limit:
+	karakter_ime = input("Unesi ime karaktera: ")
+	karakter_godine = input("Unesi godine karaktera :")
+
+	if int(karakter_godine) <= 0:
+		print("Godine ne mogu biti manje od 1!")
+		break
+	else:
+		karakter_opis[(karakter_ime)] = (karakter_godine)
+		brojac+=1 
+
+print(karakter_opis)
+```
+
+### else kod While petlje
+
+Kao sto smo vidjeli sa uslovom **if**, takodje mozemo koristiti granu else prilikom konstrukcije while petlje, 
+ali trebamo imati na umu da se else izvrsava samo jednom, ako i samo ako je glavni uslov while petlje netacan
+(False). Naravno ukoliko unutar while petlje imamo naredbu **break** koja je izvrsena, else naredba ce biti 
+preskocena.
+
+**`Izvorni kod: kod-313_demonstracija-grane-else.py`**
+
+```python
+karakter_opis = {}
+
+brojac=0
+limit=2
+
+while brojac <= limit:
+	karakter_ime = input("Unesi ime karaktera: ")
+	karakter_godine = input("Unesi godine karaktera :")
+
+	if int(karakter_godine) <= 0:
+		print("Godine ne mogu biti manje od 1!")
+		break
+	else:
+		karakter_opis[(karakter_ime)] = (karakter_godine)
+		brojac+=1 
+else:
+	# sadrzaj rijecnika ce biti ispisan samo ako se 
+	# kompletan program izvrsi bez okidanja/trigerovanja naredbe break
+	print(karakter_opis) 
+```
+
+

@@ -1,7 +1,15 @@
 
-## for petlja
-- specijalni tip petlje u python-u
+## For petlja
+
+For petlju mozemo nazvati specijalni tip petlje u Python-u, a za razliku od while petlje, for petlju koristimo 
+kada zelimo da vrsimo iteraciju kroz tijelo petlje ako unaprijed znamo koliko puta je to potrebno.
+
+Vrijednosti se uglavnom zadaju kao predefinisane ali mozemo koristiti izvore poput lista, stringova, rijecnika.
+
+**`Izvorni kod: kod-320_rad-sa-for-petljom.py`**
+
 ```python
+# operator in, za iteraciju nad listama, torkama, rijecnicima mozemo koristit kljucnu rijec in
 for slovo in "programiranje.ba":
   print(slovo)
 
@@ -11,6 +19,10 @@ for karakter in karakteri:
 karakteri = ["Goku", "Kirlin", "Yamcha"]
 for indeks in range(len(karakteri)):
   print (karakteri[indeks])
+
+loto_brojevi = [1,33,13,43,56]
+for broj in loto_brojevi:
+  print (broj)
 
 for broj in range(20):
   print(broj)
@@ -31,14 +43,91 @@ for i in range(10):
     print (i)
     i+=1
 
-### eksponencijaln funkcija - kada ne znamo koliko je eksponent
-print(2**3)
+# break naredba unutar for petlje
+karakteri = ["Goku", "Kirlin", "Yamcha", "Goku", "Bulma"]
+for i in range(len(karakteri)):
+  if karakteri[i] == "Yamcha":
+    print("Prekini izvrsenje for petlje")
+    break
+  print (karakteri[i])
+
+# enumerate() funkcija - enumeracija
+# ukoliko zelimo da zajedno sa vrijednostima iz liste, stringa ili rijecnika ispisujemo i njihove indekse
+# koristicemo funkciju enmureate()
+karakteri = ["Goku", "Kirlin", "Yamcha", "Goku", "Bulma"]
+for i,ime in enumerate(karakteri):
+  print(str(i) + " " + ime)
+
+### eksponencijaln funkcija - kada ne znamo koliki je eksponent
+#print(2**3)
 
 def eksponent_broja(baza, eksponent):
   rezultat = 1
-  for index in range(exponent):
+  for i in range(eksponent):
     rezultat = rezultat * baza
   return rezultat
 
-print(exponent_broja(2,4))
+print(eksponent_broja(2,3))
+```
+
+### Primjer algoritma sortiranje mjehuricima (bubble sorting)
+
+Prije nego napisemo kod potrebno je kratko objasnjenje algoritma. Algoritam sortiranje mjehuricima, ima za cilj
+da nad zadatim nizom nasumicnih/slucajnih brojeva izvrsi sortiranje od najmanjeg ka najvecem. Ovakvi 
+tipovi zadataka predstavljaju osnovne koncepte teorije algoritma, a mozemo ih naci na kao zadaci na intervjuima 
+u velikim firmama poput Google-a, Amazon-a, Facebook-a, Microsoft-a ...
+
+Predpostavimo da imamo niz brojeva:
+
+```text
+[4,2,1,5,3]
+```
+Primjenom algoritma sortiranja mjehuricima, svakom novom iteracijom, svaki element niza ce se uporedjivati
+sledecim, u slucaju da je prvi element veci od sledeceg, zaminijece mijesta, u suprotnom prvi element ostaje na svom mjestu. Ovaj proces se nastavlja sve dok se svi elementi konacno ne sortiraju od najmanjeg ka najvecem. Dakle, procedura sortiranje ce se obaviti sledecim redosledom:
+
+```text
+tbd.
+[2, 4, 1, 5, 3]
+[2, 1, 4, 5, 3]
+[2, 1, 4, 3, 5]
+[1, 2, 4, 3, 5]
+[1, 2, 3, 4, 5]
+[1, 2, 3, 4, 5]
+
+Pocetno stanje         |   [4,2,1,5,3]   |   Objasnjnje
+_______________________|_________________|_________________________________________________
+Nakon prve iteracije   |   [(2,4),1,5,3] | 4 i 2 mijenjaju mjesta jer je 4 vece od 2
+                       |   [2,(1,4),5,3] | 4 i 1 mijenjaju mjesta jer je 4 vece od 1
+                       |   [2,1,(4,5),3] | 4 i 5 ostaju na svom mjestu jer je 4 manje od 5
+                       |   [2,1,4,(3,5)] | 5 i 3 mijenjaju mjesta jer je 5 vece od 3
+_______________________|_________________|_________________________________________________                    
+Nakon druge iteracije  |   [(1,2),4,3,5] | 2 i 1 mijenjaju mjesta jer je 2 vece od 1
+                       |   [1,(2,4),3,5] | 2 i 4 ostaju na svom mjestu jer je 2 manje od 4
+                       |   [1,2,(3,4),5] | 4 i 3 mijenjaju mjesta jer je 4 vece od 3
+                       |   [1,2,3,(4,5)] | 4 i 5 ostaju na svom mjestu jer je 4 manje od 5
+```
+
+**`Izvorni kod: kod-321_sortiranje-mjehuricima.py`**
+
+```python
+
+niz_brojeva = [4,2,1,5,3] 
+
+# inicijalno stanje varijable, koja nam govori da li je bilo 
+# zamjene brojeva prilikom iteracije kroz niz
+zamjena_izvrsena = True 
+
+zadnji_element_niza = (len(niz_brojeva) - 1)
+
+while zamjena_izvrsena:
+  # predpostavimo da je niz sortiran
+  zamjena_izvrsena = False
+
+  # isijecamo poslednji element niza, jer unutar petlje provjeravamo naredni preko indeks + 1
+  for indeks,broj in enumerate(niz_brojeva[0:zadnji_element_niza]):
+    if niz_brojeva[indeks] > niz_brojeva[indeks+1]:
+      # mijenjamo mjesta elemenata niza
+      niz_brojeva[indeks],niz_brojeva[indeks+1]=niz_brojeva[indeks+1],niz_brojeva[indeks]
+      zamjena_izvrsena = True
+else:
 ```

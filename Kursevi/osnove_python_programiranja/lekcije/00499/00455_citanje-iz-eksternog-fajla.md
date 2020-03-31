@@ -6,7 +6,7 @@
 
 karakteri_porijeklo.txt
 ```python
-Goku - Sayan
+Goku - Vegeta
 Krilin - Zemlja
 Piccolo - Namek
 Frieza - Universe 7

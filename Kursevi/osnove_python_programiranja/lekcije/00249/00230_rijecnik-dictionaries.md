@@ -1,5 +1,5 @@
 
-#### Rijecnici - Dictionaries - {}
+#### Rijecnici - Dictionaries - { }
 
 Rijecnici su tipovi podataka, opet slicni listama, ali za razliku od listi indeksiranje se obavlja kljucevima.
 
@@ -8,7 +8,8 @@ drugi, gdje imamo strukturu strana rijec na lijevoj strani i detaljno objasnjenj
 Ako navedenu analogiju primijenimo rijecnicima, kao tipovima podataka u Python-u, onda rijec predstavlja kljuc
 (key), dok detaljno objasnjenj predstavlja vrijednost (value). 
 
-Elementi rijecnika su smjesteni u viticaste zagrade _{}_ a parovi elemenata su razdvojeni zarezom _,_. 
+Elementi rijecnika su smjesteni u viticaste zagrade **{ }** a parovi elemenata su razdvojeni zarezom **,**. 
+
 ```text{kljuc:vrijednost} ({key:value})```
 
 Bitno je napomenti da kljuc (key), mora biti jedinstven, ne mozemo imati dva ista kljuca. 
@@ -22,7 +23,7 @@ Bitno je napomenti da kljuc (key), mora biti jedinstven, ne mozemo imati dva ist
 karakteri={} # prazan rijecnik
 print(karakteri)
 
-karakteri_osobine={"Goku":"Sayan", "Picolo":"Namek", "Krilin":"Zemlja"}
+karakteri_osobine={"Goku":"Vegeta", "Picolo":"Namek", "Krilin":"Zemlja"}
 print(karakteri_planete)
 print(type(karakteri_planete))
 
@@ -35,8 +36,30 @@ del(karakteri_planete["Goku"]) # brisanje elementa
 print(len(karakteri_planete)) # primijetimo da se broje parovi
 
 print(karakteri_planete.keys()) # metoda keys() nad rijecnicima, ispisuje sve kljuceve (keys), nema argumente
-print(karakteri_planete.values()) # metoda values() ispisuje vrijdnosti elementa, nema argumente
-print(karakteri_planete.items()) # metoda items() ispisuje kljuc: vrijdnost elementa, nema argumente
+print(karakteri_planete.values()) # metoda values() ispisuje vrijednosti elementa, nema argumente
+print(karakteri_planete.items()) # metoda items() ispisuje kljuc: vrijednost elementa, nema argumente
+
+# metode get i setdefault
+karakteri_planete={'Goku':'Vegeta', 'Krilin':'Zemlja', 'Bulma':''}
+print(karakteri_planete.get('Goku','Karakter ne postoji u bazi'))
+print(karakteri_planete.get('Pikolo','Karakter ne postoji u bazi')) # metoda get() nad rijecnikom vrsi pretragu po zadatom kljucu, u slucaju da kljuc ne postoji vraca default-nu vrijednost, vrijednost koja je proslijedjena kao drugi parametar
+
+print(karakteri_planete.setdefault('Pikolo','Karakter nema definisanu planetu')) # kljuc ce biti kreiran u slucaju da ne postoji, a vrijednost ce biti podesena na vrijdnost drugog proslijednjenog parametra
+print(karakteri_planete.setdefault('Bulma','Zemlja')) # obzirom da kljuc postoji, nece doci do promjena
+
+# metode pop i update
+karakteri_planete={'Goku':'Vegeta', 'Krilin':'Zemlja', 'Bulma':'Zemlja'}
+obrisan_karakter=(karakteri_planete.pop('Goku')) # pop() metoda prilikom brisanja key:value, zadrzava vrijednost (value)
+print (karakteri_planete)
+print (obrisan_karakter)
+
+# spajanje rijecnika mozemo izvesti upotrebom metode update()
+karakteri_1_planete={'Goku':'Vegeta', 'Krilin':'Zemlja', 'Bulma':'Zemlja'}
+karakteri_2_planete={'Chi-Chi':'Zemlja', 'Vegeta':'Vegeta', 'Bulma':'Namek'}
+karakteri_1_planete.update(karakteri_2_planete) # update() metod nad rijecnicima prosiruje prvi rijecnik vrijednostima iz drugog, u slucaju da imamo dva ista kljuca, kljuc iz prvog rijecnika bice zamijenjena kljucem iz drugog rijecnika
+karakteri_1_planete={'Goku':'Vegeta', 'Krilin':'Zemlja', 'Bulma':'Zemlja'}
+karakteri_2_planete={'Chi-Chi':'Zemlja', 'Vegeta':'Vegeta', 'Bulma':'Namek'}
+karakteri_2_planete.update(karakteri_1_planete)
 ```
 
 **`Izvorni kod: kod-231_konverzija_mjeseci.py`**

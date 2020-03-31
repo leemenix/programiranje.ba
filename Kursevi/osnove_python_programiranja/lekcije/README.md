@@ -729,7 +729,7 @@ del(karakter[3]) # brisanje elemenata tuple-a nije moguce
 del(karakter)
 ```
 
-#### Rijecnici - Dictionaries - {}
+#### Rijecnici - Dictionaries - { }
 
 Rijecnici su tipovi podataka, opet slicni listama, ali za razliku od listi indeksiranje se obavlja kljucevima.
 
@@ -738,7 +738,8 @@ drugi, gdje imamo strukturu strana rijec na lijevoj strani i detaljno objasnjenj
 Ako navedenu analogiju primijenimo rijecnicima, kao tipovima podataka u Python-u, onda rijec predstavlja kljuc
 (key), dok detaljno objasnjenj predstavlja vrijednost (value). 
 
-Elementi rijecnika su smjesteni u viticaste zagrade _{}_ a parovi elemenata su razdvojeni zarezom _,_. 
+Elementi rijecnika su smjesteni u viticaste zagrade **{ }** a parovi elemenata su razdvojeni zarezom **,**. 
+
 ```text{kljuc:vrijednost} ({key:value})```
 
 Bitno je napomenti da kljuc (key), mora biti jedinstven, ne mozemo imati dva ista kljuca. 
@@ -752,7 +753,7 @@ Bitno je napomenti da kljuc (key), mora biti jedinstven, ne mozemo imati dva ist
 karakteri={} # prazan rijecnik
 print(karakteri)
 
-karakteri_osobine={"Goku":"Sayan", "Picolo":"Namek", "Krilin":"Zemlja"}
+karakteri_osobine={"Goku":"Vegeta", "Picolo":"Namek", "Krilin":"Zemlja"}
 print(karakteri_planete)
 print(type(karakteri_planete))
 
@@ -765,8 +766,30 @@ del(karakteri_planete["Goku"]) # brisanje elementa
 print(len(karakteri_planete)) # primijetimo da se broje parovi
 
 print(karakteri_planete.keys()) # metoda keys() nad rijecnicima, ispisuje sve kljuceve (keys), nema argumente
-print(karakteri_planete.values()) # metoda values() ispisuje vrijdnosti elementa, nema argumente
-print(karakteri_planete.items()) # metoda items() ispisuje kljuc: vrijdnost elementa, nema argumente
+print(karakteri_planete.values()) # metoda values() ispisuje vrijednosti elementa, nema argumente
+print(karakteri_planete.items()) # metoda items() ispisuje kljuc: vrijednost elementa, nema argumente
+
+# metode get i setdefault
+karakteri_planete={'Goku':'Vegeta', 'Krilin':'Zemlja', 'Bulma':''}
+print(karakteri_planete.get('Goku','Karakter ne postoji u bazi'))
+print(karakteri_planete.get('Pikolo','Karakter ne postoji u bazi')) # metoda get() nad rijecnikom vrsi pretragu po zadatom kljucu, u slucaju da kljuc ne postoji vraca default-nu vrijednost, vrijednost koja je proslijedjena kao drugi parametar
+
+print(karakteri_planete.setdefault('Pikolo','Karakter nema definisanu planetu')) # kljuc ce biti kreiran u slucaju da ne postoji, a vrijednost ce biti podesena na vrijdnost drugog proslijednjenog parametra
+print(karakteri_planete.setdefault('Bulma','Zemlja')) # obzirom da kljuc postoji, nece doci do promjena
+
+# metode pop i update
+karakteri_planete={'Goku':'Vegeta', 'Krilin':'Zemlja', 'Bulma':'Zemlja'}
+obrisan_karakter=(karakteri_planete.pop('Goku')) # pop() metoda prilikom brisanja key:value, zadrzava vrijednost (value)
+print (karakteri_planete)
+print (obrisan_karakter)
+
+# spajanje rijecnika mozemo izvesti upotrebom metode update()
+karakteri_1_planete={'Goku':'Vegeta', 'Krilin':'Zemlja', 'Bulma':'Zemlja'}
+karakteri_2_planete={'Chi-Chi':'Zemlja', 'Vegeta':'Vegeta', 'Bulma':'Namek'}
+karakteri_1_planete.update(karakteri_2_planete) # update() metod nad rijecnicima prosiruje prvi rijecnik vrijednostima iz drugog, u slucaju da imamo dva ista kljuca, kljuc iz prvog rijecnika bice zamijenjena kljucem iz drugog rijecnika
+karakteri_1_planete={'Goku':'Vegeta', 'Krilin':'Zemlja', 'Bulma':'Zemlja'}
+karakteri_2_planete={'Chi-Chi':'Zemlja', 'Vegeta':'Vegeta', 'Bulma':'Namek'}
+karakteri_2_planete.update(karakteri_1_planete)
 ```
 
 **`Izvorni kod: kod-231_konverzija_mjeseci.py`**
@@ -800,20 +823,26 @@ print(konverzijaMjeseci.get("Dese","Nije validan kljuc")) # ako koristimo get ne
 ```
 ## Funkcije
 
-Skup kodova koje odradjuju odredjene zadatke, dobri su za organizaciju koda. 
+Skup naredbi koje po pozivu izvrsavaju odredjene zadatke. Funkcije sluze takodje za bolju organizaciju koda.
 
-Funkcije se definisu pomocu kljucne rijeci def, kad god se pojavi def na pocetku linije, python zna da korisnik zeli kreirati funkciju i stim u vezi se i ponasa.
+Funkcije se definisu pomocu kljucne rijeci **def**, kad god se pojavi def na pocetku linije, python zna da korisnik zeli kreirati funkciju i stim u vezi se i ponasa.
 
-```yaml
+Sintaksa funkcije:
+
+```text
 def naziv_funkcije(parametri): # parametri su opcioni, ali ako postoje moraju biti definisani/proslijedjeni
-  blok naredbi # argumenti
+  blok naredbi # argumenti (poznat jos kao tijelo funkcije)
 
 naziv_funkcije(argumenti) # poziv funkcije
 ```
 
-zdravo_svijete_funkcija.py
+Iz sintakse mozemo zakljuciti da je naziv_funkcije identifikator kojim pozivamo funkciju, dok parametri sluze
+da bi se definisale vrijednosti koje se mogu proslijediti kao parametri naredbama unutar tijela funkcije.
+
+**`Izvorni kod: kod-255_rad-sa-funkcijama.py`**
+
 ```python
-def zdravo_svijete():
+def zdravo_svijete(): # funkcija bez parametara
   print("Zdravo Svijete.")
 
 # moramo pozvati funkciju ako zelimo da je izvrsimo
@@ -848,15 +877,19 @@ def pozdrav(ime):
     print ("Zdravo " + ime)
 
 pozdrav(korisnik_ime)
+
+
 ```
 
 ## Naredba return (return direktiva)
 
-Kada zelimo dobiti povratnu informaciju iz funkcije koristimo naredbu return. Sa ovom informacijom
-mozemo nastaviti manipulaciju kroz dajlni dio koda. Naredba return se moze pojaviti samo unutar tijela
-funkcije. Takodje kada zelimo da funkcije mogu medjusobno komunicirati. 
+Kada zelimo dobiti povratnu informaciju iz funkcije koristimo naredbu **return**. Sa ovom informacijom
+mozemo nastaviti manipulaciju kroz daljni dio koda. Naredba return se moze pojaviti samo unutar tijela
+funkcije. Takodje kada zelimo da funkcije mogu medjusobno komunicirati, razmjenjivati informacije koristimo
+return naredbu. 
 
-2 na n-tu
+**`Izvorni kod: kod-260_kub-broja.py`**
+
 ```python
 def kub(broj):
   broj * broj * broj
@@ -875,7 +908,7 @@ print(kub(3))
 def kub(broj):
   return broj * broj * broj 
 
-rezultat - kub(3) # sacuvaj vrijednost koju si dobio od funkcije, ne i samu funkciju
+rezultat = kub(3) # sacuvaj vrijednost koju si dobio od funkcije, ne i samu funkciju
 print(rezultat)
 
 #### 
@@ -888,6 +921,7 @@ print(cub(3))
 ```
 
 ### Funkcija ne mijenja sadrzaj promjenjive
+**`Izvorni kod: kod-261_rad-sa-funkcijama.py`**
 ```python
 def brojac(broj):
   broj = broj + 1
@@ -917,6 +951,38 @@ def srecni_brojevi(*brojevi):
 	print("Loto brojevi za ovu sedmicu: " + str(brojevi))
 
 srecni_brojevi(8,13,22,12,54)
+
+# poziv funkcije iz druge funkcije
+def kub(broj):
+  return broj * broj * broj
+
+def ispis_kubnog_broja(broj):
+  kubni_broj = kub(broj)
+  print("Kub broja " + str(broj) + " je " + str(kubni_broj))
+
+ispis_kubnog_broja(2)
+
+# docstring - dokumentacijski string,  predstavlja dokumentaciju same funkcije koja moze da se pozove funkcijom
+# help()
+def kub(broj):
+  '''Funkcije izracunava kub unesenog broja, po formuli broj * broj * broj.
+              Primjer koristenja funkcije: print(kub(2))
+                                           daje vrijednost 8
+  '''
+  return broj * broj * broj
+
+print(kub(2))
+help(kub)
+
+# neke od standardnih, ugradjenih, funkcija koje dolaze sa Python-om
+print(abs(-1))
+print(len("Goku"))
+print(max(2,3))
+print(min(2,3))
+print(str(2))
+print(type(kub))
+print(type(print))
+print(type(type))
 ```
 
 
@@ -1087,12 +1153,17 @@ else:
   print("unijeli ste pogresan operator")
 ```
 
-## while petlja 
-- struktura u python koja nam omogucava da prolazimo kroz isti kod vise puta, onoliko puta
-koliko smo to zadali inicijalnim uslovom
-- kroz svaku od iteracija kroz kod while ce da izvrsi sve sto je unutar while petlje
+## While petlja - (Izvrsavaj blok koda sve dok je ispunjen uslov ...)
 
-while_brojac.py
+While petlja predstavlja strukturu u Python-u koja nam omogucava da prolazimo kroz isti blok koda vise puta, onoliko puta koliko smo to zadali inicijalnim uslovom, odnosno sve dok uslov ima vrijednost Tacno (True) ili dok nasilno ne prekinemo uslov naredbom prekida (**break**).
+
+Dakle svakom iteracijom kroz blok koda, while petlja ce da izvrsi sve sto se nalazi u tijelu petlje. Naravno, uz
+while petlju mozemo kombinovati i uslove cime dobijamo na brzini koda i vecoj efikasnosti.
+
+Ono sto je bitno napomenti kod while petlje, ona se koristi uglavnom kada unaprijed nemamo definisan broj 
+iteracija. 
+
+**``Izvorni kod: kod-310_while_brojac.py``**
 ```python
 i = 1
 while i <= 10:
@@ -1103,8 +1174,10 @@ while i <= 10:
 print("Kraj brojaca")
 ```
 
-igra_pogadjanja.py - primjenimo sve do sad nauceno
+**`Izvorni kod: kod-311_igra_pogadjanja.py`** 
+
 ```python
+# primjenimo do sad nauceno
 tajna_rijec = "python"
 
 pokusaj = ""
@@ -1134,9 +1207,74 @@ else:
     print("Cestitamo, pogodili ste")
 ```
 
-## for petlja
-- specijalni tip petlje u python-u
+### Naredba prekida (**break**)
+
+**`Izvorni kod: kod-312_demonstracija-naredbe-break.py`**
+
 ```python
+karakter_opis = {}
+
+brojac=0
+limit=10
+
+while brojac <= limit:
+	karakter_ime = input("Unesi ime karaktera: ")
+	karakter_godine = input("Unesi godine karaktera :")
+
+	if int(karakter_godine) <= 0:
+		print("Godine ne mogu biti manje od 1!")
+		break
+	else:
+		karakter_opis[(karakter_ime)] = (karakter_godine)
+		brojac+=1 
+
+print(karakter_opis)
+```
+
+### else kod While petlje
+
+Kao sto smo vidjeli sa uslovom **if**, takodje mozemo koristiti granu else prilikom konstrukcije while petlje, 
+ali trebamo imati na umu da se else izvrsava samo jednom, ako i samo ako je glavni uslov while petlje netacan
+(False). Naravno ukoliko unutar while petlje imamo naredbu **break** koja je izvrsena, else naredba ce biti 
+preskocena.
+
+**`Izvorni kod: kod-313_demonstracija-grane-else.py`**
+
+```python
+karakter_opis = {}
+
+brojac=0
+limit=2
+
+while brojac <= limit:
+	karakter_ime = input("Unesi ime karaktera: ")
+	karakter_godine = input("Unesi godine karaktera :")
+
+	if int(karakter_godine) <= 0:
+		print("Godine ne mogu biti manje od 1!")
+		break
+	else:
+		karakter_opis[(karakter_ime)] = (karakter_godine)
+		brojac+=1 
+else:
+	# sadrzaj rijecnika ce biti ispisan samo ako se 
+	# kompletan program izvrsi bez okidanja/trigerovanja naredbe break
+	print(karakter_opis) 
+```
+
+
+
+## For petlja
+
+For petlju mozemo nazvati specijalni tip petlje u Python-u, a za razliku od while petlje, for petlju koristimo 
+kada zelimo da vrsimo iteraciju kroz tijelo petlje ako unaprijed znamo koliko puta je to potrebno.
+
+Vrijednosti se uglavnom zadaju kao predefinisane ali mozemo koristiti izvore poput lista, stringova, rijecnika.
+
+**`Izvorni kod: kod-320_rad-sa-for-petljom.py`**
+
+```python
+# operator in, za iteraciju nad listama, torkama, rijecnicima mozemo koristit kljucnu rijec in
 for slovo in "programiranje.ba":
   print(slovo)
 
@@ -1146,6 +1284,10 @@ for karakter in karakteri:
 karakteri = ["Goku", "Kirlin", "Yamcha"]
 for indeks in range(len(karakteri)):
   print (karakteri[indeks])
+
+loto_brojevi = [1,33,13,43,56]
+for broj in loto_brojevi:
+  print (broj)
 
 for broj in range(20):
   print(broj)
@@ -1166,17 +1308,95 @@ for i in range(10):
     print (i)
     i+=1
 
-### eksponencijaln funkcija - kada ne znamo koliko je eksponent
-print(2**3)
+# break naredba unutar for petlje
+karakteri = ["Goku", "Kirlin", "Yamcha", "Goku", "Bulma"]
+for i in range(len(karakteri)):
+  if karakteri[i] == "Yamcha":
+    print("Prekini izvrsenje for petlje")
+    break
+  print (karakteri[i])
+
+# enumerate() funkcija - enumeracija
+# ukoliko zelimo da zajedno sa vrijednostima iz liste, stringa ili rijecnika ispisujemo i njihove indekse
+# koristicemo funkciju enmureate()
+karakteri = ["Goku", "Kirlin", "Yamcha", "Goku", "Bulma"]
+for i,ime in enumerate(karakteri):
+  print(str(i) + " " + ime)
+
+### eksponencijaln funkcija - kada ne znamo koliki je eksponent
+#print(2**3)
 
 def eksponent_broja(baza, eksponent):
   rezultat = 1
-  for index in range(exponent):
+  for i in range(eksponent):
     rezultat = rezultat * baza
   return rezultat
 
-print(exponent_broja(2,4))
+print(eksponent_broja(2,3))
 ```
+
+### Primjer algoritma sortiranje mjehuricima (bubble sorting)
+
+Prije nego napisemo kod potrebno je kratko objasnjenje algoritma. Algoritam sortiranje mjehuricima, ima za cilj
+da nad zadatim nizom nasumicnih/slucajnih brojeva izvrsi sortiranje od najmanjeg ka najvecem. Ovakvi 
+tipovi zadataka predstavljaju osnovne koncepte teorije algoritma, a mozemo ih naci na kao zadaci na intervjuima 
+u velikim firmama poput Google-a, Amazon-a, Facebook-a, Microsoft-a ...
+
+Predpostavimo da imamo niz brojeva:
+
+```text
+[4,2,1,5,3]
+```
+Primjenom algoritma sortiranja mjehuricima, svakom novom iteracijom, svaki element niza ce se uporedjivati
+sledecim, u slucaju da je prvi element veci od sledeceg, zaminijece mijesta, u suprotnom prvi element ostaje na svom mjestu. Ovaj proces se nastavlja sve dok se svi elementi konacno ne sortiraju od najmanjeg ka najvecem. Dakle, procedura sortiranje ce se obaviti sledecim redosledom:
+
+```text
+tbd.
+[2, 4, 1, 5, 3]
+[2, 1, 4, 5, 3]
+[2, 1, 4, 3, 5]
+[1, 2, 4, 3, 5]
+[1, 2, 3, 4, 5]
+[1, 2, 3, 4, 5]
+
+Pocetno stanje         |   [4,2,1,5,3]   |   Objasnjnje
+_______________________|_________________|_________________________________________________
+Nakon prve iteracije   |   [(2,4),1,5,3] | 4 i 2 mijenjaju mjesta jer je 4 vece od 2
+                       |   [2,(1,4),5,3] | 4 i 1 mijenjaju mjesta jer je 4 vece od 1
+                       |   [2,1,(4,5),3] | 4 i 5 ostaju na svom mjestu jer je 4 manje od 5
+                       |   [2,1,4,(3,5)] | 5 i 3 mijenjaju mjesta jer je 5 vece od 3
+_______________________|_________________|_________________________________________________                    
+Nakon druge iteracije  |   [(1,2),4,3,5] | 2 i 1 mijenjaju mjesta jer je 2 vece od 1
+                       |   [1,(2,4),3,5] | 2 i 4 ostaju na svom mjestu jer je 2 manje od 4
+                       |   [1,2,(3,4),5] | 4 i 3 mijenjaju mjesta jer je 4 vece od 3
+                       |   [1,2,3,(4,5)] | 4 i 5 ostaju na svom mjestu jer je 4 manje od 5
+```
+
+**`Izvorni kod: kod-321_sortiranje-mjehuricima.py`**
+
+```python
+
+niz_brojeva = [4,2,1,5,3] 
+
+# inicijalno stanje varijable, koja nam govori da li je bilo 
+# zamjene brojeva prilikom iteracije kroz niz
+zamjena_izvrsena = True 
+
+zadnji_element_niza = (len(niz_brojeva) - 1)
+
+while zamjena_izvrsena:
+  # predpostavimo da je niz sortiran
+  zamjena_izvrsena = False
+
+  # isijecamo poslednji element niza, jer unutar petlje provjeravamo naredni preko indeks + 1
+  for indeks,broj in enumerate(niz_brojeva[0:zadnji_element_niza]):
+    if niz_brojeva[indeks] > niz_brojeva[indeks+1]:
+      # mijenjamo mjesta elemenata niza
+      niz_brojeva[indeks],niz_brojeva[indeks+1]=niz_brojeva[indeks+1],niz_brojeva[indeks]
+      zamjena_izvrsena = True
+else:
+```
+
 ## dvodimenzionalne liste i ugnijezdene petlje (nested)
 
 ```python
@@ -1272,7 +1492,7 @@ except ValueError:
 
 karakteri_porijeklo.txt
 ```python
-Goku - Sayan
+Goku - Vegeta
 Krilin - Zemlja
 Piccolo - Namek
 Frieza - Universe 7
