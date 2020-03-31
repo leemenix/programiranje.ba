@@ -1,4 +1,7 @@
 
+```
+<a name="o-kursu"/>
+```
 ## O kursu
 
 Kurs **Python 3 - Uvod u programski jezik Python** je dizajniran za sto jednostavnije ucenje. Namijenjen
