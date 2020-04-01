@@ -5,7 +5,7 @@
 - kako instalirati module (list of python modules on google) pip paket manager
 - build-in moduli (ugradjeni) i eksterni moduli
  
-**`Izvorni kod: kod-605_korisni-alati.py`**
+**`Izvorni kod: kod-655_korisni-alati.py`**
 ```python
 #
 import random

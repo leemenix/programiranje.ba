@@ -1474,9 +1474,13 @@ print("Pomak: " + str(pomak))
 print("Sifrovan tekst: " + enkripcija(tekst, pomak))
 ```
 
-## try / except (catch) - hvatanje greski
-  - kada ne zelimo da nas program puca
-  - ipak zelimo da nastavimo i da damo informaciju korisniku
+## Hvatanje greski - try / except (catch)
+
+Kada imamo situaciju da bez obzira na gresku u nasem programu, ipak zelimo
+da nastavimo sa izvrsenjem programa i damo smislenu povratnu informaciju 
+korisniku, tada koristimo **`try/except`** za hvatanje greske.
+
+**`Izvorni kod: kod-405_hvatanje-greski.py`**
   
 ```python
 try:
@@ -1508,71 +1512,6 @@ except ZeroDivisionErron as err:
   print(err)
 except ValueError:
   print("Pogresan unos")
-```
-
-## Rad sa datotekama (fajlovima)
-
-### citanje iz eksternog fajla
-- dosta puta imamo potrebu za citanjem sadrzaja iz drugih fajlova
-- parsiranje teksta ...
-- apsolutni, relativna lokacija
-
-**`Sadrzaj fajla: fajl-455_karakteri_porijeklo.txt`**
-```text
-Goku - Vegeta
-Krilin - Zemlja
-Piccolo - Namek
-Frieza - Universe 7
-```
-
-**`Izvorni kod: kod-456_rad-sa-fajlovima.py`**
-```python
-# r - read; w - write; a - append to end of file; r+ - read and write
-# otvoren fajl
-karakteri_fajl = open("fajl-455_karakteri_porijeklo.txt", "r")
-
-# provjeri da li je fajl citljiv
-print(karakteri_fajl.readable())
-
-# citanje informacija iz fajla
-print(karakteri_fajl.read())
-
-# citanje linije u fajlu
-print(karakteri_fajl.readline())
-print(karakteri_fajl.readline())
-print(karakteri_fajl.readline())
-print(karakteri_fajl.readline())
-
-# citanje linije po liniju, citaj svaku liniju i pohrani u niz
-print(karakteri_fajl.readlines())
-
-# koristenjem for petlje
-for karakter in karakteri_fajl.readlines():
-  print(karakter)
-
-karakteri_fajl.close()
-```
-
-### upisivanje u eksterni fajl
-
-**`Izvorni kod: kod-457_rad-sa-fajlovima.py`**
-
-```python
-# dodavanje na vec postojeci fajl
-karakteri_fajl = open("fajl-455_karakteri_porijeklo.txt", "a")
-
-karakteri_fajl.write("Bulma - Zemlja")
-karakteri_fajl.write("\n Chi-Chi - Zemlja")
-
-karakteri_fajl.close()
-
-# upisivanje u novi fajl
-karakteri_fajl = open("fajl-458_karakteri_porijeklo.txt", "w")
-
-karakteri_fajl.write("Bulma - Zemlja")
-karakteri_fajl.write("\n Chi-Chi - Zemlja")
-
-karakteri_fajl.close()
 ```
 
 ## Klase i objekti
@@ -1650,7 +1589,7 @@ brucos   |    False            <= objekat brucos unutar objekta Student
          |
 ```
 
-### funkcije unutar klase (funkcije objekta)
+### metode - funkcije unutar klase (funkcije objekta)
 
 **`Izvorni kod: kod-557_funkcija-unutar-klase.py`**
 
@@ -1670,7 +1609,7 @@ class Student:
       return False
 ```
 
-**`Izvorni kod: kod-558-main.py`**
+**`Izvorni kod: kod-558_main.py`**
 
 ```python
 from student import Student
@@ -1691,8 +1630,6 @@ print(student_prvi.naziv_fakulteta)
 print(student_prvi.dobar())
 ```
 
-### metode
-
 U prethodnom primjeru smo vidjeli jednu od metoda **dobar()**, ali ajde da 
 pogledamo malo detaljnije o cemu se radi.
 
@@ -1704,14 +1641,63 @@ cemo nazvati **student_opis** i **student_pisac**.
 **` Izvorni kod: kod-559-metode.py`**
 
 ```python
+class Student:
+  naziv_fakulteta = "Elektrotehnicki"
+  pisac = "nije definisan"
+  def __init__(self,ime,smjer,ocjena,brucos):
+    self.ime = ime
+    self.smjer = smjer
+    self.ocjena = ocjena
+    self.brucos = brucos
 
+  def dobar(self):
+    if self.ocjena > 8:
+      return True
+    else:
+      return False
+
+  def student_opis(self):
+    print(f"Ime studenta: {self.ime}, Naziv fakulteta: {self.naziv_fakulteta}, Smjer: {self.smjer}, Ocjena: {self.ocjena}, Brucos: {self.brucos}, Pisac: {self.pisac}")
+
+  def student_pisac(self):
+    print(self.pisac)
 ```
 
-## naslijedjivanje
-- u slucaju da imamo klasu, kada kreiramo novu klasu mozemo naslijediti staru klasu
-- nova klasa ce imati sve osobine stare klase sa novim opcijama
+**`Izvorni kod: kod-560_main.py`**
 
-Kuvar.py
+```python
+from student import Student
+
+novi_student = Student("Goku", "programiranje", 7.9, False)
+print(novi_student.naziv_fakulteta)
+#novi_student.ime = "Goku"
+#novi_student.ocjena = 7.9
+
+print(novi_student.ime)
+print(novi_student.dobar())
+novi_student.naziv_fakulteta = "Prirodno Matematicki"
+novi_student.smjer = "Fizika"
+novi_student.ocjena = 9.0
+
+print(novi_student.ime)
+print(novi_student.naziv_fakulteta)
+print(novi_student.dobar())
+print(novi_student.student_opis())
+print(novi_student.student_pisac())
+```
+
+### Naslijedjivanje - podklase
+
+U slucaju da planiramo kreirati novu klasu, a vec unaprijed znamo da imamo ili
+da vec postoji klasa koja sadrzi vecinu metoda koje trebamo koristiti, medjutim
+mi trebamo definisati jos par novih objekata ili novih metoda, u tom slucaju 
+koristimo naslijedjivanje ili podklase, tako sto kreiramo novu klasu koja 
+naslijedjuje staru klasu.
+
+Nova klasa ce imati sve osobine stare klase sa novim opcijama. 
+
+**`Izvorni kod: kod-565_kuvar.py`**
+
 ```python
 class Kuvar:
     def priprema_mesa(self):
@@ -1723,9 +1709,10 @@ class Kuvar:
     def priprema_specijalnog_jela(self):
         print("Priprema rebarcadi")
 ```
-KineskiKuvar.py
+**`Izvorni kod: kod-566_kineski_kuvar.py`**
+
 ```python
-from Kuvar import Kuvar
+from kuvar import Kuvar
 
 class KineskiKuvar(Kuvar):
     def priprema_rize(self):
@@ -1734,10 +1721,17 @@ class KineskiKuvar(Kuvar):
     def priprema_specijalnog_jela(self):
         print ("Pekinska patka")
 ```
-main.py
+
+Dakle, sve metode koje su definisane u klasi **Kuvar** , koja se jos naziva nadklasa, mogu se koristiti u novoj klasi **KineskiKuvar** , koja se jos naziva podklasa.
+Mozemo primijetiti redefinisanje metode **priprema_specijalnog_jela** u novoj
+klasi **KineskiKuvar**. U slucaju redefinisanja metode, prilikom pozivanja 
+metode **priprema_specijalnog_jela**, koristi se nova redefinisana metoda. 
+
+**`Izvorni kod: kod-567_main.py`**
+
 ```python
-from Kuvar import Kuvar
-from KineskiKuvar import KineskiKuvar
+from kuvar import Kuvar
+from kineski_kuvar import KineskiKuvar
 
 novi_kuvar = Kuvar()
 
@@ -1751,13 +1745,118 @@ novi_kineski_kuvar.priprema_mesa()
 novi_kineski_kuvar.priprema_specijalnog_jela()
 ```
 
+## Rad sa datotekama (fajlovima)
+
+Fajl ili datoteka, predstavlja kontejner, mjesto gdje skladistimo, pohranjujemo
+podatke. Na ovaj nacin podaci su trajno sacuvani na disku, za razliku od radne
+memorije i moze im se naknadno pristupiti iz drugih programa, ali se moze 
+vrsiti i razmjena izmedju razlicitih sistema.
+
+### Citanje iz eksternog fajla
+- dosta puta imamo potrebu za citanjem sadrzaja iz drugih fajlova
+- parsiranje teksta ...
+- apsolutni, relativna lokacija
+
+```text
+access_mode | rezim rada nad fajlom nakon otvaranja 
+____________|________________________________________________
+r - read    |otavara datoteku samo za citanje, ovo je default  
+(citanje)   |rezim, ako nije navedeno drugacije, uzima se 
+            |ovaj rezim
+____________|________________________________________________
+r+          |otvara datoteku za citanje i pisanje 
+____________|________________________________________________
+w - write   |otvara datoteku samo za pisanje, ako datoteka    
+(pisanje)   |vec postoji snima se nova datoteka preko nje, 
+            |ako ne postoji kreira novu datoteku. 
+____________|________________________________________________
+w+          |otvara datoteku za pisanje i citanje, ako 
+            |datoteka vec postoji snima se nova datoteka 
+            |preko nje, ako ne postoji kreira novu datoteku
+____________|________________________________________________
+a - append  |otvara datoteku za dodavanje i citanje, dodaje
+(dodavanje) |liniju na kraju datoteke, u slucaju da datoteka
+            |ne postoji kreira se nova
+____________|________________________________________________
+a+          |otvara datoteku za dodavanje i citanje, dodaje
+            |liniju na kraju datoteke, u slucaju da datoteka
+            |ne postoji kreira se nova
+```
+
+
+**`Sadrzaj fajla: fajl-605_karakteri_porijeklo.txt`**
+```text
+Goku - Vegeta
+Krilin - Zemlja
+Piccolo - Namek
+Frieza - Universe 7
+```
+
+**`Izvorni kod: kod-606_rad-sa-fajlovima.py`**
+```python
+
+# otvoren fajl
+# funkcija open()
+karakteri_fajl = open("fajl-605_karakteri_porijeklo.txt", "r")
+
+# provjeri da li je fajl citljiv
+print(karakteri_fajl.readable())
+
+# citanje informacija iz fajla
+print(karakteri_fajl.read())
+
+# citanje linije u fajlu
+print(karakteri_fajl.readline())
+print(karakteri_fajl.readline())
+print(karakteri_fajl.readline())
+print(karakteri_fajl.readline())
+
+# citanje linije po liniju, citaj svaku liniju i pohrani u niz
+print(karakteri_fajl.readlines())
+
+# koristenjem for petlje
+for karakter in karakteri_fajl.readlines():
+  print(karakter)
+
+# obzirom da se tokom rada sa fajlovima koristi pomocna memorija (buffer), 
+# nakon rada sa fajlom potrebno je da se pozove funkcija close(), kako bi se 
+# podaci upisali u fajl
+# cak i ako koristimo funkciju write() ali na kraju ne pozovemo close()
+# podaci ce biti izgubljeni
+# moguce je zadati velicinu pomocne memorije kao treci parametar u funkciji
+# open() reda bajta.
+karakteri_fajl.close()
+```
+
+### upisivanje u eksterni fajl
+
+**`Izvorni kod: kod-607_rad-sa-fajlovima.py`**
+
+```python
+# dodavanje na vec postojeci fajl
+karakteri_fajl = open("fajl-605_karakteri_porijeklo.txt", "a")
+
+karakteri_fajl.write("Bulma - Zemlja")
+karakteri_fajl.write("\n Chi-Chi - Zemlja")
+
+karakteri_fajl.close()
+
+# upisivanje u novi fajl
+karakteri_fajl = open("fajl-608_karakteri_porijeklo.txt", "w")
+
+karakteri_fajl.write("Bulma - Zemlja")
+karakteri_fajl.write("\n Chi-Chi - Zemlja")
+
+karakteri_fajl.close()
+```
+
 ## moduli i pip alat
 - python fajl koji mozete importovati unutar vaseg python koda
 - kako kreirati svoj modul
 - kako instalirati module (list of python modules on google) pip paket manager
 - build-in moduli (ugradjeni) i eksterni moduli
  
-**`Izvorni kod: kod-605_korisni-alati.py`**
+**`Izvorni kod: kod-655_korisni-alati.py`**
 ```python
 #
 import random

@@ -74,7 +74,7 @@ brucos   |    False            <= objekat brucos unutar objekta Student
          |
 ```
 
-### funkcije unutar klase (funkcije objekta)
+### metode - funkcije unutar klase (funkcije objekta)
 
 **`Izvorni kod: kod-557_funkcija-unutar-klase.py`**
 
@@ -94,7 +94,7 @@ class Student:
       return False
 ```
 
-**`Izvorni kod: kod-558-main.py`**
+**`Izvorni kod: kod-558_main.py`**
 
 ```python
 from student import Student
@@ -115,8 +115,6 @@ print(student_prvi.naziv_fakulteta)
 print(student_prvi.dobar())
 ```
 
-### metode
-
 U prethodnom primjeru smo vidjeli jednu od metoda **dobar()**, ali ajde da 
 pogledamo malo detaljnije o cemu se radi.
 
@@ -128,6 +126,47 @@ cemo nazvati **student_opis** i **student_pisac**.
 **` Izvorni kod: kod-559-metode.py`**
 
 ```python
+class Student:
+  naziv_fakulteta = "Elektrotehnicki"
+  pisac = "nije definisan"
+  def __init__(self,ime,smjer,ocjena,brucos):
+    self.ime = ime
+    self.smjer = smjer
+    self.ocjena = ocjena
+    self.brucos = brucos
 
+  def dobar(self):
+    if self.ocjena > 8:
+      return True
+    else:
+      return False
+
+  def student_opis(self):
+    print(f"Ime studenta: {self.ime}, Naziv fakulteta: {self.naziv_fakulteta}, Smjer: {self.smjer}, Ocjena: {self.ocjena}, Brucos: {self.brucos}, Pisac: {self.pisac}")
+
+  def student_pisac(self):
+    print(self.pisac)
 ```
 
+**`Izvorni kod: kod-560_main.py`**
+
+```python
+from student import Student
+
+novi_student = Student("Goku", "programiranje", 7.9, False)
+print(novi_student.naziv_fakulteta)
+#novi_student.ime = "Goku"
+#novi_student.ocjena = 7.9
+
+print(novi_student.ime)
+print(novi_student.dobar())
+novi_student.naziv_fakulteta = "Prirodno Matematicki"
+novi_student.smjer = "Fizika"
+novi_student.ocjena = 9.0
+
+print(novi_student.ime)
+print(novi_student.naziv_fakulteta)
+print(novi_student.dobar())
+print(novi_student.student_opis())
+print(novi_student.student_pisac())
+```

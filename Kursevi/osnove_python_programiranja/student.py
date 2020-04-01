@@ -13,8 +13,8 @@ class Student:
 		else:
 			return False
 
-	def student_opis():
-		print(f({self.naziv_fakulteta}, {self.ime}, {self.smjer}, {self,ocjena}, {self.brucos}, {self.pisac}))
+	def student_opis(self):
+		print(f"Ime studenta: {self.ime}, Naziv fakulteta: {self.naziv_fakulteta}, Smjer: {self.smjer}, Ocjena: {self.ocjena}, Brucos: {self.brucos}, Pisac: {self.pisac}")
 
-	def student_pisac():
+	def student_pisac(self):
 		print(self.pisac)

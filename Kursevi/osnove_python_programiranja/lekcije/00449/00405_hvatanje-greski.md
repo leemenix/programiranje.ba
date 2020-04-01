@@ -1,7 +1,11 @@
 
-## try / except (catch) - hvatanje greski
-  - kada ne zelimo da nas program puca
-  - ipak zelimo da nastavimo i da damo informaciju korisniku
+## Hvatanje greski - try / except (catch)
+
+Kada imamo situaciju da bez obzira na gresku u nasem programu, ipak zelimo
+da nastavimo sa izvrsenjem programa i damo smislenu povratnu informaciju 
+korisniku, tada koristimo **`try/except`** za hvatanje greske.
+
+**`Izvorni kod: kod-405_hvatanje-greski.py`**
   
 ```python
 try:
