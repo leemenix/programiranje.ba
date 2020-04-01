@@ -474,7 +474,7 @@ Nakon uspjesnog pokretanja u donjem dijelu PyCharm-a vidjecete ispis teksta
 **"Zdravo Svijete"**. 
 Cestitamo uspjesno ste podesili vase radno okruzenje, igra moze da pocne ;) 
 
-![PyCharm instalacija korak prvi](../../slike/pycharm_podesavanje_16.png)
+![PyCharm instalacija korak prvi](../../slike/pycharm_podesavanje_15.png)
 
 
   - promjena teme, odredisnog direktorija, velicine fonta i sl.
