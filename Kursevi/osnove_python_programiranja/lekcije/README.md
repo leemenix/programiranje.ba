@@ -16,7 +16,7 @@ verzija: 0.4
 - zadaci za vjezbanje (lecije 1 i 2)
 
 
-\pagebreak
+<div style="page-break-after: always;"></div>
 
 <a name="o-kursu"/>
 
