@@ -5,14 +5,16 @@
 
 ## O kursu
 
-Kurs **Python 3 - Uvod u programski jezik Python** je dizajniran za sto jednostavnije ucenje. Namijenjen
-je pocetnicima i kao takav pokusava da zadrzi vasu paznju, postepenim dodavanjem manjih detalja kako
-bi se kreirala jasna slika sta je to Python programski jezik, gdje ga sve mozemo koristiti, kako nam moze
-biti od pomoci na dnevnoj bazi ali ono sto je najvaznije kako vam moze obezbijediti buducnost na polju
-informacionih tehnologija.
+Kurs **Python 3 - Uvod u programski jezik Python** je dizajniran za sto 
+jednostavnije ucenje. Namijenjen je pocetnicima i kao takav pokusava da zadrzi
+vasu paznju, postepenim dodavanjem manjih detalja kako bi se kreirala jasna 
+slika sta je to Python programski jezik, gdje ga sve mozemo koristiti, kako 
+nam moze biti od pomoci na dnevnoj bazi ali ono sto je najvaznije kako vam 
+moze obezbijediti buducnost na polju informacionih tehnologija.
 
-Nije tajna da je programer danas, kao i u proslosti, veoma cijenjeno zanimanje a da je potraznja na trzistu
-rada veoma velika za ovim kadrovima sto ce i ostati u buducem periodu.
+Nije tajna da je programer danas, kao i u proslosti, veoma cijenjeno zanimanje
+a da je potraznja na trzistu rada veoma velika za ovim kadrovima sto ce i 
+ostati u buducem periodu.
 
 Ono sto cete postici na kraju ovog kursa, i sto bi trebala biti mjera da li ste uspjesno usvojili znanje,
 jeste da cete biti u mogucnosti samostalno da kreirate osnovne programe, koji vam mogu biti od velike 
