@@ -7,13 +7,11 @@ uslovom, odnosno sve dok uslov ima vrijednost Tacno (True) ili dok nasilno ne
 prekinemo uslov naredbom prekida (**break**).
 
 Dakle svakom iteracijom kroz blok koda, while petlja ce da izvrsi sve sto se 
-nalazi u tijelu petlje. Naravno, uz
-while petlju mozemo kombinovati i uslove cime dobijamo na brzini koda i vecoj 
-efikasnosti.
+nalazi u tijelu petlje. Naravno, uz while petlju mozemo kombinovati i uslove
+ cime dobijamo na brzini koda i vecoj efikasnosti.
 
 Ono sto je bitno napomenti kod while petlje, ona se koristi uglavnom kada 
-unaprijed nemamo definisan broj 
-iteracija. 
+unaprijed nemamo definisan broj iteracija. 
 
 **``Izvorni kod: kod-310_while_brojac.py``**
 ```python
