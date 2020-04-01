@@ -102,17 +102,31 @@ bi dobiti Python shell, kao na slici
 ![Python instalacija korak prvi](../../slike/python_instalacija_11.png)
 
 
-
-Prilikom pokretanja instalacije, na prvom koraku je potrebno cekirati obe opcije:
-* Install launcher for all users (recommended)
-* Add Python 3.x to PATH
-
-
-
-
-
-
 - PyCharm installation (Win, Linux)
+
+##### Korak 1.
+![PyCharm instalacija korak prvi](../../slike/pycharm_instalacija_1.png)
+
+##### Korak 2.
+![PyCharm instalacija korak prvi](../../slike/pycharm_instalacija_2.png)
+
+##### Korak 3.
+![PyCharm instalacija korak prvi](../../slike/pycharm_instalacija_3.png)
+
+##### Korak 4.
+![PyCharm instalacija korak prvi](../../slike/pycharm_instalacija_4.png)
+
+##### Korak 5.
+![PyCharm instalacija korak prvi](../../slike/pycharm_instalacija_5.png)
+
+##### Korak 6.
+![PyCharm instalacija korak prvi](../../slike/pycharm_instalacija_6.png)
+
+##### Korak 7.
+![PyCharm instalacija korak prvi](../../slike/pycharm_instalacija_7.png)
+
+##### Korak 8.
+![PyCharm instalacija korak prvi](../../slike/pycharm_instalacija_8.png)
 
 - Sublime installation, notpad ++
   - mi cemo koristiti PyCharm - IDE (Integrated Development Environment) 
