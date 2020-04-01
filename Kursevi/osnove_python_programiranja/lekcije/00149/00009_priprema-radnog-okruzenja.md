@@ -57,23 +57,48 @@ sa klikom na dugme **"Save"**
 
 ##### Korak 5.
 
-Pokrenemo instalaciju Python-a, klikom na skinuti fajl
+Pokrenemo instalaciju Python-a, klikom na skinuti fajl. Veoma je vazno da u
+ovom koraku **prvo** cekiramo opciju **"Add Python 3.8 to PATH"** a nakon 
+toga kao tip instalacije izaberemo **"Customize installation"**. 
 
 ![Python instalacija korak prvi](../../slike/python_instalacija_6.png)
 
 ##### Korak 6.
+
+Pod **"Optional Features"**, cekirajte sve opcije i kliknite na dugme 
+**"Next"**
+
 ![Python instalacija korak prvi](../../slike/python_instalacija_7.png)
 
 ##### Korak 7.
+
+Pod **"Advanced Options"**, veoma je vazno da cekriate opciju 
+**"Install for all users** i kliknite na dugme **"Install"**. Primijeticete 
+da se putanja do instalacije **"Customize install location"** automatski 
+mijenja kada cekiramo navedenu opciju.
+
 ![Python instalacija korak prvi](../../slike/python_instalacija_8.png)
 
 ##### Korak 8.
+
+Sada je vazno sacekati da se instalacija zavrsi i mozete kliknuti na 
+**"Close"**
+
 ![Python instalacija korak prvi](../../slike/python_instalacija_9.png)
 
 ##### Korak 9.
+
+Kako bi smo bili sigurni da je instalacija kompletna i uspjesna, pokrenucemo
+**"cmd"** komandni prompt, tako sto cemo u Windows Search unijeti cmd i 
+kliknuti na **""Command Prompt"**. 
+
 ![Python instalacija korak prvi](../../slike/python_instalacija_10.png)
 
 ##### Korak 10.
+
+Ostaje jos da ukucamo komandu **"python"** i udarimo **"Enter"**, trebali
+bi dobiti Python shell, kao na slici
+
 ![Python instalacija korak prvi](../../slike/python_instalacija_11.png)
 
 
