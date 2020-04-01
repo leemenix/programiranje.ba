@@ -1,4 +1,6 @@
 
+<div style="page-break-after: always;"></div>
+
 ## Zadaci za samostalni rad!
 
 1. Napisati program koji ispisuje vase ime i prezime

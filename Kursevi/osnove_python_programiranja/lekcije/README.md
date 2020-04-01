@@ -60,6 +60,8 @@ ili na YouTube kanalu
 
 https://www.youtube.com/channel/UCSYrkPyht9PAXMhAbkGTbsQ (https://youtube.com/c/channel_name kada bude spreman tbd.)
 
+<div style="page-break-after: always;"></div>
+
 <a name="istorija-pythona"/>
 
 ## Par rijeci o Python programskom jeziku
@@ -92,6 +94,8 @@ postojao ogroman eko-sistem biblioteka napisanih za Python 2 koje nece raditi sa
 Ovih dana Python 3 eco-sistem je uveliko pohvatao i izjednacio se sa prethodnom verzijom, sto nas dovodi do zakljucka da je Python 3 logicni izbor za sve 
 nove developere koji planiraju uciti ovaj programski jezik. Python 3 je verzija koju cemo ujedno obraditi u ovom kursu.
 
+<div style="page-break-after: always;"></div>
+
 ## Priprema radnog okruzenja
 
 ### Izbor editora teksta i **Integrisanog razvojnog okruzenja** IDE (Integrated Development Environment)
@@ -117,6 +121,8 @@ Vecina programera odabere pisanje Python koda, koristenjem specijalnog integrisa
 - podesavanje PyCharm-a i nas prvi program
   - promjena teme, odredisnog direktorija, velicine fonta i sl.
   - New -> Python File ...
+<div style="page-break-after: always;"></div>
+
 ## Zdravo Svijete
 
 **`Izvorni kod: kod-10_zdravo-svijete.py`**
@@ -164,6 +170,8 @@ print("Komentari su korisni")
 # print("Ova linija koda nece biti ispisana")
 ```
 
+<div style="page-break-after: always;"></div>
+
 ## Zadaci za samostalni rad!
 
 1. Napisati program koji ispisuje vase ime i prezime
@@ -187,6 +195,8 @@ __________
  /      \
 /________\
 ```
+<div style="page-break-after: always;"></div>
+
 ## Promjenjive i tipovi podataka
 
 Promjenjive ili varijable su osnovni objekti podataka kojima se manipulise u programu. Recimo da zelimo 
@@ -328,6 +338,8 @@ print(karakter_ime + " je dobar karakter " + str(karakter_osobina_dobar))
 print(karakter_ime + " je los karakter " + str(karakter_osobina_los))
 ```
 
+<div style="page-break-after: always;"></div>
+
 ## Rad sa stringovima
 Stringovi predstavljaju niz karaktera (velika/mala slova, brojevi, znakovi interpunkcije, specijalni 
 znakovi, ...), koji sluzi za skladistenje i rad sa tekstualni podacima. Mozemo reci da su stringovi 
@@ -418,6 +430,8 @@ print(ord('b') + 3)
 print(chr(ord('b') + 3))
 ```
 
+<div style="page-break-after: always;"></div>
+
 ## Rad sa brojevima
 brojevi, rad sa brojevima, funkcije nad brojevima. 
 Osnovne aritmeticke operacije koje mozemo vrsiti u Python-u su
@@ -473,6 +487,8 @@ print(floor (3.6))
 print(ceil(3.6))
 print(sqrt(9))
 ```
+
+<div style="page-break-after: always;"></div>
 
 ## Ulaz/upis podataka, prihvatanje podataka od korisnika ili interakcija sa programom
 
@@ -535,6 +551,8 @@ rezultat = float(broj_1) + float(broj_2)
 print(rezultat)
 ```
 
+<div style="page-break-after: always;"></div>
+
 ## Zadaci za samostalni rad!
 
 1. Napisati program koji trazi da upisete vase ime, a on automatski ispisuje vase ime pet puta, sa
@@ -564,6 +582,8 @@ Aritmeticka sredina je: 2.0
 Unesite znak sa tastature: }
 Vrijednost znaka '}' u ASCII tabeli je 125
 ```
+
+<div style="page-break-after: always;"></div>
 
 ##### Liste - []
 
@@ -673,6 +693,8 @@ type(string_karakter)
 print(string_karakter)
 ```
 
+<div style="page-break-after: always;"></div>
+
 ## Tuples - torke (tip podaktovne strukture, veoma slican listama) - ()
 Tuples predstavlja niz nepromjenjivih clanova. Clanovi unutar tuple-a mogu biti istih ili razlicitih
 tipova. Tuple definisemo nabrajanjem objekata odvojenih zarezom, cak i ako je u pitanju jedan jedini
@@ -744,6 +766,8 @@ print(karakter)
 del(karakter[3]) # brisanje elemenata tuple-a nije moguce
 del(karakter)
 ```
+
+<div style="page-break-after: always;"></div>
 
 #### Rijecnici - Dictionaries - { }
 
@@ -837,6 +861,9 @@ print(konverzijaMjeseci.get("Jan"))
 print(konverzijaMjeseci.get("Dec"))
 print(konverzijaMjeseci.get("Dese","Nije validan kljuc")) # ako koristimo get necemo dobit gresku vec empty
 ```
+
+<div style="page-break-after: always;"></div>
+
 ## Funkcije
 
 Skup naredbi koje po pozivu izvrsavaju odredjene zadatke. Funkcije sluze takodje za bolju organizaciju koda.
@@ -896,6 +923,8 @@ pozdrav(korisnik_ime)
 
 
 ```
+
+<div style="page-break-after: always;"></div>
 
 ## Naredba return (return direktiva)
 
@@ -1002,7 +1031,9 @@ print(type(type))
 ```
 
 
-#### Naredbe za kontrolu toka (if, elif, else)
+<div style="page-break-after: always;"></div>
+
+## Naredbe za kontrolu toka (if, elif, else)
 
 Ako zelimo da donosenje odluke prepustimo nasem programu, na osnovu uslova koji se moraju ispuniti, a
 samim tim krairamo nas program pametnijim, uvescemo novi uslov if (naredbu if), koja se jos zove
@@ -1169,6 +1200,8 @@ else:
   print("unijeli ste pogresan operator")
 ```
 
+<div style="page-break-after: always;"></div>
+
 ## While petlja - (Izvrsavaj blok koda sve dok je ispunjen uslov ...)
 
 While petlja predstavlja strukturu u Python-u koja nam omogucava da prolazimo 
@@ -1284,6 +1317,8 @@ else:
 ```
 
 
+
+<div style="page-break-after: always;"></div>
 
 ## For petlja
 
@@ -1425,7 +1460,9 @@ else:
   print(niz_brojeva)
 ```
 
-## dvodimenzionalne liste i ugnijezdene petlje (nested)
+<div style="page-break-after: always;"></div>
+
+## Dvodimenzionalne liste i ugnijezdene petlje (nested)
 
 ```python
 resetka = [
@@ -1477,6 +1514,8 @@ print("Pomak: " + str(pomak))
 print("Sifrovan tekst: " + enkripcija(tekst, pomak))
 ```
 
+<div style="page-break-after: always;"></div>
+
 ## Hvatanje greski - try / except (catch)
 
 Kada imamo situaciju da bez obzira na gresku u nasem programu, ipak zelimo
@@ -1516,6 +1555,8 @@ except ZeroDivisionErron as err:
 except ValueError:
   print("Pogresan unos")
 ```
+
+<div style="page-break-after: always;"></div>
 
 ## Klase i objekti
 
@@ -1689,6 +1730,8 @@ print(novi_student.student_opis())
 print(novi_student.student_pisac())
 ```
 
+<div style="page-break-after: always;"></div>
+
 ### Naslijedjivanje - podklase
 
 U slucaju da planiramo kreirati novu klasu, a vec unaprijed znamo da imamo ili
@@ -1747,6 +1790,8 @@ novi_kineski_kuvar.priprema_rize()
 novi_kineski_kuvar.priprema_mesa()
 novi_kineski_kuvar.priprema_specijalnog_jela()
 ```
+
+<div style="page-break-after: always;"></div>
 
 ## Rad sa datotekama (fajlovima)
 
@@ -1831,46 +1876,9 @@ for karakter in karakteri_fajl.readlines():
 karakteri_fajl.close()
 ```
 
-## moduli i pip alat
-- python fajl koji mozete importovati unutar vaseg python koda
-- kako kreirati svoj modul
-- kako instalirati module (list of python modules on google) pip paket manager
-- build-in moduli (ugradjeni) i eksterni moduli
- 
-**`Izvorni kod: kod-655_korisni-alati.py`**
-```python
-#
-import random
+<div style="page-break-after: always;"></div>
 
-def srecan_broj(broj):
-    return random.randint(1, broj)
-
-def pozdrav(tekst):
-    return ("Pozdrav " + tekst)
-
-##
-import korisni_alati
-
-print(korisni_alati.srecan_broj(3))
-print(korisni_alati.pozdrav("Goku"))
-
-##
-from korisni_alati import *
-
-print(srecan_broj(3))
-print(pozdrav("Goku"))
-
-##
-import korisni_alati as ka
-
-print(ka.srecan_broj(3))
-print(ka.pozdrav("Goku"))
-
-## how to install with pip
-## how to import and use modules
-```
-
-### upisivanje u eksterni fajl
+### Upisivanje u eksterni fajl
 
 **`Izvorni kod: kod-607_rad-sa-fajlovima.py`**
 
@@ -1892,7 +1900,9 @@ karakteri_fajl.write("\n Chi-Chi - Zemlja")
 karakteri_fajl.close()
 ```
 
-## moduli i pip alat
+<div style="page-break-after: always;"></div>
+
+## Moduli i pip alat
 - python fajl koji mozete importovati unutar vaseg python koda
 - kako kreirati svoj modul
 - kako instalirati module (list of python modules on google) pip paket manager

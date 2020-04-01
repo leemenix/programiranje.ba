@@ -1,5 +1,7 @@
 
-#### Naredbe za kontrolu toka (if, elif, else)
+<div style="page-break-after: always;"></div>
+
+## Naredbe za kontrolu toka (if, elif, else)
 
 Ako zelimo da donosenje odluke prepustimo nasem programu, na osnovu uslova koji se moraju ispuniti, a
 samim tim krairamo nas program pametnijim, uvescemo novi uslov if (naredbu if), koja se jos zove

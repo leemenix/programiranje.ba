@@ -1,3 +1,6 @@
+
+<div style="page-break-after: always;"></div>
+
 ## Funkcije
 
 Skup naredbi koje po pozivu izvrsavaju odredjene zadatke. Funkcije sluze takodje za bolju organizaciju koda.

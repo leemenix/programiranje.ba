@@ -1,4 +1,6 @@
 
+<div style="page-break-after: always;"></div>
+
 ## Priprema radnog okruzenja
 
 ### Izbor editora teksta i **Integrisanog razvojnog okruzenja** IDE (Integrated Development Environment)

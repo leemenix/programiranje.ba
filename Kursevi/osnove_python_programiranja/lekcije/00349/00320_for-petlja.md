@@ -1,4 +1,6 @@
 
+<div style="page-break-after: always;"></div>
+
 ## For petlja
 
 For petlju mozemo nazvati specijalni tip petlje u Python-u, a za razliku od while petlje, for petlju

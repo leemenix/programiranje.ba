@@ -1,4 +1,6 @@
 
+<div style="page-break-after: always;"></div>
+
 ## Ulaz/upis podataka, prihvatanje podataka od korisnika ili interakcija sa programom
 
 Slozicete se da je programiranje dosadno, ako nemamo interakciju, nekakav vid komunikacije

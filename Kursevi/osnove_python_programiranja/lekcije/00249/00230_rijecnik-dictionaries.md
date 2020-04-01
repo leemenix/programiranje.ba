@@ -1,4 +1,6 @@
 
+<div style="page-break-after: always;"></div>
+
 #### Rijecnici - Dictionaries - { }
 
 Rijecnici su tipovi podataka, opet slicni listama, ali za razliku od listi indeksiranje se obavlja kljucevima.

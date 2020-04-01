@@ -1,4 +1,6 @@
 
+<div style="page-break-after: always;"></div>
+
 ## While petlja - (Izvrsavaj blok koda sve dok je ispunjen uslov ...)
 
 While petlja predstavlja strukturu u Python-u koja nam omogucava da prolazimo 

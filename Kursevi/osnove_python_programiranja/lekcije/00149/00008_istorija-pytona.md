@@ -1,4 +1,6 @@
 
+<div style="page-break-after: always;"></div>
+
 <a name="istorija-pythona"/>
 
 ## Par rijeci o Python programskom jeziku

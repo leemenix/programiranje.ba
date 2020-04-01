@@ -1,4 +1,6 @@
 
+<div style="page-break-after: always;"></div>
+
 ### Naslijedjivanje - podklase
 
 U slucaju da planiramo kreirati novu klasu, a vec unaprijed znamo da imamo ili

@@ -1,4 +1,6 @@
 
+<div style="page-break-after: always;"></div>
+
 ## Zdravo Svijete
 
 **`Izvorni kod: kod-10_zdravo-svijete.py`**

@@ -1,4 +1,6 @@
 
+<div style="page-break-after: always;"></div>
+
 ## Rad sa stringovima
 Stringovi predstavljaju niz karaktera (velika/mala slova, brojevi, znakovi interpunkcije, specijalni 
 znakovi, ...), koji sluzi za skladistenje i rad sa tekstualni podacima. Mozemo reci da su stringovi 

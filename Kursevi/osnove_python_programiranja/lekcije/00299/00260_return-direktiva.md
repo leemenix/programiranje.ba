@@ -1,4 +1,6 @@
 
+<div style="page-break-after: always;"></div>
+
 ## Naredba return (return direktiva)
 
 Kada zelimo dobiti povratnu informaciju iz funkcije koristimo naredbu **return**. Sa ovom informacijom

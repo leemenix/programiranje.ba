@@ -1,4 +1,6 @@
 
+<div style="page-break-after: always;"></div>
+
 ## Klase i objekti
 
 Znamo od pocetka da je Python objektno orijentisani programski jezik, sto znaci da su svi podaci predstavljeni kao objekti. Prihvatanjem objektno orijentisanog nacina programiranja, nasi programi, ali sam kod, postaju ekstremno korisni, organizovaniji i mocniji.

@@ -1,4 +1,6 @@
 
+<div style="page-break-after: always;"></div>
+
 ## Promjenjive i tipovi podataka
 
 Promjenjive ili varijable su osnovni objekti podataka kojima se manipulise u programu. Recimo da zelimo 

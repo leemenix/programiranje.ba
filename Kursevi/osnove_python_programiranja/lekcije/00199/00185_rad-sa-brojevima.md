@@ -1,4 +1,6 @@
 
+<div style="page-break-after: always;"></div>
+
 ## Rad sa brojevima
 brojevi, rad sa brojevima, funkcije nad brojevima. 
 Osnovne aritmeticke operacije koje mozemo vrsiti u Python-u su

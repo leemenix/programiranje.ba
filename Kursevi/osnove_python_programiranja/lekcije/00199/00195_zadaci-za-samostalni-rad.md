@@ -1,4 +1,6 @@
 
+<div style="page-break-after: always;"></div>
+
 ## Zadaci za samostalni rad!
 
 1. Napisati program koji trazi da upisete vase ime, a on automatski ispisuje vase ime pet puta, sa

@@ -1,4 +1,6 @@
 
+<div style="page-break-after: always;"></div>
+
 ## Rad sa datotekama (fajlovima)
 
 Fajl ili datoteka, predstavlja kontejner, mjesto gdje skladistimo, pohranjujemo

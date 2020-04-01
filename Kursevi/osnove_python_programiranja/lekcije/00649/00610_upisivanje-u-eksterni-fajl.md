@@ -1,5 +1,7 @@
 
-### upisivanje u eksterni fajl
+<div style="page-break-after: always;"></div>
+
+### Upisivanje u eksterni fajl
 
 **`Izvorni kod: kod-607_rad-sa-fajlovima.py`**
 

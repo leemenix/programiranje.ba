@@ -1,5 +1,7 @@
 
-## moduli i pip alat
+<div style="page-break-after: always;"></div>
+
+## Moduli i pip alat
 - python fajl koji mozete importovati unutar vaseg python koda
 - kako kreirati svoj modul
 - kako instalirati module (list of python modules on google) pip paket manager
