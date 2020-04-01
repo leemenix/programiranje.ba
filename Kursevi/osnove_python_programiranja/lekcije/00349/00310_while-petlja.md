@@ -114,5 +114,3 @@ else:
 	# kompletan program izvrsi bez okidanja/trigerovanja naredbe break
 	print(karakter_opis) 
 ```
-
-

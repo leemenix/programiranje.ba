@@ -1,4 +1,0 @@
-
-```python
-#potapanje brodova
-```

@@ -3,7 +3,8 @@
 
 ## Funkcije
 
-Skup naredbi koje po pozivu izvrsavaju odredjene zadatke. Funkcije sluze takodje za bolju organizaciju koda.
+Skup naredbi koje po pozivu izvrsavaju odredjene zadatke. Funkcije sluze 
+takodje za bolju organizaciju koda.
 
 Funkcije se definisu pomocu kljucne rijeci **def**, kad god se pojavi def na pocetku linije, python zna da korisnik zeli kreirati funkciju i stim u vezi se i ponasa.
 
@@ -16,8 +17,8 @@ def naziv_funkcije(parametri): # parametri su opcioni, ali ako postoje moraju bi
 naziv_funkcije(argumenti) # poziv funkcije
 ```
 
-Iz sintakse mozemo zakljuciti da je naziv_funkcije identifikator kojim pozivamo funkciju, dok parametri sluze
-da bi se definisale vrijednosti koje se mogu proslijediti kao parametri naredbama unutar tijela funkcije.
+Iz sintakse mozemo zakljuciti da je naziv_funkcije identifikator kojim pozivamo funkciju, dok parametri sluze da bi se definisale vrijednosti koje se 
+mogu proslijediti kao parametri naredbama unutar tijela funkcije.
 
 **`Izvorni kod: kod-255_rad-sa-funkcijama.py`**
 
@@ -57,6 +58,4 @@ def pozdrav(ime):
     print ("Zdravo " + ime)
 
 pozdrav(korisnik_ime)
-
-
 ```

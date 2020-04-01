@@ -3,13 +3,16 @@
 
 ## Naredbe za kontrolu toka (if, elif, else)
 
-Ako zelimo da donosenje odluke prepustimo nasem programu, na osnovu uslova koji se moraju ispuniti, a
-samim tim krairamo nas program pametnijim, uvescemo novi uslov if (naredbu if), koja se jos zove
-i naredba kontrole toka. Ukoliko je uslov ispunjen (Tacan - True), izvrsava se naredba ili blok naredbi
-pod tim uslovom, u suprotnom izvrsava se drugi blok naredbi ili se nastavlja ispitivanje.
+Ako zelimo da donosenje odluke prepustimo nasem programu, na osnovu uslova 
+koji se moraju ispuniti, a samim tim krairamo nas program pametnijim, uvescemo novi uslov if (naredbu if), koja se jos zove i naredba kontrole toka. Ukoliko 
+je uslov ispunjen (Tacan - True), izvrsava se naredba ili blok naredbi pod tim 
+uslovom, u suprotnom izvrsava se drugi blok naredbi ili se nastavlja 
+ispitivanje.
 
-Primjer iz realnog zivota
-```yaml
+Kako bi smo priblizili naredbu za kontrolu toka, navescemo primjer iz realnog 
+zivota:
+
+```text
 Probudio sam se i oprao zube
 ako sam gladan
   trebam doruckovati
@@ -78,6 +81,7 @@ ___________|______________________|______________________|______________
 ___________|______________________|______________________|______________
 ```
 
+**`Izvorni kod: kod-305_rad-sa-naredbom-if.py`**
 
 ```python
 dobar = True
@@ -117,8 +121,7 @@ else:
   print("Freza je los karakter")
 ```
 
-
-maksimalan_broj.py
+**`Izvorni kod: kod-306_maksimalan_broj.py`**
 ```python
 def maksimalan_broj(broj_1, broj_2, broj_3):
   if broj_1  >= broj_2 and broj_1 >= broj_3:
@@ -131,9 +134,10 @@ def maksimalan_broj(broj_1, broj_2, broj_3):
 print(maksimalan_broj(7, 8, 9))
 ```
 
-kalkulator_nadogradjena_verzija.py
+### Kalkulator nadogradjena verzija
 
-Ovo je bio osnovni_kalkulator.py
+Referenca na 
+**`Izvorni kod: kod-192_osnovni_kalkulator.py`**
 
 ```python
 broj_1 = input("Unesite prvi broj: ")
@@ -149,7 +153,7 @@ rezultat = float(broj_1) + float(broj_2)
 print(rezultat)
 ```
 
-kalkulator_nadogradjena_verzija.py
+**`Izvorni kod: kod-306_kalkulator-nadogradjena-verzija.py`**
 
 ```python
 broj_1 = float(input("Unesite prvi broj: "))

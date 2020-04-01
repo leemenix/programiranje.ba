@@ -3,10 +3,10 @@
 
 ## Naredba return (return direktiva)
 
-Kada zelimo dobiti povratnu informaciju iz funkcije koristimo naredbu **return**. Sa ovom informacijom
-mozemo nastaviti manipulaciju kroz daljni dio koda. Naredba return se moze pojaviti samo unutar tijela
-funkcije. Takodje kada zelimo da funkcije mogu medjusobno komunicirati, razmjenjivati informacije koristimo
-return naredbu. 
+Kada zelimo dobiti povratnu informaciju iz funkcije koristimo naredbu **return**. Sa ovom informacijom mozemo nastaviti manipulaciju kroz daljni dio koda. 
+Naredba return se moze pojaviti samo unutar tijela funkcije. Takodje kada 
+zelimo da funkcije mogu medjusobno komunicirati, razmjenjivati informacije 
+koristimo return naredbu. 
 
 **`Izvorni kod: kod-260_kub-broja.py`**
 
@@ -104,4 +104,3 @@ print(type(kub))
 print(type(print))
 print(type(type))
 ```
-

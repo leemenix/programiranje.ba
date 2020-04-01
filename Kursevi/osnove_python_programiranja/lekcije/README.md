@@ -1155,7 +1155,7 @@ del(karakter)
 
 <div style="page-break-after: always;"></div>
 
-#### Rijecnici - Dictionaries - { }
+## Rijecnici - Dictionaries - { }
 
 Rijecnici su tipovi podataka, opet slicni listama, ali za razliku od listi 
 indeksiranje se obavlja kljucevima.
@@ -1260,7 +1260,8 @@ print(konverzijaMjeseci.get("Dese","Nije validan kljuc")) # ako koristimo get ne
 
 ## Funkcije
 
-Skup naredbi koje po pozivu izvrsavaju odredjene zadatke. Funkcije sluze takodje za bolju organizaciju koda.
+Skup naredbi koje po pozivu izvrsavaju odredjene zadatke. Funkcije sluze 
+takodje za bolju organizaciju koda.
 
 Funkcije se definisu pomocu kljucne rijeci **def**, kad god se pojavi def na pocetku linije, python zna da korisnik zeli kreirati funkciju i stim u vezi se i ponasa.
 
@@ -1273,8 +1274,8 @@ def naziv_funkcije(parametri): # parametri su opcioni, ali ako postoje moraju bi
 naziv_funkcije(argumenti) # poziv funkcije
 ```
 
-Iz sintakse mozemo zakljuciti da je naziv_funkcije identifikator kojim pozivamo funkciju, dok parametri sluze
-da bi se definisale vrijednosti koje se mogu proslijediti kao parametri naredbama unutar tijela funkcije.
+Iz sintakse mozemo zakljuciti da je naziv_funkcije identifikator kojim pozivamo funkciju, dok parametri sluze da bi se definisale vrijednosti koje se 
+mogu proslijediti kao parametri naredbama unutar tijela funkcije.
 
 **`Izvorni kod: kod-255_rad-sa-funkcijama.py`**
 
@@ -1314,18 +1315,16 @@ def pozdrav(ime):
     print ("Zdravo " + ime)
 
 pozdrav(korisnik_ime)
-
-
 ```
 
 <div style="page-break-after: always;"></div>
 
 ## Naredba return (return direktiva)
 
-Kada zelimo dobiti povratnu informaciju iz funkcije koristimo naredbu **return**. Sa ovom informacijom
-mozemo nastaviti manipulaciju kroz daljni dio koda. Naredba return se moze pojaviti samo unutar tijela
-funkcije. Takodje kada zelimo da funkcije mogu medjusobno komunicirati, razmjenjivati informacije koristimo
-return naredbu. 
+Kada zelimo dobiti povratnu informaciju iz funkcije koristimo naredbu **return**. Sa ovom informacijom mozemo nastaviti manipulaciju kroz daljni dio koda. 
+Naredba return se moze pojaviti samo unutar tijela funkcije. Takodje kada 
+zelimo da funkcije mogu medjusobno komunicirati, razmjenjivati informacije 
+koristimo return naredbu. 
 
 **`Izvorni kod: kod-260_kub-broja.py`**
 
@@ -1424,18 +1423,20 @@ print(type(print))
 print(type(type))
 ```
 
-
 <div style="page-break-after: always;"></div>
 
 ## Naredbe za kontrolu toka (if, elif, else)
 
-Ako zelimo da donosenje odluke prepustimo nasem programu, na osnovu uslova koji se moraju ispuniti, a
-samim tim krairamo nas program pametnijim, uvescemo novi uslov if (naredbu if), koja se jos zove
-i naredba kontrole toka. Ukoliko je uslov ispunjen (Tacan - True), izvrsava se naredba ili blok naredbi
-pod tim uslovom, u suprotnom izvrsava se drugi blok naredbi ili se nastavlja ispitivanje.
+Ako zelimo da donosenje odluke prepustimo nasem programu, na osnovu uslova 
+koji se moraju ispuniti, a samim tim krairamo nas program pametnijim, uvescemo novi uslov if (naredbu if), koja se jos zove i naredba kontrole toka. Ukoliko 
+je uslov ispunjen (Tacan - True), izvrsava se naredba ili blok naredbi pod tim 
+uslovom, u suprotnom izvrsava se drugi blok naredbi ili se nastavlja 
+ispitivanje.
 
-Primjer iz realnog zivota
-```yaml
+Kako bi smo priblizili naredbu za kontrolu toka, navescemo primjer iz realnog 
+zivota:
+
+```text
 Probudio sam se i oprao zube
 ako sam gladan
   trebam doruckovati
@@ -1504,6 +1505,7 @@ ___________|______________________|______________________|______________
 ___________|______________________|______________________|______________
 ```
 
+**`Izvorni kod: kod-305_rad-sa-naredbom-if.py`**
 
 ```python
 dobar = True
@@ -1543,8 +1545,7 @@ else:
   print("Freza je los karakter")
 ```
 
-
-maksimalan_broj.py
+**`Izvorni kod: kod-306_maksimalan_broj.py`**
 ```python
 def maksimalan_broj(broj_1, broj_2, broj_3):
   if broj_1  >= broj_2 and broj_1 >= broj_3:
@@ -1557,9 +1558,10 @@ def maksimalan_broj(broj_1, broj_2, broj_3):
 print(maksimalan_broj(7, 8, 9))
 ```
 
-kalkulator_nadogradjena_verzija.py
+### Kalkulator nadogradjena verzija
 
-Ovo je bio osnovni_kalkulator.py
+Referenca na 
+**`Izvorni kod: kod-192_osnovni_kalkulator.py`**
 
 ```python
 broj_1 = input("Unesite prvi broj: ")
@@ -1575,7 +1577,7 @@ rezultat = float(broj_1) + float(broj_2)
 print(rezultat)
 ```
 
-kalkulator_nadogradjena_verzija.py
+**`Izvorni kod: kod-306_kalkulator-nadogradjena-verzija.py`**
 
 ```python
 broj_1 = float(input("Unesite prvi broj: "))
@@ -1710,18 +1712,14 @@ else:
 	print(karakter_opis) 
 ```
 
-
-
 <div style="page-break-after: always;"></div>
 
 ## For petlja
 
-For petlju mozemo nazvati specijalni tip petlje u Python-u, a za razliku od while petlje, for petlju
- koristimo kada zelimo da vrsimo iteraciju kroz tijelo petlje ako unaprijed znamo koliko puta je to 
- potrebno.
+For petlju mozemo nazvati specijalni tip petlje u Python-u, a za razliku od while petlje, for petlju  koristimo kada zelimo da vrsimo iteraciju kroz 
+tijelo petlje ako unaprijed znamo koliko puta je to  potrebno.
 
-Vrijednosti se uglavnom zadaju kao predefinisane ali mozemo koristiti izvore poput lista, stringova,
- rijecnika.
+Vrijednosti se uglavnom zadaju kao predefinisane ali mozemo koristiti izvore poput lista, stringova, rijecnika.
 
 **`Izvorni kod: kod-320_rad-sa-for-petljom.py`**
 
@@ -1790,42 +1788,38 @@ print(eksponent_broja(2,3))
 
 ### Primjer algoritma sortiranje mjehuricima (bubble sorting)
 
-Prije nego napisemo kod potrebno je kratko objasnjenje algoritma. Algoritam sortiranje mjehuricima, 
-ima za cilj da nad zadatim nizom nasumicnih/slucajnih brojeva izvrsi sortiranje od najmanjeg ka 
-najvecem. Ovakvi tipovi zadataka predstavljaju osnovne koncepte teorije algoritma, a mozemo ih naci,
-kao zadatke, na intervjuima u velikim firmama poput Google-a, Amazon-a, Facebook-a, Microsoft-a ...
+Prije nego napisemo kod potrebno je kratko objasnjenje algoritma. Algoritam 
+sortiranje mjehuricima, ima za cilj da nad zadatim nizom nasumicnih/slucajnih 
+brojeva izvrsi sortiranje od najmanjeg ka najvecem. Ovakvi tipovi zadataka 
+predstavljaju osnovne koncepte teorije algoritma, a mozemo ih naci, kao 
+zadatke, na intervjuima u velikim firmama poput Google-a, Amazon-a, 
+Facebook-a, Microsoft-a ...
 
 Predpostavimo da imamo niz brojeva:
 
 ```text
 [4,2,1,5,3]
 ```
-Primjenom algoritma sortiranja mjehuricima, svakom novom iteracijom, svaki element niza ce se 
-uporedjivati sledecim, u slucaju da je prvi element veci od sledeceg, zaminijece mijesta, u 
-suprotnom prvi element ostaje na svom mjestu. Ovaj proces se nastavlja sve dok se svi elementi 
-konacno ne sortiraju od najmanjeg ka najvecem. Dakle, procedura sortiranje ce se obaviti sledecim 
-redosledom:
+
+Primjenom algoritma sortiranja mjehuricima, svakom novom iteracijom, svaki 
+element niza ce se uporedjivati sledecim, u slucaju da je prvi element veci od 
+sledeceg, zaminijece mijesta, u suprotnom prvi element ostaje na svom mjestu. Ovaj proces se nastavlja sve dok se svi elementi konacno ne sortiraju od 
+najmanjeg ka najvecem. Dakle, procedura sortiranje ce se obaviti sledecim 
+redoslijedom:
 
 ```text
-tbd.
-[2, 4, 1, 5, 3]
-[2, 1, 4, 5, 3]
-[2, 1, 4, 3, 5]
-[1, 2, 4, 3, 5]
-[1, 2, 3, 4, 5]
-[1, 2, 3, 4, 5]
-
-Pocetno stanje         |   [4,2,1,5,3]   |   Objasnjnje
-_______________________|_________________|_________________________________________________
-Nakon prve iteracije   |   [(2,4),1,5,3] | 4 i 2 mijenjaju mjesta jer je 4 vece od 2
-                       |   [2,(1,4),5,3] | 4 i 1 mijenjaju mjesta jer je 4 vece od 1
-                       |   [2,1,(4,5),3] | 4 i 5 ostaju na svom mjestu jer je 4 manje od 5
-                       |   [2,1,4,(3,5)] | 5 i 3 mijenjaju mjesta jer je 5 vece od 3
-_______________________|_________________|_________________________________________________                    
-Nakon druge iteracije  |   [(1,2),4,3,5] | 2 i 1 mijenjaju mjesta jer je 2 vece od 1
-                       |   [1,(2,4),3,5] | 2 i 4 ostaju na svom mjestu jer je 2 manje od 4
-                       |   [1,2,(3,4),5] | 4 i 3 mijenjaju mjesta jer je 4 vece od 3
-                       |   [1,2,3,(4,5)] | 4 i 5 ostaju na svom mjestu jer je 4 manje od 5
+Pocetno stanje      |  [4,2,1,5,3]  |   Objasnjnje
+____________________|_______________|____________________________________
+Nakon 1. iteracije  | [(2,4),1,5,3] | (4 > 2) 4 i 2 mijenjaju mjesta 
+                    | [2,(1,4),5,3] | (4 > 1) 4 i 1 mijenjaju mjesta
+                    | [2,1,(4,5),3] | (4 < 5) 4 i 5 ostaju na svom mjestu
+                    | [2,1,4,(3,5)] | (5 > 3) 5 i 3 mijenjaju mjesta
+____________________|_______________|____________________________________
+Nakon 2. iteracije  | [(1,2),4,3,5] | (2 > 1) 2 i 1 mijenjaju mjesta 
+                    | [1,(2,4),3,5] | (1 < 4) 2 i 4 ostaju na svom mjestu
+                    | [1,2,(3,4),5] | (4 > 3) 4 i 3 mijenjaju mjesta3
+                    | [1,2,3,(4,5)] | (4 < 5) 4 i 5 ostaju na svom mjestu
+____________________|_______________|____________________________________
 ```
 
 **`Izvorni kod: kod-321_sortiranje-mjehuricima.py`**
@@ -1854,36 +1848,69 @@ else:
   print(niz_brojeva)
 ```
 
+**`Izvorni kod: kod-322_sortiranje-mjehurica-slucajni-izbor.py`**
+
+```python
+import random
+niz_brojeva=[]
+for i in range (10000):
+  #print (random.randint(1,100))
+    niz_brojeva.append(random.randint(1,10000))
+
+print (niz_brojeva)
+
+# niz_brojeva = [4,2,1,5,3] 
+
+zamjena_izvrsena = True
+
+zadnji_element_niza = (len(niz_brojeva) - 1)
+
+while zamjena_izvrsena:
+  zamjena_izvrsena = False
+
+  for indeks,broj in enumerate(niz_brojeva[0:zadnji_element_niza]):
+    #print(str(indeks) + " -> " + str(broj))
+
+    if niz_brojeva[indeks] > niz_brojeva[indeks+1]:
+      niz_brojeva[indeks],niz_brojeva[indeks+1]=niz_brojeva[indeks+1],niz_brojeva[indeks]
+      zamjena_izvrsena = True
+
+else:
+  print(niz_brojeva)
+```
+
 <div style="page-break-after: always;"></div>
 
 ## Dvodimenzionalne liste i ugnijezdene petlje (nested)
 
+**`Izvorni kod: kod-355_rad-sa-dvodimenzionalnim-listama.py`**
+
 ```python
-resetka = [
+mreza = [
     [1, 2, 3],
     [4, 5, 6],
     [7 ,8 ,9],
     [0]
 ]
 
-print(resetka[0][2])
-print(resetka[2][1])
-print(resetka[3][0])
+print(mreza[0][2])
+print(mreza[2][1])
+print(mreza[3][0])
 
 # nested for loop
 
-# resetka = [
+# mreza = [
 #     [1, 2, 3],
 #     [4, 5, 6],
 #     [7 ,8 ,9],
 #     [0]
 # ]
 
-for row in resetka:
+for row in mreza:
   for col in row:
     print(col)
 
-for col in resetka:
+for col in mreza:
     for row in col:
         print(row)
     
@@ -2297,10 +2324,14 @@ karakteri_fajl.close()
 <div style="page-break-after: always;"></div>
 
 ## Moduli i pip alat
-- python fajl koji mozete importovati unutar vaseg python koda
-- kako kreirati svoj modul
-- kako instalirati module (list of python modules on google) pip paket manager
-- build-in moduli (ugradjeni) i eksterni moduli
+
+Moduli nisu nista drugo, nego odredjen broj funkcija koje mozete importovati, 
+pozvati u vas kod. Takodje, mozete napraviti vas modul jednostavnim kreiranjem
+python fajla koji sadrzi vase funkcije i kasnije ga pozvati u vas kod naredbom
+**import**. 
+U ovoj lekciji cete nauciti kako instalirati eksterne module sa **pip** 
+komandom, kako ih importovati nakon instalacije, kako importovati standardne 
+module i konacno kako kreirati i importovati svoj modul. 
  
 **`Izvorni kod: kod-655_korisni-alati.py`**
 ```python
@@ -2331,10 +2362,13 @@ import korisni_alati as ka
 print(ka.srecan_broj(3))
 print(ka.pozdrav("Goku"))
 
-## how to install with pip
-## how to import and use modules
 ```
-
+tbd.
+```text 
+{## how to install with pip
+## how to import and use modules
+}
+```
 devet_depresivaca.py - (Rambo Amadeus - Devet depresivaca)
 
 ```python
@@ -2363,9 +2397,6 @@ print("1 depresivac, oprezan je bio")
 print("Onda se ozenio")
 ```
 
-```python
-#potapanje brodova
-```
 ```python
 # Vjesala
 
@@ -2785,5 +2816,10 @@ druga_rijec = input("Unesite drugu rijec: ")
 
 print(prva_rijec + '   ' + druga_rijec)
 ```
+
+<div style="page-break-after: always;"></div>
+
+## Rjesenja zadataka
+
 dodati ascii tablu
 dodati binarne brojeve
