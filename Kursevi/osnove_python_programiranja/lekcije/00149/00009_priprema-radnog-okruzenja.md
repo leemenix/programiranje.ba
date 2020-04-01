@@ -198,47 +198,48 @@ kliknuti na dugme **"Skip Remaining and Set Defaults"**.
 
 ##### Korak 5.
 
-U sledecem prozoru mozemo odabrati opciju **"Crate New Project"**, prilikom 
-cega moramo podesiti radno okruzenje za novi projekt. Nazovimo projekt 
-**"moj_novi_projekt"** i kliknimo na dugme **"Create"**.
+U sledecem prozoru mozemo odabrati opciju **"Crate New Project"**, nakon 
+cega moramo podesiti radno okruzenje za novi projekt. 
 
 ![PyCharm instalacija korak prvi](../../slike/pycharm_podesavanje_5.png)
 
 ##### Korak 6.
 
-Sada je potrebno sacekati kako bi se kreiralo virtuelno okruzenje za nas novi
-projekat. 
+Nazovimo projekt **"moj_novi_projekt"** i kliknimo na dugme **"Create"**.
 
 ![PyCharm instalacija korak prvi](../../slike/pycharm_podesavanje_6.png)
 
 ##### Korak 7.
 
-Nakon sto se okruzenej kreiralo, opciono mozemo onemoguciti opciju 
-**"Show tips on startup"** i kliknuti na dugme **"Close"**
+Sada je potrebno sacekati kako bi se kreiralo virtuelno okruzenje za nas novi
+projekat. 
 
 ![PyCharm instalacija korak prvi](../../slike/pycharm_podesavanje_7.png)
 
 ##### Korak 8.
 
-Iz menija izaberite opciju **"File"**
+Nakon sto se okruzenej kreiralo, opciono mozemo onemoguciti opciju 
+**"Show tips on startup"** i kliknuti na dugme **"Close"**
 
 ![PyCharm instalacija korak prvi](../../slike/pycharm_podesavanje_8.png)
 
 ##### Korak 9.
 
-zatim odaberite **"Python file"**
+Iz menija izaberite opciju **"File"**
 
 ![PyCharm instalacija korak prvi](../../slike/pycharm_podesavanje_9.png)
 
 ##### Korak 10.
 
-a nakon toga dajte ime fajlu **"moj_prvi_program"** i kliknite **"Enter"**.
-Ovime smo kreirali novi fajl moj_prvi_program.py (ekstenziju .py ce dodijeliti
-sam PyCharm, na nama je samo da damo ime programu).
+zatim odaberite **"Python file"**
 
 ![PyCharm instalacija korak prvi](../../slike/pycharm_podesavanje_10.png)
 
 ##### Korak 13.
+
+a nakon toga dajte ime fajlu **"moj_prvi_program"** i kliknite **"Enter"**.
+Ovime smo kreirali novi fajl moj_prvi_program.py (ekstenziju .py ce dodijeliti
+sam PyCharm, na nama je samo da damo ime programu).
 ![PyCharm instalacija korak prvi](../../slike/pycharm_podesavanje_13.png)
 
 ##### Korak 14.
