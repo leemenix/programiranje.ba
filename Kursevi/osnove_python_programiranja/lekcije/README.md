@@ -360,16 +360,67 @@ krenuti sa osnovnim podesavanjem PyCharm radnog okruzenja.
 
 ![PyCharm instalacija korak prvi](../../slike/pycharm_instalacija_8.png)
 
-- Sublime installation, notpad ++
+#### Podesavanje PyCharm-a i nas prvi program "Zdravo Svijete"
+
+
+##### Korak 1.
+![PyCharm instalacija korak prvi](../../slike/pycharm_podesavanje_1.png)
+
+
+##### Korak 2.
+![PyCharm instalacija korak prvi](../../slike/pycharm_podesavanje_2.png)
+
+##### Korak 3.
+![PyCharm instalacija korak prvi](../../slike/pycharm_podesavanje_3.png)
+
+##### Korak 4.
+![PyCharm instalacija korak prvi](../../slike/pycharm_podesavanje_4.png)
+
+##### Korak 5.
+![PyCharm instalacija korak prvi](../../slike/pycharm_podesavanje_5.png)
+
+##### Korak 6.
+![PyCharm instalacija korak prvi](../../slike/pycharm_podesavanje_6.png)
+
+##### Korak 7.
+![PyCharm instalacija korak prvi](../../slike/pycharm_podesavanje_7.png)
+
+##### Korak 8.
+![PyCharm instalacija korak prvi](../../slike/pycharm_podesavanje_8.png)
+
+##### Korak 9.
+![PyCharm instalacija korak prvi](../../slike/pycharm_podesavanje_9.png)
+
+##### Korak 10.
+![PyCharm instalacija korak prvi](../../slike/pycharm_podesavanje_10.png)
+
+##### Korak 11.
+![PyCharm instalacija korak prvi](../../slike/pycharm_podesavanje_11.png)
+
+##### Korak 12.
+![PyCharm instalacija korak prvi](../../slike/pycharm_podesavanje_12.png)
+
+##### Korak 13.
+![PyCharm instalacija korak prvi](../../slike/pycharm_podesavanje_13.png)
+
+##### Korak 14.
+![PyCharm instalacija korak prvi](../../slike/pycharm_podesavanje_14.png)
+
+##### Korak 15.
+![PyCharm instalacija korak prvi](../../slike/pycharm_podesavanje_15.png)
+
+##### Korak 16.
+![PyCharm instalacija korak prvi](../../slike/pycharm_podesavanje_16.png)
+
+
+  - promjena teme, odredisnog direktorija, velicine fonta i sl.
+  - New -> Python File ...
+
+  - Sublime installation, notpad ++
   - mi cemo koristiti PyCharm - IDE (Integrated Development Environment) 
 
 - python 2 (legacy), python 3 (future)
   - razlika u sintaksi
-
-
-- podesavanje PyCharm-a i nas prvi program
-  - promjena teme, odredisnog direktorija, velicine fonta i sl.
-  - New -> Python File ...
 <div style="page-break-after: always;"></div>
 
 ## Zdravo Svijete
