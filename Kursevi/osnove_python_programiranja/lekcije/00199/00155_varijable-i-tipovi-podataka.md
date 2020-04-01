@@ -86,23 +86,24 @@ print(type(godine))
 ### Tipovi podataka
 
 ```text
-            Tipovi podataka       |    python sintksa    |             objasnjenje
-__________________________________|______________________|__________________________________
-             Tekstualni           |                      |
-(string - predstavlja niz znakova)|       string()       | operacije nad znakovnim tipovima
-                                  |                      |             podataka
-__________________________________|______________________|__________________________________
-         Brojevi cijeli, realni   |                      |  
-           (integer, float)       |         int()        |int()   - pretvara u cijeli broj 
-                                  |                      |          (npr. 1,10,33)
-                                  |        float()       |float() - pretvara u realni broj
-                                  |                      |          (npr. 1.0, 3.14, 33.333)
-__________________________________|______________________|__________________________________
-        Logicki tacno, netacno    |                      |
-         (boolean True/False)     |         bool()       |bool()  - operacije nad logickim 
-                                  |                      |          tipovima podataka 
-                                  |                      |          (True i False)
-__________________________________|______________________|__________________________________
+    tipovi podataka       |    python sintksa    |          objasnjenje
+__________________________|______________________|_____________________________
+       Tekstualni         |       string()       |  operacije nad znakovnim
+  (string - niz znakova)  |                      |     tipovima podataka 
+                          |                      |            
+__________________________|______________________|_____________________________
+ Brojevi cijeli, realni   |                      |  
+   (integer, float)       |        int()         |  pretvara u cijeli broj 
+                          |                      |     (npr. 1,10,33)
+                          |______________________|_____________________________
+                          |       float()        |  pretvara u realni broj
+                          |                      | (npr. 1.0, 3.14, 33.333)
+__________________________|______________________|_____________________________
+  Logicki tacno, netacno  |                      |
+   (boolean True/False)   |        bool()        |  operacije nad logickim 
+                          |                      |    tipovima podataka 
+                          |                      |      (True i False)
+__________________________|______________________|_____________________________
 ```
 
 #### Mijenjanje tipova promjenjive (kastovanje)
