@@ -102,30 +102,61 @@ bi dobiti Python shell, kao na slici
 ![Python instalacija korak prvi](../../slike/python_instalacija_11.png)
 
 
-- PyCharm installation (Win, Linux)
+#### PyCharm installation 
 
 ##### Korak 1.
+
+Nakon sto otvoritmo stranicu https://www.jetbrains.com/pycharm/ potrebno je da 
+skinemo instalacijski paket za trenutnu aktuelnu verziju PyCharm-a, 
+jednostavnim klikom na dugme **"DOWNLOAD"**.
+
 ![PyCharm instalacija korak prvi](../../slike/pycharm_instalacija_1.png)
 
 ##### Korak 2.
+
+Bitno je da izaberemo verziju **"Community"**, i nakon sto kliknemo 
+na **"Download"** dobicemo opciju da sacuvamo instalacioni fajl.
+
 ![PyCharm instalacija korak prvi](../../slike/pycharm_instalacija_2.png)
 
 ##### Korak 3.
+
+Odaberemo lokaciju gdje zelimo sacuvati instalacioni fajl i sacuvamo ga
+sa klikom na dugme **"Save"**
+
 ![PyCharm instalacija korak prvi](../../slike/pycharm_instalacija_3.png)
 
 ##### Korak 4.
+
+Pokrenemo instalaciju PyCharm-a, klikom na skinuti fajl. Sada je potrebno 
+kliknuti na dugme **"Next"**. 
+
 ![PyCharm instalacija korak prvi](../../slike/pycharm_instalacija_4.png)
 
 ##### Korak 5.
+
+Ponovo izaberite dugme **"Next"**. 
+
 ![PyCharm instalacija korak prvi](../../slike/pycharm_instalacija_5.png)
 
 ##### Korak 6.
+
+U prozoru **"Installation Options"**, bitno je da cekirate sledece opcije
+**"64-bit launcher"**, **"Add launchers dir to the PATH"**, **".py"**. 
+
 ![PyCharm instalacija korak prvi](../../slike/pycharm_instalacija_6.png)
 
 ##### Korak 7.
+
+U ovom koraku je bitno kliknuti na dugme **"Install"**.
+
 ![PyCharm instalacija korak prvi](../../slike/pycharm_instalacija_7.png)
 
 ##### Korak 8.
+
+Mozete kliknuti na dugme **"Finish"**. Nakon sto se sistem restartuje mozemo
+krenuti sa osnovnim podesavanjem PyCharm radnog okruzenja.
+
 ![PyCharm instalacija korak prvi](../../slike/pycharm_instalacija_8.png)
 
 - Sublime installation, notpad ++
