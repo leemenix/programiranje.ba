@@ -1,12 +1,18 @@
 
 ## While petlja - (Izvrsavaj blok koda sve dok je ispunjen uslov ...)
 
-While petlja predstavlja strukturu u Python-u koja nam omogucava da prolazimo kroz isti blok koda vise puta, onoliko puta koliko smo to zadali inicijalnim uslovom, odnosno sve dok uslov ima vrijednost Tacno (True) ili dok nasilno ne prekinemo uslov naredbom prekida (**break**).
+While petlja predstavlja strukturu u Python-u koja nam omogucava da prolazimo 
+kroz isti blok koda vise puta, onoliko puta koliko smo to zadali inicijalnim 
+uslovom, odnosno sve dok uslov ima vrijednost Tacno (True) ili dok nasilno ne 
+prekinemo uslov naredbom prekida (**break**).
 
-Dakle svakom iteracijom kroz blok koda, while petlja ce da izvrsi sve sto se nalazi u tijelu petlje. Naravno, uz
-while petlju mozemo kombinovati i uslove cime dobijamo na brzini koda i vecoj efikasnosti.
+Dakle svakom iteracijom kroz blok koda, while petlja ce da izvrsi sve sto se 
+nalazi u tijelu petlje. Naravno, uz
+while petlju mozemo kombinovati i uslove cime dobijamo na brzini koda i vecoj 
+efikasnosti.
 
-Ono sto je bitno napomenti kod while petlje, ona se koristi uglavnom kada unaprijed nemamo definisan broj 
+Ono sto je bitno napomenti kod while petlje, ona se koristi uglavnom kada 
+unaprijed nemamo definisan broj 
 iteracija. 
 
 **``Izvorni kod: kod-310_while_brojac.py``**
@@ -79,10 +85,11 @@ print(karakter_opis)
 
 ### else kod While petlje
 
-Kao sto smo vidjeli sa uslovom **if**, takodje mozemo koristiti granu else prilikom konstrukcije while petlje, 
-ali trebamo imati na umu da se else izvrsava samo jednom, ako i samo ako je glavni uslov while petlje netacan
-(False). Naravno ukoliko unutar while petlje imamo naredbu **break** koja je izvrsena, else naredba ce biti 
-preskocena.
+Kao sto smo vidjeli sa uslovom **if**, takodje mozemo koristiti granu else 
+prilikom konstrukcije while petlje, ali trebamo imati na umu da se else izvrsava
+ samo jednom, ako i samo ako je glavni uslov while petlje netacan (False). 
+ Naravno ukoliko unutar while petlje imamo naredbu **break** koja je izvrsena, 
+ else naredba ce biti preskocena.
 
 **`Izvorni kod: kod-313_demonstracija-grane-else.py`**
 

@@ -3,8 +3,12 @@
 Znamo od pocetka da je Python objektno orijentisani programski jezik, sto znaci da su svi podaci
 predstavljeni kao objekti. Prihvatanjem objektno orijentisanog nacina programiranja, nasi programi,
 ali sam kod, postaju ekstremno korisni, organizovaniji i mocniji.
-Kada programiramo susrecemo se sa razlicitim tipovima podataka, takodje susrecemo se sa razlicitim strukturama podataka, ali sta u slucaju kad ne mozemo predstaviti neku pojavu iz prirode sa vec postojecim tipovima ili strukturama podataka?
-Upravo su nam za to korisne klase. U Python-u mozemo krairati klase (definise vas licni tip podatka, ponasa se kao template, patern kako nesto treba da izgleda). Objekat je podatak u memoriji, pravi podatak kreiran iz klase. 
+Kada programiramo susrecemo se sa razlicitim tipovima podataka, takodje susrecemo se sa razlicitim 
+strukturama podataka, ali sta u slucaju kad ne mozemo predstaviti neku pojavu iz prirode sa vec 
+postojecim tipovima ili strukturama podataka?
+Upravo su nam za to korisne klase. U Python-u mozemo krairati klase (definise vas licni tip podatka, 
+ponasa se kao template, patern kako nesto treba da izgleda). Objekat je podatak u memoriji, pravi 
+podatak kreiran iz klase. 
 
 Posto ne postoji student tip podaka, kreiracemo klasu Student
 

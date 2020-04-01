@@ -1,10 +1,12 @@
 
 ## For petlja
 
-For petlju mozemo nazvati specijalni tip petlje u Python-u, a za razliku od while petlje, for petlju koristimo 
-kada zelimo da vrsimo iteraciju kroz tijelo petlje ako unaprijed znamo koliko puta je to potrebno.
+For petlju mozemo nazvati specijalni tip petlje u Python-u, a za razliku od while petlje, for petlju
+ koristimo kada zelimo da vrsimo iteraciju kroz tijelo petlje ako unaprijed znamo koliko puta je to 
+ potrebno.
 
-Vrijednosti se uglavnom zadaju kao predefinisane ali mozemo koristiti izvore poput lista, stringova, rijecnika.
+Vrijednosti se uglavnom zadaju kao predefinisane ali mozemo koristiti izvore poput lista, stringova,
+ rijecnika.
 
 **`Izvorni kod: kod-320_rad-sa-for-petljom.py`**
 
@@ -52,7 +54,8 @@ for i in range(len(karakteri)):
   print (karakteri[i])
 
 # enumerate() funkcija - enumeracija
-# ukoliko zelimo da zajedno sa vrijednostima iz liste, stringa ili rijecnika ispisujemo i njihove indekse
+# ukoliko zelimo da zajedno sa vrijednostima iz liste, stringa ili rijecnika ispisujemo i njihove 
+# indekse
 # koristicemo funkciju enmureate()
 karakteri = ["Goku", "Kirlin", "Yamcha", "Goku", "Bulma"]
 for i,ime in enumerate(karakteri):
@@ -72,18 +75,21 @@ print(eksponent_broja(2,3))
 
 ### Primjer algoritma sortiranje mjehuricima (bubble sorting)
 
-Prije nego napisemo kod potrebno je kratko objasnjenje algoritma. Algoritam sortiranje mjehuricima, ima za cilj
-da nad zadatim nizom nasumicnih/slucajnih brojeva izvrsi sortiranje od najmanjeg ka najvecem. Ovakvi 
-tipovi zadataka predstavljaju osnovne koncepte teorije algoritma, a mozemo ih naci na kao zadaci na intervjuima 
-u velikim firmama poput Google-a, Amazon-a, Facebook-a, Microsoft-a ...
+Prije nego napisemo kod potrebno je kratko objasnjenje algoritma. Algoritam sortiranje mjehuricima, 
+ima za cilj da nad zadatim nizom nasumicnih/slucajnih brojeva izvrsi sortiranje od najmanjeg ka 
+najvecem. Ovakvi tipovi zadataka predstavljaju osnovne koncepte teorije algoritma, a mozemo ih naci,
+kao zadatke, na intervjuima u velikim firmama poput Google-a, Amazon-a, Facebook-a, Microsoft-a ...
 
 Predpostavimo da imamo niz brojeva:
 
 ```text
 [4,2,1,5,3]
 ```
-Primjenom algoritma sortiranja mjehuricima, svakom novom iteracijom, svaki element niza ce se uporedjivati
-sledecim, u slucaju da je prvi element veci od sledeceg, zaminijece mijesta, u suprotnom prvi element ostaje na svom mjestu. Ovaj proces se nastavlja sve dok se svi elementi konacno ne sortiraju od najmanjeg ka najvecem. Dakle, procedura sortiranje ce se obaviti sledecim redosledom:
+Primjenom algoritma sortiranja mjehuricima, svakom novom iteracijom, svaki element niza ce se 
+uporedjivati sledecim, u slucaju da je prvi element veci od sledeceg, zaminijece mijesta, u 
+suprotnom prvi element ostaje na svom mjestu. Ovaj proces se nastavlja sve dok se svi elementi 
+konacno ne sortiraju od najmanjeg ka najvecem. Dakle, procedura sortiranje ce se obaviti sledecim 
+redosledom:
 
 ```text
 tbd.
@@ -130,4 +136,5 @@ while zamjena_izvrsena:
       niz_brojeva[indeks],niz_brojeva[indeks+1]=niz_brojeva[indeks+1],niz_brojeva[indeks]
       zamjena_izvrsena = True
 else:
+  print(niz_brojeva)
 ```
