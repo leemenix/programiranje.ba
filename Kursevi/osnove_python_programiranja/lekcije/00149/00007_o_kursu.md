@@ -1,4 +1,6 @@
 
+\pagebreak
+
 <a name="o-kursu"/>
 
 ## O kursu

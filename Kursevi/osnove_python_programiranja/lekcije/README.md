@@ -16,6 +16,8 @@ verzija: 0.4
 - zadaci za vjezbanje (lecije 1 i 2)
 
 
+\pagebreak
+
 <a name="o-kursu"/>
 
 ## O kursu
