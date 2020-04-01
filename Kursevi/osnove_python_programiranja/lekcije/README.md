@@ -2790,6 +2790,11 @@ mreza[red_2_3 ][kol_2_3 ] != "Y"):
 
 stampaj_mrezu(mreza)
 ```
+<div style="page-break-after: always;"></div>
+
+## Rjesenja zadataka
+
+
 ```python
 ime = input("Unesite vase ime: ")
 pet_puta=(ime+" ")*5
@@ -2816,10 +2821,5 @@ druga_rijec = input("Unesite drugu rijec: ")
 
 print(prva_rijec + '   ' + druga_rijec)
 ```
-
-<div style="page-break-after: always;"></div>
-
-## Rjesenja zadataka
-
 dodati ascii tablu
 dodati binarne brojeve
