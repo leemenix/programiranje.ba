@@ -225,7 +225,7 @@ Nakon sto se okruzenej kreiralo, opciono mozemo onemoguciti opciju
 
 ##### Korak 9.
 
-Iz menija izaberite opciju **"File"**
+Iz glavnog menija izaberite opciju **"File"**
 
 ![PyCharm instalacija korak prvi](../../slike/pycharm_podesavanje_9.png)
 
@@ -243,18 +243,36 @@ sam PyCharm, na nama je samo da damo ime programu).
 
 ![PyCharm instalacija korak prvi](../../slike/pycharm_podesavanje_11.png)
 
-##### Korak 13.
+##### Korak 12.
 
+Kako bi smo testirali da li PyCharm u potpunosti radi sa nasim okruzenjem,
+napisacemo najosnovniji program u Python-u
+```python
+print("Zdravo Svijete")
+```
 
 ![PyCharm instalacija korak prvi](../../slike/pycharm_podesavanje_13.png)
 
-##### Korak 14.
+##### Korak 13.
+
+a zatim u narednom koraku iz glavnog menija, izaberemo opciju **"Run"** pa u 
+padajucem meniju opciju **"Run ..."**
+
 ![PyCharm instalacija korak prvi](../../slike/pycharm_podesavanje_14.png)
 
-##### Korak 15.
+##### Korak 14.
+
+PyCharm ce nam ponuditi ime programa koji zelimo da izvrsimo, na nama je samo 
+da kliknemo **"Enter"**
+
 ![PyCharm instalacija korak prvi](../../slike/pycharm_podesavanje_15.png)
 
-##### Korak 16.
+##### Korak 15.
+
+Nakon uspjesnog pokretanja u donjem dijelu PyCharm-a vidjecete ispis teksta
+**"Zdravo Svijete"**. 
+Cestitamo uspjesno ste podesili vase radno okruzenje, igra moze da pocne ;) 
+
 ![PyCharm instalacija korak prvi](../../slike/pycharm_podesavanje_16.png)
 
 
