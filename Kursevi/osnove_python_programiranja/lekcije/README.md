@@ -559,6 +559,7 @@ __________
  /      \
 /________\
 ```
+
 <div style="page-break-after: always;"></div>
 
 ## Promjenjive i tipovi podataka
