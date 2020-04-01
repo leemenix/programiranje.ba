@@ -1,19 +1,24 @@
 
-## citanje iz eksternog fajla
+## Rad sa datotekama (fajlovima)
+
+### citanje iz eksternog fajla
 - dosta puta imamo potrebu za citanjem sadrzaja iz drugih fajlova
 - parsiranje teksta ...
 - apsolutni, relativna lokacija
 
-karakteri_porijeklo.txt
-```python
+**`Sadrzaj fajla: fajl-455_karakteri_porijeklo.txt`**
+```text
 Goku - Vegeta
 Krilin - Zemlja
 Piccolo - Namek
 Frieza - Universe 7
+```
 
+**`Izvorni kod: kod-456_rad-sa-fajlovima.py`**
+```python
 # r - read; w - write; a - append to end of file; r+ - read and write
 # otvoren fajl
-karakteri_fajl = open("karakteri_porijeklo.txt", "r")
+karakteri_fajl = open("fajl-455_karakteri_porijeklo.txt", "r")
 
 # provjeri da li je fajl citljiv
 print(karakteri_fajl.readable())

@@ -29,11 +29,12 @@ Tri glavna faktora koji cine promjenjivu/varijablu jesu:
 
 ```text
 naziv   |    operator     | vrijednost
-           pridruzivanja
-
-ime             =            "Goku"
-
-godine          =              23
+        |  pridruzivanja  |
+________|_________________|____________
+ime     |       =         |   "Goku"
+________|_________________|____________
+godine  |       =         |     23
+        |                 |
 ```
 
 #### Gradjenje varijable
@@ -44,6 +45,7 @@ nakon cega moze ici broj
 
 
 **`Izvorni kod: kod-155_naziv-varijabli.py`**
+
 ```python
 ime = "Goku"
 godine = 16
@@ -60,6 +62,7 @@ print (A)
 ```
 
 **`Izvorni kod: kod-156_prakticna-primjena-varijabli.py`**
+
 ```python
 karakter_1 = "Son Goku"
 karakter_2 = "Krilin"
@@ -83,20 +86,23 @@ print(type(godine))
 ### Tipovi podataka
 
 ```text
-            Tipovi podataka                  |    python sintksa    |             objasnjenje
-_____________________________________________|______________________|__________________________________
-Tekstualni (string - predstavlja niz znakova)|       string()       | operacije nad znakovnim tipovima
-                                             |                      |             podataka
-_____________________________________________|______________________|__________________________________
-Brojevi cijeli, realni (integer, float)      |         int()        |int()   - pretvara u cijeli broj 
-                                             |                      |            (npr. 1,10,33)
-                                             |        float()       |float() - pretvara u realni broj
-                                             |                      |        (npr. 1.0, 3.14, 33.3333)
-_____________________________________________|______________________|__________________________________
-Logicki tacno, netacno (boolean True/False)  |         bool()       |bool()  - operacije nad logickim 
-                                             |                      |          tipovima podataka 
-                                             |                      |            (True i False)
-_____________________________________________|______________________|__________________________________
+            Tipovi podataka       |    python sintksa    |             objasnjenje
+__________________________________|______________________|__________________________________
+             Tekstualni           |                      |
+(string - predstavlja niz znakova)|       string()       | operacije nad znakovnim tipovima
+                                  |                      |             podataka
+__________________________________|______________________|__________________________________
+         Brojevi cijeli, realni   |                      |  
+           (integer, float)       |         int()        |int()   - pretvara u cijeli broj 
+                                  |                      |          (npr. 1,10,33)
+                                  |        float()       |float() - pretvara u realni broj
+                                  |                      |          (npr. 1.0, 3.14, 33.333)
+__________________________________|______________________|__________________________________
+        Logicki tacno, netacno    |                      |
+         (boolean True/False)     |         bool()       |bool()  - operacije nad logickim 
+                                  |                      |          tipovima podataka 
+                                  |                      |          (True i False)
+__________________________________|______________________|__________________________________
 ```
 
 #### Mijenjanje tipova promjenjive (kastovanje)
@@ -104,6 +110,7 @@ _____________________________________________|______________________|___________
 Primjenjiva moze mijenjati tip kroz izvrsavanje programa, sto se jos naziva i kastovanje (casting). 
 
 **`Izvorni kod: kod-157_tipovi-podataka.py`**
+
 ```python
 karakter_ime = "Goku"
 karakter_godine = 15

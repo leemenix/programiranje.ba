@@ -1,7 +1,7 @@
 
 ## Zdravo Svijete
 
-Izvorni kod: kod-10_zdravo-svijete.py
+**`Izvorni kod: kod-10_zdravo-svijete.py`**
 
 ```python      
 print("Zdravo Svijete!")
