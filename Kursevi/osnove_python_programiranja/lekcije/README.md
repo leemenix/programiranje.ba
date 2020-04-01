@@ -121,6 +121,8 @@ prethodnom verzijom, sto nas dovodi do zakljucka da je Python 3 logicni izbor
 za sve nove developere koji planiraju uciti ovaj programski jezik. Python 3 je 
 verzija koju cemo ujedno obraditi u ovom kursu.
 
+<div style="page-break-after: always;"></div>
+
 ### Karakteristike Python-a
 
 #### Jednostavnost
@@ -205,13 +207,24 @@ skriptovanja.
 ### Izbor editora teksta i **Integrisanog razvojnog okruzenja** IDE (Integrated Development Environment)
 
 #### Izbor tekst editora
+
 Za pocetnike, se preporucuje koristenje nekog jednostavnog tekst editora kao Notpad++, Sublime, VisualStudio Code ...
 
 #### Izbor Interisanog razvojnog okruzenja
-Vecina programera odabere pisanje Python koda, koristenjem specijalnog integrisanog razvojnog okruzenja. Trenutno tri najistaknutija za Python su 
- Eclipse, PyCharm i Netbeans.
+
+Vecina programera odabere pisanje Python koda, koristenjem specijalnog 
+integrisanog razvojnog okruzenja. Trenutno tri najistaknutija za Python su 
+Eclipse, PyCharm i Netbeans. Za potrebe kursa, koristicemo **PyCharm**.
 
 ##### Windows
+
+##### Korak 1.
+
+Prilikom pokretanja instalacije, na prvom koraku je potrebno cekirati obe opcije:
+* Install launcher for all users (recommended)
+* Add Python 3.x to PATH
+
+![Python instalacija korak prvi](../../slike/python_instalacija_1.png)
 
 - PyCharm installation (Win, Linux)
 

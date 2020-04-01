@@ -53,6 +53,8 @@ prethodnom verzijom, sto nas dovodi do zakljucka da je Python 3 logicni izbor
 za sve nove developere koji planiraju uciti ovaj programski jezik. Python 3 je 
 verzija koju cemo ujedno obraditi u ovom kursu.
 
+<div style="page-break-after: always;"></div>
+
 ### Karakteristike Python-a
 
 #### Jednostavnost
