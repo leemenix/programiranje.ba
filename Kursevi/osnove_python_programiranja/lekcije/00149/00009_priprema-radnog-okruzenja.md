@@ -251,21 +251,21 @@ napisacemo najosnovniji program u Python-u
 print("Zdravo Svijete")
 ```
 
-![PyCharm instalacija korak prvi](../../slike/pycharm_podesavanje_13.png)
+![PyCharm instalacija korak prvi](../../slike/pycharm_podesavanje_12.png)
 
 ##### Korak 13.
 
 a zatim u narednom koraku iz glavnog menija, izaberemo opciju **"Run"** pa u 
 padajucem meniju opciju **"Run ..."**
 
-![PyCharm instalacija korak prvi](../../slike/pycharm_podesavanje_14.png)
+![PyCharm instalacija korak prvi](../../slike/pycharm_podesavanje_13.png)
 
 ##### Korak 14.
 
 PyCharm ce nam ponuditi ime programa koji zelimo da izvrsimo, na nama je samo 
 da kliknemo **"Enter"**
 
-![PyCharm instalacija korak prvi](../../slike/pycharm_podesavanje_15.png)
+![PyCharm instalacija korak prvi](../../slike/pycharm_podesavanje_14.png)
 
 ##### Korak 15.
 
