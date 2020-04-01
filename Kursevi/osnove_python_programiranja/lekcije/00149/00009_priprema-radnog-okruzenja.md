@@ -235,11 +235,17 @@ zatim odaberite **"Python file"**
 
 ![PyCharm instalacija korak prvi](../../slike/pycharm_podesavanje_10.png)
 
-##### Korak 13.
+##### Korak 11.
 
 a nakon toga dajte ime fajlu **"moj_prvi_program"** i kliknite **"Enter"**.
 Ovime smo kreirali novi fajl moj_prvi_program.py (ekstenziju .py ce dodijeliti
 sam PyCharm, na nama je samo da damo ime programu).
+
+![PyCharm instalacija korak prvi](../../slike/pycharm_podesavanje_11.png)
+
+##### Korak 13.
+
+
 ![PyCharm instalacija korak prvi](../../slike/pycharm_podesavanje_13.png)
 
 ##### Korak 14.
