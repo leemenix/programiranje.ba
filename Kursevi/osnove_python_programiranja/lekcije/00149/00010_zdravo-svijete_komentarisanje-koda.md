@@ -9,12 +9,25 @@
 print("Zdravo Svijete!")
 ```
 
-Imamo dva nacina za pokretanje Python programa, ovo je preporuka kada koji koristiti:
-- cmd, terminal - (ako nesto zelimo da provjerimo brzo i trenutno)
-- direktno iz IDE-a (precice) - (kada pisemo vise linija koda)
+Imamo dva nacina za pokretanje Python programa:
 
-Programiranje predstavlja davanje instrukcija kompjuteru (kroz programski jezik) i na osnovu ovih instrukcija
-kompjuter donosi odluke. 
+1. U slucaju da nesto zelimo brzo provjeriti, recimo ispis jedne linije koda, 
+sabiranje dva broja, pridruzivanje vrijednosti promjenjivoj koristicemo 
+komandni prompt (command prompt) ili cmd (na Windows operativnom sistemu) ili
+terminal (na Linux, FreeBSD ili MacOS operativnim sistemima)
+
+2. U slucaju da nas program zahtijeva vise linija koda, kreiranje odredjenje 
+logicke strukture, izvrsavanje uslova i petlji, kreiranje funkcija ili klasa 
+potrebno je prvo sav kod zapisati kao datoteku, sto u programiranju zovemo
+**Izvorni kod** i odatle ga izvrsiti ili direktno iz IDE-a.
+
+Programiranje u najjednostavnijoj svojoj reprezentaciji predstavlja davanje 
+instrukcija kompjuteru (kroz programski jezik) i na osnovu ovih instrukcija 
+kompjuter donosi odluke. Ucenje novog programski jezik se jednostavno moze 
+uporediti i sa ucenjem bilo kog drugog stranog jezika, stim da je dosta 
+jednostavnije, jer kad jednom shvatimo logiku programskog jezika ostalo je 
+samo nadogradjivanje i nasa masta.
+
 
 **`Izvorni kod: kod-11_crtanje-oblika.py`**
 
@@ -27,14 +40,17 @@ print("*****")
 print("******")
 ```
 
-- u ovom slucaju python ide liniju po liniju i izvrsava kod
-- sta se desava u slucaju da zamijenimo prvu i zadnju liniju?
+U prethodnom primjeru Python ide liniju po liniju i izvrsava kod. Sta se 
+desava u slucaju da zamijenimo prvu i zadnju liniju?
 
 ## Komentarisanje koda
 
-Komentare koristimo kada zelimo da zapisemo neki podsjetinik unutar koda, komentarisemo kod, objasnimo drugima
-i sebi sta odredjena linija koda radi. Praksa i preporuka je da se koristi simbol taraba (hash tag) _#_. 
-Komentari su po default-u ignorisani u Python-u, preciznije ignorisani od strane Python interpretera.  
+Komentare koristimo kada zelimo da zapisemo neki podsjetinik unutar koda, 
+komentarisemo kod, objasnimo drugima i sebi sta odredjena linija koda radi. 
+Praksa i preporuka je da se koristi simbol taraba (hash tag) **#**.
+Komentari se po definiciji ignorisu u Python-u, preciznije ignorisani od 
+strane Python interpretera, pa tako kad Python prilikom citanja koda naidje
+na znak **#**, ignorise sve u toj liniji sto se nalazi iza znaka **#**.
 
 **`Izvorni kod: kod-12_demonstracija-komentara.py`**
 ```python

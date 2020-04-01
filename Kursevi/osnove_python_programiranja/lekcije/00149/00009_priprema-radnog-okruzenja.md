@@ -275,7 +275,7 @@ Cestitamo uspjesno ste podesili vase radno okruzenje, igra moze da pocne ;)
 
 ![PyCharm instalacija korak prvi](../../slike/pycharm_podesavanje_15.png)
 
-
+tbd.{
   - promjena teme, odredisnog direktorija, velicine fonta i sl.
   - New -> Python File ...
 
@@ -284,3 +284,4 @@ Cestitamo uspjesno ste podesili vase radno okruzenje, igra moze da pocne ;)
 
 - python 2 (legacy), python 3 (future)
   - razlika u sintaksi
+}

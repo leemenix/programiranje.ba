@@ -3,18 +3,26 @@
 
 #### Rijecnici - Dictionaries - { }
 
-Rijecnici su tipovi podataka, opet slicni listama, ali za razliku od listi indeksiranje se obavlja kljucevima.
+Rijecnici su tipovi podataka, opet slicni listama, ali za razliku od listi 
+indeksiranje se obavlja kljucevima.
 
-Za lakse razumijevanje ih mozemo uporediti sa klasicnim rijecnikom za prevodjenje rijeci sa jednog jezika na 
-drugi, gdje imamo strukturu strana rijec na lijevoj strani i detaljno objasnjenje rijeci na desnoj strani.
-Ako navedenu analogiju primijenimo rijecnicima, kao tipovima podataka u Python-u, onda rijec predstavlja kljuc
-(key), dok detaljno objasnjenj predstavlja vrijednost (value). 
+Za lakse razumijevanje ih mozemo uporediti sa klasicnim rijecnikom za 
+prevodjenje rijeci sa jednog jezika na drugi, gdje imamo strukturu strana 
+rijec na lijevoj strani i detaljno objasnjenje rijeci na desnoj strani.
+Ako navedenu analogiju primijenimo rijecnicima, kao tipovima podataka u 
+Python-u, onda rijec predstavlja kljuc (key), dok detaljno objasnjenje 
+predstavlja vrijednost (value). 
 
-Elementi rijecnika su smjesteni u viticaste zagrade **{ }** a parovi elemenata su razdvojeni zarezom **,**. 
+Elementi rijecnika su smjesteni u viticaste zagrade **{ }** a parovi elemenata 
+su razdvojeni zarezom **,**. 
 
-```text{kljuc:vrijednost} ({key:value})```
+```text
+{kljuc:vrijednost} ({key:value})
+```
 
-Bitno je napomenti da kljuc (key), mora biti jedinstven, ne mozemo imati dva ista kljuca. 
+Bitno je napomenti da kljuc (key), mora biti jedinstven, sto znaci da ne 
+mozemo imati dva ista kljuca. 
+
 ```text
 {"kljuc_1:vrijednost_1", "kljuc_2:vrijednost_2", "kljuc_3:vrijednost_1"} - ispravno
 {"kljuc_1:vrijednost_1", "kljuc_1:vrijednost_2", "kljuc_3:vrijednost_1"} - nije ispravno 

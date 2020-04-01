@@ -3,9 +3,9 @@
 
 ## Ulaz/upis podataka, prihvatanje podataka od korisnika ili interakcija sa programom
 
-Slozicete se da je programiranje dosadno, ako nemamo interakciju, nekakav vid komunikacije
-sa nasim programom. Kako bi omogucili interakciju sa programom, Python nam na raspolaganje nudi
-funkciju input(). 
+Slozicete se da je programiranje dosadno, ako nemamo interakciju, nekakav vid 
+komunikacije sa nasim programom. Kako bi omogucili interakciju sa programom, 
+Python nam na raspolaganje nudi funkciju **input()**. 
 
 **`Izvorni kod: kod-190_interakcija-sa-korisnikom.py`**
 ```python
