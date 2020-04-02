@@ -8,12 +8,11 @@ kroz isti blok koda vise puta, onoliko puta koliko smo to zadali inicijalnim
 uslovom, odnosno sve dok uslov ima vrijednost Tacno (True) ili dok nasilno ne 
 prekinemo uslov naredbom prekida (**break**).
 
-Dakle svakom iteracijom kroz blok koda, while petlja ce da izvrsi sve sto se 
-nalazi u tijelu petlje. Naravno, uz while petlju mozemo kombinovati i uslove
- cime dobijamo na brzini koda i vecoj efikasnosti.
+Dakle svakom iteracijom (prolaskom) kroz blok koda, while petlja ce da izvrsi sve sto se  nalazi u tijelu petlje. Naravno, uz while petlju mozemo 
+kombinovati i uslove cime dobijamo na brzini koda i vecoj efikasnosti.
 
 Ono sto je bitno napomenti kod while petlje, ona se koristi uglavnom kada 
-unaprijed nemamo definisan broj iteracija. 
+unaprijed **nemamo definisan broj iteracija**. 
 
 **``Izvorni kod: kod-310_while_brojac.py``**
 ```python
@@ -60,6 +59,11 @@ else:
 ```
 
 ### Naredba prekida (**break**)
+
+U slucaju da nasilno zelimo prekinuti petlju, koristimo naredbu prekida 
+**break**. Na ovaj nacin se zaustavlja izvrsenje petlje, cak i u slucaju da 
+zadani uslov nije postao **False**. Takodje, u slucaju da unutar **while** 
+petlje imate blok koda **else**, blok se **nece** izvrsiti.
 
 **`Izvorni kod: kod-312_demonstracija-naredbe-break.py`**
 

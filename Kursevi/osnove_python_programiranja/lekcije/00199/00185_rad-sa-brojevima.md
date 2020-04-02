@@ -2,7 +2,12 @@
 <div style="page-break-after: always;"></div>
 
 ## Rad sa brojevima
-brojevi, rad sa brojevima, funkcije nad brojevima. 
+
+Imamo dvije osnovne vrste brojeva u Python-u:
+
+1. Cijeli brojevi (integer)
+2. Decimalni ili brojevi sa pokretnim zarezom (float)
+
 Osnovne aritmeticke operacije koje mozemo vrsiti u Python-u su
 
 ```yaml
@@ -39,7 +44,12 @@ print(9%4)
 moj_broj = 13
 print(moj_broj)
 print("Moj omiljeni broj" + str(moj_broj))
+```
 
+### Funkcije nad brojevima
+
+**`Izvorni kod: kod-186_rad-sa-brojevima.py`**
+```python
 # math funkcije, funkcije su vec pripremljen kod koji odradjuje posao za nas
 broj = -2
 print(abs(broj))

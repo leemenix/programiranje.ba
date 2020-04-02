@@ -2,12 +2,30 @@
 <div style="page-break-after: always;"></div>
 
 ## Rad sa stringovima
-Stringovi predstavljaju niz karaktera (velika/mala slova, brojevi, znakovi interpunkcije, specijalni 
-znakovi, ...), koji sluzi za skladistenje i rad sa tekstualni podacima. Mozemo reci da su stringovi 
-uredjeni i smisleni niz karaktera. 
+Stringovi predstavljaju niz karaktera (velika/mala slova, brojevi, znakovi 
+interpunkcije, specijalni znakovi, ...), koji sluzi za skladistenje i rad sa 
+tekstualni podacima. Mozemo reci da su stringovi uredjeni i smisleni niz 
+karaktera. 
+
+Definisanje stringova, ili kako prepoznati odredjeni string u kodu, je lako. 
+
+String mozemo prepoznati ako se nalazi izmedju navodnika:
+
+```text
+"Ja sam string"
+```
+
+ali i izmedju apostrofa:
+
+```text
+'Ja sam takodje string'
+```
+
 
 ### Jednostavan primjer kreiranja stringa
+
 **`Izvorni kod: kod-165_rad_sa_stringovima.py`**
+
 ```python
 print("programiranje.ba besplatni online kursevi")
 
@@ -34,6 +52,9 @@ print("programiranje.ba \n besplatni online kursevi")
 # takodje se koristi kada trebamo ispisati specijalne karaktere
 #print("\")
 print("\\")
+
+print("a" + "b")
+print('a' + 'b')
 
 sajt_naziv = "programiranje.ba"
 sajt_slogan = " besplatni online kursevi"
@@ -62,8 +83,8 @@ print(sajt_naziv.find('mira'))
 # replace funkija
 print(sajt_slogan.replace("kursevi","tutoriali").upper())
 
-print("{1}, {0}".format(sajt_naziv, sajt_slogan))
-print(f"{sajt_naziv} {sajt_naziv}")
+print("{1}, {0}".format(sajt_naziv, sajt_slogan)) # metoda formatiranja
+print(f"{sajt_naziv} {sajt_naziv}") # metoda formatiranja 2
 
 # jos neki primjeri funkcija nad stringovima
 sajt_naziv = "programiranje.ba"

@@ -1,8 +1,17 @@
 
 <div style="page-break-after: always;"></div>
 
-## Naredbe za kontrolu toka (if, elif, else)
+## Naredbe za kontrolu toka (if, while, for)
+Do sad smo sve sve programe pisali u jednom smijeru, mozemo ovo uporediti sa
+jednosmijernom ulicom, gdje automobil nikako ne smijemo voziti u suprotnom 
+smijeru. Sta ako bismo u nekom trenutku, pisanja koda, odlucili da promijenimo
+tok izvrsavanja koda? Pa koristili bi naredbe za kontrolu toka:
 
+1. if
+2. while
+3. for
+
+### Uslov if (if, elif, else)
 Ako zelimo da donosenje odluke prepustimo nasem programu, na osnovu uslova 
 koji se moraju ispuniti, a samim tim krairamo nas program pametnijim, uvescemo novi uslov if (naredbu if), koja se jos zove i naredba kontrole toka. Ukoliko 
 je uslov ispunjen (Tacan - True), izvrsava se naredba ili blok naredbi pod tim 

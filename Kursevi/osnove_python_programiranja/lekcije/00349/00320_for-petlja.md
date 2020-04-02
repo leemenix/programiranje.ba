@@ -3,8 +3,9 @@
 
 ## For petlja
 
-For petlju mozemo nazvati specijalni tip petlje u Python-u, a za razliku od while petlje, for petlju  koristimo kada zelimo da vrsimo iteraciju kroz 
-tijelo petlje ako unaprijed znamo koliko puta je to  potrebno.
+For petlju (ili **for..in**) mozemo nazvati specijalni tip petlje u Python-u, 
+a za razliku od while petlje, for petlju  koristimo kada zelimo da vrsimo 
+iteraciju kroz tijelo petlje ako unaprijed **znamo broj potrebnih iteracija**.
 
 Vrijednosti se uglavnom zadaju kao predefinisane ali mozemo koristiti izvore poput lista, stringova, rijecnika.
 

@@ -11,18 +11,20 @@ print("Zdravo Svijete!")
 
 Imamo dva nacina za pokretanje Python programa:
 
-1. U slucaju da nesto zelimo brzo provjeriti, recimo ispis jedne linije koda, 
-sabiranje dva broja, pridruzivanje vrijednosti promjenjivoj koristicemo 
-komandni prompt (command prompt) ili cmd (na Windows operativnom sistemu) ili
-terminal (na Linux, FreeBSD ili MacOS operativnim sistemima)
+1. **Python interaktivni promt**
+U slucaju da nesto zelimo brzo provjeriti, recimo ispis jedne linije koda, 
+sabiranje dva broja, pridruzivanje vrijednosti promjenjivoj koristicemo Python 
+interaktivni prompt. Iz komandnog prompta (command prompt) ili cmd (na Windows 
+operativnom sistemu) ili terminal (na Linux, FreeBSD ili MacOS operativnim sistemima) pokrenimo Python interaktivni prompt komandom **python**:
 
 ![PyCharm instalacija korak prvi](../slike/python-kod.png)
 
-2. U slucaju da nas program zahtijeva vise linija koda, kreiranje odredjenje 
+2. **Pokretanje izvornog koda**
+ U slucaju da nas program zahtijeva vise linija koda, kreiranje odredjenje 
 logicke strukture, izvrsavanje uslova i petlji, kreiranje funkcija ili klasa 
 potrebno je prvo sav kod zapisati kao datoteku, sto u programiranju zovemo
 **Izvorni kod** i odatle ga izvrsiti pomocu python komande ili direktno iz 
-IDE-a.
+IDE-a. **python ime_datoteke.py**
 
 ![PyCharm instalacija korak prvi](../slike/python-izvorni-kod.png)
 
@@ -32,7 +34,6 @@ kompjuter donosi odluke. Ucenje novog programski jezik se jednostavno moze
 uporediti i sa ucenjem bilo kog drugog stranog jezika, stim da je dosta 
 jednostavnije, jer kad jednom shvatimo logiku programskog jezika ostalo je 
 samo nadogradjivanje i nasa masta.
-
 
 **`Izvorni kod: kod-11_crtanje-oblika.py`**
 
@@ -55,9 +56,11 @@ komentarisemo kod, objasnimo drugima i sebi sta odredjena linija koda radi.
 Praksa i preporuka je da se koristi simbol taraba (hash tag) **#**.
 Komentari se po definiciji ignorisu u Python-u, preciznije ignorisani od 
 strane Python interpretera, pa tako kad Python prilikom citanja koda naidje
-na znak **#**, ignorise sve u toj liniji sto se nalazi iza znaka **#**.
+na znak **#**, ignorise sve u toj liniji sto se nalazi iza znaka **#**, 
+odnosno na njegovoj desnoj strani.
 
 **`Izvorni kod: kod-12_demonstracija-komentara.py`**
+
 ```python
 '''
 Viselinijski komentar

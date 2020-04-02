@@ -3,31 +3,32 @@
 
 ## Promjenjive i tipovi podataka
 
-Promjenjive ili varijable su osnovni objekti podataka kojima se manipulise u programu. Recimo da zelimo 
-imati promjenjivu **ime_korisnika** koju mozemo koristiti kroz citav program i koja sadrzi vrijednost **Goku**.
-To bi smo mogli napisati kao:
+Promjenjive ili varijable su osnovni objekti podataka kojima se manipulise u 
+programu. Recimo da zelimo imati promjenjivu **ime_korisnika** koju mozemo 
+koristiti kroz citav program i koja sadrzi vrijednost **Goku**. To bi mogli napisati kao:
 
-```python
+```text
 ime_karaktera = "Goku"
 ```
-Ovo citamo kao: 
-Deklarisana je promjenjiva, ciji je naziv (identifikator) **ime_karaktera** a cija je inicijalna (pocetna)
-vrijednost **Goku**. 
+Ovo citamo: 
+Deklarisana je promjenjiva, ciji je naziv (identifikator) **ime_karaktera** a cija je inicijalna (pocetna) vrijednost **Goku**. 
 
-Takodje iz navedenog primjera mozemo zakljuciti da je promjenjiva, ciji je naziv **ime_karaktera**, tekstualnog
-tipa, niz karaktera ["G","o","k","u"] ili na engleskom tipa **string**. 
+Takodje iz navedenog primjera mozemo zakljuciti da je promjenjiva, ciji je 
+naziv **ime_karaktera**, tekstualnog tipa, niz karaktera ["G","o","k","u"], 
+ili na engleskom, tipa **string**. 
 
 ### Promjenjive, varijable (variables) 
 
-Programiranje se uglavnom svodi na obradu podataka, stim u vezi je potrebno pohraniti podatke 
-i organizovati ih na najbolji moguci nacin. Varijabla ili promjenjiva predstavlja lokaciju u memoriji
-vaseg kompjutera i sluzi da pokaze na odredjenu vrijednost koju ta memorijska lokacija predstavlja.
+Programiranje se uglavnom svodi na obradu podataka, stim u vezi je potrebno 
+pohraniti podatke i organizovati ih na najbolji moguci nacin. Varijabla ili 
+promjenjiva predstavlja lokaciju u memoriji vaseg kompjutera i sluzi da pokaze 
+na odredjenu vrijednost koju ta memorijska lokacija predstavlja.
 
 Tri glavna faktora koji cine promjenjivu/varijablu jesu: 
 
-- naziv, 
-- operator i 
-- vrijednost varijable
+1. naziv varijable, 
+2. operator i 
+3. vrijednost varijable
 
 ```text
 naziv   |    operator     | vrijednost
@@ -91,6 +92,8 @@ print(type(godine))
 
 ### Tipovi podataka
 
+Imamo tri osnovna tipa podatka u Python-u, tekstualne, brojevne i logicke.
+
 ```text
     tipovi podataka   |    python sintksa    |       objasnjenje
 ______________________|______________________|_________________________
@@ -108,13 +111,13 @@ ______________________|______________________|_________________________
       Logicki         |                      |
    tacno, netacno     |        bool()        |  operacije nad logickim 
 (boolean True/False)  |                      |    tipovima podataka 
-                      |                      |      (True i False)
+   (Bulovo da/ne)     |                      |      (True i False)
 ______________________|______________________|_________________________
 ```
 
 #### Mijenjanje tipova promjenjive (kastovanje)
 
-Primjenjiva moze mijenjati tip kroz izvrsavanje programa, sto se jos naziva i kastovanje (casting). 
+Promjenjiva moze mijenjati tip kroz izvrsavanje programa, sto se jos naziva i kastovanje (casting). 
 
 **`Izvorni kod: kod-157_tipovi-podataka.py`**
 

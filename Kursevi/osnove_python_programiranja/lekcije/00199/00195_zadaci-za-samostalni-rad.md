@@ -30,3 +30,8 @@ Aritmeticka sredina je: 2.0
 Unesite znak sa tastature: }
 Vrijednost znaka '}' u ASCII tabeli je 125
 ```
+
+5. Napisati program koji ispisuje.
+```yaml
+Omiljena pjesma od 'Miladina Sobica' - "Od druga, do druga"!
+```

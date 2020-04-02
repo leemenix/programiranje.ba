@@ -542,18 +542,20 @@ print("Zdravo Svijete!")
 
 Imamo dva nacina za pokretanje Python programa:
 
-1. U slucaju da nesto zelimo brzo provjeriti, recimo ispis jedne linije koda, 
-sabiranje dva broja, pridruzivanje vrijednosti promjenjivoj koristicemo 
-komandni prompt (command prompt) ili cmd (na Windows operativnom sistemu) ili
-terminal (na Linux, FreeBSD ili MacOS operativnim sistemima)
+1. **Python interaktivni promt**
+U slucaju da nesto zelimo brzo provjeriti, recimo ispis jedne linije koda, 
+sabiranje dva broja, pridruzivanje vrijednosti promjenjivoj koristicemo Python 
+interaktivni prompt. Iz komandnog prompta (command prompt) ili cmd (na Windows 
+operativnom sistemu) ili terminal (na Linux, FreeBSD ili MacOS operativnim sistemima) pokrenimo Python interaktivni prompt komandom **python**:
 
 ![PyCharm instalacija korak prvi](../slike/python-kod.png)
 
-2. U slucaju da nas program zahtijeva vise linija koda, kreiranje odredjenje 
+2. **Pokretanje izvornog koda**
+ U slucaju da nas program zahtijeva vise linija koda, kreiranje odredjenje 
 logicke strukture, izvrsavanje uslova i petlji, kreiranje funkcija ili klasa 
 potrebno je prvo sav kod zapisati kao datoteku, sto u programiranju zovemo
 **Izvorni kod** i odatle ga izvrsiti pomocu python komande ili direktno iz 
-IDE-a.
+IDE-a. **python ime_datoteke.py**
 
 ![PyCharm instalacija korak prvi](../slike/python-izvorni-kod.png)
 
@@ -563,7 +565,6 @@ kompjuter donosi odluke. Ucenje novog programski jezik se jednostavno moze
 uporediti i sa ucenjem bilo kog drugog stranog jezika, stim da je dosta 
 jednostavnije, jer kad jednom shvatimo logiku programskog jezika ostalo je 
 samo nadogradjivanje i nasa masta.
-
 
 **`Izvorni kod: kod-11_crtanje-oblika.py`**
 
@@ -586,9 +587,11 @@ komentarisemo kod, objasnimo drugima i sebi sta odredjena linija koda radi.
 Praksa i preporuka je da se koristi simbol taraba (hash tag) **#**.
 Komentari se po definiciji ignorisu u Python-u, preciznije ignorisani od 
 strane Python interpretera, pa tako kad Python prilikom citanja koda naidje
-na znak **#**, ignorise sve u toj liniji sto se nalazi iza znaka **#**.
+na znak **#**, ignorise sve u toj liniji sto se nalazi iza znaka **#**, 
+odnosno na njegovoj desnoj strani.
 
 **`Izvorni kod: kod-12_demonstracija-komentara.py`**
+
 ```python
 '''
 Viselinijski komentar
@@ -598,6 +601,59 @@ Viselinijski komentar
 """
 print("Komentari su korisni")
 # print("Ova linija koda nece biti ispisana")
+```
+
+<div style="page-break-after: always;"></div>
+
+## Par pravila o pisanju koda u Python-u
+
+### Indentacija
+
+Kako smo vec naveli Python je fleksibilan ali i osjetljiv na nacin kako pisemo 
+kod. Dakle prilikom pisanja izvornog koda potrebno je voditi racuna o uvlacenju
+linija i razmacima na pocetku linije, sto se naziva indentacija. 
+Razmaci i tabovi koje koristimo na pocetku linije prilikom pisanja koda, 
+odredjuju nivo indentacije (uvlacenja), sto je bitno postovati tokom ostatka
+pisanja koda unutar datoteteke, jer Python na ovaj nacin odredjuje blokove koda
+i na taj nacin ih grupise u logicke cjeline.
+
+Dakle vodite racuna da komande koje pisete, a treba da idu zejedno, imaju isti
+nivo uvlacenja, u suprotnom doci ce do greske prilikom izvrsavanja. 
+
+Naravno citav ovaj koncept cete shvatiti do kraj ove sekcije ali svakako nije 
+lose napomenuti ovo pravilo.
+
+```python      
+print("Zdravo Svijete!") # ispravno
+
+ print("Zdravo Svijete!") # greska! razmak na pocetku reda
+```
+
+Prilikom izvrsenja prethodnog koda Python ce se zaliti na indetnaciju i 
+dobicete sintaksnu gresku. Bez panike, samo obrisite razmak na pocetku reda 
+i sve ok.
+
+Pravilo je da za uvlacenje koda koristitie samo razmake, a u slucaju da
+koristitite tabove budite sigurni da je velicina taba podesena na 4 razmaka.
+Ovo je automatski regulisano u skoro svakom savremenom IDE-u.
+
+### Eksplicitno spajanje linija
+
+U slucaju da prlikom pisanja koda zelimo veoma dugacku liniju napisati u vise
+redova i pridurzite je promjenjivoj, koristicemo obrnutu kosu crtu (backslash) 
+**\\**.
+
+```python
+tekst_pjesme = "9 depresivaca \
+9 depresivaca gajili su bostan \
+puko lastik od bandzija, ostalo ih 8 \
+8 depresivaca, k'o u dlan ih gledam \
+u krivini hladnjaca, ostalo ih 7 \
+... \
+3 depresivca, svaki od njih vrijedan \
+dvojici crk'o facebook, ostao je 1 \
+1 depresivac, oprezan je bio\
+onda se ozenio"
 ```
 
 <div style="page-break-after: always;"></div>
@@ -630,31 +686,32 @@ __________
 
 ## Promjenjive i tipovi podataka
 
-Promjenjive ili varijable su osnovni objekti podataka kojima se manipulise u programu. Recimo da zelimo 
-imati promjenjivu **ime_korisnika** koju mozemo koristiti kroz citav program i koja sadrzi vrijednost **Goku**.
-To bi smo mogli napisati kao:
+Promjenjive ili varijable su osnovni objekti podataka kojima se manipulise u 
+programu. Recimo da zelimo imati promjenjivu **ime_korisnika** koju mozemo 
+koristiti kroz citav program i koja sadrzi vrijednost **Goku**. To bi mogli napisati kao:
 
-```python
+```text
 ime_karaktera = "Goku"
 ```
-Ovo citamo kao: 
-Deklarisana je promjenjiva, ciji je naziv (identifikator) **ime_karaktera** a cija je inicijalna (pocetna)
-vrijednost **Goku**. 
+Ovo citamo: 
+Deklarisana je promjenjiva, ciji je naziv (identifikator) **ime_karaktera** a cija je inicijalna (pocetna) vrijednost **Goku**. 
 
-Takodje iz navedenog primjera mozemo zakljuciti da je promjenjiva, ciji je naziv **ime_karaktera**, tekstualnog
-tipa, niz karaktera ["G","o","k","u"] ili na engleskom tipa **string**. 
+Takodje iz navedenog primjera mozemo zakljuciti da je promjenjiva, ciji je 
+naziv **ime_karaktera**, tekstualnog tipa, niz karaktera ["G","o","k","u"], 
+ili na engleskom, tipa **string**. 
 
 ### Promjenjive, varijable (variables) 
 
-Programiranje se uglavnom svodi na obradu podataka, stim u vezi je potrebno pohraniti podatke 
-i organizovati ih na najbolji moguci nacin. Varijabla ili promjenjiva predstavlja lokaciju u memoriji
-vaseg kompjutera i sluzi da pokaze na odredjenu vrijednost koju ta memorijska lokacija predstavlja.
+Programiranje se uglavnom svodi na obradu podataka, stim u vezi je potrebno 
+pohraniti podatke i organizovati ih na najbolji moguci nacin. Varijabla ili 
+promjenjiva predstavlja lokaciju u memoriji vaseg kompjutera i sluzi da pokaze 
+na odredjenu vrijednost koju ta memorijska lokacija predstavlja.
 
 Tri glavna faktora koji cine promjenjivu/varijablu jesu: 
 
-- naziv, 
-- operator i 
-- vrijednost varijable
+1. naziv varijable, 
+2. operator i 
+3. vrijednost varijable
 
 ```text
 naziv   |    operator     | vrijednost
@@ -718,6 +775,8 @@ print(type(godine))
 
 ### Tipovi podataka
 
+Imamo tri osnovna tipa podatka u Python-u, tekstualne, brojevne i logicke.
+
 ```text
     tipovi podataka   |    python sintksa    |       objasnjenje
 ______________________|______________________|_________________________
@@ -735,13 +794,13 @@ ______________________|______________________|_________________________
       Logicki         |                      |
    tacno, netacno     |        bool()        |  operacije nad logickim 
 (boolean True/False)  |                      |    tipovima podataka 
-                      |                      |      (True i False)
+   (Bulovo da/ne)     |                      |      (True i False)
 ______________________|______________________|_________________________
 ```
 
 #### Mijenjanje tipova promjenjive (kastovanje)
 
-Primjenjiva moze mijenjati tip kroz izvrsavanje programa, sto se jos naziva i kastovanje (casting). 
+Promjenjiva moze mijenjati tip kroz izvrsavanje programa, sto se jos naziva i kastovanje (casting). 
 
 **`Izvorni kod: kod-157_tipovi-podataka.py`**
 
@@ -776,12 +835,30 @@ print(karakter_ime + " je los karakter " + str(karakter_osobina_los))
 <div style="page-break-after: always;"></div>
 
 ## Rad sa stringovima
-Stringovi predstavljaju niz karaktera (velika/mala slova, brojevi, znakovi interpunkcije, specijalni 
-znakovi, ...), koji sluzi za skladistenje i rad sa tekstualni podacima. Mozemo reci da su stringovi 
-uredjeni i smisleni niz karaktera. 
+Stringovi predstavljaju niz karaktera (velika/mala slova, brojevi, znakovi 
+interpunkcije, specijalni znakovi, ...), koji sluzi za skladistenje i rad sa 
+tekstualni podacima. Mozemo reci da su stringovi uredjeni i smisleni niz 
+karaktera. 
+
+Definisanje stringova, ili kako prepoznati odredjeni string u kodu, je lako. 
+
+String mozemo prepoznati ako se nalazi izmedju navodnika:
+
+```text
+"Ja sam string"
+```
+
+ali i izmedju apostrofa:
+
+```text
+'Ja sam takodje string'
+```
+
 
 ### Jednostavan primjer kreiranja stringa
+
 **`Izvorni kod: kod-165_rad_sa_stringovima.py`**
+
 ```python
 print("programiranje.ba besplatni online kursevi")
 
@@ -808,6 +885,9 @@ print("programiranje.ba \n besplatni online kursevi")
 # takodje se koristi kada trebamo ispisati specijalne karaktere
 #print("\")
 print("\\")
+
+print("a" + "b")
+print('a' + 'b')
 
 sajt_naziv = "programiranje.ba"
 sajt_slogan = " besplatni online kursevi"
@@ -836,8 +916,8 @@ print(sajt_naziv.find('mira'))
 # replace funkija
 print(sajt_slogan.replace("kursevi","tutoriali").upper())
 
-print("{1}, {0}".format(sajt_naziv, sajt_slogan))
-print(f"{sajt_naziv} {sajt_naziv}")
+print("{1}, {0}".format(sajt_naziv, sajt_slogan)) # metoda formatiranja
+print(f"{sajt_naziv} {sajt_naziv}") # metoda formatiranja 2
 
 # jos neki primjeri funkcija nad stringovima
 sajt_naziv = "programiranje.ba"
@@ -868,7 +948,12 @@ print(chr(ord('b') + 3))
 <div style="page-break-after: always;"></div>
 
 ## Rad sa brojevima
-brojevi, rad sa brojevima, funkcije nad brojevima. 
+
+Imamo dvije osnovne vrste brojeva u Python-u:
+
+1. Cijeli brojevi (integer)
+2. Decimalni ili brojevi sa pokretnim zarezom (float)
+
 Osnovne aritmeticke operacije koje mozemo vrsiti u Python-u su
 
 ```yaml
@@ -905,7 +990,12 @@ print(9%4)
 moj_broj = 13
 print(moj_broj)
 print("Moj omiljeni broj" + str(moj_broj))
+```
 
+### Funkcije nad brojevima
+
+**`Izvorni kod: kod-186_rad-sa-brojevima.py`**
+```python
 # math funkcije, funkcije su vec pripremljen kod koji odradjuje posao za nas
 broj = -2
 print(abs(broj))
@@ -1016,6 +1106,11 @@ Aritmeticka sredina je: 2.0
 ```yaml
 Unesite znak sa tastature: }
 Vrijednost znaka '}' u ASCII tabeli je 125
+```
+
+5. Napisati program koji ispisuje.
+```yaml
+Omiljena pjesma od 'Miladina Sobica' - "Od druga, do druga"!
 ```
 
 <div style="page-break-after: always;"></div>
@@ -1411,33 +1506,88 @@ def kub(broj):
 print(cub(3))
 ```
 
-### Funkcija ne mijenja sadrzaj promjenjive
-**`Izvorni kod: kod-261_rad-sa-funkcijama.py`**
-```python
-def brojac(broj):
+### Parametri funkcije
+
+Vrijednosti (argumenti) koje proslijedjujemo funkciji se nazivaju parametrima 
+funkcije. Sama funkcija bez parametara je prilicno staticna, dok se uvodjenjem
+parametara postize dinamicnost i fleksibilnost, kao i sira upotreba funkcije.
+
+**Parametre** funkcije definisemo prilikom inicijalnog kreiranja funkcije, 
+stavljamo ih u zagrade i odvajamo zarezom, u slucaju da imamo vise od jednog 
+parametra. 
+
+Prilikom pozivanja funkcije, definisemo vrijednost koje proslijedjujemo 
+funkciji, takodje unutar zagrada, a proslijedjenje parametre jednom rijeci
+nazivamo **argumentima**.
+
+```text
+def brojac(broj): <- (broj) predstavlja parametar funkcije
   broj = broj + 1
   return broj
 
-broj=3
-brojac(broj) # vrijednost koju promjenjiva pokazuje, ali ne i samu promjenjivu, sto obezbjedjje da funkcija ne moze mijenjati promjenjivu, samo kopiju vrijednosti koja je proslijedjena
-print(broj) # 
+brojac(3)         <- (3) predstavlja argument, vrijednost koju proslijedjujemo
+                         parametru (broj)
+```
 
-# funkcije unutar sebe mogu imati lokalne (local) i globalne (global) promjenjive
-# ako lokalna i globalna promjenjiva unutar funkcije nose isti naziv, Pyhon ce koristiti lokalnu
+#### Lokalne i globalne promjenjive.
+
+Promjenjiva koja se nalazi unutar bloka funkcije, ima odredjen opseg djelovanja
+ili *scope* i nikako nije povezana sa promjenjivim van tijela funkcije. Ovaj 
+tip promjenjivih koje se nalaze unutar bloka funkcije se nazivaju jos i 
+**lokalne promjenjive**.
+
+U slucaju da ipak zelimo definisati vrijednost promjenjive koja djeluje izvan
+tijela funkcije, uvodimo komandu **global** i na taj nacin nasa promjenjiva
+djeluje globalno, cak iako se nalazi unutar tijela funkcije. 
+
+Ako lokalna i globalna promjenjiva unutar funkcije nose isti naziv, Pyhon ce 
+koristiti lokalnu promjenjivu, ali ovo se ne preporucuje zbog zbunjivanja i 
+konfuzije prilikom citanja koda.
+
+**`Izvorni kod: kod-265_parametri-funkcijama.py`**
+
+```python
+# funkcija ne mijenja sadrzaj promjenjive
+broj_1 = 3
+broj_2 = 10
+def brojac(broj_1):
+  broj_2 = 30
+  print("Broj 2 iz funkcije ima vrijednost: " + str(broj_2))
+  broj_1 = broj_1 + 1
+  return broj_1
+
+# vrijednost koju promjenjiva pokazuje, ali ne i samu promjenjivu, sto 
+# obezbjedjje da funkcija ne moze mijenjati promjenjivu, samo kopiju 
+# vrijednosti koja je proslijedjena
+brojac(broj_1)
+print(broj_1) 
+
+brojac(broj_2)
+print(broj_2) 
+
+# funkcije unutar sebe mogu imati lokalne (local) i globalne (global) 
+# promjenjive
 # lokalne promjenjive su definisane po default-u ako se ne navede drugacije
-def brojac():
-	global broj
-	broj = broj + 1
-	return broj
+broj_3 = 3
 
-broj = 3
+def brojac():
+	global broj_3
+	broj_3 = broj_3 + 1
+	return broj_3
+
 brojac()
 print(broj)
 
-# nepoznati broj argumenta
-# u slucaju da nismo sigurni koji je tacno broj argumenate koje zelimo proslijediti funkciji
-# parametru funkcije dodamo * i time postizemo n broj elemenata koji mozemo proslijediti funkciji
+```
 
+#### Nepoznati broj argumenta (**VarArgs**)
+
+U slucaju da nismo sigurni koji je tacno broj argumenata koji zelimo 
+proslijediti funkciji, tada parametru funkcije dodamo **\*** i time postizemo n-broj elemenata koji mozemo proslijediti funkciji.
+
+**`Izvorni kod: kod-266_srecni-brojevi.py`**
+
+```python
 def srecni_brojevi(*brojevi):
 	print("Loto brojevi za ovu sedmicu: " + str(brojevi))
 
@@ -1476,10 +1626,88 @@ print(type(print))
 print(type(type))
 ```
 
+**`Izvorni kod: kod-267_dva-i-vise-parametara.py`**
+
+```python
+def zbir(*brojevi_1,**brojevi_2):
+  broj = 0
+  for broj_1 in brojevi_1:
+    broj += broj_1
+    print(broj_1)
+  for broj_2 in brojevi_2:
+    broj += broj_2
+    print(broj_2)
+
+  return broj
+  
+print(zbir(1,2,3,30,3))
+```
+
+#### Podrazumijevana vrijednost argumenta 
+
+U slucaju da zelimo koristiti podrazumijevanu vrijdnost argumenta ili 
+jednostavno znamo da je ta vrijednost konstantna tokom izvrsavanja koda,
+onda unutar definisanja parametara funkcije pomocu operatora dodjele **=** 
+definisemo podrazumijevanu vrijednost.
+
+**`Izvorni kod: kod-268_podrazumijevana-vrijednost-argumenta.py`**
+
+```python
+def obim_kruga(poluprecnik, pi=3.14):
+  obim = 2 * (poluprecnik * pi)
+  return obim
+
+print(obim_kruga(2))
+```
+
+#### Argumenti definisani pomocu kljucnih rijeci
+
+U slucaju da nismo sigurni koji je tacno broj argumenata koji zelimo 
+proslijediti funkciji, tada parametru funkcije dodamo **\*** i time postizemo n-broj elemenata koji mozemo proslijediti funkciji.
+
+**`Izvorni kod: kod-269_argumenti-definisani-pomocu-kljucnih-rijeci.py`**
+
+```python
+#### 
+def pozdrav_svijete(rijec="Pozdrav Svijete \n", broj=2):
+  print((rijec) * broj)
+
+print(pozdrav_svijete(rijec="Zdravo \n", broj=10))
+```
+
+Ako zelimo definisati parametre dostupne samo preko kljucnih rijeci bez
+obzira na poziciju na kojoj se nalaze, to mozemo uraditi definisanjem 
+paramatara posle prvog parametra sa **\***.
+
+**`Izvorni kod: kod-270_vrijednost-parametra-bez-obzira-na-poziciju.py`**
+
+```python
+def zbir(*brojevi_1,broj_2):
+  broj = 0
+  for broj_1 in brojevi_1:
+    broj += broj_1
+    print(broj_1)
+  broj += broj_2
+
+  return broj
+  
+print(zbir(1,2,3,30,3,broj_2=2222))
+```
+
+
 <div style="page-break-after: always;"></div>
 
-## Naredbe za kontrolu toka (if, elif, else)
+## Naredbe za kontrolu toka (if, while, for)
+Do sad smo sve sve programe pisali u jednom smijeru, mozemo ovo uporediti sa
+jednosmijernom ulicom, gdje automobil nikako ne smijemo voziti u suprotnom 
+smijeru. Sta ako bismo u nekom trenutku, pisanja koda, odlucili da promijenimo
+tok izvrsavanja koda? Pa koristili bi naredbe za kontrolu toka:
 
+1. if
+2. while
+3. for
+
+### Uslov if (if, elif, else)
 Ako zelimo da donosenje odluke prepustimo nasem programu, na osnovu uslova 
 koji se moraju ispuniti, a samim tim krairamo nas program pametnijim, uvescemo novi uslov if (naredbu if), koja se jos zove i naredba kontrole toka. Ukoliko 
 je uslov ispunjen (Tacan - True), izvrsava se naredba ili blok naredbi pod tim 
@@ -1658,12 +1886,11 @@ kroz isti blok koda vise puta, onoliko puta koliko smo to zadali inicijalnim
 uslovom, odnosno sve dok uslov ima vrijednost Tacno (True) ili dok nasilno ne 
 prekinemo uslov naredbom prekida (**break**).
 
-Dakle svakom iteracijom kroz blok koda, while petlja ce da izvrsi sve sto se 
-nalazi u tijelu petlje. Naravno, uz while petlju mozemo kombinovati i uslove
- cime dobijamo na brzini koda i vecoj efikasnosti.
+Dakle svakom iteracijom (prolaskom) kroz blok koda, while petlja ce da izvrsi sve sto se  nalazi u tijelu petlje. Naravno, uz while petlju mozemo 
+kombinovati i uslove cime dobijamo na brzini koda i vecoj efikasnosti.
 
 Ono sto je bitno napomenti kod while petlje, ona se koristi uglavnom kada 
-unaprijed nemamo definisan broj iteracija. 
+unaprijed **nemamo definisan broj iteracija**. 
 
 **``Izvorni kod: kod-310_while_brojac.py``**
 ```python
@@ -1710,6 +1937,11 @@ else:
 ```
 
 ### Naredba prekida (**break**)
+
+U slucaju da nasilno zelimo prekinuti petlju, koristimo naredbu prekida 
+**break**. Na ovaj nacin se zaustavlja izvrsenje petlje, cak i u slucaju da 
+zadani uslov nije postao **False**. Takodje, u slucaju da unutar **while** 
+petlje imate blok koda **else**, blok se **nece** izvrsiti.
 
 **`Izvorni kod: kod-312_demonstracija-naredbe-break.py`**
 
@@ -1764,13 +1996,43 @@ else:
 	# kompletan program izvrsi bez okidanja/trigerovanja naredbe break
 	print(karakter_opis) 
 ```
+### Naredba nastavljanja (**continue**)
 
+U slucaju da nasilno zelimo prekinuti **dio petlje** ili blaze receno 
+preskociti izvrsavanje tog bloka ali nastaviti sa izvrsavanjem sledeceg bloka
+unutar iste petlje kositicemo naredbu nastavljanja **continue**. 
+
+**`Izvorni kod: kod-312_demonstracija-naredbe-break.py`**
+
+```python
+karakter_opis = {}
+
+brojac=0
+limit=10
+
+while brojac <= limit:
+	karakter_ime = input("Unesi ime karaktera: ")
+	karakter_godine = input("Unesi godine karaktera :")
+
+	if int(karakter_godine) <= 0:
+		print("Godine ne mogu biti manje od 1!")
+		break
+    elif int(karakter_godine) => 100:
+    	print("Trebali biste dobiti Nobelovu nagradu za godine")
+    	continue
+	else:
+		karakter_opis[(karakter_ime)] = (karakter_godine)
+		brojac+=1 
+
+print(karakter_opis)
+```
 <div style="page-break-after: always;"></div>
 
 ## For petlja
 
-For petlju mozemo nazvati specijalni tip petlje u Python-u, a za razliku od while petlje, for petlju  koristimo kada zelimo da vrsimo iteraciju kroz 
-tijelo petlje ako unaprijed znamo koliko puta je to  potrebno.
+For petlju (ili **for..in**) mozemo nazvati specijalni tip petlje u Python-u, 
+a za razliku od while petlje, for petlju  koristimo kada zelimo da vrsimo 
+iteraciju kroz tijelo petlje ako unaprijed **znamo broj potrebnih iteracija**.
 
 Vrijednosti se uglavnom zadaju kao predefinisane ali mozemo koristiti izvore poput lista, stringova, rijecnika.
 
@@ -2382,10 +2644,53 @@ Moduli nisu nista drugo, nego odredjen broj funkcija koje mozete importovati,
 pozvati u vas kod. Takodje, mozete napraviti vas modul jednostavnim kreiranjem
 python fajla koji sadrzi vase funkcije i kasnije ga pozvati u vas kod naredbom
 **import**. 
-U ovoj lekciji cete nauciti kako instalirati eksterne module sa **pip** 
-komandom, kako ih importovati nakon instalacije, kako importovati standardne 
-module i konacno kako kreirati i importovati svoj modul. 
- 
+
+U ovoj lekciji cete nauciti kako kako importovati standardne module, 
+instalirati eksterne module sa **pip** komandom, kako ih importovati nakon 
+instalacije, i konacno kako kreirati i importovati svoj modul. 
+
+### Importovanje standardnih Python modula **import** 
+
+Recimo da nam je potrebna informacija, prilikom pisanja naseg koda, koja nam
+govori u kom se trenutno direktoriju nalazimo. Za ovo bi nam trebalo dosta 
+prethodnog iskusta, vremena i poznavanja operativnog sistema, a da ne pricamo
+da su strukture direktorija razlicite na razlicitim operativnim sistemima. 
+U tu svrhu jednostavno mozemo da importujemo standardni Python modul **os**,
+bez obzira na kom operativnom sistemu radimo nacin koriscenja je isti.
+
+
+```python
+import os
+
+print(help(os))
+
+print("Trenutni radni direktorij: ")
+print(os.getcwd())
+```
+
+Kada Python uspjesno importuje modul **os**, on u principu pronadje na vasem 
+sistemu fajl po imenu **os.py**, u prethodno definisanom direktorijumu, 
+specijalno namijenjenom za skladistenje standardnih modula. 
+
+### Djelimicno importovanje **from .. import**
+
+```python
+
+```
+
+tbd.
+```text 
+{## how to install with pip
+## how to import and use modules
+}
+
+
+tbd.
+```text 
+{## how to install with pip
+## how to import and use modules
+}
+```
 **`Izvorni kod: kod-655_korisni-alati.py`**
 ```python
 #
@@ -2416,12 +2721,7 @@ print(ka.srecan_broj(3))
 print(ka.pozdrav("Goku"))
 
 ```
-tbd.
-```text 
-{## how to install with pip
-## how to import and use modules
-}
-```
+
 devet_depresivaca.py - (Rambo Amadeus - Devet depresivaca)
 
 ```python
