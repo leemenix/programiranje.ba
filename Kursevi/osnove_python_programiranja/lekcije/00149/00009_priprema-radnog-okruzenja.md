@@ -184,7 +184,7 @@ kliknuti dugme **"Continue"**.
 ##### Korak 3.
 
 Obzirom da ne zelimo slati nikakvu statistiku sa naseg kompjutera, ovde cemo
-izabrati opciju **"Don't send".
+izabrati opciju **"Don't send"**.
 
 ![PyCharm instalacija korak prvi](../../slike/pycharm_podesavanje_3.png)
 

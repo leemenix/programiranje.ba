@@ -11,6 +11,10 @@
 verzija: 0.5
 - izvorni kod za igre vjesala i potapanje brodova
 - rad sa datotekama
+- slike prilikom instalacije python i pycharm
+- dopune teksta
+- page break
+- duzina linije
 
 verzija: 0.4
 - zadaci za vjezbanje (lecije 1 i 2)

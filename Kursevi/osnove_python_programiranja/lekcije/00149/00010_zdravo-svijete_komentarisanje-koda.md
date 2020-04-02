@@ -16,10 +16,15 @@ sabiranje dva broja, pridruzivanje vrijednosti promjenjivoj koristicemo
 komandni prompt (command prompt) ili cmd (na Windows operativnom sistemu) ili
 terminal (na Linux, FreeBSD ili MacOS operativnim sistemima)
 
+![PyCharm instalacija korak prvi](../../slike/python-izvorni-kod.png)
+
 2. U slucaju da nas program zahtijeva vise linija koda, kreiranje odredjenje 
 logicke strukture, izvrsavanje uslova i petlji, kreiranje funkcija ili klasa 
 potrebno je prvo sav kod zapisati kao datoteku, sto u programiranju zovemo
-**Izvorni kod** i odatle ga izvrsiti ili direktno iz IDE-a.
+**Izvorni kod** i odatle ga izvrsiti pomocu python komande ili direktno iz 
+IDE-a.
+
+![PyCharm instalacija korak prvi](../../slike/python-kod.png)
 
 Programiranje u najjednostavnijoj svojoj reprezentaciji predstavlja davanje 
 instrukcija kompjuteru (kroz programski jezik) i na osnovu ovih instrukcija 

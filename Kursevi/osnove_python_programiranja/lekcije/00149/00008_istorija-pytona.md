@@ -130,4 +130,3 @@ i koristiti.
 #### Ugradiv u druge programe
 Python moze biti ugradjen u jezike poput C i C++ kako bi obezbijedili mogucnost
 skriptovanja.
-

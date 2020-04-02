@@ -11,6 +11,10 @@
 verzija: 0.5
 - izvorni kod za igre vjesala i potapanje brodova
 - rad sa datotekama
+- slike prilikom instalacije python i pycharm
+- dopune teksta
+- page break
+- duzina linije
 
 verzija: 0.4
 - zadaci za vjezbanje (lecije 1 i 2)
@@ -199,7 +203,6 @@ i koristiti.
 Python moze biti ugradjen u jezike poput C i C++ kako bi obezbijedili mogucnost
 skriptovanja.
 
-
 <div style="page-break-after: always;"></div>
 
 ## Priprema radnog okruzenja
@@ -385,7 +388,7 @@ kliknuti dugme **"Continue"**.
 ##### Korak 3.
 
 Obzirom da ne zelimo slati nikakvu statistiku sa naseg kompjutera, ovde cemo
-izabrati opciju **"Don't send".
+izabrati opciju **"Don't send"**.
 
 ![PyCharm instalacija korak prvi](../../slike/pycharm_podesavanje_3.png)
 
@@ -503,10 +506,15 @@ sabiranje dva broja, pridruzivanje vrijednosti promjenjivoj koristicemo
 komandni prompt (command prompt) ili cmd (na Windows operativnom sistemu) ili
 terminal (na Linux, FreeBSD ili MacOS operativnim sistemima)
 
+![PyCharm instalacija korak prvi](../../slike/python-izvorni-kod.png)
+
 2. U slucaju da nas program zahtijeva vise linija koda, kreiranje odredjenje 
 logicke strukture, izvrsavanje uslova i petlji, kreiranje funkcija ili klasa 
 potrebno je prvo sav kod zapisati kao datoteku, sto u programiranju zovemo
-**Izvorni kod** i odatle ga izvrsiti ili direktno iz IDE-a.
+**Izvorni kod** i odatle ga izvrsiti pomocu python komande ili direktno iz 
+IDE-a.
+
+![PyCharm instalacija korak prvi](../../slike/python-kod.png)
 
 Programiranje u najjednostavnijoj svojoj reprezentaciji predstavlja davanje 
 instrukcija kompjuteru (kroz programski jezik) i na osnovu ovih instrukcija 
