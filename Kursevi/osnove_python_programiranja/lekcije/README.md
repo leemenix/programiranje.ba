@@ -506,7 +506,7 @@ sabiranje dva broja, pridruzivanje vrijednosti promjenjivoj koristicemo
 komandni prompt (command prompt) ili cmd (na Windows operativnom sistemu) ili
 terminal (na Linux, FreeBSD ili MacOS operativnim sistemima)
 
-![PyCharm instalacija korak prvi](../../slike/python-izvorni-kod.png)
+![PyCharm instalacija korak prvi](../../slike/python-kod.png)
 
 2. U slucaju da nas program zahtijeva vise linija koda, kreiranje odredjenje 
 logicke strukture, izvrsavanje uslova i petlji, kreiranje funkcija ili klasa 
@@ -514,7 +514,7 @@ potrebno je prvo sav kod zapisati kao datoteku, sto u programiranju zovemo
 **Izvorni kod** i odatle ga izvrsiti pomocu python komande ili direktno iz 
 IDE-a.
 
-![PyCharm instalacija korak prvi](../../slike/python-kod.png)
+![PyCharm instalacija korak prvi](../../slike/python-izvorni-kod.png)
 
 Programiranje u najjednostavnijoj svojoj reprezentaciji predstavlja davanje 
 instrukcija kompjuteru (kroz programski jezik) i na osnovu ovih instrukcija 
@@ -626,10 +626,14 @@ godine  |       =         |     23
 ```
 
 #### Gradjenje varijable
-- naziv varijable ne smije poceti sa brojem
-- naziv varijable moze poceti, malim, velikim slovima ili donjom crticom (_)
-nakon cega moze ici broj
-- mala i velika slova se razlikuju (a != A)
+
+Prilikom kreiranja varijable ili promjenjive postoji par pravila kojih se 
+trebamo pridrzavati: 
+
+1. Naziv varijable ne smije poceti sa brojem
+2. Naziv varijable moze poceti, malim, velikim slovima ili donjom crticom (_)
+   nakon cega moze ici broj
+3. Nala i velika slova se razlikuju (a != A)
 
 
 **`Izvorni kod: kod-155_naziv-varijabli.py`**
