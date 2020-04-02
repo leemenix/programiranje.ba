@@ -275,10 +275,51 @@ Cestitamo uspjesno ste podesili vase radno okruzenje, igra moze da pocne ;)
 
 ![PyCharm instalacija korak prvi](../slike/pycharm_podesavanje_15.png)
 
-tbd.{
-  - promjena teme, odredisnog direktorija, velicine fonta i sl.
-  - New -> Python File ...
+#### Instalacija Mac OS
 
+Otvorite vas terminal i jednostavno uz pomoc Homebrew-a: 
+
+```text
+brew install python3
+```
+
+
+**Napomena**: U vrijeme pisanja prirucnika, instruktor nije imao pristup
+kompjuteru sa Mac OS sistemom, tako da sva detaljnija podrska za Mac OS 
+korisnike ce izostati do daljnjeg.
+
+#### Instalacija GNU/Linux
+
+Za instalaciju Python-a na GNU/Linux, korisnici mogu koristiti ugradjenje 
+paket menadzere, u zavisnosti od distribucije koje koriste.
+
+Za **Debian** familiju instalaciju mozete izvrsiti **apt** paket menadzerom:
+
+```text
+sudo apt update && sudo apt install python3
+```
+
+Za **RedHat** familiju, instalaciju mozete izvrsiti pomocu **yum**/**dnf** 
+paket menadzera:
+
+```text
+yum update -y && yum install -y python3 
+```
+ili
+
+```text
+dnf update -y && dnf install -y python3 
+```
+
+Naravno, za one malo iskusnije tu je mogucnost instalacije pomocu 
+ kompajliranja iz izvornog koda:
+
+```text
+./configure
+make && make install
+```
+
+tbd.{
   - Sublime installation, notpad ++
   - mi cemo koristiti PyCharm - IDE (Integrated Development Environment) 
 
