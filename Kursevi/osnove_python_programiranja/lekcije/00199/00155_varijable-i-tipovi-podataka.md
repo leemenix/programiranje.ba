@@ -48,7 +48,7 @@ trebamo pridrzavati:
 1. Naziv varijable ne smije poceti sa brojem
 2. Naziv varijable moze poceti, malim, velikim slovima ili donjom crticom (_)
    nakon cega moze ici broj
-3. Nala i velika slova se razlikuju (a != A)
+3. Mala i velika slova se razlikuju (a != A)
 
 
 **`Izvorni kod: kod-155_naziv-varijabli.py`**
