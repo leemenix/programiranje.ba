@@ -731,7 +731,7 @@ trebamo pridrzavati:
 1. Naziv varijable ne smije poceti sa brojem
 2. Naziv varijable moze poceti, malim, velikim slovima ili donjom crticom (_)
    nakon cega moze ici broj
-3. Nala i velika slova se razlikuju (a != A)
+3. Mala i velika slova se razlikuju (a != A)
 
 
 **`Izvorni kod: kod-155_naziv-varijabli.py`**
@@ -1115,7 +1115,7 @@ Omiljena pjesma od 'Miladina Sobica' - "Od druga, do druga"!
 
 <div style="page-break-after: always;"></div>
 
-##### Liste - []
+## Liste - []
 
 Liste predstavljaju niz objekata, gdje svaki clan liste ima svoj indeks. Ovi 
 clanovi se nazivaju elementima lista. Slicne su stringovima, s tim da svaki 
@@ -1156,7 +1156,7 @@ print(karakteri[4])
 print(karakteri)
 ```
 
-##### funkcije nad listama
+### Funkcije nad listama
 **`Izvorni kod: kod-211_rad-sa_listama.py`**
 ```python
 karakteri = ["Goku", "Krilin", "Bulma", "Chi-Chi", "Yamcha", "Picolo"]
