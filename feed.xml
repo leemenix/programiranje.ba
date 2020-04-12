@@ -1,0 +1,388 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2020-04-12T04:19:50-05:00</updated><id>/feed.xml</id><subtitle></subtitle><entry><title type="html">Koje programske jezike uciti u 2020? Ultimativni vodic!</title><link href="/blog/koje-programske-jezike-uciti-u-2020-ultimativni-vodic/" rel="alternate" type="text/html" title="Koje programske jezike uciti u 2020? Ultimativni vodic!" /><published>2020-04-06T05:15:23-05:00</published><updated>2020-04-06T05:15:23-05:00</updated><id>/blog/koje-programske-jezike-uciti-u-2020-ultimativni-vodic</id><content type="html" xml:base="/blog/koje-programske-jezike-uciti-u-2020-ultimativni-vodic/">&lt;p&gt;“Programiranje ili kompjutersko programiranje (engl. programming) jeste vjestina pomocu koje korisnik stvara i izvrsava algoritme koristeci odredjene programske jezike da bi napravio kompjuterski program. Programiranje sadrzi elemente umjetnosti, nauke, matematike i inzinjerstva.” - Wikipedia.&lt;/p&gt;
+
+&lt;p&gt;Mozemo reci da je &lt;strong&gt;programiranje u svojoj osnovi pisanje veoma specificnih instrukcija&lt;/strong&gt;, koje proslijedjujemo veoma glupoj, ali za sad jos poslusnoj masini, koja izvrsava specificne zadatke na osnovu zadanih instrukcija.&lt;/p&gt;
+
+&lt;h2 id=&quot;da-li-je-tesko-nauciti-programirati&quot;&gt;Da li je tesko nauciti programirati?&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;Pitanje od milion dolara :).&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Tesko je onoliko, koliko nemate slobodnog vremena i niste posveceni i fokusirani na ucenje.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Da se razumijemo, ako zelite programiranjem obezbijediti bolje zivotne uslove, kupiti kucu, automobil, rijesiti se starog posla i 
+obezbijediti rad od bilo gdje dok ispijate pivo i igrate igrice u pauzi, moguce je, ali u tom slucaju morate posvetiti dosta 
+vremena upravo ucenju programiranja, pri cemu je neophodno da vas fokus bude 100 % orijentisan ka konstantnom usavrsavanju.&lt;/p&gt;
+
+&lt;p&gt;Ako ipak sa druge strane zelite programirati samo amaterski, “da vidite kako to radi”, ulaganje vaseg vremena ce biti dosta manje, ali imajte na umu da vam se prilikom ovog pristupa programiranje uvijek moze svidjeti i da se u svakom momentu mozete prebaciti na napredniji nivo.&lt;/p&gt;
+
+&lt;h2 id=&quot;mogu-li-nauciti-programiranje-ako-ne-znam-engleski-jezik&quot;&gt;Mogu li nauciti programiranje, ako ne znam engleski jezik?&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;Da, ali pocnite uciti sto prije!&lt;/strong&gt; Zapravo, samim ucenjem programiranja, pocinjete uciti i engleski, naravno dodatni casovi 
+engleskog su vise nego pozeljnji.&lt;/p&gt;
+
+&lt;h2 id=&quot;koji-programski-jezik-prvo-trebam-uciti&quot;&gt;Koji programski jezik prvo trebam uciti?&lt;/h2&gt;
+
+&lt;p&gt;Mozda bi se ovo pitanje trebalo preformulisati u 
+&lt;strong&gt;“Sta konkretno zelim postici ucenjem programiranja i koji su moji glavni ciljevi?”&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Kada odgovorite na ovo pitanje mozete provjeriti prilozenu semu, na kraju artikla, koja bi trebalo da vas vodi kroz algoritam
+odluke do konacnog programskog jezika koji je po vasoj mjeri.&lt;/p&gt;
+
+&lt;p&gt;Preporuka je da se prvo prijedje &lt;strong&gt;teorija algoritma&lt;/strong&gt;, kako bi smo istrenirali mozak da se prilagodi i priblizi nacinu 
+razmisljanja kompjutera. Tek nakon ovog koraka mozemo poceti razmisljati o izboru programskog jezika.&lt;/p&gt;
+
+&lt;p&gt;Bazirano na licnom iskustvu ali i primjerima drugih kolega, nakon osnova algoritma, preporucio bih &lt;strong&gt;“C” programski jezik&lt;/strong&gt; kao
+alfu i omegu za potpuno razumijevanje koncepta programiranja. Pored osnova programiranja i znanja koje cemo steci upoznavanjem 
+sa C programskim jezikom, razvice se mogucnost lakog ucenja bilo kog drugog programskog jezika. Vremenom cete prepoznati paterne
+u drugim programskim jezicima, poput PHP-a, Python-a, Jave … 
+Sve ovo stavlja “C” programski jezik kao osnovu za ucenje programiranja.&lt;/p&gt;
+
+&lt;p&gt;Naravno, kao i uvijek, izbor je na vama, ukoliko ipak niste zadovoljni odgovorom, mozete poceti i sa Python-om. Zbog svoje 
+ekstremne jednostavnosti, sirokog spektra koji obuhvata prilikom prakticne upotrebe, kao i odlicne podrske zajednice, postao je
+defakto programski jezik na mnogim svjetski priznatim univerzitetima i obraznovnim institucijama.&lt;/p&gt;
+
+&lt;p&gt;Koliko dugo je potrebno da se neki programski jezik savlada kako bi se mogao koristiti, cak i za absolutne pocetnike, a da 
+moze obezbijediti posao? Kreiranje projekta sa stecenim znanjem
+Potraga trzita i predvidjanje za buducnost
+Koja je stvarna produktivnost programskog jezika&lt;/p&gt;
+
+&lt;p&gt;Napomena: &lt;strong&gt;Prosjecna godisnja zarada:&lt;/strong&gt; je vrijednost izrazena u americkim dolarima, za americko trziste, obzirom da se kod
+nas visina plate krije kao zmije noge, za sta imam potpuno razumijevanje.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/posts/programski_jezici/python.png&quot; alt=&quot;Programski jezik Python &quot; class=&quot;img-fluid&quot; /&gt; - &lt;strong&gt;Programski jezik Python&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Kratak opis:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Najlaksi program za pocetnike. Lak za ucenje. Koristi se u nauci, tehnici, umjetnoj inteligenciji (AI).&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Poznati framework-ci&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Django, Flask, Pyramid&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Prosjecna godisnja zarada:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;$120.000&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Koristen kao alat za izradu&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Youtube, Instagram, Spotify&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Besplatan kurs:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;U pripremi&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Besplatan PDF prirucnik uz kurs:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;U pripremi&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/posts/programski_jezici/javascript.png&quot; alt=&quot;Programski jezik JavaScript &quot; class=&quot;img-fluid&quot; /&gt; &lt;strong&gt;Programski jezik JavaScript&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Kratak opis:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;“JavaScript nije isto sto i Java” 
+Trenutno najpopularniji client-side skriptni jezik. Jedan od programskih jezika koji se toplo preporucuje, ako razvijate web client-side aplikaciju, obzirom na veliku popularnost koju je stekao zahvaljujuci Node.js-u&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Poznati framework-ci&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Node.js, React JS, AngularJS, Vue.js, METEOR&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Prosjecna godisnja zarada:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;$112.000&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Koristen kao alat za izradu&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Paypal, front-end vecini popularnih web stranica&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Besplatan kurs:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;U pripremi&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Besplatan PDF prirucnik uz kurs:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;U pripremi&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/posts/programski_jezici/java.png&quot; alt=&quot;Programski jezik Java &quot; class=&quot;img-fluid&quot; /&gt; - &lt;strong&gt;Programski jezik Java&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Kratak opis:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Veoma popularan na svim platfomama, zbog svoje portabilnosti. 
+Jedan od najtrazenijih programskih jezika i veoma dobro placen. 
+Primaran u razvoju Android aplikacija, za cije mjesto se bori Kotlin, ali ako kada naucite Javu, naucili ste i Kotlin.
+Slogan: napisi jednom, radice  na bilo cemu.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Poznati framework-ci&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Spring, Struts, Hibernate&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Prosjecna godisnja zarada:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;$115.000&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Koristen kao alat za izradu&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Gmail, Minecraft, vecina Android aplikacija, Enterprise aplikacije&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Besplatan kurs:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;U pripremi&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Besplatan PDF prirucnik uz kurs:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;U pripremi&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/posts/programski_jezici/c.png&quot; alt=&quot;Programski jezik C &quot; class=&quot;img-fluid&quot; /&gt; - &lt;strong&gt;Programski jezik C&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Kratak opis:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Najstariji i najzastupljeniji programski jezik na svijetu. 
+Popularan za sistemsko i hardware-sko programiranje.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Poznati framework-ci&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Revel, Beego&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Prosjecna godisnja zarada:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;$115.000&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Koristen kao alat za izradu&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Operativni sistemi i hardware.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Besplatan kurs:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;U pripremi&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Besplatan PDF prirucnik uz kurs:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;U pripremi&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/posts/programski_jezici/c-plus-plus.png&quot; alt=&quot;Programski jezik C++ &quot; class=&quot;img-fluid&quot; /&gt; - &lt;strong&gt;Programski jezik C++&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Kratak opis:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Kompleksnija verzija C programskog jezika, sa mnogo vise opcija. 
+U sirokoj upotrebi prilikom  developmenta igrica i u razvoju performance-critical aplikacija.&lt;br /&gt;
+Ucenje C++ programskog jezika se  moze usporediti sa nacinom kako proizvesti, sastaviti i voziti automobil.
+Ucenje se preporucuje samo uz nadzor starijih C++ programera :)&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Poznati framework-ci&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Revel, Beego&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Prosjecna godisnja zarada:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;$120.000&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Koristen kao alat za izradu&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Operativni sistemi, hardware i internet pretrazivaci. Adobe i Oracle&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Besplatan kurs:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;U pripremi&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Besplatan PDF prirucnik uz kurs:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;U pripremi&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/posts/programski_jezici/GoLang.png&quot; alt=&quot;Programski jezik GoLang &quot; class=&quot;img-fluid&quot; /&gt; - &lt;strong&gt;Programski jezik GoLang&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Kratak opis:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Google nam donosi programski jezik, GoLang, ciji primar je izvrsavanje vise taskova paralelno u isto vrijeme, sto se naziva
+konkurentnost. Nativno postizanje konkurentnosti, razlikuje GoLang, od ostalih programskih jezika. Primjenu je nasao u 
+masinskom ucenju ali i web development-u&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Koristen kao alat za izradu&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Vecina Android aplikacija, Enterprise aplikacije&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Poznati framework-ci&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Revel, Beego&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Prosjecna godisnja zarada:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;$170.000&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Besplatan kurs:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;U pripremi&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Besplatan PDF prirucnik uz kurs:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/posts/programski_jezici/kotlin.png&quot; alt=&quot;Programski jezik Kotlin &quot; class=&quot;img-fluid&quot; /&gt; - &lt;strong&gt;Programski jezik Kotlin&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Kratak opis:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Ogromna popularnost za samo godinu dana, namece Kotlin kao broj jedan kada je u pitanju razvoj Android aplikacija. Programski
+jezik opste namjene, cross-platform, kompatibilan sa Javom i potpuno integrisan sa Android Studio-m sto ga cini broj jedan
+izborom Android developera. 
+Slogan: napisi jednom, radice  na bilo cemu.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Poznati framework-ci&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Ktor, vertx, spring&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Koristen kao alat za izradu&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Vecina Android aplikacija, Enterprise aplikacije&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Prosjecna godisnja zarada:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;$120.000&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Besplatan kurs:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;U pripremi&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Besplatan PDF prirucnik uz kurs:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/posts/programski_jezici/c-sharp.png&quot; alt=&quot;Programski jezik C# &quot; class=&quot;img-fluid&quot; /&gt; - &lt;strong&gt;Programski jezik C Sharp&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Opis:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Ukoliko zelite kreirati webstranice i Windows aplikacije a pritom ste .Net orijentisani. U slucaju da ste  Windows orijentisani ovo bi mogao biti jezik preporuke umjesto Jave, u nekim dijelovima sintakse je dosta slican Javi kao i nekim specificnim mogucnostima.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Poznati framework-ci&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;.NET, Xamarin&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Koristen kao alat za izradu&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Enterprise i Windows aplikacija.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Prosjecna godisnja zarada:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;$78.000&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Besplatan kurs:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;U pripremi&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Besplatan PDF prirucnik uz kurs:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;U pripremi&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/posts/programski_jezici/swift.png&quot; alt=&quot;Programski jezik Swift &quot; class=&quot;img-fluid&quot; /&gt; - &lt;strong&gt;Programski jezik Swift&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Opis:&lt;/strong&gt; 
+|
+Primarni jezik koristen za razvoj Apple aplikacija za Mac OS X i iOS. Objektno-orijentisan programski jezik, citljiv, brz sa
+podrskom za dinamicke biblioteke. 
+Ako se odlucite iskljucivo razvijati Apple bazirane aplikacije, preporucuje se ucenje Swift-a pored Objective-C-ja.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Poznati framework-ci&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;COCOA i CLOUDKIT&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Prosjecna godisnja zarada:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;$125.000&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Koristen kao alat za izradu&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Najvise zastupljen u izradi iOS aplikacija, kao i Mac OS X aplikacija&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Besplatan kurs:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;U pripremi&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Besplatan PDF prirucnik uz kurs:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/posts/programski_jezici/php.png&quot; alt=&quot;Programski jezik PHP &quot; class=&quot;img-fluid&quot; /&gt; - &lt;strong&gt;Programski jezik PHP&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Kratak opis:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;:) Pogodan za izradu manjih i jednostavnih web stranica za kratko vrijeme. Podrzan na skoro svakom web hostingu po maloj cijeni. 
+Cinjenica je da 80% od top deset social-media web stranica svoje postojanje duguje upravo PHP-u.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Poznati framework-ci&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;CakePHP, Laravel, Symfony, phalcon&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Koristen kao alat za izradu&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Wordpress, Wikipedia, Flickr, Joomla, Facebook&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Prosjecna godisnja zarada:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;$102.000&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Besplatan kurs:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;U pripremi&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Besplatan PDF prirucnik uz kurs:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;U pripremi&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/posts/programski_jezici/r.png&quot; alt=&quot;Programski jezik R &quot; class=&quot;img-fluid&quot; /&gt; - &lt;strong&gt;Programski jezik R&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Kratak opis:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Kada je u pitanju statisticka analiza i nauka o podacima, na prvom mjestu je programski jezik R. Pored navedene primjene, moze
+se koristiti za izradu interaktivnih web aplikacija, sa podrskom vise od 10.000 biblioteka. Posjeduje odlican IDE koji sluzi za 
+vizuelizaciju i development, R Studio .&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Koristen kao alat za izradu&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Vecina Android aplikacija, Enterprise aplikacije&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Prosjecna godisnja zarada:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;$121.000&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Besplatan kurs:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;U pripremi&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Besplatan PDF prirucnik uz kurs:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/posts/programski_jezici/ruby.png&quot; alt=&quot;Programski jezik Ruby &quot; class=&quot;img-fluid&quot; /&gt; - &lt;strong&gt;Programski jezik Ruby&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Kratak opis:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Poznat po popularnom web framework-u “Ruby on Rails”.
+Fokusiran na odradjivanje projekta.
+Dizajniran za zabavu i produktivno programiranje.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Koristen kao alat za izradu&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Hulu, Groupon, Slideshare&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Besplatan kurs:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Besplatan PDF prirucnik uz kurs:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;U pripremi&lt;/p&gt;
+
+&lt;p&gt;1) Python
+2) Java
+3) JavaScript
+4) C and C++
+5) Golang
+6) R
+7) Kotlin
+8) C#
+9) Swift
+10) PHP&lt;/p&gt;
+
+&lt;h2 id=&quot;postoji-li-pravilo-kojim-mogu-odrediti-koji-programski-jezik-je-za-mene&quot;&gt;Postoji li pravilo, kojim mogu odrediti koji programski jezik je za mene?&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;Ne bas, posto se o ukusima ne raspravlja :)&lt;/strong&gt;, ali prilozena sema moze biti od velike koristi prilikom donosenja odluke i 
+nadam se da ce vam biti od koristi.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/posts/programski_jezici_sema_ucenja.png&quot; alt=&quot;Programski jezici sema ucenja &quot; class=&quot;img-fluid&quot; /&gt;&lt;/p&gt;</content><author><name>leemenix</name></author><category term="novosti" /><summary type="html">“Programiranje ili kompjutersko programiranje (engl. programming) jeste vjestina pomocu koje korisnik stvara i izvrsava algoritme koristeci odredjene programske jezike da bi napravio kompjuterski program. Programiranje sadrzi elemente umjetnosti, nauke, matematike i inzinjerstva.” - Wikipedia.</summary></entry><entry><title type="html">Besplatni online kursevi programiranja</title><link href="/blog/besplatni-online-kursevi-programiranja/" rel="alternate" type="text/html" title="Besplatni online kursevi programiranja" /><published>2020-04-02T04:05:23-05:00</published><updated>2020-04-02T04:05:23-05:00</updated><id>/blog/besplatni-online-kursevi-programiranja</id><content type="html" xml:base="/blog/besplatni-online-kursevi-programiranja/">&lt;p&gt;Cilj programiranje.ba stranice je da omoguci potpuno besplatno znanje, kroz visoko kvalitetne kurseve koji drze paznju. Istina je 
+da danas mozete pronaci bilo sta o bilo cemu na internetu. Ako znate engleski jezik, nista Vas ne sprecava da potrazite kurseve 
+poznatih svjetski priznatih fakulteta online.&lt;/p&gt;
+
+&lt;p&gt;Cinjenica je i da su kursevi koji imaju zaista kvalitetan sadrzaj, u vecini slucajeva veoma skupi za nase uslove ali se zna 
+desiti da ima i onih koji su skupi sa losim sadrzajem.&lt;/p&gt;
+
+&lt;p&gt;Online platforma za ucenje programiranje.ba, sa druge strane, nudi kvalitetan sadrzaj bez skrivenih troskova i ima za cilj da 
+tako ostane sve dok postoje uslovi za to.&lt;/p&gt;
+
+&lt;p&gt;Svaka informacija koja dolazi od programiranje.ba je potpuno besplatna, ne postoji “premium” sadrzaj, nema dosadnih reklama, niti 
+skrivenih marketinskih trikova. Ono sto vidite to i dobijate.&lt;/p&gt;</content><author><name>leemenix</name></author><category term="novosti" /><summary type="html">Cilj programiranje.ba stranice je da omoguci potpuno besplatno znanje, kroz visoko kvalitetne kurseve koji drze paznju. Istina je da danas mozete pronaci bilo sta o bilo cemu na internetu. Ako znate engleski jezik, nista Vas ne sprecava da potrazite kurseve poznatih svjetski priznatih fakulteta online.</summary></entry></feed>
