@@ -1,4 +1,797 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="https://programiranje.ba/feed.xml" rel="self" type="application/atom+xml" /><link href="https://programiranje.ba/" rel="alternate" type="text/html" /><updated>2020-04-12T05:26:16-05:00</updated><id>https://programiranje.ba/feed.xml</id><title type="html">programiranje.ba</title><subtitle>programiranje.ba vam nudi potpuno besplatno znanje, kroz visoko kvalitetne online kurseve programiranja koji drze paznju.</subtitle><entry><title type="html">Koje programske jezike uciti u 2020? Ultimativni vodic!</title><link href="https://programiranje.ba/blog/koje-programske-jezike-uciti-u-2020-ultimativni-vodic/" rel="alternate" type="text/html" title="Koje programske jezike uciti u 2020? Ultimativni vodic!" /><published>2020-04-06T05:15:23-05:00</published><updated>2020-04-06T05:15:23-05:00</updated><id>https://programiranje.ba/blog/koje-programske-jezike-uciti-u-2020-ultimativni-vodic</id><content type="html" xml:base="https://programiranje.ba/blog/koje-programske-jezike-uciti-u-2020-ultimativni-vodic/">&lt;p&gt;“Programiranje ili kompjutersko programiranje (engl. programming) jeste vjestina pomocu koje korisnik stvara i izvrsava algoritme koristeci odredjene programske jezike da bi napravio kompjuterski program. Programiranje sadrzi elemente umjetnosti, nauke, matematike i inzinjerstva.” - Wikipedia.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="https://programiranje.ba/feed.xml" rel="self" type="application/atom+xml" /><link href="https://programiranje.ba/" rel="alternate" type="text/html" /><updated>2020-04-13T03:53:39-05:00</updated><id>https://programiranje.ba/feed.xml</id><title type="html">programiranje.ba</title><subtitle>programiranje.ba vam nudi potpuno besplatno znanje, kroz visoko kvalitetne online kurseve programiranja koji drze paznju.</subtitle><entry><title type="html">Koje programske jezike uciti u 2020? Ultimativni vodic!</title><link href="https://programiranje.ba/blog/koje-programske-jezike-uciti-u-2020-ultimativni-vodic/" rel="alternate" type="text/html" title="Koje programske jezike uciti u 2020? Ultimativni vodic!" /><published>2020-04-06T05:15:23-05:00</published><updated>2020-04-06T05:15:23-05:00</updated><id>https://programiranje.ba/blog/koje-programske-jezike-uciti-u-2020-ultimativni-vodic</id><content type="html" xml:base="https://programiranje.ba/blog/koje-programske-jezike-uciti-u-2020-ultimativni-vodic/">&lt;hr /&gt;
+
+&lt;p&gt;Obzirom na ogromnu potraznju za kvalitetnim programerskim kadrom, ciji trend samo nastavlja da raste i ne planira da se zaustavi, dok se paralelno alati potrebni za programiranje, prvenstveno programski jezici rapidno razvijaju, uslovljava i najiskusnije programere da ponekad posegnu za ucenjem novih tool-ova, framework-a ali i programskih jezika od pocetka “from scratch”. Naravno, u svemu ovome lezi car i ljepota programiranja ali i IT struke generalno, mada moramo priznati da ponekad zna biti zaista frustrirajuce, osim ako niste iz familije hacker-a, kojima je ovo prirodno stanje svijesti.&lt;/p&gt;
+
+&lt;p&gt;Sta je sa obicnim smrtnicima, onim manje iskusnijim u domenu programiranja ili totalnim pocetnicima, odakle poceti? Kako znati koji programski jezik izabrati a pri tom biti siguran da ce isti biti od koristi i nece “zastariti” za par mjeseci ili godinu, dvije?&lt;/p&gt;
+
+&lt;p&gt;Odgovor na ta pitanja, ali i mnoga druga, nalazi se upravo u ovom clanku, potkrijepljen detaljnjom analizom trzista i trenutnih trendova. Takodje, na kraju clanka cete pronaci semu, dijagram toka, koji ce pokusati na osnovu vasih odgovora da vam predlozi koji programski jezik bi ste trebali uciti. Nadam se da ce vam biti interesantno i zamolio bih da sve sugestije, kako pozitivne tako i negativne ostavite u komentaru na kraju clanka, radi razmjene informacija i poboljsanja usluge.&lt;/p&gt;
+
+&lt;p&gt;Ako pocinjete vasu programersku karijeru u 2020 godini, provjeren i siguran put do uspjesnog senior developer-a je ucenje programskog jezika koji se vec odomacio, koji je vec dug niz godina u upotrebi, a samim tim ima veliku podrsku zajednice.&lt;/p&gt;
+
+&lt;p&gt;Parametri kojima cu se voditi prilikom analize su:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Programski jezik sa bogatom istorijom i dugogodisnjom upotrebom&lt;/li&gt;
+  &lt;li&gt;Rangiranje u odnosu na ostale programske jezike&lt;/li&gt;
+  &lt;li&gt;Popularnost i stabilnost&lt;/li&gt;
+  &lt;li&gt;Podrska zajednice, set alata, biblioteka i popularni framework-a&lt;/li&gt;
+  &lt;li&gt;Osiguravaju dobru zaradu i konkurentni su na trzistu rada (omogucuju sigurno zaposljavanje)&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;programski-jezik-python&quot;&gt;Programski jezik Python&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/posts/programski_jezici/python-programski-jezik.png&quot; alt=&quot;Programski jezik Python &quot; class=&quot;img-fluid-in-post&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Nesumnjivo, najpopularniji programski jezik danasnjice. Razvijen devedesetih, dostigao je ogromnu popularnost za kratko vrijeme. Ne postoji sfera unutar obrade podataka a da Python nije zavirio.&lt;/p&gt;
+
+&lt;p&gt;Valjda zbog svoje jednostavnosti i cilja da olaksa programiranje, nasao je svoju primjenu kako u ozbiljnim programerskim krugovima, kompanijama, tako i u obrazovnim ustanovama kao jedan od primarnih jezika za ucenje programiranja ali i igracka za najmladje.&lt;/p&gt;
+
+&lt;p&gt;Godine 2008, uvodjenjem verzije Python 3, od strane svog kreatora (Guido van Rossum) dozivio je ogroman “remont” i nadogradnju, cime je poboljsana i danas opste prihvacena verzija u upotrebi.&lt;/p&gt;
+
+&lt;h3 align=&quot;center&quot;&gt;Kljucne karakteristike&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Produktivnost, elegantnost prilikom pisanja koda, jednostavnost, pri cemu zadrzava svu svoju moc. Veliki uticaj na moderne jezike, ali i iskustva programera sirom svijeta, kao i nacine i logiku programiranja.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Integracija sa programskim jezicima C/C++ i mogucnost upravljanja zahtjevnim zadacima, pri cemu ih proslijedjuje upravo C/C++ jezicima. Ogromna baza alata i biblioteka za matematicke proracune, statistiku i kompjutersku nauku. Neke od poznatih biblioteka kao sto su NumPy, Pandas, SciPy, Scikit-Learn. Kao proizvod navedenih osobina, Python je domininantan u domenu Machine Learning-a, Deep Learning-a i Data Science-a kao i mnogih drugih naucnih domena.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Veoma aktivna zajednica i podrska. Nije bitno da li je vas projekat baziran na Enterprise aplikacijama, nauci o podacima ili umjetnoj inteligenciji Python ce vam pruziti podrsku svojim prosirivim bibliotekama i skratiti vam muke od izmisljanja tople vode. Kako to biva sa dobrim programskim jezicima, Python se odlikuje odlicnom dokumentacijom.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;popularnost&quot;&gt;Popularnost&lt;/h3&gt;
+
+&lt;p&gt;Prema PYPL-u (PopularitY of Programming Language), Python se nalazi na prvom mjestu.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/posts/programski_jezici/python/pypl-python.png&quot; alt=&quot;Programski jezik Python statistika PYPL 2020 &quot; class=&quot;img-fluid-in-post&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Prema Octoverse-u (The State of the Octoverse), Python zauzima drugo mjesto.
+&lt;img src=&quot;/assets/img/posts/programski_jezici/python/octoverse-python.png&quot; alt=&quot;Programski jezik Python statistika Octoverse 2020 &quot; class=&quot;img-fluid-in-post&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Prema StackOverflow-u (StackOverflow Developer Survey), Python zauzima cetvrto mjesto.
+&lt;img src=&quot;/assets/img/posts/programski_jezici/python/stackoverflow-python.png&quot; alt=&quot;Programski jezik Python statistika StackOverflow 2020 &quot; class=&quot;img-fluid-in-post&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Prema Tiobe-u (The software quality company), Python je na trecoj poziciji.
+&lt;img src=&quot;/assets/img/posts/programski_jezici/python/tiobe-python.png&quot; alt=&quot;Programski jezik Python statistika Tiobe 2020 &quot; class=&quot;img-fluid-in-post&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Prema Google trends-u, mozemo vidjeti vidjeti trend rasta zainteresovanosti za Python u proteklih pet godina.
+Prema Tiobe-u (The software quality company), Python je na trecoj poziciji.
+&lt;img src=&quot;/assets/img/posts/programski_jezici/python/google-python.png&quot; alt=&quot;Programski jezik Python statistika Google trends 2020 &quot; class=&quot;img-fluid-in-post&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;trziste-rada&quot;&gt;Trziste rada&lt;/h3&gt;
+
+&lt;p&gt;Sudeci prema Indeed-u, Python je najtrazeniji programski jezik sa prosjekom od &lt;strong&gt;74 000&lt;/strong&gt; radnih pozicija u Januaru 2020. godine, dok je prosjecna plata na godisnjem nivou preko &lt;strong&gt;$118 000&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/posts/programski_jezici/python/indeed-python.png&quot; alt=&quot;Programski jezik Python statistika Indeed 2020 &quot; class=&quot;img-fluid-in-post&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Ono sto je jos interesantno, sudeci prema StackOverflow-u, jeste pokazatelj da Python developer-i zaradjuju velike plate, obzirom na manjak radnog iskustva u poredjenju sa drugim programskim jezicima.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/posts/programski_jezici/python/st-salary-all.png&quot; alt=&quot;Programski jezik Python statistika plata StackOverflow 2020 &quot; class=&quot;img-fluid-in-post&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;zastupljenost-i-najcesca-upotreba&quot;&gt;Zastupljenost i najcesca upotreba&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Data Science&lt;/li&gt;
+  &lt;li&gt;Analitika&lt;/li&gt;
+  &lt;li&gt;Umjetna inteligencija, Deep Learning&lt;/li&gt;
+  &lt;li&gt;Enterprise aplikacije&lt;/li&gt;
+  &lt;li&gt;Web razvoj&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;programski-jezik-javascript&quot;&gt;Programski jezik JavaScript&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/posts/programski_jezici/javascript-programski-jezik.png&quot; alt=&quot;Programski jezik JavaScript &quot; class=&quot;img-fluid-in-post&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;“JavaScript nije isto sto i Java”. Trenutno najpopularniji client-side skriptni jezik. Jedan od programskih jezika koji se toplo preporucuje, ako razvijate web client-side aplikaciju, obzirom na veliku popularnost koju je stekao zahvaljujuci Node.js-u.&lt;/p&gt;
+
+&lt;p&gt;U poslednjih par godina, JavaScript je evoluirao u jedan zaista fascinantan programski jezik visokog nivoa. Posebnu popularnost, pored Node.js-a stekao je 2010 godine, nakon sto je Google objavio Web razvojni framework AngularJS.&lt;/p&gt;
+
+&lt;p&gt;JavaScript mozete pronaci bilo gdje, poput vasih internet pretrazivaca, servera, mobilnih uredjaja, mikro-kontrolera.&lt;/p&gt;
+
+&lt;h3 id=&quot;kljucne-karakteristike&quot;&gt;Kljucne karakteristike&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Zauzima prvo mjesto kada se radi o frontend web razvoju, kao i internet pretrazivacima. Najdominantniji framework-ci za razvoj, bazirani na JavaScritp-u su React, Vue.js i Angular.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Zahvaljuci Node.js-u, JavaScript je izuzeteno pogodan za obradu podataka prilikom zahtjevnih ulazno/izlazni zadataka. Moze se pokrenuti na skoro svakoj platformi ukljucujuci server i mobilne uredjaje.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Konstantno se radi na unaprijedjivanju jezika, ali najvece promjene JavaScript je dozivjela 2015 i 2016 godine. Zahvaljujuci ovim promjenama, trenutna JavaScript se mnogo razlikuje od svojih predaka, mozemo reci da je u potpunosti drugi programski jezik.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;popularnost-1&quot;&gt;Popularnost&lt;/h3&gt;
+
+&lt;p&gt;Prema Octoverse-u, JavaScript zauzima prvo mjesto, kao najbolje rangiran programski jezik.
+&lt;img src=&quot;/assets/img/posts/programski_jezici/python/octoverse-javascript.png&quot; alt=&quot;Programski jezik JavaScript statistika Octoverse 2020 &quot; class=&quot;img-fluid-in-post&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Prema StackOverflow-u, JavaScript takodje zauzima prvu poziciju, kao najpopularniji programski jezik.
+&lt;img src=&quot;/assets/img/posts/programski_jezici/python/stackoverflow-javascript.png&quot; alt=&quot;Programski jezik JavaScript statistika StackOverflow 2020 &quot; class=&quot;img-fluid-in-post&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Prema Tiobe-u, JavaScript je na sedmom mjestu.
+&lt;img src=&quot;/assets/img/posts/programski_jezici/python/tiobe-javascript.png&quot; alt=&quot;Programski jezik JavaScript statistika Tiobe 2020 &quot; class=&quot;img-fluid-in-post&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Prema PYPL-u, JavaScript je na trecem mjestu.
+&lt;img src=&quot;/assets/img/posts/programski_jezici/python/pypl-javascript.png&quot; alt=&quot;Programski jezik JavaScript statistika Tiobe 2020 &quot; class=&quot;img-fluid-in-post&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Prema Google trends-u, mozemo vidjeti stabilnost JavaScript-a u proteklih pet godina.
+Prema Tiobe-u (The software quality company), Python je na trecoj poziciji.
+&lt;img src=&quot;/assets/img/posts/programski_jezici/python/google-javascript.png&quot; alt=&quot;Programski jezik Python statistika Google trends 2020 &quot; class=&quot;img-fluid-in-post&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;trziste-rada-1&quot;&gt;Trziste rada&lt;/h3&gt;
+
+&lt;p&gt;Sudeci prema Indeed-u, JavaScript je u top tri programska jezika sa prosjekom od &lt;strong&gt;57 000&lt;/strong&gt; radnih pozicija u Januaru 2020. godine, dok je prosjecna plata na godisnjem nivou preko &lt;strong&gt;$117 000&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/posts/programski_jezici/python/indeed-javascript.png&quot; alt=&quot;Programski jezik JavaScript statistika Indeed 2020 &quot; class=&quot;img-fluid-in-post&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Prema StackOverflow-u, JavaScript developer-i mogu skromno da zarade sa veoma relativnim znanje i godinama radnog iskustva u poredjenju sa drugim programskim jezicima.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/posts/programski_jezici/python/st-salary-all.png&quot; alt=&quot;Programski jezik Python statistika plata StackOverflow 2020 &quot; class=&quot;img-fluid-in-post&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;zastupljenost-i-najcesca-upotreba-1&quot;&gt;Zastupljenost i najcesca upotreba&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Web razvoj&lt;/li&gt;
+  &lt;li&gt;Backend razvoj&lt;/li&gt;
+  &lt;li&gt;Mobilne aplikacija&lt;/li&gt;
+  &lt;li&gt;Serverless&lt;/li&gt;
+  &lt;li&gt;Igrice u pretrazivacu&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;programski-jezik-java&quot;&gt;Programski jezik Java&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/posts/programski_jezici/java-programski-jezik.png&quot; alt=&quot;Programski jezik Java &quot; class=&quot;img-fluid-in-post&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Veoma popularan na svim platfomama, zbog svoje portabilnosti. U ranim devedesetim godinama, kada su poslovne aplikacije bile bazirane na C++, koji je zavistan od platforme i prilicno komplikovan, Java je dosla kao programski jezik koji je uspjesno premostio ovu barijeru razvoje poslovnih aplikacija na jednostavniji, objektno-orijentisan i interpretiran nacin sa podrskom za mutli-treding programiranje.&lt;/p&gt;
+
+&lt;p&gt;Za postizanje portabilnosti i nezavisnosti od platforme, zasluzan je razvoj Java Virtuelne Masine (JVM), koji simulira operativni sistem na virtuelnom nivou i na taj nacin omogucava pokretanje na bilo kojoj platformi. Takodje Java uvodi “prikupljac smeca” garabage collection, cime manipulise zivotnim vijekom objekata.&lt;/p&gt;
+
+&lt;p&gt;Jedan od najtrazenijih programskih jezika i veoma dobro placen. Do skora je drzao primar u razvoju Android aplikacija, cije mjesto polako ali sigurno preuzima Kotlin, ali kada naucite Javu, naucili ste i Kotlin. Takodje nije bas popularan u Cloud sistemima upravo zbog ogromne velicine JVM-a.&lt;/p&gt;
+
+&lt;p&gt;Sa druge strane, mozemo reci da je Java dosta igubio na popularnosti u poslednjih par godina, usljed uspona drugih programskih jezika, prvenstveno Python-a i JavaScript-a. Veliki minus zajednice i smanjenje populalarnosit Java je zaradila nakon sto je Oracle uveo ogromne novcane naknade za licenciranje. Na svu srecu, Java pokusava da prati Cloud trziste kroz GraalVM, ali i kroz razvoj OpenJDK-a, besplatne alternativa Oracle-ovom JDK-ju. Java je i dalje broj jedan programski jezik kada su u pitanju Enterprise aplikacije.&lt;/p&gt;
+
+&lt;h3 id=&quot;kljucne-karakteristike-1&quot;&gt;Kljucne karakteristike&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Java predstavlja mocan, bogat, objektno-orijentisan programski jezik velike produktivnosti.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Java je unazad kompatibilna, sto je od krucijalnog znacaja za poslovne aplikacije. Java nikad nije iznenadila trziste uvodjenjem velikih promjena poput Python-a ili Scala-e, sto je za rezultat dalo velik broj Enterprise aplikacija koje svoje povjerenje vide upravo u Javi.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;JVM predstavlja vrhunac Software-skog inzinjeringa i jednu od najboljih virtuelnih masina svih vremena. Sa preko 25 godina inovacija Java nudi visoke performanse i mnogo mogucnosti kroz JVM.&lt;/p&gt;
+
+&lt;h3 id=&quot;popularnost-2&quot;&gt;Popularnost&lt;/h3&gt;
+
+&lt;p&gt;Kratko nakon razvoja Java je postao trece rangirani programski jezik na svijetu. 
+Prema Octoverse-u, Java i dan danas zauzima trece mjesto, kao jedan od top tri najbolje rangiranih programskih jezika.
+&lt;img src=&quot;/assets/img/posts/programski_jezici/python/octoverse-java.png&quot; alt=&quot;Programski jezik Java statistika Octoverse 2020 &quot; class=&quot;img-fluid-in-post&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Prema Tiobe-u, Java se nalazi na prvom mjestu, kao vodeci programski jezik.
+&lt;img src=&quot;/assets/img/posts/programski_jezici/python/tiobe-java.png&quot; alt=&quot;Programski jezik Java statistika Tiobe 2020 &quot; class=&quot;img-fluid-in-post&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Prema StackOverflow-u, Java takodje zauzima petu poziciju.
+&lt;img src=&quot;/assets/img/posts/programski_jezici/python/stackoverflow-java.png&quot; alt=&quot;Programski jezik Java statistika StackOverflow 2020 &quot; class=&quot;img-fluid-in-post&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Prema Google trends-u, mozemo vidjeti blagi pad popularnosti Java-e u proteklih pet godina.
+&lt;img src=&quot;/assets/img/posts/programski_jezici/python/google-java.png&quot; alt=&quot;Programski jezik Java statistika Google trends 2020 &quot; class=&quot;img-fluid-in-post&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;trziste-rada-2&quot;&gt;Trziste rada&lt;/h3&gt;
+
+&lt;p&gt;Sudeci prema Indeed-u, Java je na drugom mjestu sa prosjekom od &lt;strong&gt;69 000&lt;/strong&gt; radnih pozicija u Januaru 2020. godine, dok je prosjecna plata na godisnjem nivou preko &lt;strong&gt;$104 000&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/posts/programski_jezici/python/indeed-java.png&quot; alt=&quot;Programski jezik Java statistika Indeed 2020 &quot; class=&quot;img-fluid-in-post&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Prema StackOverflow-u, Java nudi odlicnu platu nakon nekoliko godina prakticnog iskustva&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/posts/programski_jezici/python/st-salary-all.png&quot; alt=&quot;Programski jezik Java statistika plata StackOverflow 2020 &quot; class=&quot;img-fluid-in-post&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;zastupljenost-i-najcesca-upotreba-2&quot;&gt;Zastupljenost i najcesca upotreba&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Enterprise Application Development&lt;/li&gt;
+  &lt;li&gt;Razvoj Android aplikacija&lt;/li&gt;
+  &lt;li&gt;Big Data&lt;/li&gt;
+  &lt;li&gt;Web razvoj&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;programski-jezik-c&quot;&gt;Programski jezik C&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/posts/programski_jezici/c-programski-jezik.png&quot; alt=&quot;Programski jezik C &quot; class=&quot;img-fluid-in-post&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Jedan od najstarijih i najzastupljenijih programskih jezika na svijetu. Ranih sezdesetih i sedamdesetih, kada se moralo voditi racuna o svakom bit-u memorije i herzu procesorske jedinice, razvijen je proceduralni, programski jezig opste namjene, koji se moze kompajlirati direktno u masinski jezik racunara. C programski jezik nudi direktan pristup memoriji i potpunu kontrolu na hardware-om kompjutera.&lt;/p&gt;
+
+&lt;p&gt;Tokom godina, C je postao jedan od najzastupljenijih programskih jezika, dok je imao svoj uticaj na razvoj i oblikovanje skoro svih programskih jezika sa ove liste.&lt;/p&gt;
+
+&lt;p&gt;Iako je cesto tema kritike, zbog svoje kompleksnosti, “nesigurnog” programiranja i nedostatka funkcija, kao i zavisnosti od platforme, ako zaista zelite potpunu kontrolu i iskoristenje svih aspekata vaseh hardware-a C/C++ i Rust su vasa jedina opcija.&lt;/p&gt;
+
+&lt;h3 id=&quot;kljucne-karakteristike-2&quot;&gt;Kljucne karakteristike&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Obzirom na mogucnost direktnog pristupa memoriji i direktnom kompajliranju koda u masinski jezik, jedan je od najbrzih i najmocnijih programskih jezika na svijetu.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;C daje potpunu kontrolu nad hardware-om. C moze biti pokrenut na bilo kojoj platformi, prilikom cega otvara sve mogucnosti iste, bilo da su u pitanju graficke kartice, napredni procesori za masinsko ucenje i umjetnu inteligenciju, Cloud tehnologije, mobilini uredjaji, operativni sistemi ili mikrokontroleri.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;C programski jezik se moze nazvati “Programski jezik, programkih jezika”, a prakticnu primjenu mozemo vidjeti na primjeru drugih kompajlera koje koriste programski jezici poput Ruby, PHP, Python napisanih upravo u C-u.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;popularnost-3&quot;&gt;Popularnost&lt;/h3&gt;
+
+&lt;p&gt;Dovoljno je reci da je C skoro 50 godina u ovoj industriji i dalje veoma popularan.&lt;/p&gt;
+
+&lt;p&gt;Prema Octoverse-u, C zauzima deveto mjesto.
+&lt;img src=&quot;/assets/img/posts/programski_jezici/python/octoverse-c.png&quot; alt=&quot;Programski jezik JavaScript statistika Octoverse 2020 &quot; class=&quot;img-fluid-in-post&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;StackOverflow, svrstava C na jedanaestu poziciju.
+&lt;img src=&quot;/assets/img/posts/programski_jezici/python/stackoverflow-c.png&quot; alt=&quot;Programski jezik JavaScript statistika StackOverflow 2020 &quot; class=&quot;img-fluid-in-post&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Prema Tiobe-u, C je na drugom mjestu.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/posts/programski_jezici/python/tiobe-c.png&quot; alt=&quot;Programski jezik JavaScript statistika Tiobe 2020 &quot; class=&quot;img-fluid-in-post&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Prema PYPL-u, C je na sestom mjestu.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/posts/programski_jezici/python/pypl-c-plus.png&quot; alt=&quot;Programski jezik JavaScript statistika Tiobe 2020 &quot; class=&quot;img-fluid-in-post&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Prema Google trends-u, mozemo vidjeti stabilnost i zainteresovanost za C u proteklih pet godina.
+&lt;img src=&quot;/assets/img/posts/programski_jezici/python/google-c.png&quot; alt=&quot;Programski jezik C statistika Google trends 2020 &quot; class=&quot;img-fluid-in-post&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;trziste-rada-3&quot;&gt;Trziste rada&lt;/h3&gt;
+
+&lt;p&gt;Sudeci prema Indeed-u, C je na sestom mjestu sa prosjekom od &lt;strong&gt;28 000&lt;/strong&gt; radnih pozicija u Januaru 2020. godine, dok je prosjecna plata na godisnjem nivou preko &lt;strong&gt;$101 000&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/posts/programski_jezici/python/indeed-c.png&quot; alt=&quot;Programski jezik C statistika Indeed 2020 &quot; class=&quot;img-fluid-in-post&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Prema StackOverflow-u, C developer-i mogu dobro da zarade ali je potrebno vise vremena da bi se postigo nivo znanja u poredjenju sa Javom i Python-om.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/posts/programski_jezici/python/st-salary-all.png&quot; alt=&quot;Programski jezik C statistika plata StackOverflow 2020 &quot; class=&quot;img-fluid-in-post&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;zastupljenost-i-najcesca-upotreba-3&quot;&gt;Zastupljenost i najcesca upotreba&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Sistemsko programiranje&lt;/li&gt;
+  &lt;li&gt;Razvoj igara&lt;/li&gt;
+  &lt;li&gt;IoT i sistemi u realnom vremenu&lt;/li&gt;
+  &lt;li&gt;Masinsko ucenje, “Deep Learning”&lt;/li&gt;
+  &lt;li&gt;Embedded sistemi&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;programski-jezik-c-1&quot;&gt;Programski jezik C++&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/posts/programski_jezici/c-plus-plus-programski-jezik.png&quot; alt=&quot;Programski jezik C++ &quot; class=&quot;img-fluid-in-post&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Kompleksnija verzija C programskog jezika, sa mnogo vise opcija. Veliki uticaj prilikom razvoja je imao upravo od C programskog jezika, u pocetku kao nadogradjenja verzija da bi se nakon odredjenog perioda razvio u programski jezik opste namjene, koji zadrzava sve osobine svog prethodnika.&lt;/p&gt;
+
+&lt;p&gt;Velik broj opcija i mogucnosti C++ cini jednim od najkompleksnijih programskih jezika danasnjice. Zavistan je od platforme, sto mu je smanjilo popularnost u odnosu na Javu prilikom razvoja Enterprise aplikacija.&lt;/p&gt;
+
+&lt;p&gt;Ogromnu popularnost dobiva uporedo sa ubrzanim razvojem grafickih kartica, virtualizaije i pojavom Cloud-a, zbog mogucnosti prilagodjavanja i preuzimanja kontorole nad hardware-om i kompletnim eko-sistemskim promjenama unutar kompleksnih sistema.&lt;/p&gt;
+
+&lt;p&gt;Ucenje C++ programskog jezika se  moze usporediti sa nacinom kako proizvesti, sastaviti i voziti automobil. Ucenje se preporucuje samo uz nadzor starijih C++ programera :)&lt;/p&gt;
+
+&lt;h3 id=&quot;kljucne-karakteristike-3&quot;&gt;Kljucne karakteristike&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Nalik Java-i, C++ konstantno tezi modernizaciji i prilagodjavanju svojih osobina pratece trendove promjene hardware-ske industrije. Danasnji C++ je mnogo sigurniji, moderniji i produktivniji u odnosu na prve verzije C++ programskog jezika.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Poput C-a, C++ daje potpunu kontrolu nad hardware-om i mozete ga koristiti na bilo kojoj platformi upravo kao i C, od grafickih kartica, preko naprednih procesorkih sistema, virtuelizacije, Cloud-a, do mobilnih uredjaja i mikrokontrolera.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;C++ je nevjerovatno brz i kao takav primijenjen u aplikacijama gdje su kriticne perfromanse i upravljanje resursima. Primjeri fantasticnih software-a poput Java Virtuelne Masine, Chrome V8 Engine-a, kao i mnogi baza podataka su napisani u C++-u.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;popularnost-4&quot;&gt;Popularnost&lt;/h3&gt;
+
+&lt;p&gt;Prema Tiobe-u, C++ je na cetvrtom mjestu, kao jedan od najstarijih programskih jezika.
+&lt;img src=&quot;/assets/img/posts/programski_jezici/python/tiobe-c-plus.png&quot; alt=&quot;Programski jezik C++ statistika Tiobe 2020 &quot; class=&quot;img-fluid-in-post&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Prema Octoverse-u, C++ zauzima sesto mjesto.
+&lt;img src=&quot;/assets/img/posts/programski_jezici/python/octoverse-c-plus.png&quot; alt=&quot;Programski jezik C++ statistika Octoverse 2020 &quot; class=&quot;img-fluid-in-post&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;StackOverflow, svrstava C++ na devetu poziciju.
+&lt;img src=&quot;/assets/img/posts/programski_jezici/python/stackoverflow-c-plus.png&quot; alt=&quot;Programski jezik C++ statistika StackOverflow 2020 &quot; class=&quot;img-fluid-in-post&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Prema Google trends-u, mozemo vidjeti stabilnost C++-a u proteklih pet godina, gdje se direktno takmici rame uz rame sa programskim jezicima Rust i Go.
+&lt;img src=&quot;/assets/img/posts/programski_jezici/python/google-c-plus.png&quot; alt=&quot;Programski jezik C++ statistika Google trends 2020 &quot; class=&quot;img-fluid-in-post&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;trziste-rada-4&quot;&gt;Trziste rada&lt;/h3&gt;
+
+&lt;p&gt;Sudeci prema Indeed-u, C++ je i top cetiri programska jezika sa prosjekom od &lt;strong&gt;41 000&lt;/strong&gt; radnih pozicija u Januaru 2020. godine, dok je prosjecna plata na godisnjem nivou preko &lt;strong&gt;$104 000&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/posts/programski_jezici/python/indeed-c-plus.png&quot; alt=&quot;Programski jezik C++ statistika Indeed 2020 &quot; class=&quot;img-fluid-in-post&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Prema StackOverflow-u, C++ developer-i mogu odlicno da zarade, ali veca zarada i uopste zarada dolazi sa duzim radnim iskustva u poredjenju sa drugim programskim jezicima.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/posts/programski_jezici/python/st-salary-all.png&quot; alt=&quot;Programski jezik C++ statistika plata StackOverflow 2020 &quot; class=&quot;img-fluid-in-post&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;zastupljenost-i-najcesca-upotreba-4&quot;&gt;Zastupljenost i najcesca upotreba&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Sistemsko programiranje&lt;/li&gt;
+  &lt;li&gt;Razvoj igara&lt;/li&gt;
+  &lt;li&gt;IoT i sistemi u realnom vremenu&lt;/li&gt;
+  &lt;li&gt;Masinsko ucenje, “Deep Learning”&lt;/li&gt;
+  &lt;li&gt;Embedded i Distribuirani sistemi&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;programski-jezik-golang&quot;&gt;Programski jezik GoLang&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/posts/programski_jezici/go-programski-jezik.png&quot; alt=&quot;Programski jezik GoLang &quot; class=&quot;img-fluid-in-post&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Google nam donosi programski jezik, GoLang ili samo Go, ciji primar je izvrsavanje vise taskova paralelno u isto vrijeme, sto se naziva konkurentnost. Nativno postizanje konkurentnosti, razlikuje GoLang, od ostalih programskih jezika. Primjenu je nasao u masinskom ucenju ali i web development-u.&lt;/p&gt;
+
+&lt;p&gt;Usljed nemogucnosti postojecih programskih jezika da zadovolje potrebe Google-a nad “neogranicenim” hardware-skim resursima i nativno skaliranje, nastao je GoLang.&lt;/p&gt;
+
+&lt;p&gt;Razvijen od tima inzinjera vodjenih zacetnicima C programskog jezika, 2012 godine Google je razvio novi pragmaticni, jednostavan za ucenje, skalabilan programski jezik Go. Go takodje posjeduje “Garabage collector” od samo nekoliko Megabyte-a. Za kratko vrijeme je stekao veliku popularnost.&lt;/p&gt;
+
+&lt;h3 id=&quot;kljucne-karakteristike-4&quot;&gt;Kljucne karakteristike&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Go se odlikuje kao programski jezik koji podrzava konkurentnost.  Konkurentnost se zasniva na prolazku poruku baziranoj na takozvanoj Goroutine-i i Channel-u.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Odlikuje se dizajnom i jednostavnoscu. Uspio je da spoji ugodno sa korisnim ili drugim rijecima produktivnos Pyton-a i snagu programskog jezika C.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Ima ugradjen “Garabage collector”. Prilikom sistemskog programiranja daje sigurnost poput Java-e i Python-a.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;popularnost-5&quot;&gt;Popularnost&lt;/h3&gt;
+
+&lt;p&gt;Ogroman napredak u proteklih par godina.&lt;/p&gt;
+
+&lt;p&gt;Prema Tiobe-u, GoLang je na dvanaestom mjestu, uz tendenciju napretka ka gore.
+&lt;img src=&quot;/assets/img/posts/programski_jezici/python/tiobe-go.png&quot; alt=&quot;Programski jezik GoLang statistika Tiobe 2020 &quot; class=&quot;img-fluid-in-post&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Prema StackOverflow-u, GoLang zauzima trinaestu poziciju
+&lt;img src=&quot;/assets/img/posts/programski_jezici/python/stackoverflow-go.png&quot; alt=&quot;Programski jezik GoLang statistika StackOverflow 2020 &quot; class=&quot;img-fluid-in-post&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Prema Google trends-u, mozemo vidjeti stabilnost i uspon GoLang-a u proteklih pet godina.
+&lt;img src=&quot;/assets/img/posts/programski_jezici/python/google-golang.png&quot; alt=&quot;Programski jezik GoLang statistika Google trends 2020 &quot; class=&quot;img-fluid-in-post&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;trziste-rada-5&quot;&gt;Trziste rada&lt;/h3&gt;
+
+&lt;p&gt;Sudeci prema Indeed-u, GoLang, tacnije software inzinjer ima prosjek plate veci od &lt;strong&gt;$108 000&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/posts/programski_jezici/python/indeed-go-lang.png&quot; alt=&quot;Programski jezik GoLang statistika Indeed 2020 &quot; class=&quot;img-fluid-in-post&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Prema StackOverflow-u, GoLang developer-i su medju najplacenijim na trzistu.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/posts/programski_jezici/python/st-salary-all.png&quot; alt=&quot;Programski jezik GoLang statistika plata StackOverflow 2020 &quot; class=&quot;img-fluid-in-post&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;zastupljenost-i-najcesca-upotreba-5&quot;&gt;Zastupljenost i najcesca upotreba&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Sistemsko programiranje&lt;/li&gt;
+  &lt;li&gt;Serverless&lt;/li&gt;
+  &lt;li&gt;Biznis aplikacije&lt;/li&gt;
+  &lt;li&gt;Cloud-Native razvoj&lt;/li&gt;
+  &lt;li&gt;IoT&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;programski-jezik-kotlin&quot;&gt;Programski jezik Kotlin&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/posts/programski_jezici/kotlin-programski-jezik.png&quot; alt=&quot;Programski jezik Kotlin &quot; class=&quot;img-fluid-in-post&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Ogromna popularnost za samo godinu dana, namece Kotlin kao broj jedan kada je u pitanju razvoj Android aplikacija. Programski jezik opste namjene, cross-platform, kompatibilan sa Javom i potpuno integrisan sa Android Studio-m sto ga cini broj jedan izborom Android developera.&lt;/p&gt;
+
+&lt;p&gt;Iako u potpunosti interoperabilan sa Java-om, Kotlin je dizajniran kao mnogo jednostavniji (u pogledu sintakse) i precizniji programski jezik. Godine 2019, Google je objavio da Kotlin predstavlja izbor broj jedan, kada je u pitanju razvoj Android aplikacija.&lt;/p&gt;
+
+&lt;h3 id=&quot;kljucne-karakteristike-5&quot;&gt;Kljucne karakteristike&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Kada je u pitanju citljivost koda i sama sintaksa, Kotlin je daleko ispred Java-e. Sa mnogo manje linija koda postizete isti efekat, sto povlaci cist kod i manju mogucnost greske prilikom programiranja.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Kao potpuno opremljen programski jezik, Kotlin dolazi sa pregrst standardnih biblioteka koje prosiruju vec postojece klase. Prosirivost je jedna od kljucnih osobina Kotlin-a kao programskog jezika.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Potpuna interoprabilsnot sa Java-om. Jednostavno je pozvati Java kod u Kotlin i obrnuto. Postoje cak i automatski Java-to-Kotlin konvertori vec ugradjeni u popularne IDE-je koji pomazu prilikom migracije koda.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Jedna od kljucnih osobina Kotlin-a je “Immutability”, nepromjenjivost, po pitanju objekata. Dakle, u slucaju da zelite mijenjati svojstva bilo kog objekta, prvo morate stvoriti novu kopiju kompletnog objekta ili njegovih promjenjivih i tek tad vrsiti operacije nad njim.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;popularnost-6&quot;&gt;Popularnost&lt;/h3&gt;
+
+&lt;p&gt;Prema Octoverse-u, Kotlin zauzima cetvrto mjesto, kao najbrze rastuci programski jezik.
+&lt;img src=&quot;/assets/img/posts/programski_jezici/python/octoverse-fast-grow-kotlin.png&quot; alt=&quot;Programski jezik Kotlin statistika Octoverse 2020 &quot; class=&quot;img-fluid-in-post&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Prema StackOverflow-u, Kotlin se nalazi na sesnaestoj poziciji.
+&lt;img src=&quot;/assets/img/posts/programski_jezici/python/stackoverflow-kotlin.png&quot; alt=&quot;Programski jezik Kotlin statistika StackOverflow 2020 &quot; class=&quot;img-fluid-in-post&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Prema PYPL-u, Kotlin je na dvanaestom mjestu.
+&lt;img src=&quot;/assets/img/posts/programski_jezici/python/pypl-kotlin.png&quot; alt=&quot;Programski jezik Kotlin statistika Tiobe 2020 &quot; class=&quot;img-fluid-in-post&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Prema Google trends-u, mozemo vidjeti stabilnost Kotlin-a u proteklih godinu dana, obzirom da je relativno novi jezik na trzistu.
+&lt;img src=&quot;/assets/img/posts/programski_jezici/python/google-kotlin.png&quot; alt=&quot;Programski jezik Kotlin statistika Google trends 2020 &quot; class=&quot;img-fluid-in-post&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;trziste-rada-6&quot;&gt;Trziste rada&lt;/h3&gt;
+
+&lt;p&gt;Sudeci prema Indeed-u, Kotlin, tacnije Android developer ima prosjecnu platu na godisnjem nivou preko &lt;strong&gt;$123 000&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/posts/programski_jezici/python/indeed-kotlin.png&quot; alt=&quot;Programski jezik Kotlin statistika Indeed 2020 &quot; class=&quot;img-fluid-in-post&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Prema StackOverflow-u, Kotlin developer-i mogu odlicno da zarade sa jako kratkim periodom iskustva rada.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/posts/programski_jezici/python/st-salary-all.png&quot; alt=&quot;Programski jezik Python statistika plata StackOverflow 2020 &quot; class=&quot;img-fluid-in-post&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;zastupljenost-i-najcesca-upotreba-6&quot;&gt;Zastupljenost i najcesca upotreba&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Android aplikacije&lt;/li&gt;
+  &lt;li&gt;Server-side programiranje&lt;/li&gt;
+  &lt;li&gt;Desktop aplikacije&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;programski-jezik-c-sharp&quot;&gt;Programski jezik C Sharp&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/posts/programski_jezici/c-sharp-programski-jezik.png&quot; alt=&quot;Programski jezik C# &quot; class=&quot;img-fluid-in-post&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Ukoliko zelite kreirati web stranice i Windows aplikacije a pritom ste .NET orijentisani, ovo bi mogao biti jezik preporuke umjesto Jave. U nekim dijelovima sintakse je dosta slican Javi kao i nekim specificnim mogucnostima.&lt;/p&gt;
+
+&lt;p&gt;Razvijen od Microsoft-a kao odgovor na programske jezike koji zagovaraju paradigmu objektno-orijentisanog programiranja, C# je postao dio .NET familije, nesto nalik na virtuelnoj masini kao kod Java programskog jezika.&lt;/p&gt;
+
+&lt;p&gt;U pocetku je bio tema kritike, predstavljan kao imitacija Jave, da bi se nakon nekog vremena uocila razlika.&lt;/p&gt;
+
+&lt;p&gt;U danasnje vrijeme C# je sirokoj upotrebi, ali ne samo na Windows platformama, vec je svoju primjenu nasao prilikom iOS/Android razvoja (zahvaljujuci Xamarian-u) i Linux platformi.&lt;/p&gt;
+
+&lt;h3 id=&quot;kljucne-karakteristike-6&quot;&gt;Kljucne karakteristike&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;C# je izasao iz sjene Java-e i izborio se za svoje licni identitet. U pogledu razvoja, kao programski jezik, jos kaska za Java-om.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Na trzistu 20 godina uz podrsku Microsoft-a, razvio je velik broj biblioteka i framework-a. Sluzi u svrhe web razvoja kao ASP.NET posebno na Windows-u.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Nalik na Java-u, C# je nezavistan od platforme i moze da se izvrsava na Windows-u, Linux-u, kao i mobilnim uredjajima.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;popularnost-7&quot;&gt;Popularnost&lt;/h3&gt;
+
+&lt;p&gt;Prema Tiobe-u, C# je na petom mjestu.
+&lt;img src=&quot;/assets/img/posts/programski_jezici/python/tiobe-c-sharp.png&quot; alt=&quot;Programski jezik C# statistika Tiobe 2020 &quot; class=&quot;img-fluid-in-post&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Prema PYPL-u, C# je na cetvrtom mjestu.
+&lt;img src=&quot;/assets/img/posts/programski_jezici/python/pypl-c-sharp.png&quot; alt=&quot;Programski jezik C# statistika PYPL 2020 &quot; class=&quot;img-fluid-in-post&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Prema StackOverflow-u, C# se nalazi na sedmom mjestu.
+&lt;img src=&quot;/assets/img/posts/programski_jezici/python/stackoverflow-c-sharp.png&quot; alt=&quot;Programski jezik C# statistika StackOverflow 2020 &quot; class=&quot;img-fluid-in-post&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Octoverse, svrstava C# na peto mjesto.
+&lt;img src=&quot;/assets/img/posts/programski_jezici/python/octoverse-c-sharp.png&quot; alt=&quot;Programski jezik C# statistika Octoverse 2020 &quot; class=&quot;img-fluid-in-post&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Prema Google trends-u, mozemo vidjeti stabilnost C#-a u proteklih pet godina.
+&lt;img src=&quot;/assets/img/posts/programski_jezici/python/google-c-sharp.png&quot; alt=&quot;Programski jezik C# statistika Google trends 2020 &quot; class=&quot;img-fluid-in-post&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;trziste-rada-7&quot;&gt;Trziste rada&lt;/h3&gt;
+
+&lt;p&gt;Sudeci prema Indeed-u, C# je i prvih pet programskih jezika sa prosjekom od &lt;strong&gt;32 000&lt;/strong&gt; radnih pozicija u Januaru 2020. godine, dok je prosjecna plata na godisnjem nivou preko &lt;strong&gt;$97 000&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/posts/programski_jezici/python/indeed-c-sharp.png&quot; alt=&quot;Programski jezik C# statistika Indeed 2020 &quot; class=&quot;img-fluid-in-post&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Prema StackOverflow-u, C# developer-i imaju prednost u odnosu na Java developere, uz uslov duzeg radnog iskustva, kada je u pitanju visina zarade&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/posts/programski_jezici/python/st-salary-all.png&quot; alt=&quot;Programski jezik C# statistika plata StackOverflow 2020 &quot; class=&quot;img-fluid-in-post&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;zastupljenost-i-najcesca-upotreba-7&quot;&gt;Zastupljenost i najcesca upotreba&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Server-Side programiranje&lt;/li&gt;
+  &lt;li&gt;Razvoj aplikacija&lt;/li&gt;
+  &lt;li&gt;Web razvoj&lt;/li&gt;
+  &lt;li&gt;Razvoj igara&lt;/li&gt;
+  &lt;li&gt;Software za Windows platformu&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;programski-jezik-swift&quot;&gt;Programski jezik Swift&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/posts/programski_jezici/swift-programski-jezik.png&quot; alt=&quot;Programski jezik Swift &quot; class=&quot;img-fluid-in-post&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Primarni jezik koristen za razvoj Apple aplikacija za Mac OS X i iOS. Objektno-orijentisan programski jezik, citljiv, brz, sa podrskom za dinamicke biblioteke. Ako se odlucite iskljucivo razvijati Apple bazirane aplikacije, preporucuje se ucenje Swift-a pored Objective-C-ja. Tacnije, primarni okidac za nastanak Swift-a jeste upravo zamjena Objective-C programskog jezika.&lt;/p&gt;
+
+&lt;p&gt;Iako kompletna zamjena za Objective-C, Swift zadrzava odlicnu inter-operabilnost sa Objective-C kodom ali se definitivno predstavio kao primarni programski jezik prilikom razvoja iOS aplikacija. Obzirom na svoje osobine, vremenom dobija na popularnosti i u drugim domenama.&lt;/p&gt;
+
+&lt;h3 id=&quot;kljucne-karakteristike-7&quot;&gt;Kljucne karakteristike&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Glavna karakteristika Swift programskog jezika je upravo njegov dizajn. Sa jednostavnom, preciznom i cistom sintaksom, nudi vecu produktivnost i bolju alternativu Objective-C-ju unutar Apple eko-sistema.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Swift nudi karakteristike modernih programskih jezika kao sto su “null safety” ili “void safety” (u objektno-orijentisanom svijetu obezbjedjuje da objekat nema referentnu vrijednost “null” ili “void”), kao i izbjegavanje “Pyramid of Doom” (problem vise nivoa ugnijezdenih uvlacenja koda - nested indentation) problema.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Velika brzina Swift-a, poput C++-a. Dobija na popularnosti u domeni sistemskog programiranja ali i drugim domenama.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;popularnost-8&quot;&gt;Popularnost&lt;/h3&gt;
+
+&lt;p&gt;Prema Tiobe-u, Swift je na jedanaestom mjestu.
+&lt;img src=&quot;/assets/img/posts/programski_jezici/python/tiobe-swift.png&quot; alt=&quot;Programski jezik Swift statistika Tiobe 2020 &quot; class=&quot;img-fluid-in-post&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Prema PYPL-u, Swift je na devetom mjestu.
+&lt;img src=&quot;/assets/img/posts/programski_jezici/python/pypl-swift.png&quot; alt=&quot;Programski jezik Swift statistika Tiobe 2020 &quot; class=&quot;img-fluid-in-post&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Prema StackOverflow-u, nalazi se na petnaestom mjestu.
+&lt;img src=&quot;/assets/img/posts/programski_jezici/python/stackoverflow-swift.png&quot; alt=&quot;Programski jezik Swift statistika StackOverflow 2020 &quot; class=&quot;img-fluid-in-post&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Prema Google trends-u, mozemo vidjeti stabilnost Swift-a u proteklih pet godina.
+&lt;img src=&quot;/assets/img/posts/programski_jezici/python/google-c-sharp.png&quot; alt=&quot;Programski jezik Swift statistika Google trends 2020 &quot; class=&quot;img-fluid-in-post&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;trziste-rada-8&quot;&gt;Trziste rada&lt;/h3&gt;
+
+&lt;p&gt;Sudeci prema Indeed-u, Swift ili iOS developer je rangiran na devetom mjestu sa prosjekom od &lt;strong&gt;6 000&lt;/strong&gt; radnih pozicija u Januaru 2020. godine, dok je prosjecna plata na godisnjem nivou preko &lt;strong&gt;$126 000&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/posts/programski_jezici/python/indeed-swift.png&quot; alt=&quot;Programski jezik Swift statistika Indeed 2020 &quot; class=&quot;img-fluid-in-post&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Prema StackOverflow-u, Swift developer-i mogu dobro zaraditi, obzirom na relativno mali broj godina potrebnog radnog iskustva .&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/posts/programski_jezici/python/st-salary-all.png&quot; alt=&quot;Programski jezik Swift statistika plata StackOverflow 2020 &quot; class=&quot;img-fluid-in-post&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;zastupljenost-i-oblast-primjene&quot;&gt;Zastupljenost i oblast primjene&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;iOS razvoj aplikacija&lt;/li&gt;
+  &lt;li&gt;Sistemsko programiranje&lt;/li&gt;
+  &lt;li&gt;Client-side razvoj (WebAssembly)&lt;/li&gt;
+  &lt;li&gt;Deep Learning&lt;/li&gt;
+  &lt;li&gt;IoT&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;programski-jezik-php&quot;&gt;Programski jezik PHP&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/posts/programski_jezici/php-programski-jezik.png&quot; alt=&quot;Programski jezik PHP &quot; class=&quot;img-fluid-in-post&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Pogodan za izradu manjih i jednostavnih web stranica za kratko vrijeme. Podrzan na skoro svakom web hostingu po maloj cijeni. Cinjenica je da 80% od top deset social-media web stranica svoje postojanje duguje upravo PHP-u.&lt;/p&gt;
+
+&lt;p&gt;Nalik na Python, PHP svoj razvoj duguje samo jednom developer-u u ranim devedesetim godinama. Sistemski inzinjer Rasmus Lerdorf inicijalno je kreirao PHP kao set CGI (Common Gateway Interface) napisanih u C-u radi razvoja dinamiskih web aplikacija, da bi se kasnije razvio uz mnogo funkcionalnosti dodatih PHP proizvodu i prirodno evoluirao u pravi, samostalni programski jezik. Svoju sintaksu duguje C i Perl programskim jezicima.&lt;/p&gt;
+
+&lt;p&gt;Trenutno, PHP je dinamicki programski jezik opste namjene, prvenstveno u upotrebi za razvoj server-side web aplikacija.&lt;/p&gt;
+
+&lt;p&gt;Sa pojavom JavaScript baziranih client-side web aplikacija, PHP gubi na popularnosti i prepusta svoju primarnu poziciji. Suprotno misljenju, “PHP will not die soon”, primijetan je znatan pad popularnosti ovog programskog jezika.&lt;/p&gt;
+
+&lt;h3 id=&quot;kljucne-karakteristike-8&quot;&gt;Kljucne karakteristike&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;PHP predstavlja visoko produktivan Server-Side web razvojni programski jezik. Kao rezultat toga, u sirokoj je upotrebi prilikom brze izrade web aplikacija&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;PHP se na trzistu web aplikacija nalazi skoro 36 godina i za ovo vrijeme je razvio mnogo uspjesnih i stabilnih PHP framework-a.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Giganti poput Facebook-a i Wordpress-a uveliko koriste ovaj programski jezik, sto daje odlicnu podrsku i more alata zasnovanih na PHP-u.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;popularnost-9&quot;&gt;Popularnost&lt;/h3&gt;
+
+&lt;p&gt;Prema Tiobe-u, PHP je na osmom mjestu.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/posts/programski_jezici/python/tiobe-php.png&quot; alt=&quot;Programski jezik PHP statistika Tiobe 2020 &quot; class=&quot;img-fluid-in-post&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Prema Octoverse-u, PHP zauzima cetvrto mjesto.
+&lt;img src=&quot;/assets/img/posts/programski_jezici/python/octoverse-php.png&quot; alt=&quot;Programski jezik JavaScript statistika Octoverse 2020 &quot; class=&quot;img-fluid-in-post&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Prema PYPL-u, PHP je na petom mjestu.
+&lt;img src=&quot;/assets/img/posts/programski_jezici/python/pypl-php.png&quot; alt=&quot;Programski jezik PHP statistika Tiobe 2020 &quot; class=&quot;img-fluid-in-post&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Prema StackOverflow-u, PHP je na osmoj poziciji.
+&lt;img src=&quot;/assets/img/posts/programski_jezici/python/stackoverflow-php.png&quot; alt=&quot;Programski jezik JavaScript statistika StackOverflow 2020 &quot; class=&quot;img-fluid-in-post&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Prema Google trends-u, mozemo vidjeti konstantni blagi pad PHP u poslednjih pet godina.
+&lt;img src=&quot;/assets/img/posts/programski_jezici/python/google-php.png&quot; alt=&quot;Programski jezik PHP statistika Google trends 2020 &quot; class=&quot;img-fluid-in-post&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;trziste-rada-9&quot;&gt;Trziste rada&lt;/h3&gt;
+
+&lt;p&gt;Sudeci prema Indeed-u, PHP je na sedmoj poziji programskih jezika sa prosjekom od &lt;strong&gt;18 000&lt;/strong&gt; radnih pozicija u Januaru 2020. godine, dok je prosjecna plata na godisnjem nivou preko &lt;strong&gt;$94 000&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/posts/programski_jezici/python/indeed-php.png&quot; alt=&quot;Programski jezik PHP statistika Indeed 2020 &quot; class=&quot;img-fluid-in-post&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Prema StackOverflow-u, PHP developer-i najmanje placeni u 2019 godini.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/posts/programski_jezici/python/st-salary-all.png&quot; alt=&quot;Programski jezik PHP statistika plata StackOverflow 2020 &quot; class=&quot;img-fluid-in-post&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;zastupljenost-i-najcesca-upotreba-8&quot;&gt;Zastupljenost i najcesca upotreba&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Server-side aplikacija&lt;/li&gt;
+  &lt;li&gt;Razvoj CMS sistema (Content Management System)&lt;/li&gt;
+  &lt;li&gt;Web aplikacije&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;programski-jezik-r&quot;&gt;Programski jezik R&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/posts/programski_jezici/r-programski-jezik.png&quot; alt=&quot;Programski jezik R &quot; class=&quot;img-fluid-in-post&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Kada je u pitanju statisticka analiza i “data science”, grafikoni, na prvom mjestu je programski jezik R. Pored navedene primjene, moze se koristiti za izradu interaktivnih web aplikacija, sa podrskom vise od 10.000 biblioteka. Posjeduje odlican IDE koji sluzi za vizuelizaciju i development, R Studio.&lt;/p&gt;
+
+&lt;p&gt;Napisan je u C-u, Fortran-u ali i samom R programskom jeziku. Unaprijed je kompajliran za upotrebu na razlicitim operativnim sistemima.&lt;/p&gt;
+
+&lt;h3 id=&quot;kljucne-karakteristike-9&quot;&gt;Kljucne karakteristike&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Zauzima prvo mjesto kada je rijec o financijskoj industriji, zbog svojih statickih proracuna i generalnih financijskih zadataka. Svoju primjenu je nasao i u bankovnom sektoru.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Velika primjena u zdravstvenom sektoru, genetici, bio-informatici, istrazivanje na polju lijekova, epidemologiji i zdravsvenoj njezi uopste. Zahvaljujuci R programskom jeziku zdravstveni sektor ima mogucnost obrade velikog obima podaka i analizu istih.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Masinsko ucenje i predvidjanje. Rad sa Hadoop-om i HDFS file sistemima, za procesuiranje ogromnih kolicina podataka koje nalazimo u drustvenim medijima i prodaji.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;popularnost-10&quot;&gt;Popularnost&lt;/h3&gt;
+
+&lt;p&gt;Prema Tiobe-u, R programski jezik se nalazi na desetom mjestu.
+&lt;img src=&quot;/assets/img/posts/programski_jezici/python/tiobe-r.png&quot; alt=&quot;Programski jezik R statistika Tiobe 2020 &quot; class=&quot;img-fluid-in-post&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Prema PYPL-u, programski jezik R je na sedmom mjestu.
+&lt;img src=&quot;/assets/img/posts/programski_jezici/python/pypl-r.png&quot; alt=&quot;Programski jezik R statistika Tiobe 2020 &quot; class=&quot;img-fluid-in-post&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Prema Google trends-u, mozemo vidjeti stabilnost programskog jezika R u proteklih pet godina.
+&lt;img src=&quot;/assets/img/posts/programski_jezici/python/google-r.png&quot; alt=&quot;Programski jezik R statistika Google trends 2020 &quot; class=&quot;img-fluid-in-post&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;trziste-rada-10&quot;&gt;Trziste rada&lt;/h3&gt;
+
+&lt;p&gt;Sudeci prema Indeed-u, R developer ili “Data Scientist” ima prosjek plate na godisnjem nivou preko &lt;strong&gt;$124 000&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/posts/programski_jezici/python/indeed-r.png&quot; alt=&quot;Programski jezik R statistika Indeed 2020 &quot; class=&quot;img-fluid-in-post&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;zastupljenost-i-najcesca-upotreba-9&quot;&gt;Zastupljenost i najcesca upotreba&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Vizuelizacija podataka&lt;/li&gt;
+  &lt;li&gt;Distirbuted computing&lt;/li&gt;
+  &lt;li&gt;Masinsko ucenje&lt;/li&gt;
+  &lt;li&gt;Big data&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;programski-jezik-ruby&quot;&gt;Programski jezik Ruby&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/posts/programski_jezici/ruby-programski-jezik.png&quot; alt=&quot;Programski jezik Ruby &quot; class=&quot;img-fluid-in-post&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Poznat po popularnom web framework-u “Ruby on Rails”. Fokusiran na odradjivanje projekta. Dizajniran za zabavu i produktivno programiranje.&lt;/p&gt;
+
+&lt;p&gt;Ruby je treci na listi programskih jezika, razvijenih od jednog developer-a u ranim devedesetim. Japanski kompjuterski naucnik Yukihiro Matsumoto razvio je Ruby kao “objektno-orijentisan skriptni programski jezik”.&lt;/p&gt;
+
+&lt;p&gt;Ruby je kasnije evoluirao u interpretirani, dinamicki, programski jezik viskog nivoa opste namjene. Ruby je implementiran u C-u i nudi “garbage collection”.
+Nalik na Python, Ruby je iskljucivo fokusiran na produktivnost i zabavu prlikom razvoja aplikacija. Odlican je za pocetnike i veoma lako se uci.&lt;/p&gt;
+
+&lt;h3 id=&quot;kljucne-karakteristike-10&quot;&gt;Kljucne karakteristike&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Ruby je kombinacija nekih od najboljih osobina ostalih programskih jezika, posjeduje “garabage collector”, nudi objekntno-orijentisani nacin programiranja, funkcionalan nacin programiranja, precizan i lak za ucenje&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Veliku popularnost je dobio na osnovu framework-a za web razvoje “Ruby on Rails” i predstavlja jedan od najzastupljenijih i uticajnih Server-side web razvojnih alata.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Ruby je u upotrebi od nekih najpoznatijih kompanija poput Twitter-a, GitHub-a, Airbnb-a, pri cemu ima odlicnu podrsku zajednice.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;popularnost-11&quot;&gt;Popularnost&lt;/h3&gt;
+
+&lt;p&gt;Prema Octoverse-u, Ruby zauzima deseto mjesto.
+&lt;img src=&quot;/assets/img/posts/programski_jezici/python/octoverse-ruby.png&quot; alt=&quot;Programski jezik Ruby statistika Octoverse 2020 &quot; class=&quot;img-fluid-in-post&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Prema StackOverflow-u, Ruby je na dvanaestoj poziciji.
+&lt;img src=&quot;/assets/img/posts/programski_jezici/python/stackoverflow-ruby.png&quot; alt=&quot;Programski jezik Ruby statistika StackOverflow 2020 &quot; class=&quot;img-fluid-in-post&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Prema Tiobe-u, Ruby je na srecnom trinaestom mjestu.
+&lt;img src=&quot;/assets/img/posts/programski_jezici/python/tiobe-ruby.png&quot; alt=&quot;Programski jezik Ruby statistika Tiobe 2020 &quot; class=&quot;img-fluid-in-post&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Prema Google trends-u, mozemo vidjeti stabilnost Ruby-ja u proteklih pet godina.
+&lt;img src=&quot;/assets/img/posts/programski_jezici/python/google-javascript.png&quot; alt=&quot;Programski jezik Ruby statistika Google trends 2020 &quot; class=&quot;img-fluid-in-post&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;trziste-rada-11&quot;&gt;Trziste rada&lt;/h3&gt;
+
+&lt;p&gt;Sudeci prema Indeed-u, Ruby je na prvoj poziciji programskih jezika sa prosjekom od &lt;strong&gt;16 000&lt;/strong&gt; radnih pozicija u Januaru 2020. godine.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/posts/programski_jezici/python/indeed-ruby.png&quot; alt=&quot;Programski jezik Ruby statistika Indeed 2020 &quot; class=&quot;img-fluid-in-post&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Prema StackOverflow-u, Ruby developer-i mogu odlicno da zarada sa veoma malo godina radnog iskustva u poredjenju sa drugim programskim jezicima.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/posts/programski_jezici/python/st-salary-all.png&quot; alt=&quot;Programski jezik Ruby statistika plata StackOverflow 2020 &quot; class=&quot;img-fluid-in-post&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;zastupljenost-i-najcesca-upotreba-10&quot;&gt;Zastupljenost i najcesca upotreba&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Web razvoj&lt;/li&gt;
+  &lt;li&gt;Backend razvoj&lt;/li&gt;
+  &lt;li&gt;Server-side aplikacija&lt;/li&gt;
+  &lt;li&gt;Sistemski alati&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;postoji-li-pravilo-kojim-mogu-odrediti-koji-programski-jezik-je-za-mene&quot;&gt;Postoji li pravilo, kojim mogu odrediti koji programski jezik je za mene?&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;Ne bas, posto se o ukusima ne raspravlja :)&lt;/strong&gt;, ali prilozena sema moze biti od velike koristi prilikom donosenja odluke i 
+nadam se da ce vam biti od koristi.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;/assets/img/posts/programski_jezici_sema_ucenja.png&quot; target=&quot;_blank&quot;&gt;
+&lt;img src=&quot;/assets/img/posts/programski_jezici_sema_ucenja.png&quot; class=&quot;img-fluid-in-post&quot; alt=&quot;Programski jezici sema ucenja&quot; /&gt;
+&lt;/a&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h4 id=&quot;izvori-koristeni-za-analizu-programskih-jezika-trzista-i-visinu-plata&quot;&gt;Izvori koristeni za analizu programskih jezika, trzista i visinu plata:&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;https://pypl.github.io/PYPL.html&lt;/li&gt;
+  &lt;li&gt;https://octoverse.github.com/&lt;/li&gt;
+  &lt;li&gt;https://insights.stackoverflow.com/survey/2019&lt;/li&gt;
+  &lt;li&gt;https://www.tiobe.com/tiobe-index/&lt;/li&gt;
+  &lt;li&gt;https://trends.google.com/trends/?geo=US&lt;/li&gt;
+  &lt;li&gt;https://at.indeed.com/?r=us&lt;/li&gt;
+  &lt;li&gt;https://medium.com/&lt;/li&gt;
+&lt;/ul&gt;</content><author><name>leemenix</name></author><category term="novosti" /><summary type="html"></summary></entry><entry><title type="html">Besplatni online kursevi programiranja</title><link href="https://programiranje.ba/blog/besplatni-online-kursevi-programiranja/" rel="alternate" type="text/html" title="Besplatni online kursevi programiranja" /><published>2020-04-02T04:05:23-05:00</published><updated>2020-04-02T04:05:23-05:00</updated><id>https://programiranje.ba/blog/besplatni-online-kursevi-programiranja</id><content type="html" xml:base="https://programiranje.ba/blog/besplatni-online-kursevi-programiranja/">&lt;p&gt;There are around 600 programming languages out there. The demand and popularity of programming languages fluctuate every year. Also, new programming languages are coming with attractive features.
+So, which programming language should you learn? Learning a new programming language is always an investment of your time and brainpower. If you are a seasoned developer or if you already know several programming languages, then you can learn a niche, modern one. Recently, I have written a blog post where I have short-listed seven modern programming languages worth learning:&lt;/p&gt;
+
+&lt;p&gt;Cilj programiranje.ba stranice je da omoguci potpuno besplatno znanje, kroz visoko kvalitetne kurseve koji drze paznju. Istina je 
+da danas mozete pronaci bilo sta o bilo cemu na internetu. Ako znate engleski jezik, nista Vas ne sprecava da potrazite kurseve 
+poznatih svjetski priznatih fakulteta online.&lt;/p&gt;
+
+&lt;p&gt;Cinjenica je i da su kursevi koji imaju zaista kvalitetan sadrzaj, u vecini slucajeva veoma skupi za nase uslove ali se zna 
+desiti da ima i onih koji su skupi sa losim sadrzajem.&lt;/p&gt;
+
+&lt;p&gt;Online platforma za ucenje programiranje.ba, sa druge strane, nudi kvalitetan sadrzaj bez skrivenih troskova i ima za cilj da 
+tako ostane sve dok postoje uslovi za to.&lt;/p&gt;
+
+&lt;p&gt;Svaka informacija koja dolazi od programiranje.ba je potpuno besplatna, ne postoji “premium” sadrzaj, nema dosadnih reklama, niti 
+skrivenih marketinskih trikova. Ono sto vidite to i dobijate.&lt;/p&gt;
+
+&lt;p&gt;“Programiranje ili kompjutersko programiranje (engl. programming) jeste vjestina pomocu koje korisnik stvara i izvrsava algoritme koristeci odredjene programske jezike da bi napravio kompjuterski program. Programiranje sadrzi elemente umjetnosti, nauke, matematike i inzinjerstva.” - Wikipedia.&lt;/p&gt;
 
 &lt;p&gt;Mozemo reci da je &lt;strong&gt;programiranje u svojoj osnovi pisanje veoma specificnih instrukcija&lt;/strong&gt;, koje proslijedjujemo veoma glupoj, ali za sad jos poslusnoj masini, koja izvrsava specificne zadatke na osnovu zadanih instrukcija.&lt;/p&gt;
 
@@ -8,9 +801,7 @@
 
 &lt;p&gt;&lt;strong&gt;Tesko je onoliko, koliko nemate slobodnog vremena i niste posveceni i fokusirani na ucenje.&lt;/strong&gt;&lt;/p&gt;
 
-&lt;p&gt;Da se razumijemo, ako zelite programiranjem obezbijediti bolje zivotne uslove, kupiti kucu, automobil, rijesiti se starog posla i 
-obezbijediti rad od bilo gdje dok ispijate pivo i igrate igrice u pauzi, moguce je, ali u tom slucaju morate posvetiti dosta 
-vremena upravo ucenju programiranja, pri cemu je neophodno da vas fokus bude 100 % orijentisan ka konstantnom usavrsavanju.&lt;/p&gt;
+&lt;p&gt;Da se razumijemo, ako zelite programiranjem obezbijediti bolje zivotne uslove, kupiti kucu, automobil, rijesiti se starog posla i obezbijediti rad od bilo gdje dok ispijate pivo i igrate igrice u pauzi, moguce je, ali u tom slucaju morate posvetiti dosta vremena upravo ucenju programiranja, pri cemu je neophodno da vas fokus bude 100 % orijentisan ka konstantnom usavrsavanju.&lt;/p&gt;
 
 &lt;p&gt;Ako ipak sa druge strane zelite programirati samo amaterski, “da vidite kako to radi”, ulaganje vaseg vremena ce biti dosta manje, ali imajte na umu da vam se prilikom ovog pristupa programiranje uvijek moze svidjeti i da se u svakom momentu mozete prebaciti na napredniji nivo.&lt;/p&gt;
 
@@ -24,365 +815,17 @@ engleskog su vise nego pozeljnji.&lt;/p&gt;
 &lt;p&gt;Mozda bi se ovo pitanje trebalo preformulisati u 
 &lt;strong&gt;“Sta konkretno zelim postici ucenjem programiranja i koji su moji glavni ciljevi?”&lt;/strong&gt;&lt;/p&gt;
 
-&lt;p&gt;Kada odgovorite na ovo pitanje mozete provjeriti prilozenu semu, na kraju artikla, koja bi trebalo da vas vodi kroz algoritam
-odluke do konacnog programskog jezika koji je po vasoj mjeri.&lt;/p&gt;
+&lt;p&gt;Kada odgovorite na ovo pitanje mozete provjeriti prilozenu semu, na kraju artikla, koja bi trebalo da vas vodi kroz algoritam odluke do konacnog programskog jezika koji je po vasoj mjeri.&lt;/p&gt;
 
-&lt;p&gt;Preporuka je da se prvo prijedje &lt;strong&gt;teorija algoritma&lt;/strong&gt;, kako bi smo istrenirali mozak da se prilagodi i priblizi nacinu 
-razmisljanja kompjutera. Tek nakon ovog koraka mozemo poceti razmisljati o izboru programskog jezika.&lt;/p&gt;
+&lt;p&gt;Preporuka je da se prvo prijedje &lt;strong&gt;teorija algoritama&lt;/strong&gt;, kako bi smo istrenirali mozak da se prilagodi i priblizi nacinu razmisljanja kompjutera. Tek nakon ovog koraka mozemo poceti razmisljati o izboru programskog jezika.&lt;/p&gt;
 
-&lt;p&gt;Bazirano na licnom iskustvu ali i primjerima drugih kolega, nakon osnova algoritma, preporucio bih &lt;strong&gt;“C” programski jezik&lt;/strong&gt; kao
-alfu i omegu za potpuno razumijevanje koncepta programiranja. Pored osnova programiranja i znanja koje cemo steci upoznavanjem 
-sa C programskim jezikom, razvice se mogucnost lakog ucenja bilo kog drugog programskog jezika. Vremenom cete prepoznati paterne
-u drugim programskim jezicima, poput PHP-a, Python-a, Jave … 
-Sve ovo stavlja “C” programski jezik kao osnovu za ucenje programiranja.&lt;/p&gt;
+&lt;p&gt;Bazirano na licnom iskustvu ali i primjerima drugih kolega, nakon osnova algoritma, preporucio bih &lt;strong&gt;“C” programski jezik&lt;/strong&gt; kao alfu i omegu za potpuno razumijevanje koncepta programiranja. Pored osnova programiranja i znanja koje cemo steci upoznavanjem sa C programskim jezikom, razvice se mogucnost lakog ucenja bilo kog drugog programskog jezika. Vremenom cete prepoznati obrazce
+u drugim programskim jezicima, poput PHP-a, Python-a, Jave … &lt;strong&gt;Sve ovo stavlja C programski jezik kao osnovu za ucenje programiranja.&lt;/strong&gt;&lt;/p&gt;
 
-&lt;p&gt;Naravno, kao i uvijek, izbor je na vama, ukoliko ipak niste zadovoljni odgovorom, mozete poceti i sa Python-om. Zbog svoje 
-ekstremne jednostavnosti, sirokog spektra koji obuhvata prilikom prakticne upotrebe, kao i odlicne podrske zajednice, postao je
-defakto programski jezik na mnogim svjetski priznatim univerzitetima i obraznovnim institucijama.&lt;/p&gt;
+&lt;p&gt;Naravno, kao i uvijek, izbor je na vama, ukoliko ipak niste zadovoljni odgovorom, mozete poceti i sa Python-om. Zbog svoje ekstremne jednostavnosti, sirokog spektra koji obuhvata prilikom prakticne upotrebe, kao i odlicne podrske zajednice, postao je defakto programski jezik na mnogim svjetski priznatim univerzitetima i obraznovnim institucijama.&lt;/p&gt;
 
-&lt;p&gt;Koliko dugo je potrebno da se neki programski jezik savlada kako bi se mogao koristiti, cak i za absolutne pocetnike, a da 
-moze obezbijediti posao? Kreiranje projekta sa stecenim znanjem
+&lt;h2 id=&quot;koliko-dugo-je-potrebno-da-se-neki-programski-jezik-savlada-kako-bi-se-mogao-koristiti-cak-i-za-absolutne-pocetnike-a-da-moze-obezbijediti-posao&quot;&gt;Koliko dugo je potrebno da se neki programski jezik savlada kako bi se mogao koristiti, cak i za absolutne pocetnike, a da moze obezbijediti posao?&lt;/h2&gt;
+
+&lt;p&gt;Kreiranje projekta sa stecenim znanjem
 Potraga trzita i predvidjanje za buducnost
-Koja je stvarna produktivnost programskog jezika&lt;/p&gt;
-
-&lt;p&gt;Napomena: &lt;strong&gt;Prosjecna godisnja zarada:&lt;/strong&gt; je vrijednost izrazena u americkim dolarima, za americko trziste, obzirom da se kod
-nas visina plate krije kao zmije noge, za sta imam potpuno razumijevanje.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/img/posts/programski_jezici/python.png&quot; alt=&quot;Programski jezik Python &quot; class=&quot;img-fluid&quot; /&gt; - &lt;strong&gt;Programski jezik Python&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Kratak opis:&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;Najlaksi program za pocetnike. Lak za ucenje. Koristi se u nauci, tehnici, umjetnoj inteligenciji (AI).&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Poznati framework-ci&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;Django, Flask, Pyramid&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Prosjecna godisnja zarada:&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;$120.000&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Koristen kao alat za izradu&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;Youtube, Instagram, Spotify&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Besplatan kurs:&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;U pripremi&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Besplatan PDF prirucnik uz kurs:&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;U pripremi&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/img/posts/programski_jezici/javascript.png&quot; alt=&quot;Programski jezik JavaScript &quot; class=&quot;img-fluid&quot; /&gt; &lt;strong&gt;Programski jezik JavaScript&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Kratak opis:&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;“JavaScript nije isto sto i Java” 
-Trenutno najpopularniji client-side skriptni jezik. Jedan od programskih jezika koji se toplo preporucuje, ako razvijate web client-side aplikaciju, obzirom na veliku popularnost koju je stekao zahvaljujuci Node.js-u&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Poznati framework-ci&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;Node.js, React JS, AngularJS, Vue.js, METEOR&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Prosjecna godisnja zarada:&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;$112.000&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Koristen kao alat za izradu&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;Paypal, front-end vecini popularnih web stranica&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Besplatan kurs:&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;U pripremi&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Besplatan PDF prirucnik uz kurs:&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;U pripremi&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/img/posts/programski_jezici/java.png&quot; alt=&quot;Programski jezik Java &quot; class=&quot;img-fluid&quot; /&gt; - &lt;strong&gt;Programski jezik Java&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Kratak opis:&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;Veoma popularan na svim platfomama, zbog svoje portabilnosti. 
-Jedan od najtrazenijih programskih jezika i veoma dobro placen. 
-Primaran u razvoju Android aplikacija, za cije mjesto se bori Kotlin, ali ako kada naucite Javu, naucili ste i Kotlin.
-Slogan: napisi jednom, radice  na bilo cemu.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Poznati framework-ci&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;Spring, Struts, Hibernate&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Prosjecna godisnja zarada:&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;$115.000&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Koristen kao alat za izradu&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;Gmail, Minecraft, vecina Android aplikacija, Enterprise aplikacije&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Besplatan kurs:&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;U pripremi&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Besplatan PDF prirucnik uz kurs:&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;U pripremi&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/img/posts/programski_jezici/c.png&quot; alt=&quot;Programski jezik C &quot; class=&quot;img-fluid&quot; /&gt; - &lt;strong&gt;Programski jezik C&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Kratak opis:&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;Najstariji i najzastupljeniji programski jezik na svijetu. 
-Popularan za sistemsko i hardware-sko programiranje.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Poznati framework-ci&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;Revel, Beego&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Prosjecna godisnja zarada:&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;$115.000&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Koristen kao alat za izradu&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;Operativni sistemi i hardware.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Besplatan kurs:&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;U pripremi&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Besplatan PDF prirucnik uz kurs:&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;U pripremi&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/img/posts/programski_jezici/c-plus-plus.png&quot; alt=&quot;Programski jezik C++ &quot; class=&quot;img-fluid&quot; /&gt; - &lt;strong&gt;Programski jezik C++&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Kratak opis:&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;Kompleksnija verzija C programskog jezika, sa mnogo vise opcija. 
-U sirokoj upotrebi prilikom  developmenta igrica i u razvoju performance-critical aplikacija.&lt;br /&gt;
-Ucenje C++ programskog jezika se  moze usporediti sa nacinom kako proizvesti, sastaviti i voziti automobil.
-Ucenje se preporucuje samo uz nadzor starijih C++ programera :)&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Poznati framework-ci&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;Revel, Beego&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Prosjecna godisnja zarada:&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;$120.000&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Koristen kao alat za izradu&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;Operativni sistemi, hardware i internet pretrazivaci. Adobe i Oracle&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Besplatan kurs:&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;U pripremi&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Besplatan PDF prirucnik uz kurs:&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;U pripremi&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/img/posts/programski_jezici/GoLang.png&quot; alt=&quot;Programski jezik GoLang &quot; class=&quot;img-fluid&quot; /&gt; - &lt;strong&gt;Programski jezik GoLang&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Kratak opis:&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;Google nam donosi programski jezik, GoLang, ciji primar je izvrsavanje vise taskova paralelno u isto vrijeme, sto se naziva
-konkurentnost. Nativno postizanje konkurentnosti, razlikuje GoLang, od ostalih programskih jezika. Primjenu je nasao u 
-masinskom ucenju ali i web development-u&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Koristen kao alat za izradu&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;Vecina Android aplikacija, Enterprise aplikacije&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Poznati framework-ci&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;Revel, Beego&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Prosjecna godisnja zarada:&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;$170.000&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Besplatan kurs:&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;U pripremi&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Besplatan PDF prirucnik uz kurs:&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/img/posts/programski_jezici/kotlin.png&quot; alt=&quot;Programski jezik Kotlin &quot; class=&quot;img-fluid&quot; /&gt; - &lt;strong&gt;Programski jezik Kotlin&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Kratak opis:&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;Ogromna popularnost za samo godinu dana, namece Kotlin kao broj jedan kada je u pitanju razvoj Android aplikacija. Programski
-jezik opste namjene, cross-platform, kompatibilan sa Javom i potpuno integrisan sa Android Studio-m sto ga cini broj jedan
-izborom Android developera. 
-Slogan: napisi jednom, radice  na bilo cemu.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Poznati framework-ci&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;Ktor, vertx, spring&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Koristen kao alat za izradu&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;Vecina Android aplikacija, Enterprise aplikacije&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Prosjecna godisnja zarada:&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;$120.000&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Besplatan kurs:&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;U pripremi&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Besplatan PDF prirucnik uz kurs:&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/img/posts/programski_jezici/c-sharp.png&quot; alt=&quot;Programski jezik C# &quot; class=&quot;img-fluid&quot; /&gt; - &lt;strong&gt;Programski jezik C Sharp&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Opis:&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;Ukoliko zelite kreirati webstranice i Windows aplikacije a pritom ste .Net orijentisani. U slucaju da ste  Windows orijentisani ovo bi mogao biti jezik preporuke umjesto Jave, u nekim dijelovima sintakse je dosta slican Javi kao i nekim specificnim mogucnostima.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Poznati framework-ci&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;.NET, Xamarin&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Koristen kao alat za izradu&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;Enterprise i Windows aplikacija.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Prosjecna godisnja zarada:&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;$78.000&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Besplatan kurs:&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;U pripremi&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Besplatan PDF prirucnik uz kurs:&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;U pripremi&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/img/posts/programski_jezici/swift.png&quot; alt=&quot;Programski jezik Swift &quot; class=&quot;img-fluid&quot; /&gt; - &lt;strong&gt;Programski jezik Swift&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Opis:&lt;/strong&gt; 
-|
-Primarni jezik koristen za razvoj Apple aplikacija za Mac OS X i iOS. Objektno-orijentisan programski jezik, citljiv, brz sa
-podrskom za dinamicke biblioteke. 
-Ako se odlucite iskljucivo razvijati Apple bazirane aplikacije, preporucuje se ucenje Swift-a pored Objective-C-ja.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Poznati framework-ci&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;COCOA i CLOUDKIT&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Prosjecna godisnja zarada:&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;$125.000&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Koristen kao alat za izradu&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;Najvise zastupljen u izradi iOS aplikacija, kao i Mac OS X aplikacija&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Besplatan kurs:&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;U pripremi&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Besplatan PDF prirucnik uz kurs:&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/img/posts/programski_jezici/php.png&quot; alt=&quot;Programski jezik PHP &quot; class=&quot;img-fluid&quot; /&gt; - &lt;strong&gt;Programski jezik PHP&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Kratak opis:&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;:) Pogodan za izradu manjih i jednostavnih web stranica za kratko vrijeme. Podrzan na skoro svakom web hostingu po maloj cijeni. 
-Cinjenica je da 80% od top deset social-media web stranica svoje postojanje duguje upravo PHP-u.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Poznati framework-ci&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;CakePHP, Laravel, Symfony, phalcon&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Koristen kao alat za izradu&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;Wordpress, Wikipedia, Flickr, Joomla, Facebook&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Prosjecna godisnja zarada:&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;$102.000&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Besplatan kurs:&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;U pripremi&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Besplatan PDF prirucnik uz kurs:&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;U pripremi&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/img/posts/programski_jezici/r.png&quot; alt=&quot;Programski jezik R &quot; class=&quot;img-fluid&quot; /&gt; - &lt;strong&gt;Programski jezik R&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Kratak opis:&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;Kada je u pitanju statisticka analiza i nauka o podacima, na prvom mjestu je programski jezik R. Pored navedene primjene, moze
-se koristiti za izradu interaktivnih web aplikacija, sa podrskom vise od 10.000 biblioteka. Posjeduje odlican IDE koji sluzi za 
-vizuelizaciju i development, R Studio .&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Koristen kao alat za izradu&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;Vecina Android aplikacija, Enterprise aplikacije&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Prosjecna godisnja zarada:&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;$121.000&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Besplatan kurs:&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;U pripremi&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Besplatan PDF prirucnik uz kurs:&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/img/posts/programski_jezici/ruby.png&quot; alt=&quot;Programski jezik Ruby &quot; class=&quot;img-fluid&quot; /&gt; - &lt;strong&gt;Programski jezik Ruby&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Kratak opis:&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;Poznat po popularnom web framework-u “Ruby on Rails”.
-Fokusiran na odradjivanje projekta.
-Dizajniran za zabavu i produktivno programiranje.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Koristen kao alat za izradu&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;Hulu, Groupon, Slideshare&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Besplatan kurs:&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Besplatan PDF prirucnik uz kurs:&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;U pripremi&lt;/p&gt;
-
-&lt;p&gt;1) Python
-2) Java
-3) JavaScript
-4) C and C++
-5) Golang
-6) R
-7) Kotlin
-8) C#
-9) Swift
-10) PHP&lt;/p&gt;
-
-&lt;h2 id=&quot;postoji-li-pravilo-kojim-mogu-odrediti-koji-programski-jezik-je-za-mene&quot;&gt;Postoji li pravilo, kojim mogu odrediti koji programski jezik je za mene?&lt;/h2&gt;
-
-&lt;p&gt;&lt;strong&gt;Ne bas, posto se o ukusima ne raspravlja :)&lt;/strong&gt;, ali prilozena sema moze biti od velike koristi prilikom donosenja odluke i 
-nadam se da ce vam biti od koristi.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/img/posts/programski_jezici_sema_ucenja.png&quot; alt=&quot;Programski jezici sema ucenja &quot; class=&quot;img-fluid&quot; /&gt;&lt;/p&gt;</content><author><name>leemenix</name></author><category term="novosti" /><summary type="html">“Programiranje ili kompjutersko programiranje (engl. programming) jeste vjestina pomocu koje korisnik stvara i izvrsava algoritme koristeci odredjene programske jezike da bi napravio kompjuterski program. Programiranje sadrzi elemente umjetnosti, nauke, matematike i inzinjerstva.” - Wikipedia.</summary></entry><entry><title type="html">Besplatni online kursevi programiranja</title><link href="https://programiranje.ba/blog/besplatni-online-kursevi-programiranja/" rel="alternate" type="text/html" title="Besplatni online kursevi programiranja" /><published>2020-04-02T04:05:23-05:00</published><updated>2020-04-02T04:05:23-05:00</updated><id>https://programiranje.ba/blog/besplatni-online-kursevi-programiranja</id><content type="html" xml:base="https://programiranje.ba/blog/besplatni-online-kursevi-programiranja/">&lt;p&gt;Cilj programiranje.ba stranice je da omoguci potpuno besplatno znanje, kroz visoko kvalitetne kurseve koji drze paznju. Istina je 
-da danas mozete pronaci bilo sta o bilo cemu na internetu. Ako znate engleski jezik, nista Vas ne sprecava da potrazite kurseve 
-poznatih svjetski priznatih fakulteta online.&lt;/p&gt;
-
-&lt;p&gt;Cinjenica je i da su kursevi koji imaju zaista kvalitetan sadrzaj, u vecini slucajeva veoma skupi za nase uslove ali se zna 
-desiti da ima i onih koji su skupi sa losim sadrzajem.&lt;/p&gt;
-
-&lt;p&gt;Online platforma za ucenje programiranje.ba, sa druge strane, nudi kvalitetan sadrzaj bez skrivenih troskova i ima za cilj da 
-tako ostane sve dok postoje uslovi za to.&lt;/p&gt;
-
-&lt;p&gt;Svaka informacija koja dolazi od programiranje.ba je potpuno besplatna, ne postoji “premium” sadrzaj, nema dosadnih reklama, niti 
-skrivenih marketinskih trikova. Ono sto vidite to i dobijate.&lt;/p&gt;</content><author><name>leemenix</name></author><category term="novosti" /><summary type="html">Cilj programiranje.ba stranice je da omoguci potpuno besplatno znanje, kroz visoko kvalitetne kurseve koji drze paznju. Istina je da danas mozete pronaci bilo sta o bilo cemu na internetu. Ako znate engleski jezik, nista Vas ne sprecava da potrazite kurseve poznatih svjetski priznatih fakulteta online.</summary></entry></feed>
+Koja je stvarna produktivnost programskog jezika&lt;/p&gt;</content><author><name>leemenix</name></author><category term="novosti" /><summary type="html">There are around 600 programming languages out there. The demand and popularity of programming languages fluctuate every year. Also, new programming languages are coming with attractive features. So, which programming language should you learn? Learning a new programming language is always an investment of your time and brainpower. If you are a seasoned developer or if you already know several programming languages, then you can learn a niche, modern one. Recently, I have written a blog post where I have short-listed seven modern programming languages worth learning:</summary></entry></feed>

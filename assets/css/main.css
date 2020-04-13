@@ -10,7 +10,7 @@ a { -webkit-transition: all 0.35s; -moz-transition: all 0.35s; transition: all 0
 
 a:hover, a:focus { color: #36913a; }
 
-h1, h2, h3, h4, h5, h6 { font-family: 'Lato', 'Open Sans', 'Helvetica Neue', Arial, sans-serif; }
+h1, h2, h3, h4, h5, h6 { font-family: 'Lato', 'Open Sans', 'Helvetica Neue', Arial, sans-serif; text-align: center; }
 
 p { font-size: 16px; line-height: 1.5; margin-bottom: 20px; }
 
@@ -22,7 +22,11 @@ p { font-size: 16px; line-height: 1.5; margin-bottom: 20px; }
 
 .bg-primary-3 { background-color: #221F1F; }
 
-.bg-primary-4 { background-color: #0B0B0B; }
+.bg-primary-4 { background-color: #ffffff; }
+
+.img-fluid { max-width: 100%; height: auto; }
+
+.img-fluid-in-post { max-width: 100%; height: auto; margin-left: auto; margin-right: auto; display: block; }
 
 .bg-dark { background-color: #222; color: white; }
 
