@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="https://programiranje.ba/feed.xml" rel="self" type="application/atom+xml" /><link href="https://programiranje.ba/" rel="alternate" type="text/html" /><updated>2020-04-13T03:53:39-05:00</updated><id>https://programiranje.ba/feed.xml</id><title type="html">programiranje.ba</title><subtitle>programiranje.ba vam nudi potpuno besplatno znanje, kroz visoko kvalitetne online kurseve programiranja koji drze paznju.</subtitle><entry><title type="html">Koje programske jezike uciti u 2020? Ultimativni vodic!</title><link href="https://programiranje.ba/blog/koje-programske-jezike-uciti-u-2020-ultimativni-vodic/" rel="alternate" type="text/html" title="Koje programske jezike uciti u 2020? Ultimativni vodic!" /><published>2020-04-06T05:15:23-05:00</published><updated>2020-04-06T05:15:23-05:00</updated><id>https://programiranje.ba/blog/koje-programske-jezike-uciti-u-2020-ultimativni-vodic</id><content type="html" xml:base="https://programiranje.ba/blog/koje-programske-jezike-uciti-u-2020-ultimativni-vodic/">&lt;hr /&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="https://programiranje.ba/feed.xml" rel="self" type="application/atom+xml" /><link href="https://programiranje.ba/" rel="alternate" type="text/html" /><updated>2020-04-13T03:57:36-05:00</updated><id>https://programiranje.ba/feed.xml</id><title type="html">programiranje.ba</title><subtitle>programiranje.ba vam nudi potpuno besplatno znanje, kroz visoko kvalitetne online kurseve programiranja koji drze paznju.</subtitle><entry><title type="html">Koje programske jezike uciti u 2020? Ultimativni vodic!</title><link href="https://programiranje.ba/blog/koje-programske-jezike-uciti-u-2020-ultimativni-vodic/" rel="alternate" type="text/html" title="Koje programske jezike uciti u 2020? Ultimativni vodic!" /><published>2020-04-06T05:15:23-05:00</published><updated>2020-04-06T05:15:23-05:00</updated><id>https://programiranje.ba/blog/koje-programske-jezike-uciti-u-2020-ultimativni-vodic</id><content type="html" xml:base="https://programiranje.ba/blog/koje-programske-jezike-uciti-u-2020-ultimativni-vodic/">&lt;hr /&gt;
 
 &lt;p&gt;Obzirom na ogromnu potraznju za kvalitetnim programerskim kadrom, ciji trend samo nastavlja da raste i ne planira da se zaustavi, dok se paralelno alati potrebni za programiranje, prvenstveno programski jezici rapidno razvijaju, uslovljava i najiskusnije programere da ponekad posegnu za ucenjem novih tool-ova, framework-a ali i programskih jezika od pocetka “from scratch”. Naravno, u svemu ovome lezi car i ljepota programiranja ali i IT struke generalno, mada moramo priznati da ponekad zna biti zaista frustrirajuce, osim ako niste iz familije hacker-a, kojima je ovo prirodno stanje svijesti.&lt;/p&gt;
 
@@ -22,7 +22,7 @@
 
 &lt;h2 id=&quot;programski-jezik-python&quot;&gt;Programski jezik Python&lt;/h2&gt;
 
-&lt;p&gt;&lt;img src=&quot;/assets/img/posts/programski_jezici/python-programski-jezik.png&quot; alt=&quot;Programski jezik Python &quot; class=&quot;img-fluid-in-post&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/img/posts/programski_jezici/python-programski-jezik.png&quot; alt=&quot;Programski jezik Python &quot; class=&quot;img-fluid&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Nesumnjivo, najpopularniji programski jezik danasnjice. Razvijen devedesetih, dostigao je ogromnu popularnost za kratko vrijeme. Ne postoji sfera unutar obrade podataka a da Python nije zavirio.&lt;/p&gt;
 
@@ -48,30 +48,30 @@
 
 &lt;p&gt;Prema PYPL-u (PopularitY of Programming Language), Python se nalazi na prvom mjestu.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/assets/img/posts/programski_jezici/python/pypl-python.png&quot; alt=&quot;Programski jezik Python statistika PYPL 2020 &quot; class=&quot;img-fluid-in-post&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/img/posts/programski_jezici/python/pypl-python.png&quot; alt=&quot;Programski jezik Python statistika PYPL 2020 &quot; class=&quot;img-fluid&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Prema Octoverse-u (The State of the Octoverse), Python zauzima drugo mjesto.
-&lt;img src=&quot;/assets/img/posts/programski_jezici/python/octoverse-python.png&quot; alt=&quot;Programski jezik Python statistika Octoverse 2020 &quot; class=&quot;img-fluid-in-post&quot; /&gt;&lt;/p&gt;
+&lt;img src=&quot;/assets/img/posts/programski_jezici/python/octoverse-python.png&quot; alt=&quot;Programski jezik Python statistika Octoverse 2020 &quot; class=&quot;img-fluid&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Prema StackOverflow-u (StackOverflow Developer Survey), Python zauzima cetvrto mjesto.
-&lt;img src=&quot;/assets/img/posts/programski_jezici/python/stackoverflow-python.png&quot; alt=&quot;Programski jezik Python statistika StackOverflow 2020 &quot; class=&quot;img-fluid-in-post&quot; /&gt;&lt;/p&gt;
+&lt;img src=&quot;/assets/img/posts/programski_jezici/python/stackoverflow-python.png&quot; alt=&quot;Programski jezik Python statistika StackOverflow 2020 &quot; class=&quot;img-fluid&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Prema Tiobe-u (The software quality company), Python je na trecoj poziciji.
-&lt;img src=&quot;/assets/img/posts/programski_jezici/python/tiobe-python.png&quot; alt=&quot;Programski jezik Python statistika Tiobe 2020 &quot; class=&quot;img-fluid-in-post&quot; /&gt;&lt;/p&gt;
+&lt;img src=&quot;/assets/img/posts/programski_jezici/python/tiobe-python.png&quot; alt=&quot;Programski jezik Python statistika Tiobe 2020 &quot; class=&quot;img-fluid&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Prema Google trends-u, mozemo vidjeti vidjeti trend rasta zainteresovanosti za Python u proteklih pet godina.
 Prema Tiobe-u (The software quality company), Python je na trecoj poziciji.
-&lt;img src=&quot;/assets/img/posts/programski_jezici/python/google-python.png&quot; alt=&quot;Programski jezik Python statistika Google trends 2020 &quot; class=&quot;img-fluid-in-post&quot; /&gt;&lt;/p&gt;
+&lt;img src=&quot;/assets/img/posts/programski_jezici/python/google-python.png&quot; alt=&quot;Programski jezik Python statistika Google trends 2020 &quot; class=&quot;img-fluid&quot; /&gt;&lt;/p&gt;
 
 &lt;h3 id=&quot;trziste-rada&quot;&gt;Trziste rada&lt;/h3&gt;
 
 &lt;p&gt;Sudeci prema Indeed-u, Python je najtrazeniji programski jezik sa prosjekom od &lt;strong&gt;74 000&lt;/strong&gt; radnih pozicija u Januaru 2020. godine, dok je prosjecna plata na godisnjem nivou preko &lt;strong&gt;$118 000&lt;/strong&gt;.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/assets/img/posts/programski_jezici/python/indeed-python.png&quot; alt=&quot;Programski jezik Python statistika Indeed 2020 &quot; class=&quot;img-fluid-in-post&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/img/posts/programski_jezici/python/indeed-python.png&quot; alt=&quot;Programski jezik Python statistika Indeed 2020 &quot; class=&quot;img-fluid&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Ono sto je jos interesantno, sudeci prema StackOverflow-u, jeste pokazatelj da Python developer-i zaradjuju velike plate, obzirom na manjak radnog iskustva u poredjenju sa drugim programskim jezicima.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/assets/img/posts/programski_jezici/python/st-salary-all.png&quot; alt=&quot;Programski jezik Python statistika plata StackOverflow 2020 &quot; class=&quot;img-fluid-in-post&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/img/posts/programski_jezici/python/st-salary-all.png&quot; alt=&quot;Programski jezik Python statistika plata StackOverflow 2020 &quot; class=&quot;img-fluid&quot; /&gt;&lt;/p&gt;
 
 &lt;h3 id=&quot;zastupljenost-i-najcesca-upotreba&quot;&gt;Zastupljenost i najcesca upotreba&lt;/h3&gt;
 
@@ -87,7 +87,7 @@ Prema Tiobe-u (The software quality company), Python je na trecoj poziciji.
 
 &lt;h2 id=&quot;programski-jezik-javascript&quot;&gt;Programski jezik JavaScript&lt;/h2&gt;
 
-&lt;p&gt;&lt;img src=&quot;/assets/img/posts/programski_jezici/javascript-programski-jezik.png&quot; alt=&quot;Programski jezik JavaScript &quot; class=&quot;img-fluid-in-post&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/img/posts/programski_jezici/javascript-programski-jezik.png&quot; alt=&quot;Programski jezik JavaScript &quot; class=&quot;img-fluid&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;“JavaScript nije isto sto i Java”. Trenutno najpopularniji client-side skriptni jezik. Jedan od programskih jezika koji se toplo preporucuje, ako razvijate web client-side aplikaciju, obzirom na veliku popularnost koju je stekao zahvaljujuci Node.js-u.&lt;/p&gt;
 
@@ -112,30 +112,30 @@ Prema Tiobe-u (The software quality company), Python je na trecoj poziciji.
 &lt;h3 id=&quot;popularnost-1&quot;&gt;Popularnost&lt;/h3&gt;
 
 &lt;p&gt;Prema Octoverse-u, JavaScript zauzima prvo mjesto, kao najbolje rangiran programski jezik.
-&lt;img src=&quot;/assets/img/posts/programski_jezici/python/octoverse-javascript.png&quot; alt=&quot;Programski jezik JavaScript statistika Octoverse 2020 &quot; class=&quot;img-fluid-in-post&quot; /&gt;&lt;/p&gt;
+&lt;img src=&quot;/assets/img/posts/programski_jezici/python/octoverse-javascript.png&quot; alt=&quot;Programski jezik JavaScript statistika Octoverse 2020 &quot; class=&quot;img-fluid&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Prema StackOverflow-u, JavaScript takodje zauzima prvu poziciju, kao najpopularniji programski jezik.
-&lt;img src=&quot;/assets/img/posts/programski_jezici/python/stackoverflow-javascript.png&quot; alt=&quot;Programski jezik JavaScript statistika StackOverflow 2020 &quot; class=&quot;img-fluid-in-post&quot; /&gt;&lt;/p&gt;
+&lt;img src=&quot;/assets/img/posts/programski_jezici/python/stackoverflow-javascript.png&quot; alt=&quot;Programski jezik JavaScript statistika StackOverflow 2020 &quot; class=&quot;img-fluid&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Prema Tiobe-u, JavaScript je na sedmom mjestu.
-&lt;img src=&quot;/assets/img/posts/programski_jezici/python/tiobe-javascript.png&quot; alt=&quot;Programski jezik JavaScript statistika Tiobe 2020 &quot; class=&quot;img-fluid-in-post&quot; /&gt;&lt;/p&gt;
+&lt;img src=&quot;/assets/img/posts/programski_jezici/python/tiobe-javascript.png&quot; alt=&quot;Programski jezik JavaScript statistika Tiobe 2020 &quot; class=&quot;img-fluid&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Prema PYPL-u, JavaScript je na trecem mjestu.
-&lt;img src=&quot;/assets/img/posts/programski_jezici/python/pypl-javascript.png&quot; alt=&quot;Programski jezik JavaScript statistika Tiobe 2020 &quot; class=&quot;img-fluid-in-post&quot; /&gt;&lt;/p&gt;
+&lt;img src=&quot;/assets/img/posts/programski_jezici/python/pypl-javascript.png&quot; alt=&quot;Programski jezik JavaScript statistika Tiobe 2020 &quot; class=&quot;img-fluid&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Prema Google trends-u, mozemo vidjeti stabilnost JavaScript-a u proteklih pet godina.
 Prema Tiobe-u (The software quality company), Python je na trecoj poziciji.
-&lt;img src=&quot;/assets/img/posts/programski_jezici/python/google-javascript.png&quot; alt=&quot;Programski jezik Python statistika Google trends 2020 &quot; class=&quot;img-fluid-in-post&quot; /&gt;&lt;/p&gt;
+&lt;img src=&quot;/assets/img/posts/programski_jezici/python/google-javascript.png&quot; alt=&quot;Programski jezik Python statistika Google trends 2020 &quot; class=&quot;img-fluid&quot; /&gt;&lt;/p&gt;
 
 &lt;h3 id=&quot;trziste-rada-1&quot;&gt;Trziste rada&lt;/h3&gt;
 
 &lt;p&gt;Sudeci prema Indeed-u, JavaScript je u top tri programska jezika sa prosjekom od &lt;strong&gt;57 000&lt;/strong&gt; radnih pozicija u Januaru 2020. godine, dok je prosjecna plata na godisnjem nivou preko &lt;strong&gt;$117 000&lt;/strong&gt;.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/assets/img/posts/programski_jezici/python/indeed-javascript.png&quot; alt=&quot;Programski jezik JavaScript statistika Indeed 2020 &quot; class=&quot;img-fluid-in-post&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/img/posts/programski_jezici/python/indeed-javascript.png&quot; alt=&quot;Programski jezik JavaScript statistika Indeed 2020 &quot; class=&quot;img-fluid&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Prema StackOverflow-u, JavaScript developer-i mogu skromno da zarade sa veoma relativnim znanje i godinama radnog iskustva u poredjenju sa drugim programskim jezicima.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/assets/img/posts/programski_jezici/python/st-salary-all.png&quot; alt=&quot;Programski jezik Python statistika plata StackOverflow 2020 &quot; class=&quot;img-fluid-in-post&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/img/posts/programski_jezici/python/st-salary-all.png&quot; alt=&quot;Programski jezik Python statistika plata StackOverflow 2020 &quot; class=&quot;img-fluid&quot; /&gt;&lt;/p&gt;
 
 &lt;h3 id=&quot;zastupljenost-i-najcesca-upotreba-1&quot;&gt;Zastupljenost i najcesca upotreba&lt;/h3&gt;
 
@@ -151,7 +151,7 @@ Prema Tiobe-u (The software quality company), Python je na trecoj poziciji.
 
 &lt;h2 id=&quot;programski-jezik-java&quot;&gt;Programski jezik Java&lt;/h2&gt;
 
-&lt;p&gt;&lt;img src=&quot;/assets/img/posts/programski_jezici/java-programski-jezik.png&quot; alt=&quot;Programski jezik Java &quot; class=&quot;img-fluid-in-post&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/img/posts/programski_jezici/java-programski-jezik.png&quot; alt=&quot;Programski jezik Java &quot; class=&quot;img-fluid&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Veoma popularan na svim platfomama, zbog svoje portabilnosti. U ranim devedesetim godinama, kada su poslovne aplikacije bile bazirane na C++, koji je zavistan od platforme i prilicno komplikovan, Java je dosla kao programski jezik koji je uspjesno premostio ovu barijeru razvoje poslovnih aplikacija na jednostavniji, objektno-orijentisan i interpretiran nacin sa podrskom za mutli-treding programiranje.&lt;/p&gt;
 
@@ -178,26 +178,26 @@ Prema Tiobe-u (The software quality company), Python je na trecoj poziciji.
 
 &lt;p&gt;Kratko nakon razvoja Java je postao trece rangirani programski jezik na svijetu. 
 Prema Octoverse-u, Java i dan danas zauzima trece mjesto, kao jedan od top tri najbolje rangiranih programskih jezika.
-&lt;img src=&quot;/assets/img/posts/programski_jezici/python/octoverse-java.png&quot; alt=&quot;Programski jezik Java statistika Octoverse 2020 &quot; class=&quot;img-fluid-in-post&quot; /&gt;&lt;/p&gt;
+&lt;img src=&quot;/assets/img/posts/programski_jezici/python/octoverse-java.png&quot; alt=&quot;Programski jezik Java statistika Octoverse 2020 &quot; class=&quot;img-fluid&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Prema Tiobe-u, Java se nalazi na prvom mjestu, kao vodeci programski jezik.
-&lt;img src=&quot;/assets/img/posts/programski_jezici/python/tiobe-java.png&quot; alt=&quot;Programski jezik Java statistika Tiobe 2020 &quot; class=&quot;img-fluid-in-post&quot; /&gt;&lt;/p&gt;
+&lt;img src=&quot;/assets/img/posts/programski_jezici/python/tiobe-java.png&quot; alt=&quot;Programski jezik Java statistika Tiobe 2020 &quot; class=&quot;img-fluid&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Prema StackOverflow-u, Java takodje zauzima petu poziciju.
-&lt;img src=&quot;/assets/img/posts/programski_jezici/python/stackoverflow-java.png&quot; alt=&quot;Programski jezik Java statistika StackOverflow 2020 &quot; class=&quot;img-fluid-in-post&quot; /&gt;&lt;/p&gt;
+&lt;img src=&quot;/assets/img/posts/programski_jezici/python/stackoverflow-java.png&quot; alt=&quot;Programski jezik Java statistika StackOverflow 2020 &quot; class=&quot;img-fluid&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Prema Google trends-u, mozemo vidjeti blagi pad popularnosti Java-e u proteklih pet godina.
-&lt;img src=&quot;/assets/img/posts/programski_jezici/python/google-java.png&quot; alt=&quot;Programski jezik Java statistika Google trends 2020 &quot; class=&quot;img-fluid-in-post&quot; /&gt;&lt;/p&gt;
+&lt;img src=&quot;/assets/img/posts/programski_jezici/python/google-java.png&quot; alt=&quot;Programski jezik Java statistika Google trends 2020 &quot; class=&quot;img-fluid&quot; /&gt;&lt;/p&gt;
 
 &lt;h3 id=&quot;trziste-rada-2&quot;&gt;Trziste rada&lt;/h3&gt;
 
 &lt;p&gt;Sudeci prema Indeed-u, Java je na drugom mjestu sa prosjekom od &lt;strong&gt;69 000&lt;/strong&gt; radnih pozicija u Januaru 2020. godine, dok je prosjecna plata na godisnjem nivou preko &lt;strong&gt;$104 000&lt;/strong&gt;.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/assets/img/posts/programski_jezici/python/indeed-java.png&quot; alt=&quot;Programski jezik Java statistika Indeed 2020 &quot; class=&quot;img-fluid-in-post&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/img/posts/programski_jezici/python/indeed-java.png&quot; alt=&quot;Programski jezik Java statistika Indeed 2020 &quot; class=&quot;img-fluid&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Prema StackOverflow-u, Java nudi odlicnu platu nakon nekoliko godina prakticnog iskustva&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/assets/img/posts/programski_jezici/python/st-salary-all.png&quot; alt=&quot;Programski jezik Java statistika plata StackOverflow 2020 &quot; class=&quot;img-fluid-in-post&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/img/posts/programski_jezici/python/st-salary-all.png&quot; alt=&quot;Programski jezik Java statistika plata StackOverflow 2020 &quot; class=&quot;img-fluid&quot; /&gt;&lt;/p&gt;
 
 &lt;h3 id=&quot;zastupljenost-i-najcesca-upotreba-2&quot;&gt;Zastupljenost i najcesca upotreba&lt;/h3&gt;
 
@@ -212,7 +212,7 @@ Prema Octoverse-u, Java i dan danas zauzima trece mjesto, kao jedan od top tri n
 
 &lt;h2 id=&quot;programski-jezik-c&quot;&gt;Programski jezik C&lt;/h2&gt;
 
-&lt;p&gt;&lt;img src=&quot;/assets/img/posts/programski_jezici/c-programski-jezik.png&quot; alt=&quot;Programski jezik C &quot; class=&quot;img-fluid-in-post&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/img/posts/programski_jezici/c-programski-jezik.png&quot; alt=&quot;Programski jezik C &quot; class=&quot;img-fluid&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Jedan od najstarijih i najzastupljenijih programskih jezika na svijetu. Ranih sezdesetih i sedamdesetih, kada se moralo voditi racuna o svakom bit-u memorije i herzu procesorske jedinice, razvijen je proceduralni, programski jezig opste namjene, koji se moze kompajlirati direktno u masinski jezik racunara. C programski jezik nudi direktan pristup memoriji i potpunu kontrolu na hardware-om kompjutera.&lt;/p&gt;
 
@@ -239,31 +239,31 @@ Prema Octoverse-u, Java i dan danas zauzima trece mjesto, kao jedan od top tri n
 &lt;p&gt;Dovoljno je reci da je C skoro 50 godina u ovoj industriji i dalje veoma popularan.&lt;/p&gt;
 
 &lt;p&gt;Prema Octoverse-u, C zauzima deveto mjesto.
-&lt;img src=&quot;/assets/img/posts/programski_jezici/python/octoverse-c.png&quot; alt=&quot;Programski jezik JavaScript statistika Octoverse 2020 &quot; class=&quot;img-fluid-in-post&quot; /&gt;&lt;/p&gt;
+&lt;img src=&quot;/assets/img/posts/programski_jezici/python/octoverse-c.png&quot; alt=&quot;Programski jezik JavaScript statistika Octoverse 2020 &quot; class=&quot;img-fluid&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;StackOverflow, svrstava C na jedanaestu poziciju.
-&lt;img src=&quot;/assets/img/posts/programski_jezici/python/stackoverflow-c.png&quot; alt=&quot;Programski jezik JavaScript statistika StackOverflow 2020 &quot; class=&quot;img-fluid-in-post&quot; /&gt;&lt;/p&gt;
+&lt;img src=&quot;/assets/img/posts/programski_jezici/python/stackoverflow-c.png&quot; alt=&quot;Programski jezik JavaScript statistika StackOverflow 2020 &quot; class=&quot;img-fluid&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Prema Tiobe-u, C je na drugom mjestu.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/assets/img/posts/programski_jezici/python/tiobe-c.png&quot; alt=&quot;Programski jezik JavaScript statistika Tiobe 2020 &quot; class=&quot;img-fluid-in-post&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/img/posts/programski_jezici/python/tiobe-c.png&quot; alt=&quot;Programski jezik JavaScript statistika Tiobe 2020 &quot; class=&quot;img-fluid&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Prema PYPL-u, C je na sestom mjestu.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/assets/img/posts/programski_jezici/python/pypl-c-plus.png&quot; alt=&quot;Programski jezik JavaScript statistika Tiobe 2020 &quot; class=&quot;img-fluid-in-post&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/img/posts/programski_jezici/python/pypl-c-plus.png&quot; alt=&quot;Programski jezik JavaScript statistika Tiobe 2020 &quot; class=&quot;img-fluid&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Prema Google trends-u, mozemo vidjeti stabilnost i zainteresovanost za C u proteklih pet godina.
-&lt;img src=&quot;/assets/img/posts/programski_jezici/python/google-c.png&quot; alt=&quot;Programski jezik C statistika Google trends 2020 &quot; class=&quot;img-fluid-in-post&quot; /&gt;&lt;/p&gt;
+&lt;img src=&quot;/assets/img/posts/programski_jezici/python/google-c.png&quot; alt=&quot;Programski jezik C statistika Google trends 2020 &quot; class=&quot;img-fluid&quot; /&gt;&lt;/p&gt;
 
 &lt;h3 id=&quot;trziste-rada-3&quot;&gt;Trziste rada&lt;/h3&gt;
 
 &lt;p&gt;Sudeci prema Indeed-u, C je na sestom mjestu sa prosjekom od &lt;strong&gt;28 000&lt;/strong&gt; radnih pozicija u Januaru 2020. godine, dok je prosjecna plata na godisnjem nivou preko &lt;strong&gt;$101 000&lt;/strong&gt;.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/assets/img/posts/programski_jezici/python/indeed-c.png&quot; alt=&quot;Programski jezik C statistika Indeed 2020 &quot; class=&quot;img-fluid-in-post&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/img/posts/programski_jezici/python/indeed-c.png&quot; alt=&quot;Programski jezik C statistika Indeed 2020 &quot; class=&quot;img-fluid&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Prema StackOverflow-u, C developer-i mogu dobro da zarade ali je potrebno vise vremena da bi se postigo nivo znanja u poredjenju sa Javom i Python-om.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/assets/img/posts/programski_jezici/python/st-salary-all.png&quot; alt=&quot;Programski jezik C statistika plata StackOverflow 2020 &quot; class=&quot;img-fluid-in-post&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/img/posts/programski_jezici/python/st-salary-all.png&quot; alt=&quot;Programski jezik C statistika plata StackOverflow 2020 &quot; class=&quot;img-fluid&quot; /&gt;&lt;/p&gt;
 
 &lt;h3 id=&quot;zastupljenost-i-najcesca-upotreba-3&quot;&gt;Zastupljenost i najcesca upotreba&lt;/h3&gt;
 
@@ -279,7 +279,7 @@ Prema Octoverse-u, Java i dan danas zauzima trece mjesto, kao jedan od top tri n
 
 &lt;h2 id=&quot;programski-jezik-c-1&quot;&gt;Programski jezik C++&lt;/h2&gt;
 
-&lt;p&gt;&lt;img src=&quot;/assets/img/posts/programski_jezici/c-plus-plus-programski-jezik.png&quot; alt=&quot;Programski jezik C++ &quot; class=&quot;img-fluid-in-post&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/img/posts/programski_jezici/c-plus-plus-programski-jezik.png&quot; alt=&quot;Programski jezik C++ &quot; class=&quot;img-fluid&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Kompleksnija verzija C programskog jezika, sa mnogo vise opcija. Veliki uticaj prilikom razvoja je imao upravo od C programskog jezika, u pocetku kao nadogradjenja verzija da bi se nakon odredjenog perioda razvio u programski jezik opste namjene, koji zadrzava sve osobine svog prethodnika.&lt;/p&gt;
 
@@ -306,26 +306,26 @@ Prema Octoverse-u, Java i dan danas zauzima trece mjesto, kao jedan od top tri n
 &lt;h3 id=&quot;popularnost-4&quot;&gt;Popularnost&lt;/h3&gt;
 
 &lt;p&gt;Prema Tiobe-u, C++ je na cetvrtom mjestu, kao jedan od najstarijih programskih jezika.
-&lt;img src=&quot;/assets/img/posts/programski_jezici/python/tiobe-c-plus.png&quot; alt=&quot;Programski jezik C++ statistika Tiobe 2020 &quot; class=&quot;img-fluid-in-post&quot; /&gt;&lt;/p&gt;
+&lt;img src=&quot;/assets/img/posts/programski_jezici/python/tiobe-c-plus.png&quot; alt=&quot;Programski jezik C++ statistika Tiobe 2020 &quot; class=&quot;img-fluid&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Prema Octoverse-u, C++ zauzima sesto mjesto.
-&lt;img src=&quot;/assets/img/posts/programski_jezici/python/octoverse-c-plus.png&quot; alt=&quot;Programski jezik C++ statistika Octoverse 2020 &quot; class=&quot;img-fluid-in-post&quot; /&gt;&lt;/p&gt;
+&lt;img src=&quot;/assets/img/posts/programski_jezici/python/octoverse-c-plus.png&quot; alt=&quot;Programski jezik C++ statistika Octoverse 2020 &quot; class=&quot;img-fluid&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;StackOverflow, svrstava C++ na devetu poziciju.
-&lt;img src=&quot;/assets/img/posts/programski_jezici/python/stackoverflow-c-plus.png&quot; alt=&quot;Programski jezik C++ statistika StackOverflow 2020 &quot; class=&quot;img-fluid-in-post&quot; /&gt;&lt;/p&gt;
+&lt;img src=&quot;/assets/img/posts/programski_jezici/python/stackoverflow-c-plus.png&quot; alt=&quot;Programski jezik C++ statistika StackOverflow 2020 &quot; class=&quot;img-fluid&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Prema Google trends-u, mozemo vidjeti stabilnost C++-a u proteklih pet godina, gdje se direktno takmici rame uz rame sa programskim jezicima Rust i Go.
-&lt;img src=&quot;/assets/img/posts/programski_jezici/python/google-c-plus.png&quot; alt=&quot;Programski jezik C++ statistika Google trends 2020 &quot; class=&quot;img-fluid-in-post&quot; /&gt;&lt;/p&gt;
+&lt;img src=&quot;/assets/img/posts/programski_jezici/python/google-c-plus.png&quot; alt=&quot;Programski jezik C++ statistika Google trends 2020 &quot; class=&quot;img-fluid&quot; /&gt;&lt;/p&gt;
 
 &lt;h3 id=&quot;trziste-rada-4&quot;&gt;Trziste rada&lt;/h3&gt;
 
 &lt;p&gt;Sudeci prema Indeed-u, C++ je i top cetiri programska jezika sa prosjekom od &lt;strong&gt;41 000&lt;/strong&gt; radnih pozicija u Januaru 2020. godine, dok je prosjecna plata na godisnjem nivou preko &lt;strong&gt;$104 000&lt;/strong&gt;.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/assets/img/posts/programski_jezici/python/indeed-c-plus.png&quot; alt=&quot;Programski jezik C++ statistika Indeed 2020 &quot; class=&quot;img-fluid-in-post&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/img/posts/programski_jezici/python/indeed-c-plus.png&quot; alt=&quot;Programski jezik C++ statistika Indeed 2020 &quot; class=&quot;img-fluid&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Prema StackOverflow-u, C++ developer-i mogu odlicno da zarade, ali veca zarada i uopste zarada dolazi sa duzim radnim iskustva u poredjenju sa drugim programskim jezicima.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/assets/img/posts/programski_jezici/python/st-salary-all.png&quot; alt=&quot;Programski jezik C++ statistika plata StackOverflow 2020 &quot; class=&quot;img-fluid-in-post&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/img/posts/programski_jezici/python/st-salary-all.png&quot; alt=&quot;Programski jezik C++ statistika plata StackOverflow 2020 &quot; class=&quot;img-fluid&quot; /&gt;&lt;/p&gt;
 
 &lt;h3 id=&quot;zastupljenost-i-najcesca-upotreba-4&quot;&gt;Zastupljenost i najcesca upotreba&lt;/h3&gt;
 
@@ -341,7 +341,7 @@ Prema Octoverse-u, Java i dan danas zauzima trece mjesto, kao jedan od top tri n
 
 &lt;h2 id=&quot;programski-jezik-golang&quot;&gt;Programski jezik GoLang&lt;/h2&gt;
 
-&lt;p&gt;&lt;img src=&quot;/assets/img/posts/programski_jezici/go-programski-jezik.png&quot; alt=&quot;Programski jezik GoLang &quot; class=&quot;img-fluid-in-post&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/img/posts/programski_jezici/go-programski-jezik.png&quot; alt=&quot;Programski jezik GoLang &quot; class=&quot;img-fluid&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Google nam donosi programski jezik, GoLang ili samo Go, ciji primar je izvrsavanje vise taskova paralelno u isto vrijeme, sto se naziva konkurentnost. Nativno postizanje konkurentnosti, razlikuje GoLang, od ostalih programskih jezika. Primjenu je nasao u masinskom ucenju ali i web development-u.&lt;/p&gt;
 
@@ -368,23 +368,23 @@ Prema Octoverse-u, Java i dan danas zauzima trece mjesto, kao jedan od top tri n
 &lt;p&gt;Ogroman napredak u proteklih par godina.&lt;/p&gt;
 
 &lt;p&gt;Prema Tiobe-u, GoLang je na dvanaestom mjestu, uz tendenciju napretka ka gore.
-&lt;img src=&quot;/assets/img/posts/programski_jezici/python/tiobe-go.png&quot; alt=&quot;Programski jezik GoLang statistika Tiobe 2020 &quot; class=&quot;img-fluid-in-post&quot; /&gt;&lt;/p&gt;
+&lt;img src=&quot;/assets/img/posts/programski_jezici/python/tiobe-go.png&quot; alt=&quot;Programski jezik GoLang statistika Tiobe 2020 &quot; class=&quot;img-fluid&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Prema StackOverflow-u, GoLang zauzima trinaestu poziciju
-&lt;img src=&quot;/assets/img/posts/programski_jezici/python/stackoverflow-go.png&quot; alt=&quot;Programski jezik GoLang statistika StackOverflow 2020 &quot; class=&quot;img-fluid-in-post&quot; /&gt;&lt;/p&gt;
+&lt;img src=&quot;/assets/img/posts/programski_jezici/python/stackoverflow-go.png&quot; alt=&quot;Programski jezik GoLang statistika StackOverflow 2020 &quot; class=&quot;img-fluid&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Prema Google trends-u, mozemo vidjeti stabilnost i uspon GoLang-a u proteklih pet godina.
-&lt;img src=&quot;/assets/img/posts/programski_jezici/python/google-golang.png&quot; alt=&quot;Programski jezik GoLang statistika Google trends 2020 &quot; class=&quot;img-fluid-in-post&quot; /&gt;&lt;/p&gt;
+&lt;img src=&quot;/assets/img/posts/programski_jezici/python/google-golang.png&quot; alt=&quot;Programski jezik GoLang statistika Google trends 2020 &quot; class=&quot;img-fluid&quot; /&gt;&lt;/p&gt;
 
 &lt;h3 id=&quot;trziste-rada-5&quot;&gt;Trziste rada&lt;/h3&gt;
 
 &lt;p&gt;Sudeci prema Indeed-u, GoLang, tacnije software inzinjer ima prosjek plate veci od &lt;strong&gt;$108 000&lt;/strong&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/assets/img/posts/programski_jezici/python/indeed-go-lang.png&quot; alt=&quot;Programski jezik GoLang statistika Indeed 2020 &quot; class=&quot;img-fluid-in-post&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/img/posts/programski_jezici/python/indeed-go-lang.png&quot; alt=&quot;Programski jezik GoLang statistika Indeed 2020 &quot; class=&quot;img-fluid&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Prema StackOverflow-u, GoLang developer-i su medju najplacenijim na trzistu.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/assets/img/posts/programski_jezici/python/st-salary-all.png&quot; alt=&quot;Programski jezik GoLang statistika plata StackOverflow 2020 &quot; class=&quot;img-fluid-in-post&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/img/posts/programski_jezici/python/st-salary-all.png&quot; alt=&quot;Programski jezik GoLang statistika plata StackOverflow 2020 &quot; class=&quot;img-fluid&quot; /&gt;&lt;/p&gt;
 
 &lt;h3 id=&quot;zastupljenost-i-najcesca-upotreba-5&quot;&gt;Zastupljenost i najcesca upotreba&lt;/h3&gt;
 
@@ -400,7 +400,7 @@ Prema Octoverse-u, Java i dan danas zauzima trece mjesto, kao jedan od top tri n
 
 &lt;h2 id=&quot;programski-jezik-kotlin&quot;&gt;Programski jezik Kotlin&lt;/h2&gt;
 
-&lt;p&gt;&lt;img src=&quot;/assets/img/posts/programski_jezici/kotlin-programski-jezik.png&quot; alt=&quot;Programski jezik Kotlin &quot; class=&quot;img-fluid-in-post&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/img/posts/programski_jezici/kotlin-programski-jezik.png&quot; alt=&quot;Programski jezik Kotlin &quot; class=&quot;img-fluid&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Ogromna popularnost za samo godinu dana, namece Kotlin kao broj jedan kada je u pitanju razvoj Android aplikacija. Programski jezik opste namjene, cross-platform, kompatibilan sa Javom i potpuno integrisan sa Android Studio-m sto ga cini broj jedan izborom Android developera.&lt;/p&gt;
 
@@ -426,26 +426,26 @@ Prema Octoverse-u, Java i dan danas zauzima trece mjesto, kao jedan od top tri n
 &lt;h3 id=&quot;popularnost-6&quot;&gt;Popularnost&lt;/h3&gt;
 
 &lt;p&gt;Prema Octoverse-u, Kotlin zauzima cetvrto mjesto, kao najbrze rastuci programski jezik.
-&lt;img src=&quot;/assets/img/posts/programski_jezici/python/octoverse-fast-grow-kotlin.png&quot; alt=&quot;Programski jezik Kotlin statistika Octoverse 2020 &quot; class=&quot;img-fluid-in-post&quot; /&gt;&lt;/p&gt;
+&lt;img src=&quot;/assets/img/posts/programski_jezici/python/octoverse-fast-grow-kotlin.png&quot; alt=&quot;Programski jezik Kotlin statistika Octoverse 2020 &quot; class=&quot;img-fluid&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Prema StackOverflow-u, Kotlin se nalazi na sesnaestoj poziciji.
-&lt;img src=&quot;/assets/img/posts/programski_jezici/python/stackoverflow-kotlin.png&quot; alt=&quot;Programski jezik Kotlin statistika StackOverflow 2020 &quot; class=&quot;img-fluid-in-post&quot; /&gt;&lt;/p&gt;
+&lt;img src=&quot;/assets/img/posts/programski_jezici/python/stackoverflow-kotlin.png&quot; alt=&quot;Programski jezik Kotlin statistika StackOverflow 2020 &quot; class=&quot;img-fluid&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Prema PYPL-u, Kotlin je na dvanaestom mjestu.
-&lt;img src=&quot;/assets/img/posts/programski_jezici/python/pypl-kotlin.png&quot; alt=&quot;Programski jezik Kotlin statistika Tiobe 2020 &quot; class=&quot;img-fluid-in-post&quot; /&gt;&lt;/p&gt;
+&lt;img src=&quot;/assets/img/posts/programski_jezici/python/pypl-kotlin.png&quot; alt=&quot;Programski jezik Kotlin statistika Tiobe 2020 &quot; class=&quot;img-fluid&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Prema Google trends-u, mozemo vidjeti stabilnost Kotlin-a u proteklih godinu dana, obzirom da je relativno novi jezik na trzistu.
-&lt;img src=&quot;/assets/img/posts/programski_jezici/python/google-kotlin.png&quot; alt=&quot;Programski jezik Kotlin statistika Google trends 2020 &quot; class=&quot;img-fluid-in-post&quot; /&gt;&lt;/p&gt;
+&lt;img src=&quot;/assets/img/posts/programski_jezici/python/google-kotlin.png&quot; alt=&quot;Programski jezik Kotlin statistika Google trends 2020 &quot; class=&quot;img-fluid&quot; /&gt;&lt;/p&gt;
 
 &lt;h3 id=&quot;trziste-rada-6&quot;&gt;Trziste rada&lt;/h3&gt;
 
 &lt;p&gt;Sudeci prema Indeed-u, Kotlin, tacnije Android developer ima prosjecnu platu na godisnjem nivou preko &lt;strong&gt;$123 000&lt;/strong&gt;.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/assets/img/posts/programski_jezici/python/indeed-kotlin.png&quot; alt=&quot;Programski jezik Kotlin statistika Indeed 2020 &quot; class=&quot;img-fluid-in-post&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/img/posts/programski_jezici/python/indeed-kotlin.png&quot; alt=&quot;Programski jezik Kotlin statistika Indeed 2020 &quot; class=&quot;img-fluid&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Prema StackOverflow-u, Kotlin developer-i mogu odlicno da zarade sa jako kratkim periodom iskustva rada.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/assets/img/posts/programski_jezici/python/st-salary-all.png&quot; alt=&quot;Programski jezik Python statistika plata StackOverflow 2020 &quot; class=&quot;img-fluid-in-post&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/img/posts/programski_jezici/python/st-salary-all.png&quot; alt=&quot;Programski jezik Python statistika plata StackOverflow 2020 &quot; class=&quot;img-fluid&quot; /&gt;&lt;/p&gt;
 
 &lt;h3 id=&quot;zastupljenost-i-najcesca-upotreba-6&quot;&gt;Zastupljenost i najcesca upotreba&lt;/h3&gt;
 
@@ -459,7 +459,7 @@ Prema Octoverse-u, Java i dan danas zauzima trece mjesto, kao jedan od top tri n
 
 &lt;h2 id=&quot;programski-jezik-c-sharp&quot;&gt;Programski jezik C Sharp&lt;/h2&gt;
 
-&lt;p&gt;&lt;img src=&quot;/assets/img/posts/programski_jezici/c-sharp-programski-jezik.png&quot; alt=&quot;Programski jezik C# &quot; class=&quot;img-fluid-in-post&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/img/posts/programski_jezici/c-sharp-programski-jezik.png&quot; alt=&quot;Programski jezik C# &quot; class=&quot;img-fluid&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Ukoliko zelite kreirati web stranice i Windows aplikacije a pritom ste .NET orijentisani, ovo bi mogao biti jezik preporuke umjesto Jave. U nekim dijelovima sintakse je dosta slican Javi kao i nekim specificnim mogucnostima.&lt;/p&gt;
 
@@ -486,29 +486,29 @@ Prema Octoverse-u, Java i dan danas zauzima trece mjesto, kao jedan od top tri n
 &lt;h3 id=&quot;popularnost-7&quot;&gt;Popularnost&lt;/h3&gt;
 
 &lt;p&gt;Prema Tiobe-u, C# je na petom mjestu.
-&lt;img src=&quot;/assets/img/posts/programski_jezici/python/tiobe-c-sharp.png&quot; alt=&quot;Programski jezik C# statistika Tiobe 2020 &quot; class=&quot;img-fluid-in-post&quot; /&gt;&lt;/p&gt;
+&lt;img src=&quot;/assets/img/posts/programski_jezici/python/tiobe-c-sharp.png&quot; alt=&quot;Programski jezik C# statistika Tiobe 2020 &quot; class=&quot;img-fluid&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Prema PYPL-u, C# je na cetvrtom mjestu.
-&lt;img src=&quot;/assets/img/posts/programski_jezici/python/pypl-c-sharp.png&quot; alt=&quot;Programski jezik C# statistika PYPL 2020 &quot; class=&quot;img-fluid-in-post&quot; /&gt;&lt;/p&gt;
+&lt;img src=&quot;/assets/img/posts/programski_jezici/python/pypl-c-sharp.png&quot; alt=&quot;Programski jezik C# statistika PYPL 2020 &quot; class=&quot;img-fluid&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Prema StackOverflow-u, C# se nalazi na sedmom mjestu.
-&lt;img src=&quot;/assets/img/posts/programski_jezici/python/stackoverflow-c-sharp.png&quot; alt=&quot;Programski jezik C# statistika StackOverflow 2020 &quot; class=&quot;img-fluid-in-post&quot; /&gt;&lt;/p&gt;
+&lt;img src=&quot;/assets/img/posts/programski_jezici/python/stackoverflow-c-sharp.png&quot; alt=&quot;Programski jezik C# statistika StackOverflow 2020 &quot; class=&quot;img-fluid&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Octoverse, svrstava C# na peto mjesto.
-&lt;img src=&quot;/assets/img/posts/programski_jezici/python/octoverse-c-sharp.png&quot; alt=&quot;Programski jezik C# statistika Octoverse 2020 &quot; class=&quot;img-fluid-in-post&quot; /&gt;&lt;/p&gt;
+&lt;img src=&quot;/assets/img/posts/programski_jezici/python/octoverse-c-sharp.png&quot; alt=&quot;Programski jezik C# statistika Octoverse 2020 &quot; class=&quot;img-fluid&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Prema Google trends-u, mozemo vidjeti stabilnost C#-a u proteklih pet godina.
-&lt;img src=&quot;/assets/img/posts/programski_jezici/python/google-c-sharp.png&quot; alt=&quot;Programski jezik C# statistika Google trends 2020 &quot; class=&quot;img-fluid-in-post&quot; /&gt;&lt;/p&gt;
+&lt;img src=&quot;/assets/img/posts/programski_jezici/python/google-c-sharp.png&quot; alt=&quot;Programski jezik C# statistika Google trends 2020 &quot; class=&quot;img-fluid&quot; /&gt;&lt;/p&gt;
 
 &lt;h3 id=&quot;trziste-rada-7&quot;&gt;Trziste rada&lt;/h3&gt;
 
 &lt;p&gt;Sudeci prema Indeed-u, C# je i prvih pet programskih jezika sa prosjekom od &lt;strong&gt;32 000&lt;/strong&gt; radnih pozicija u Januaru 2020. godine, dok je prosjecna plata na godisnjem nivou preko &lt;strong&gt;$97 000&lt;/strong&gt;.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/assets/img/posts/programski_jezici/python/indeed-c-sharp.png&quot; alt=&quot;Programski jezik C# statistika Indeed 2020 &quot; class=&quot;img-fluid-in-post&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/img/posts/programski_jezici/python/indeed-c-sharp.png&quot; alt=&quot;Programski jezik C# statistika Indeed 2020 &quot; class=&quot;img-fluid&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Prema StackOverflow-u, C# developer-i imaju prednost u odnosu na Java developere, uz uslov duzeg radnog iskustva, kada je u pitanju visina zarade&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/assets/img/posts/programski_jezici/python/st-salary-all.png&quot; alt=&quot;Programski jezik C# statistika plata StackOverflow 2020 &quot; class=&quot;img-fluid-in-post&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/img/posts/programski_jezici/python/st-salary-all.png&quot; alt=&quot;Programski jezik C# statistika plata StackOverflow 2020 &quot; class=&quot;img-fluid&quot; /&gt;&lt;/p&gt;
 
 &lt;h3 id=&quot;zastupljenost-i-najcesca-upotreba-7&quot;&gt;Zastupljenost i najcesca upotreba&lt;/h3&gt;
 
@@ -524,7 +524,7 @@ Prema Octoverse-u, Java i dan danas zauzima trece mjesto, kao jedan od top tri n
 
 &lt;h2 id=&quot;programski-jezik-swift&quot;&gt;Programski jezik Swift&lt;/h2&gt;
 
-&lt;p&gt;&lt;img src=&quot;/assets/img/posts/programski_jezici/swift-programski-jezik.png&quot; alt=&quot;Programski jezik Swift &quot; class=&quot;img-fluid-in-post&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/img/posts/programski_jezici/swift-programski-jezik.png&quot; alt=&quot;Programski jezik Swift &quot; class=&quot;img-fluid&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Primarni jezik koristen za razvoj Apple aplikacija za Mac OS X i iOS. Objektno-orijentisan programski jezik, citljiv, brz, sa podrskom za dinamicke biblioteke. Ako se odlucite iskljucivo razvijati Apple bazirane aplikacije, preporucuje se ucenje Swift-a pored Objective-C-ja. Tacnije, primarni okidac za nastanak Swift-a jeste upravo zamjena Objective-C programskog jezika.&lt;/p&gt;
 
@@ -547,26 +547,26 @@ Prema Octoverse-u, Java i dan danas zauzima trece mjesto, kao jedan od top tri n
 &lt;h3 id=&quot;popularnost-8&quot;&gt;Popularnost&lt;/h3&gt;
 
 &lt;p&gt;Prema Tiobe-u, Swift je na jedanaestom mjestu.
-&lt;img src=&quot;/assets/img/posts/programski_jezici/python/tiobe-swift.png&quot; alt=&quot;Programski jezik Swift statistika Tiobe 2020 &quot; class=&quot;img-fluid-in-post&quot; /&gt;&lt;/p&gt;
+&lt;img src=&quot;/assets/img/posts/programski_jezici/python/tiobe-swift.png&quot; alt=&quot;Programski jezik Swift statistika Tiobe 2020 &quot; class=&quot;img-fluid&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Prema PYPL-u, Swift je na devetom mjestu.
-&lt;img src=&quot;/assets/img/posts/programski_jezici/python/pypl-swift.png&quot; alt=&quot;Programski jezik Swift statistika Tiobe 2020 &quot; class=&quot;img-fluid-in-post&quot; /&gt;&lt;/p&gt;
+&lt;img src=&quot;/assets/img/posts/programski_jezici/python/pypl-swift.png&quot; alt=&quot;Programski jezik Swift statistika Tiobe 2020 &quot; class=&quot;img-fluid&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Prema StackOverflow-u, nalazi se na petnaestom mjestu.
-&lt;img src=&quot;/assets/img/posts/programski_jezici/python/stackoverflow-swift.png&quot; alt=&quot;Programski jezik Swift statistika StackOverflow 2020 &quot; class=&quot;img-fluid-in-post&quot; /&gt;&lt;/p&gt;
+&lt;img src=&quot;/assets/img/posts/programski_jezici/python/stackoverflow-swift.png&quot; alt=&quot;Programski jezik Swift statistika StackOverflow 2020 &quot; class=&quot;img-fluid&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Prema Google trends-u, mozemo vidjeti stabilnost Swift-a u proteklih pet godina.
-&lt;img src=&quot;/assets/img/posts/programski_jezici/python/google-c-sharp.png&quot; alt=&quot;Programski jezik Swift statistika Google trends 2020 &quot; class=&quot;img-fluid-in-post&quot; /&gt;&lt;/p&gt;
+&lt;img src=&quot;/assets/img/posts/programski_jezici/python/google-c-sharp.png&quot; alt=&quot;Programski jezik Swift statistika Google trends 2020 &quot; class=&quot;img-fluid&quot; /&gt;&lt;/p&gt;
 
 &lt;h3 id=&quot;trziste-rada-8&quot;&gt;Trziste rada&lt;/h3&gt;
 
 &lt;p&gt;Sudeci prema Indeed-u, Swift ili iOS developer je rangiran na devetom mjestu sa prosjekom od &lt;strong&gt;6 000&lt;/strong&gt; radnih pozicija u Januaru 2020. godine, dok je prosjecna plata na godisnjem nivou preko &lt;strong&gt;$126 000&lt;/strong&gt;.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/assets/img/posts/programski_jezici/python/indeed-swift.png&quot; alt=&quot;Programski jezik Swift statistika Indeed 2020 &quot; class=&quot;img-fluid-in-post&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/img/posts/programski_jezici/python/indeed-swift.png&quot; alt=&quot;Programski jezik Swift statistika Indeed 2020 &quot; class=&quot;img-fluid&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Prema StackOverflow-u, Swift developer-i mogu dobro zaraditi, obzirom na relativno mali broj godina potrebnog radnog iskustva .&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/assets/img/posts/programski_jezici/python/st-salary-all.png&quot; alt=&quot;Programski jezik Swift statistika plata StackOverflow 2020 &quot; class=&quot;img-fluid-in-post&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/img/posts/programski_jezici/python/st-salary-all.png&quot; alt=&quot;Programski jezik Swift statistika plata StackOverflow 2020 &quot; class=&quot;img-fluid&quot; /&gt;&lt;/p&gt;
 
 &lt;h3 id=&quot;zastupljenost-i-oblast-primjene&quot;&gt;Zastupljenost i oblast primjene&lt;/h3&gt;
 
@@ -582,7 +582,7 @@ Prema Octoverse-u, Java i dan danas zauzima trece mjesto, kao jedan od top tri n
 
 &lt;h2 id=&quot;programski-jezik-php&quot;&gt;Programski jezik PHP&lt;/h2&gt;
 
-&lt;p&gt;&lt;img src=&quot;/assets/img/posts/programski_jezici/php-programski-jezik.png&quot; alt=&quot;Programski jezik PHP &quot; class=&quot;img-fluid-in-post&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/img/posts/programski_jezici/php-programski-jezik.png&quot; alt=&quot;Programski jezik PHP &quot; class=&quot;img-fluid&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Pogodan za izradu manjih i jednostavnih web stranica za kratko vrijeme. Podrzan na skoro svakom web hostingu po maloj cijeni. Cinjenica je da 80% od top deset social-media web stranica svoje postojanje duguje upravo PHP-u.&lt;/p&gt;
 
@@ -610,29 +610,29 @@ Prema Octoverse-u, Java i dan danas zauzima trece mjesto, kao jedan od top tri n
 
 &lt;p&gt;Prema Tiobe-u, PHP je na osmom mjestu.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/assets/img/posts/programski_jezici/python/tiobe-php.png&quot; alt=&quot;Programski jezik PHP statistika Tiobe 2020 &quot; class=&quot;img-fluid-in-post&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/img/posts/programski_jezici/python/tiobe-php.png&quot; alt=&quot;Programski jezik PHP statistika Tiobe 2020 &quot; class=&quot;img-fluid&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Prema Octoverse-u, PHP zauzima cetvrto mjesto.
-&lt;img src=&quot;/assets/img/posts/programski_jezici/python/octoverse-php.png&quot; alt=&quot;Programski jezik JavaScript statistika Octoverse 2020 &quot; class=&quot;img-fluid-in-post&quot; /&gt;&lt;/p&gt;
+&lt;img src=&quot;/assets/img/posts/programski_jezici/python/octoverse-php.png&quot; alt=&quot;Programski jezik JavaScript statistika Octoverse 2020 &quot; class=&quot;img-fluid&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Prema PYPL-u, PHP je na petom mjestu.
-&lt;img src=&quot;/assets/img/posts/programski_jezici/python/pypl-php.png&quot; alt=&quot;Programski jezik PHP statistika Tiobe 2020 &quot; class=&quot;img-fluid-in-post&quot; /&gt;&lt;/p&gt;
+&lt;img src=&quot;/assets/img/posts/programski_jezici/python/pypl-php.png&quot; alt=&quot;Programski jezik PHP statistika Tiobe 2020 &quot; class=&quot;img-fluid&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Prema StackOverflow-u, PHP je na osmoj poziciji.
-&lt;img src=&quot;/assets/img/posts/programski_jezici/python/stackoverflow-php.png&quot; alt=&quot;Programski jezik JavaScript statistika StackOverflow 2020 &quot; class=&quot;img-fluid-in-post&quot; /&gt;&lt;/p&gt;
+&lt;img src=&quot;/assets/img/posts/programski_jezici/python/stackoverflow-php.png&quot; alt=&quot;Programski jezik JavaScript statistika StackOverflow 2020 &quot; class=&quot;img-fluid&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Prema Google trends-u, mozemo vidjeti konstantni blagi pad PHP u poslednjih pet godina.
-&lt;img src=&quot;/assets/img/posts/programski_jezici/python/google-php.png&quot; alt=&quot;Programski jezik PHP statistika Google trends 2020 &quot; class=&quot;img-fluid-in-post&quot; /&gt;&lt;/p&gt;
+&lt;img src=&quot;/assets/img/posts/programski_jezici/python/google-php.png&quot; alt=&quot;Programski jezik PHP statistika Google trends 2020 &quot; class=&quot;img-fluid&quot; /&gt;&lt;/p&gt;
 
 &lt;h3 id=&quot;trziste-rada-9&quot;&gt;Trziste rada&lt;/h3&gt;
 
 &lt;p&gt;Sudeci prema Indeed-u, PHP je na sedmoj poziji programskih jezika sa prosjekom od &lt;strong&gt;18 000&lt;/strong&gt; radnih pozicija u Januaru 2020. godine, dok je prosjecna plata na godisnjem nivou preko &lt;strong&gt;$94 000&lt;/strong&gt;.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/assets/img/posts/programski_jezici/python/indeed-php.png&quot; alt=&quot;Programski jezik PHP statistika Indeed 2020 &quot; class=&quot;img-fluid-in-post&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/img/posts/programski_jezici/python/indeed-php.png&quot; alt=&quot;Programski jezik PHP statistika Indeed 2020 &quot; class=&quot;img-fluid&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Prema StackOverflow-u, PHP developer-i najmanje placeni u 2019 godini.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/assets/img/posts/programski_jezici/python/st-salary-all.png&quot; alt=&quot;Programski jezik PHP statistika plata StackOverflow 2020 &quot; class=&quot;img-fluid-in-post&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/img/posts/programski_jezici/python/st-salary-all.png&quot; alt=&quot;Programski jezik PHP statistika plata StackOverflow 2020 &quot; class=&quot;img-fluid&quot; /&gt;&lt;/p&gt;
 
 &lt;h3 id=&quot;zastupljenost-i-najcesca-upotreba-8&quot;&gt;Zastupljenost i najcesca upotreba&lt;/h3&gt;
 
@@ -646,7 +646,7 @@ Prema Octoverse-u, Java i dan danas zauzima trece mjesto, kao jedan od top tri n
 
 &lt;h2 id=&quot;programski-jezik-r&quot;&gt;Programski jezik R&lt;/h2&gt;
 
-&lt;p&gt;&lt;img src=&quot;/assets/img/posts/programski_jezici/r-programski-jezik.png&quot; alt=&quot;Programski jezik R &quot; class=&quot;img-fluid-in-post&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/img/posts/programski_jezici/r-programski-jezik.png&quot; alt=&quot;Programski jezik R &quot; class=&quot;img-fluid&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Kada je u pitanju statisticka analiza i “data science”, grafikoni, na prvom mjestu je programski jezik R. Pored navedene primjene, moze se koristiti za izradu interaktivnih web aplikacija, sa podrskom vise od 10.000 biblioteka. Posjeduje odlican IDE koji sluzi za vizuelizaciju i development, R Studio.&lt;/p&gt;
 
@@ -669,19 +669,19 @@ Prema Octoverse-u, Java i dan danas zauzima trece mjesto, kao jedan od top tri n
 &lt;h3 id=&quot;popularnost-10&quot;&gt;Popularnost&lt;/h3&gt;
 
 &lt;p&gt;Prema Tiobe-u, R programski jezik se nalazi na desetom mjestu.
-&lt;img src=&quot;/assets/img/posts/programski_jezici/python/tiobe-r.png&quot; alt=&quot;Programski jezik R statistika Tiobe 2020 &quot; class=&quot;img-fluid-in-post&quot; /&gt;&lt;/p&gt;
+&lt;img src=&quot;/assets/img/posts/programski_jezici/python/tiobe-r.png&quot; alt=&quot;Programski jezik R statistika Tiobe 2020 &quot; class=&quot;img-fluid&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Prema PYPL-u, programski jezik R je na sedmom mjestu.
-&lt;img src=&quot;/assets/img/posts/programski_jezici/python/pypl-r.png&quot; alt=&quot;Programski jezik R statistika Tiobe 2020 &quot; class=&quot;img-fluid-in-post&quot; /&gt;&lt;/p&gt;
+&lt;img src=&quot;/assets/img/posts/programski_jezici/python/pypl-r.png&quot; alt=&quot;Programski jezik R statistika Tiobe 2020 &quot; class=&quot;img-fluid&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Prema Google trends-u, mozemo vidjeti stabilnost programskog jezika R u proteklih pet godina.
-&lt;img src=&quot;/assets/img/posts/programski_jezici/python/google-r.png&quot; alt=&quot;Programski jezik R statistika Google trends 2020 &quot; class=&quot;img-fluid-in-post&quot; /&gt;&lt;/p&gt;
+&lt;img src=&quot;/assets/img/posts/programski_jezici/python/google-r.png&quot; alt=&quot;Programski jezik R statistika Google trends 2020 &quot; class=&quot;img-fluid&quot; /&gt;&lt;/p&gt;
 
 &lt;h3 id=&quot;trziste-rada-10&quot;&gt;Trziste rada&lt;/h3&gt;
 
 &lt;p&gt;Sudeci prema Indeed-u, R developer ili “Data Scientist” ima prosjek plate na godisnjem nivou preko &lt;strong&gt;$124 000&lt;/strong&gt;.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/assets/img/posts/programski_jezici/python/indeed-r.png&quot; alt=&quot;Programski jezik R statistika Indeed 2020 &quot; class=&quot;img-fluid-in-post&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/img/posts/programski_jezici/python/indeed-r.png&quot; alt=&quot;Programski jezik R statistika Indeed 2020 &quot; class=&quot;img-fluid&quot; /&gt;&lt;/p&gt;
 
 &lt;h3 id=&quot;zastupljenost-i-najcesca-upotreba-9&quot;&gt;Zastupljenost i najcesca upotreba&lt;/h3&gt;
 
@@ -696,7 +696,7 @@ Prema Octoverse-u, Java i dan danas zauzima trece mjesto, kao jedan od top tri n
 
 &lt;h2 id=&quot;programski-jezik-ruby&quot;&gt;Programski jezik Ruby&lt;/h2&gt;
 
-&lt;p&gt;&lt;img src=&quot;/assets/img/posts/programski_jezici/ruby-programski-jezik.png&quot; alt=&quot;Programski jezik Ruby &quot; class=&quot;img-fluid-in-post&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/img/posts/programski_jezici/ruby-programski-jezik.png&quot; alt=&quot;Programski jezik Ruby &quot; class=&quot;img-fluid&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Poznat po popularnom web framework-u “Ruby on Rails”. Fokusiran na odradjivanje projekta. Dizajniran za zabavu i produktivno programiranje.&lt;/p&gt;
 
@@ -722,26 +722,26 @@ Nalik na Python, Ruby je iskljucivo fokusiran na produktivnost i zabavu prlikom 
 &lt;h3 id=&quot;popularnost-11&quot;&gt;Popularnost&lt;/h3&gt;
 
 &lt;p&gt;Prema Octoverse-u, Ruby zauzima deseto mjesto.
-&lt;img src=&quot;/assets/img/posts/programski_jezici/python/octoverse-ruby.png&quot; alt=&quot;Programski jezik Ruby statistika Octoverse 2020 &quot; class=&quot;img-fluid-in-post&quot; /&gt;&lt;/p&gt;
+&lt;img src=&quot;/assets/img/posts/programski_jezici/python/octoverse-ruby.png&quot; alt=&quot;Programski jezik Ruby statistika Octoverse 2020 &quot; class=&quot;img-fluid&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Prema StackOverflow-u, Ruby je na dvanaestoj poziciji.
-&lt;img src=&quot;/assets/img/posts/programski_jezici/python/stackoverflow-ruby.png&quot; alt=&quot;Programski jezik Ruby statistika StackOverflow 2020 &quot; class=&quot;img-fluid-in-post&quot; /&gt;&lt;/p&gt;
+&lt;img src=&quot;/assets/img/posts/programski_jezici/python/stackoverflow-ruby.png&quot; alt=&quot;Programski jezik Ruby statistika StackOverflow 2020 &quot; class=&quot;img-fluid&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Prema Tiobe-u, Ruby je na srecnom trinaestom mjestu.
-&lt;img src=&quot;/assets/img/posts/programski_jezici/python/tiobe-ruby.png&quot; alt=&quot;Programski jezik Ruby statistika Tiobe 2020 &quot; class=&quot;img-fluid-in-post&quot; /&gt;&lt;/p&gt;
+&lt;img src=&quot;/assets/img/posts/programski_jezici/python/tiobe-ruby.png&quot; alt=&quot;Programski jezik Ruby statistika Tiobe 2020 &quot; class=&quot;img-fluid&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Prema Google trends-u, mozemo vidjeti stabilnost Ruby-ja u proteklih pet godina.
-&lt;img src=&quot;/assets/img/posts/programski_jezici/python/google-javascript.png&quot; alt=&quot;Programski jezik Ruby statistika Google trends 2020 &quot; class=&quot;img-fluid-in-post&quot; /&gt;&lt;/p&gt;
+&lt;img src=&quot;/assets/img/posts/programski_jezici/python/google-javascript.png&quot; alt=&quot;Programski jezik Ruby statistika Google trends 2020 &quot; class=&quot;img-fluid&quot; /&gt;&lt;/p&gt;
 
 &lt;h3 id=&quot;trziste-rada-11&quot;&gt;Trziste rada&lt;/h3&gt;
 
 &lt;p&gt;Sudeci prema Indeed-u, Ruby je na prvoj poziciji programskih jezika sa prosjekom od &lt;strong&gt;16 000&lt;/strong&gt; radnih pozicija u Januaru 2020. godine.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/assets/img/posts/programski_jezici/python/indeed-ruby.png&quot; alt=&quot;Programski jezik Ruby statistika Indeed 2020 &quot; class=&quot;img-fluid-in-post&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/img/posts/programski_jezici/python/indeed-ruby.png&quot; alt=&quot;Programski jezik Ruby statistika Indeed 2020 &quot; class=&quot;img-fluid&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Prema StackOverflow-u, Ruby developer-i mogu odlicno da zarada sa veoma malo godina radnog iskustva u poredjenju sa drugim programskim jezicima.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/assets/img/posts/programski_jezici/python/st-salary-all.png&quot; alt=&quot;Programski jezik Ruby statistika plata StackOverflow 2020 &quot; class=&quot;img-fluid-in-post&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/img/posts/programski_jezici/python/st-salary-all.png&quot; alt=&quot;Programski jezik Ruby statistika plata StackOverflow 2020 &quot; class=&quot;img-fluid&quot; /&gt;&lt;/p&gt;
 
 &lt;h3 id=&quot;zastupljenost-i-najcesca-upotreba-10&quot;&gt;Zastupljenost i najcesca upotreba&lt;/h3&gt;
 
@@ -760,7 +760,7 @@ Nalik na Python, Ruby je iskljucivo fokusiran na produktivnost i zabavu prlikom 
 nadam se da ce vam biti od koristi.&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&quot;/assets/img/posts/programski_jezici_sema_ucenja.png&quot; target=&quot;_blank&quot;&gt;
-&lt;img src=&quot;/assets/img/posts/programski_jezici_sema_ucenja.png&quot; class=&quot;img-fluid-in-post&quot; alt=&quot;Programski jezici sema ucenja&quot; /&gt;
+&lt;img src=&quot;/assets/img/posts/programski_jezici_sema_ucenja.png&quot; class=&quot;img-fluid&quot; alt=&quot;Programski jezici sema ucenja&quot; /&gt;
 &lt;/a&gt;&lt;/p&gt;
 
 &lt;hr /&gt;
