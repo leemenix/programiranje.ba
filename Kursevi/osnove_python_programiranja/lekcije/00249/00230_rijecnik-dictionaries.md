@@ -3,7 +3,7 @@
 
 ## Rijecnici - Dictionaries - { }
 
-Rijecnici su tipovi podataka, opet slicni listama, ali za razliku od listi 
+Rijecnici su strukture podataka, opet slicni listama, ali za razliku od listi 
 indeksiranje se obavlja kljucevima.
 
 Za lakse razumijevanje ih mozemo uporediti sa klasicnim rijecnikom za 
