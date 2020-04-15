@@ -1,4 +1,5 @@
-
+![Python instalacija korak prvi](../slike/naslovna.png)
+<div style="page-break-after: always;"></div>
 # Python 3 - Uvod u programski jezik Python
 
 **autor:** Milenko Letic - https://programiranje.ba
@@ -1305,7 +1306,7 @@ del(karakter)
 
 ## Rijecnici - Dictionaries - { }
 
-Rijecnici su tipovi podataka, opet slicni listama, ali za razliku od listi 
+Rijecnici su strukture podataka, opet slicni listama, ali za razliku od listi 
 indeksiranje se obavlja kljucevima.
 
 Za lakse razumijevanje ih mozemo uporediti sa klasicnim rijecnikom za 
