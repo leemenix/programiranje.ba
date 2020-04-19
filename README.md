@@ -4,7 +4,7 @@ _config.yml - permalink: [pretty,none]
 ```
 
 # Build with Docker
-sudo docker run --rm -v $PWD:/srv/jekyll -it -p 4000:4000 jekyll/jekyll jekyll serve --watch
+sudo docker run --rm -v $PWD:/srv/jekyll -it -p 4000:4000 jekyll/jekyll jekyll serve --watch --drafts
 sudo docker run --rm -v $PWD:/srv/jekyll -it -p 4000:4000 --env JEKYLL_ENV=production jekyll/jekyll jekyll build --destination programiranje.ba
 
 https://www.iconfinder.com/search/?q=python&from=navbar&price=free
