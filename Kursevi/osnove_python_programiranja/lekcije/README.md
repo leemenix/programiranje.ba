@@ -9,17 +9,41 @@
 **godina:** 2020
 
 **izmjene:**
+
+verzija: 0.6
+	- klase i objekti
+	- moduli i instalacija paketa sa alatom pip
+	- izvorni kod za GUI program
+
 verzija: 0.5
-- izvorni kod za igre vjesala i potapanje brodova
-- rad sa datotekama
-- slike prilikom instalacije python i pycharm
-- dopune teksta
-- page break
-- duzina linije
+	- izvorni kod za igre vjesala i potapanje brodova
+	- rad sa datotekama
+	- slike prilikom instalacije python i pycharm
+	- dopune teksta
+	- page break
+	- duzina linije
 
 verzija: 0.4
-- zadaci za vjezbanje (lecije 1 i 2)
+	- zadaci za vjezbanje (poglavlja 1 i 2)
+	- uslov if, petlje while i for
+	- hvatanje greski
 
+verzija: 0.3 
+	- liste, tuple, rijecnik
+	- funkcije i parametri funkcije
+	- direktiva return
+
+verzija: 0.2
+	- varijable i tipovi podataka
+	- rad sa stringovima
+	- rad sa brojevima
+	- ulaz/izlaz, prihvatanje podataka od korisnika
+
+verzija: 0.1
+	- inicijalno kreiranje sadrzaja
+	- program "Zdravo Svijete"
+	- uvod i istorija Python-a
+	- pravila pisanja koda u Python-u
 
 <div style="page-break-after: always;"></div>
 
@@ -2659,7 +2683,7 @@ da su strukture direktorija razlicite na razlicitim operativnim sistemima.
 U tu svrhu jednostavno mozemo da importujemo standardni Python modul **os**,
 bez obzira na kom operativnom sistemu radimo nacin koriscenja je isti.
 
-
+**`Izvorni kod: kod-653_standardni_moduli.py`**
 ```python
 import os
 
@@ -2668,29 +2692,57 @@ print(help(os))
 print("Trenutni radni direktorij: ")
 print(os.getcwd())
 ```
-
 Kada Python uspjesno importuje modul **os**, on u principu pronadje na vasem 
 sistemu fajl po imenu **os.py**, u prethodno definisanom direktorijumu, 
 specijalno namijenjenom za skladistenje standardnih modula. 
 
-### Djelimicno importovanje **from .. import**
-
+**`Izvorni kod: kod-653_standardni_moduli.py`**
 ```python
+import sys
 
+print(help(sys))
+
+print(sys.version_info)
+
+print("Trenutni radni direktorij: ")
+print(os.getcwd())
 ```
 
-tbd.
-```text 
-{## how to install with pip
-## how to import and use modules
-}
+### Funkcija dir() nad modulima
 
+Ugradjena dir() funkcija vraca listu naziva definisanih unutar objekta. U slucaju da je objekt modul, dir() vraca listu funkcija, klasa i promjenjivih definisane u tom modulu. 
+Moguce je proslijedjivanje argumenata funkciji dir(), na nacin da u slucaju da postoji naziv modula koji je jednak argumentu, funkcija vraca listu naziva specificnih za taj modul. 
 
-tbd.
-```text 
-{## how to install with pip
-## how to import and use modules
-}
+**`Izvorni kod: kod-653_standardni_moduli.py`**
+```python
+import sys
+# lista svih elemenata
+dir()
+# lista odredjenog elementa
+dir(sys)
+
+karakter = "Goku"
+dir()
+del karakter
+dir()
+```
+
+### Selektivno importovanje **from .. import**
+
+**`Izvorni kod: kod-654_selektivno_importovanje.py`**
+```python
+import math
+sqrt(9)
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'sqrt' is not defined
+math.sqrt(9)
+3.0
+
+from math import sqrt
+sqrt(9)
+3.0
+print("Kvadratni korijen od 9 je ", sqrt(9))
 ```
 **`Izvorni kod: kod-655_korisni-alati.py`**
 ```python
@@ -2703,11 +2755,14 @@ def srecan_broj(broj):
 def pozdrav(tekst):
     return ("Pozdrav " + tekst)
 
+__version__ = "0.0.1"
 ##
 import korisni_alati
 
 print(korisni_alati.srecan_broj(3))
 print(korisni_alati.pozdrav("Goku"))
+
+print("Verzija", korisni_alati.__version__)
 
 ##
 from korisni_alati import *
@@ -2715,14 +2770,45 @@ from korisni_alati import *
 print(srecan_broj(3))
 print(pozdrav("Goku"))
 
-##
+## Import as
 import korisni_alati as ka
 
 print(ka.srecan_broj(3))
 print(ka.pozdrav("Goku"))
-
 ```
 
+### Instalacija dodatnih modula **alat pip** - (package installer for Python)
+U slucaju kada zelimo instalirati dodatne pakete za rad sa Python-om, koristimo pip alat ili Package Installer for Python. Za razliku od modula, Python paketi su zapakovati programi, koji se odrzajava od strane Python zajednice, potpuno slobodni i spremni za upotrebu. 
+Naravno prije same upotrebe je potrebno da se upoznate sa mogucnostima koje sam paket nudi. 
+Kada se paket instalira sa pip alatom, on se u sustini raspakuje na vasu masinu u posebno definisan direktoriji, odakle mozemo da pozovemo sve njegove module.
+
+Ja cu vam u sledecem primjeru demonstrirati kako mozemo jako jednostavno napraviti program sa grafikim interface-om u Python-u pomocu paketa **PySimpleGUI**.
+
+```text
+pip install pysimplegui (kao Administrator)
+```
+
+**`Izvorni kod: kod-660_grafika-demo.py`**
+```python
+import PySimpleGUI as grafika
+
+grafika.theme('DarkAmber')	
+izgled = [  [grafika.Text('Program za unos teksta')],
+            [grafika.Text('Unesite tekst'), grafika.InputText()],
+            [grafika.Button('Dalje'), grafika.Button('Otkazi')] ]
+#print(type(izgled))
+# inicijalizacija
+prozor = grafika.Window('Dragon Ball', izgled)
+# 
+while True:
+	# event, values
+    dogadjaj, vrijednost = prozor.read()
+    if dogadjaj in (None, 'Otkazi'):	
+        break
+    print('Unijeli ste ', vrijednost[0])
+
+prozor.close()
+```
 devet_depresivaca.py - (Rambo Amadeus - Devet depresivaca)
 
 ```python
