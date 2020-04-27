@@ -1,4 +1,6 @@
 
+<div style="page-break-after: always;"></div>
+
 ### Parametri funkcije
 
 Vrijednosti (argumenti) koje proslijedjujemo funkciji se nazivaju parametrima 
@@ -37,6 +39,8 @@ Ako lokalna i globalna promjenjiva unutar funkcije nose isti naziv, Pyhon ce
 koristiti lokalnu promjenjivu, ali ovo se ne preporucuje zbog zbunjivanja i 
 konfuzije prilikom citanja koda.
 
+<div style="page-break-after: always;"></div>
+
 **`Izvorni kod: kod-265_parametri-funkcijama.py`**
 
 ```python
@@ -72,6 +76,8 @@ brojac()
 print(broj)
 
 ```
+
+<div style="page-break-after: always;"></div>
 
 #### Nepoznati broj argumenta (**VarArgs**)
 

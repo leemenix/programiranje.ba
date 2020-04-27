@@ -41,6 +41,8 @@ sajt_slogan = """besplatni online kursevi
                    za sve """
 ```
 
+<div style="page-break-after: always;"></div>
+
 ### Funkcije nad stringovima
 
 **`Izvorni kod: kod-166_rad_sa_stringovima.py`**

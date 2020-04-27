@@ -9,6 +9,7 @@
 
 **izmjene:**
 
+```text
 verzija: 0.6
 	- klase i objekti
 	- moduli i instalacija paketa sa alatom pip
@@ -43,3 +44,4 @@ verzija: 0.1
 	- program "Zdravo Svijete"
 	- uvod i istorija Python-a
 	- pravila pisanja koda u Python-u
+```

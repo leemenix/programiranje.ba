@@ -46,6 +46,8 @@ print("Trenutni radni direktorij: ")
 print(os.getcwd())
 ```
 
+<div style="page-break-after: always;"></div>
+
 ### Funkcija dir() nad modulima
 
 Ugradjena dir() funkcija vraca listu naziva definisanih unutar objekta. U slucaju da je objekt modul, dir() vraca listu funkcija, klasa i promjenjivih definisane u tom modulu. 
@@ -82,6 +84,9 @@ sqrt(9)
 3.0
 print("Kvadratni korijen od 9 je ", sqrt(9))
 ```
+
+<div style="page-break-after: always;"></div>
+
 **`Izvorni kod: kod-655_korisni-alati.py`**
 ```python
 #

@@ -74,6 +74,8 @@ def eksponent_broja(baza, eksponent):
 print(eksponent_broja(2,3))
 ```
 
+<div style="page-break-after: always;"></div>
+
 ### Primjer algoritma sortiranje mjehuricima (bubble sorting)
 
 Prije nego napisemo kod potrebno je kratko objasnjenje algoritma. Algoritam 
@@ -110,6 +112,8 @@ Nakon 2. iteracije  | [(1,2),4,3,5] | (2 > 1) 2 i 1 mijenjaju mjesta
 ____________________|_______________|____________________________________
 ```
 
+<div style="page-break-after: always;"></div>
+
 **`Izvorni kod: kod-321_sortiranje-mjehuricima.py`**
 
 ```python
@@ -135,6 +139,8 @@ while zamjena_izvrsena:
 else:
   print(niz_brojeva)
 ```
+
+<div style="page-break-after: always;"></div>
 
 **`Izvorni kod: kod-322_sortiranje-mjehurica-slucajni-izbor.py`**
 

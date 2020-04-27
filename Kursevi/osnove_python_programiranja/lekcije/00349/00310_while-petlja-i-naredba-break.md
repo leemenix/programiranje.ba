@@ -14,6 +14,8 @@ kombinovati i uslove cime dobijamo na brzini koda i vecoj efikasnosti.
 Ono sto je bitno napomenti kod while petlje, ona se koristi uglavnom kada 
 unaprijed **nemamo definisan broj iteracija**. 
 
+<div style="page-break-after: always;"></div>
+
 **``Izvorni kod: kod-310_while_brojac.py``**
 ```python
 i = 1
@@ -57,6 +59,8 @@ if kraj_igre:
 else:
     print("Cestitamo, pogodili ste")
 ```
+
+<div style="page-break-after: always;"></div>
 
 ### Naredba prekida (**break**)
 

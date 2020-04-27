@@ -48,6 +48,8 @@ Piccolo - Namek
 Frieza - Universe 7
 ```
 
+<div style="page-break-after: always;"></div>
+
 **`Izvorni kod: kod-606_rad-sa-fajlovima.py`**
 ```python
 

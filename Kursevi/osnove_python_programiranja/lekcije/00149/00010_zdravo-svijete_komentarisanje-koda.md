@@ -49,6 +49,8 @@ print("******")
 U prethodnom primjeru Python ide liniju po liniju i izvrsava kod. Sta se 
 desava u slucaju da zamijenimo prvu i zadnju liniju?
 
+<div style="page-break-after: always;"></div>
+
 ## Komentarisanje koda
 
 Komentare koristimo kada zelimo da zapisemo neki podsjetinik unutar koda, 

@@ -28,6 +28,8 @@ mozemo imati dva ista kljuca.
 {"kljuc_1:vrijednost_1", "kljuc_1:vrijednost_2", "kljuc_3:vrijednost_1"} - nije ispravno 
 ```
 
+<div style="page-break-after: always;"></div>
+
 **`Izvorni kod: kod-230_rad-sa-rijecnicima`**
 ```python
 karakteri={} # prazan rijecnik
@@ -71,6 +73,8 @@ karakteri_1_planete={'Goku':'Vegeta', 'Krilin':'Zemlja', 'Bulma':'Zemlja'}
 karakteri_2_planete={'Chi-Chi':'Zemlja', 'Vegeta':'Vegeta', 'Bulma':'Namek'}
 karakteri_2_planete.update(karakteri_1_planete)
 ```
+
+<div style="page-break-after: always;"></div>
 
 **`Izvorni kod: kod-231_konverzija_mjeseci.py`**
 ```python

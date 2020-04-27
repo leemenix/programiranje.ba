@@ -46,6 +46,8 @@ print(moj_broj)
 print("Moj omiljeni broj" + str(moj_broj))
 ```
 
+<div style="page-break-after: always;"></div>
+
 ### Funkcije nad brojevima
 
 **`Izvorni kod: kod-186_rad-sa-brojevima.py`**

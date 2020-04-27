@@ -1,4 +1,6 @@
 
+<div style="page-break-after: always;"></div>
+
 ### Instalacija dodatnih modula **alat pip** - (package installer for Python)
 U slucaju kada zelimo instalirati dodatne pakete za rad sa Python-om, koristimo pip alat ili Package Installer for Python. Za razliku od modula, Python paketi su zapakovati programi, koji se odrzajava od strane Python zajednice, potpuno slobodni i spremni za upotrebu. 
 Naravno prije same upotrebe je potrebno da se upoznate sa mogucnostima koje sam paket nudi. 

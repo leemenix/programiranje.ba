@@ -46,6 +46,8 @@ print(f"Volio je upoznavati nove karaktere ")
 print(f"i imao je najboljeg druga po imenu {karakter_prijatelj}!")
 ```
 
+<div style="page-break-after: always;"></div>
+
 **`Izvorni kod: kod-192_osnovni_kalkulator.py`**
 
 ```python

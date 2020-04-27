@@ -36,6 +36,8 @@ Primijetimo da prethodni objekat nema funkciju inicijalizacije, postoji podrazum
 
 Posto ne postoji student tip podaka, kreiracemo klasu **Student**.
 
+<div style="page-break-after: always;"></div>
+
 **`Izvorni kod: kod-555_student.py`**
 ```python
 class Student:
@@ -76,7 +78,9 @@ brucos   |    False            <= objekat brucos unutar objekta Student
          |
 ```
 
-### metode - funkcije unutar klase (funkcije objekta)
+<div style="page-break-after: always;"></div>
+
+### Metode - funkcije unutar klase (funkcije objekta)
 
 **`Izvorni kod: kod-557_funkcija-unutar-klase.py`**
 
@@ -124,6 +128,8 @@ Recimo da zelimo funkciju u nasoj klasi **Student** koja nam ispisuje
 kompletan sadrzaj instanciranog objekta **Student**, ali i omiljenog pisca tog
 studenta. Za ovo su nam potrebne dvije metode unutar klase **Studnet** koje 
 cemo nazvati **student_opis** i **student_pisac**.
+
+<div style="page-break-after: always;"></div>
 
 **` Izvorni kod: kod-559-metode.py`**
 

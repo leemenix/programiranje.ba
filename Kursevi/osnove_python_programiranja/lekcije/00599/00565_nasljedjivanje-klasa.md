@@ -42,6 +42,8 @@ Mozemo primijetiti redefinisanje metode **priprema_specijalnog_jela** u novoj
 klasi **KineskiKuvar**. U slucaju redefinisanja metode, prilikom pozivanja 
 metode **priprema_specijalnog_jela**, koristi se nova redefinisana metoda. 
 
+<div style="page-break-after: always;"></div>
+
 **`Izvorni kod: kod-567_main.py`**
 
 ```python

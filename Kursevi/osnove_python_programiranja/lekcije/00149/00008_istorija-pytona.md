@@ -101,6 +101,8 @@ sve se desava u realnom vremenu, tako da nema potrebe za vas kao programera
 da brinete da li je program kompajliran i uredno povezan (linkovan) sa 
 potrebnim bibliotekama, kao ni da li su sve biblioteke ucitane ili ne.
 
+<div style="page-break-after: always;"></div>
+
 #### Objektno orijentisan
 Pored proceduralno-orijentisanog (niz procedura ili funkcija koje se mogu 
 upotrebljavati vise puta za rjesenje problema), Python u potpunosti podrzava 

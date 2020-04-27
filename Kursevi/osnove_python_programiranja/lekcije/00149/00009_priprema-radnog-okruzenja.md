@@ -101,6 +101,7 @@ bi dobiti Python shell, kao na slici
 
 ![Python instalacija korak prvi](../slike/python_instalacija_11.png)
 
+<div style="page-break-after: always;"></div>
 
 #### PyCharm installation 
 

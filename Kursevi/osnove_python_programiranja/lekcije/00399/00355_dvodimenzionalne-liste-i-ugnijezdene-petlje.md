@@ -17,8 +17,6 @@ print(mreza[0][2])
 print(mreza[2][1])
 print(mreza[3][0])
 
-# nested for loop
-
 # mreza = [
 #     [1, 2, 3],
 #     [4, 5, 6],

@@ -40,6 +40,7 @@ godine  |       =         |     23
         |                 |
 ```
 
+<div style="page-break-after: always;"></div>
 #### Gradjenje varijable
 
 Prilikom kreiranja varijable ili promjenjive postoji par pravila kojih se 
@@ -90,6 +91,7 @@ print(type(karakter_ime))
 print(type(godine))
 ```
 
+<div style="page-break-after: always;"></div>
 ### Tipovi podataka
 
 Imamo tri osnovna tipa podatka u Python-u, tekstualne, brojevne i logicke.
@@ -114,6 +116,8 @@ ______________________|______________________|_________________________
    (Bulovo da/ne)     |                      |      (True i False)
 ______________________|______________________|_________________________
 ```
+
+<div style="page-break-after: always;"></div>
 
 #### Mijenjanje tipova promjenjive (kastovanje)
 

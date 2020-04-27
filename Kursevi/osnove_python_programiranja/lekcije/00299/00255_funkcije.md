@@ -20,6 +20,8 @@ naziv_funkcije(argumenti) # poziv funkcije
 Iz sintakse mozemo zakljuciti da je naziv_funkcije identifikator kojim pozivamo funkciju, dok parametri sluze da bi se definisale vrijednosti koje se 
 mogu proslijediti kao parametri naredbama unutar tijela funkcije.
 
+<div style="page-break-after: always;"></div>
+
 **`Izvorni kod: kod-255_rad-sa-funkcijama.py`**
 
 ```python

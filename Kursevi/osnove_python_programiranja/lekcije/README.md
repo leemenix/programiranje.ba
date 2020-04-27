@@ -10,6 +10,7 @@
 
 **izmjene:**
 
+```text
 verzija: 0.6
 	- klase i objekti
 	- moduli i instalacija paketa sa alatom pip
@@ -44,6 +45,7 @@ verzija: 0.1
 	- program "Zdravo Svijete"
 	- uvod i istorija Python-a
 	- pravila pisanja koda u Python-u
+```
 
 <div style="page-break-after: always;"></div>
 
@@ -198,6 +200,8 @@ sve se desava u realnom vremenu, tako da nema potrebe za vas kao programera
 da brinete da li je program kompajliran i uredno povezan (linkovan) sa 
 potrebnim bibliotekama, kao ni da li su sve biblioteke ucitane ili ne.
 
+<div style="page-break-after: always;"></div>
+
 #### Objektno orijentisan
 Pored proceduralno-orijentisanog (niz procedura ili funkcija koje se mogu 
 upotrebljavati vise puta za rjesenje problema), Python u potpunosti podrzava 
@@ -330,6 +334,7 @@ bi dobiti Python shell, kao na slici
 
 ![Python instalacija korak prvi](../slike/python_instalacija_11.png)
 
+<div style="page-break-after: always;"></div>
 
 #### PyCharm installation 
 
@@ -605,6 +610,8 @@ print("******")
 U prethodnom primjeru Python ide liniju po liniju i izvrsava kod. Sta se 
 desava u slucaju da zamijenimo prvu i zadnju liniju?
 
+<div style="page-break-after: always;"></div>
+
 ## Komentarisanje koda
 
 Komentare koristimo kada zelimo da zapisemo neki podsjetinik unutar koda, 
@@ -748,6 +755,7 @@ godine  |       =         |     23
         |                 |
 ```
 
+<div style="page-break-after: always;"></div>
 #### Gradjenje varijable
 
 Prilikom kreiranja varijable ili promjenjive postoji par pravila kojih se 
@@ -798,6 +806,7 @@ print(type(karakter_ime))
 print(type(godine))
 ```
 
+<div style="page-break-after: always;"></div>
 ### Tipovi podataka
 
 Imamo tri osnovna tipa podatka u Python-u, tekstualne, brojevne i logicke.
@@ -822,6 +831,8 @@ ______________________|______________________|_________________________
    (Bulovo da/ne)     |                      |      (True i False)
 ______________________|______________________|_________________________
 ```
+
+<div style="page-break-after: always;"></div>
 
 #### Mijenjanje tipova promjenjive (kastovanje)
 
@@ -898,6 +909,8 @@ sajt_naziv = 'https://programiranje.ba'
 sajt_slogan = """besplatni online kursevi
                    za sve """
 ```
+
+<div style="page-break-after: always;"></div>
 
 ### Funkcije nad stringovima
 
@@ -1017,6 +1030,8 @@ print(moj_broj)
 print("Moj omiljeni broj" + str(moj_broj))
 ```
 
+<div style="page-break-after: always;"></div>
+
 ### Funkcije nad brojevima
 
 **`Izvorni kod: kod-186_rad-sa-brojevima.py`**
@@ -1084,6 +1099,8 @@ print(f"{karakter_ime} je imao {karakter_godine} godina.")
 print(f"Volio je upoznavati nove karaktere ")
 print(f"i imao je najboljeg druga po imenu {karakter_prijatelj}!")
 ```
+
+<div style="page-break-after: always;"></div>
 
 **`Izvorni kod: kod-192_osnovni_kalkulator.py`**
 
@@ -1181,6 +1198,7 @@ print(karakteri[4])
 print(karakteri)
 ```
 
+<div style="page-break-after: always;"></div>
 ### Funkcije nad listama
 **`Izvorni kod: kod-211_rad-sa_listama.py`**
 ```python
@@ -1266,6 +1284,8 @@ lista) od n objekata, od kojih je svaki specifincnog tipa.
 
 **Clanovi** torke su smjesteni u obicne zagrade **()** i razdvojeni zarezom 
 **,**. Clanovi torke mogu biti i same torke.
+
+<div style="page-break-after: always;"></div>
 
 **`Izvorni kod: kod-220_rad-sa-torkama.py`**
 ```python
@@ -1355,6 +1375,8 @@ mozemo imati dva ista kljuca.
 {"kljuc_1:vrijednost_1", "kljuc_1:vrijednost_2", "kljuc_3:vrijednost_1"} - nije ispravno 
 ```
 
+<div style="page-break-after: always;"></div>
+
 **`Izvorni kod: kod-230_rad-sa-rijecnicima`**
 ```python
 karakteri={} # prazan rijecnik
@@ -1398,6 +1420,8 @@ karakteri_1_planete={'Goku':'Vegeta', 'Krilin':'Zemlja', 'Bulma':'Zemlja'}
 karakteri_2_planete={'Chi-Chi':'Zemlja', 'Vegeta':'Vegeta', 'Bulma':'Namek'}
 karakteri_2_planete.update(karakteri_1_planete)
 ```
+
+<div style="page-break-after: always;"></div>
 
 **`Izvorni kod: kod-231_konverzija_mjeseci.py`**
 ```python
@@ -1449,6 +1473,8 @@ naziv_funkcije(argumenti) # poziv funkcije
 
 Iz sintakse mozemo zakljuciti da je naziv_funkcije identifikator kojim pozivamo funkciju, dok parametri sluze da bi se definisale vrijednosti koje se 
 mogu proslijediti kao parametri naredbama unutar tijela funkcije.
+
+<div style="page-break-after: always;"></div>
 
 **`Izvorni kod: kod-255_rad-sa-funkcijama.py`**
 
@@ -1531,6 +1557,8 @@ def kub(broj):
 print(cub(3))
 ```
 
+<div style="page-break-after: always;"></div>
+
 ### Parametri funkcije
 
 Vrijednosti (argumenti) koje proslijedjujemo funkciji se nazivaju parametrima 
@@ -1569,6 +1597,8 @@ Ako lokalna i globalna promjenjiva unutar funkcije nose isti naziv, Pyhon ce
 koristiti lokalnu promjenjivu, ali ovo se ne preporucuje zbog zbunjivanja i 
 konfuzije prilikom citanja koda.
 
+<div style="page-break-after: always;"></div>
+
 **`Izvorni kod: kod-265_parametri-funkcijama.py`**
 
 ```python
@@ -1604,6 +1634,8 @@ brojac()
 print(broj)
 
 ```
+
+<div style="page-break-after: always;"></div>
 
 #### Nepoznati broj argumenta (**VarArgs**)
 
@@ -1762,6 +1794,8 @@ u suprotnom
   narucicu salatu
 ```
 
+<div style="page-break-after: always;"></div>
+
 ### Relacijski operatori, operatori poredjenja (>,<, >=, <=, ==, !=)
 
 ```yaml
@@ -1810,6 +1844,8 @@ ___________|______________________|______________________|______________
            |                      |  print("Dobro je")   |   
 ___________|______________________|______________________|______________
 ```
+
+<div style="page-break-after: always;"></div>
 
 **`Izvorni kod: kod-305_rad-sa-naredbom-if.py`**
 
@@ -1864,6 +1900,8 @@ def maksimalan_broj(broj_1, broj_2, broj_3):
 print(maksimalan_broj(7, 8, 9))
 ```
 
+<div style="page-break-after: always;"></div>
+
 ### Kalkulator nadogradjena verzija
 
 Referenca na 
@@ -1917,6 +1955,8 @@ kombinovati i uslove cime dobijamo na brzini koda i vecoj efikasnosti.
 Ono sto je bitno napomenti kod while petlje, ona se koristi uglavnom kada 
 unaprijed **nemamo definisan broj iteracija**. 
 
+<div style="page-break-after: always;"></div>
+
 **``Izvorni kod: kod-310_while_brojac.py``**
 ```python
 i = 1
@@ -1960,6 +2000,8 @@ if kraj_igre:
 else:
     print("Cestitamo, pogodili ste")
 ```
+
+<div style="page-break-after: always;"></div>
 
 ### Naredba prekida (**break**)
 
@@ -2126,6 +2168,8 @@ def eksponent_broja(baza, eksponent):
 print(eksponent_broja(2,3))
 ```
 
+<div style="page-break-after: always;"></div>
+
 ### Primjer algoritma sortiranje mjehuricima (bubble sorting)
 
 Prije nego napisemo kod potrebno je kratko objasnjenje algoritma. Algoritam 
@@ -2162,6 +2206,8 @@ Nakon 2. iteracije  | [(1,2),4,3,5] | (2 > 1) 2 i 1 mijenjaju mjesta
 ____________________|_______________|____________________________________
 ```
 
+<div style="page-break-after: always;"></div>
+
 **`Izvorni kod: kod-321_sortiranje-mjehuricima.py`**
 
 ```python
@@ -2187,6 +2233,8 @@ while zamjena_izvrsena:
 else:
   print(niz_brojeva)
 ```
+
+<div style="page-break-after: always;"></div>
 
 **`Izvorni kod: kod-322_sortiranje-mjehurica-slucajni-izbor.py`**
 
@@ -2236,8 +2284,6 @@ mreza = [
 print(mreza[0][2])
 print(mreza[2][1])
 print(mreza[3][0])
-
-# nested for loop
 
 # mreza = [
 #     [1, 2, 3],
@@ -2354,6 +2400,8 @@ Primijetimo da prethodni objekat nema funkciju inicijalizacije, postoji podrazum
 
 Posto ne postoji student tip podaka, kreiracemo klasu **Student**.
 
+<div style="page-break-after: always;"></div>
+
 **`Izvorni kod: kod-555_student.py`**
 ```python
 class Student:
@@ -2394,7 +2442,9 @@ brucos   |    False            <= objekat brucos unutar objekta Student
          |
 ```
 
-### metode - funkcije unutar klase (funkcije objekta)
+<div style="page-break-after: always;"></div>
+
+### Metode - funkcije unutar klase (funkcije objekta)
 
 **`Izvorni kod: kod-557_funkcija-unutar-klase.py`**
 
@@ -2442,6 +2492,8 @@ Recimo da zelimo funkciju u nasoj klasi **Student** koja nam ispisuje
 kompletan sadrzaj instanciranog objekta **Student**, ali i omiljenog pisca tog
 studenta. Za ovo su nam potrebne dvije metode unutar klase **Studnet** koje 
 cemo nazvati **student_opis** i **student_pisac**.
+
+<div style="page-break-after: always;"></div>
 
 **` Izvorni kod: kod-559-metode.py`**
 
@@ -2534,6 +2586,8 @@ Mozemo primijetiti redefinisanje metode **priprema_specijalnog_jela** u novoj
 klasi **KineskiKuvar**. U slucaju redefinisanja metode, prilikom pozivanja 
 metode **priprema_specijalnog_jela**, koristi se nova redefinisana metoda. 
 
+<div style="page-break-after: always;"></div>
+
 **`Izvorni kod: kod-567_main.py`**
 
 ```python
@@ -2600,6 +2654,8 @@ Krilin - Zemlja
 Piccolo - Namek
 Frieza - Universe 7
 ```
+
+<div style="page-break-after: always;"></div>
 
 **`Izvorni kod: kod-606_rad-sa-fajlovima.py`**
 ```python
@@ -2708,6 +2764,8 @@ print("Trenutni radni direktorij: ")
 print(os.getcwd())
 ```
 
+<div style="page-break-after: always;"></div>
+
 ### Funkcija dir() nad modulima
 
 Ugradjena dir() funkcija vraca listu naziva definisanih unutar objekta. U slucaju da je objekt modul, dir() vraca listu funkcija, klasa i promjenjivih definisane u tom modulu. 
@@ -2744,6 +2802,9 @@ sqrt(9)
 3.0
 print("Kvadratni korijen od 9 je ", sqrt(9))
 ```
+
+<div style="page-break-after: always;"></div>
+
 **`Izvorni kod: kod-655_korisni-alati.py`**
 ```python
 #
@@ -2776,6 +2837,8 @@ import korisni_alati as ka
 print(ka.srecan_broj(3))
 print(ka.pozdrav("Goku"))
 ```
+
+<div style="page-break-after: always;"></div>
 
 ### Instalacija dodatnih modula **alat pip** - (package installer for Python)
 U slucaju kada zelimo instalirati dodatne pakete za rad sa Python-om, koristimo pip alat ili Package Installer for Python. Za razliku od modula, Python paketi su zapakovati programi, koji se odrzajava od strane Python zajednice, potpuno slobodni i spremni za upotrebu. 

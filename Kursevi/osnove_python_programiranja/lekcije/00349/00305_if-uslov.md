@@ -41,6 +41,8 @@ u suprotnom
   narucicu salatu
 ```
 
+<div style="page-break-after: always;"></div>
+
 ### Relacijski operatori, operatori poredjenja (>,<, >=, <=, ==, !=)
 
 ```yaml
@@ -89,6 +91,8 @@ ___________|______________________|______________________|______________
            |                      |  print("Dobro je")   |   
 ___________|______________________|______________________|______________
 ```
+
+<div style="page-break-after: always;"></div>
 
 **`Izvorni kod: kod-305_rad-sa-naredbom-if.py`**
 
@@ -142,6 +146,8 @@ def maksimalan_broj(broj_1, broj_2, broj_3):
 
 print(maksimalan_broj(7, 8, 9))
 ```
+
+<div style="page-break-after: always;"></div>
 
 ### Kalkulator nadogradjena verzija
 
