@@ -1421,7 +1421,7 @@ karakteri_2_planete={'Chi-Chi':'Zemlja', 'Vegeta':'Vegeta', 'Bulma':'Namek'}
 karakteri_2_planete.update(karakteri_1_planete)
 ```
 
-<div style="page-break-after: always;"></div>
+<div class="page"/>
 
 **`Izvorni kod: kod-231_konverzija_mjeseci.py`**
 ```python
