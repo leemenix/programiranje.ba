@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="https://programiranje.ba/feed.xml" rel="self" type="application/atom+xml" /><link href="https://programiranje.ba/" rel="alternate" type="text/html" /><updated>2020-05-04T02:54:04-05:00</updated><id>https://programiranje.ba/feed.xml</id><title type="html">programiranje.ba</title><subtitle>programiranje.ba vam nudi potpuno besplatno znanje, kroz visoko kvalitetne online kurseve programiranja koji drze paznju.</subtitle><entry><title type="html">Ideje, kako zaraditi preko interneta? Online poslovi.</title><link href="https://programiranje.ba/blog/ideje-kako-zaraditi-preko-interneta-od-kuce/" rel="alternate" type="text/html" title="Ideje, kako zaraditi preko interneta? Online poslovi." /><published>2020-04-20T04:05:23-05:00</published><updated>2020-04-20T04:05:23-05:00</updated><id>https://programiranje.ba/blog/ideje-kako-zaraditi-preko-interneta-od-kuce</id><content type="html" xml:base="https://programiranje.ba/blog/ideje-kako-zaraditi-preko-interneta-od-kuce/">&lt;hr /&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="https://programiranje.ba/feed.xml" rel="self" type="application/atom+xml" /><link href="https://programiranje.ba/" rel="alternate" type="text/html" /><updated>2020-05-08T04:33:36-05:00</updated><id>https://programiranje.ba/feed.xml</id><title type="html">programiranje.ba</title><subtitle>programiranje.ba vam nudi potpuno besplatno znanje, kroz visoko kvalitetne online kurseve programiranja koji drze paznju.</subtitle><entry><title type="html">Ideje, kako zaraditi preko interneta? Online poslovi.</title><link href="https://programiranje.ba/blog/ideje-kako-zaraditi-preko-interneta-od-kuce/" rel="alternate" type="text/html" title="Ideje, kako zaraditi preko interneta? Online poslovi." /><published>2020-04-20T04:05:23-05:00</published><updated>2020-04-20T04:05:23-05:00</updated><id>https://programiranje.ba/blog/ideje-kako-zaraditi-preko-interneta-od-kuce</id><content type="html" xml:base="https://programiranje.ba/blog/ideje-kako-zaraditi-preko-interneta-od-kuce/">&lt;hr /&gt;
 
 &lt;p&gt;Prije nego pocnete citati, ako trenutno imate i radite posao koji volite, ili ako ste neka civija u stranci, nema potrebe da citate ovaj clanak jer samo gubite dragocijeno vrijeme.&lt;/p&gt;
 
@@ -1243,4 +1243,37 @@ nadam se da ce vam biti od koristi.&lt;/p&gt;
 &lt;p&gt;Bazirano na licnom iskustvu ali i primjerima drugih kolega, nakon osnova algoritma, preporucio bih &lt;strong&gt;“C” programski jezik&lt;/strong&gt; kao alfu i omegu za potpuno razumijevanje koncepta programiranja. Pored osnova programiranja i znanja koje cemo steci upoznavanjem sa C programskim jezikom, razvice se mogucnost lakog ucenja bilo kog drugog programskog jezika. Vremenom cete prepoznati obrazce
 u drugim programskim jezicima, poput PHP-a, Python-a, Jave … &lt;strong&gt;Sve ovo stavlja C programski jezik kao osnovu za ucenje programiranja.&lt;/strong&gt;&lt;/p&gt;
 
-&lt;p&gt;Naravno, kao i uvijek, izbor je na vama, ukoliko ipak niste zadovoljni odgovorom, mozete poceti i sa Python-om. Zbog svoje ekstremne jednostavnosti, sirokog spektra koji obuhvata prilikom prakticne upotrebe, kao i odlicne podrske zajednice, postao je defakto programski jezik na mnogim svjetski priznatim univerzitetima i obraznovnim institucijama.&lt;/p&gt;</content><author><name>leemenix</name></author><category term="novosti" /><summary type="html">Ucenje programskog jezika je uvijek, ali zapamtitie uvijek, odlicno ulaganje vaseg vremena i investicija buducnosti.</summary></entry></feed>
+&lt;p&gt;Naravno, kao i uvijek, izbor je na vama, ukoliko ipak niste zadovoljni odgovorom, mozete poceti i sa Python-om. Zbog svoje ekstremne jednostavnosti, sirokog spektra koji obuhvata prilikom prakticne upotrebe, kao i odlicne podrske zajednice, postao je defakto programski jezik na mnogim svjetski priznatim univerzitetima i obraznovnim institucijama.&lt;/p&gt;</content><author><name>leemenix</name></author><category term="novosti" /><summary type="html">Ucenje programskog jezika je uvijek, ali zapamtitie uvijek, odlicno ulaganje vaseg vremena i investicija buducnosti.</summary></entry><entry><title type="html">Kako da prikazem ekstenzije na Windows-u?</title><link href="https://programiranje.ba/blog/kako-da-prikazem-ekstenzije-na-windowsu/" rel="alternate" type="text/html" title="Kako da prikazem ekstenzije na Windows-u?" /><published>2020-03-20T04:05:23-05:00</published><updated>2020-03-20T04:05:23-05:00</updated><id>https://programiranje.ba/blog/kako-da-prikazem-ekstenzije-na-windowsu</id><content type="html" xml:base="https://programiranje.ba/blog/kako-da-prikazem-ekstenzije-na-windowsu/">&lt;hr /&gt;
+
+&lt;h2 id=&quot;prikaz-ekstenzija-fajla-file-extension-na-windows-7&quot;&gt;Prikaz ekstenzija fajla (File Extension) na Windows 7&lt;/h2&gt;
+&lt;p&gt;Kliknete na Start meni, ikonica na donjem lijevom dijelu ekrana.&lt;/p&gt;
+
+&lt;p&gt;Upisete “folder options”, naravno bez navodnika i odaberete “Folder Options” opciju koja ce se pojaviti na vrhu Start menija.&lt;/p&gt;
+
+&lt;p&gt;Pojavice se novi prozor sa nazivom “Folder Options”&lt;/p&gt;
+
+&lt;p&gt;Odaberite “View” tab na vrhu trenutnog prozora.&lt;/p&gt;
+
+&lt;p&gt;Iskljucite opciju “Hide extensions for known file types”.&lt;/p&gt;
+
+&lt;p&gt;Sacuvajte vase promjene klikom na dugme “OK”&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Takodje ovdje mozete pronaci korake u slikama, ako prvi metod nije bio uspjesan.&lt;/p&gt;
+
+&lt;p&gt;Otvorite vas Windows explorer, Computer ili My Computer.&lt;/p&gt;
+
+&lt;p&gt;Iz menija izaberite ‘Tools’ a zatim ‘Folder options’&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/posts/windows-ekstenzije/00w7ext.png&quot; alt=&quot;kako da prikazem windows 7 ekstenzije slika prva&quot; class=&quot;img-fluid&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Iz sledeceg prozora izaberite ‘View’ tab i iskljucite opciju ‘Hide extensions for known file types’&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/posts/windows-ekstenzije/01w7ext.png&quot; alt=&quot;kako da prikazem windows 7 ekstenzije slika druga&quot; class=&quot;img-fluid&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Nakon ovoga bi trebalo da vidite ekstenzije vasih fajlova.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/posts/windows-ekstenzije/02w7ext.png&quot; alt=&quot;kako da prikazem windows 7 ekstenzije slika treca&quot; class=&quot;img-fluid&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Nadam se da ce vam ovaj kratki “how-to” biti od koristi. Zapratite me na drustvenim mrezama a mozete me dodati i na &lt;a href=&quot;https://www.linkedin.com/in/m-letic/&quot; target=&quot;_blank&quot;&gt;LinkedIn&lt;/a&gt;.&lt;/p&gt;</content><author><name>leemenix</name></author><category term="novosti" /><summary type="html"></summary></entry></feed>
