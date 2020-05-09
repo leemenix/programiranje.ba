@@ -38,6 +38,7 @@ jobs:
         options: # default is 
         # SSH command line options
         ssh_options: # default is 
+          key=ssh-rsa AAAA
         # Local folder to be synced
         src: 
         # Remote server and path. i.e user@server.com:/var/www/server.com/
