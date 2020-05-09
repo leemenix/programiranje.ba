@@ -29,9 +29,8 @@ jobs:
       run: |
         echo Add other actions to build,
         echo test, and deploy your project.
-    - name: rsync deployments
-      uses: contention/rsync-deployments@v1.0.0
-      secrets: ["DEPLOY_KEY"]
+    - name: RSyncer Action
+      uses: Pendect/action-rsyncer@v1.1.0
       with:
         # Rsync flags
         flags: # default is -avzr --delete
@@ -40,8 +39,8 @@ jobs:
         # SSH command line options
         ssh_options: # default is 
         # Local folder to be synced
-        src: 
+        src: .
         # Remote server and path. i.e user@server.com:/var/www/server.com/
-        dest: 
+        dest: programi@207.180.236.98:/home/programi/tmp
       
 
